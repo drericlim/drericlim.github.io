@@ -27,7 +27,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
-- **About v1.7**: each film shows its cover picture (taken from Vimeo, black bars trimmed) behind the play button, from `assets/films/`. Note: the Introduction 2 cover shows Arabic subtitles; check with Professor Lim whether that film is an Arabic-subtitled version.
+- **About v1.7**: each film shows its cover picture (taken from Vimeo, black bars trimmed) behind the play button, from `assets/films/`. Introduction 2 has Arabic subtitles on purpose (for Arabic-speaking patients). Any film can be previewed with `/about/?film=1`, `2` or `3`.
 - **About v1.6**: when a film finishes, the cover and play button come back, so Vimeo's "More from Eric Lim" end screen is never shown.
 - **About v1.5**: the film band rotates weekly through three Vimeo films listed in `_data/about-films.yml`: Introduction part 1 (199325659), Introduction part 2 (199445739) and ctDNA research (231725351). The play button wording changes with the film. Vimeo's title, byline and badge are hidden in the player.
 - **Home v1.13 and About v1.4**: rotating photos. The homepage background, the homepage About photo and the About page portrait each take turns through the photos in `assets/rotating/hero/`, `home-profile/` and `about-profile/`, changing every Monday (or daily; set in `_data/photo-rotation.yml`). Pages are built by GitHub Pages (both now start with front matter). The homepage About photo is trimmed to a consistent 4:5 shape. The hero rotates once its folder has two or more photos.

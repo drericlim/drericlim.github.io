@@ -588,7 +588,10 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
     if (films.length > 1) {
       var fdays = Math.floor((Date.now() - Date.UTC(2026, 0, 5)) / 86400000);
       var fstep = b.getAttribute('data-rotate') === 'daily' ? fdays : Math.floor(fdays / 7);
-      var film = films[((fstep % films.length) + films.length) % films.length];
+      var fpick = ((fstep % films.length) + films.length) % films.length;
+      var fq = parseInt((location.search.match(/[?&]film=(\d+)/) || [])[1], 10); // preview a particular film, e.g. /about/?film=2#film
+      if (fq >= 1 && fq <= films.length) fpick = fq - 1;
+      var film = films[fpick];
       b.setAttribute('data-src', 'https://player.vimeo.com/video/' + film[0] + '?autoplay=1&dnt=1&badge=0&title=0&byline=0&portrait=0');
       b.querySelector('.film-t').textContent = film[1];
       b.setAttribute('data-film-title', film[2]);

@@ -197,6 +197,7 @@ The About page shows one film at a time beside the quote, taking turns weekly li
 
 - `vimeo` is the number at the end of the film's Vimeo address (vimeo.com/**231725351**).
 - `label` is the wording on the play button. `title` is a short description read out to visitors who use screen readers.
+- **To preview a particular film** without waiting for its week, add `?film=` and its position in the list to the About page address, e.g. **drericlim.github.io/about/?film=2#film** for the second film.
 - `thumbnail` is the cover picture shown behind the play button, kept in `assets/films/` (named `vimeo-` plus the film's number). Ask Claude to fetch it from Vimeo when adding a film.
 - **To add a film,** copy a block, paste it at the end of the list, change the details and commit. Or simply give Claude the Vimeo link.
 - **To remove one,** delete its block. Films take turns in the order listed.
