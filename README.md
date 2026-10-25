@@ -78,3 +78,4 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - Build the `/testimonials` page from `_data/testimonials.yml`.
 - Check the photo beside Tony Marsh's testimonial (it shows a woman and a baby).
 - The virtual Grand Rounds registration link (Zoom) is a placeholder.
+- Vimeo: each About page film must list `drericlim.com`, `www.drericlim.com` and `drericlim.github.io` under Privacy → "Where can this be embedded?" (Specific domains). Requested from Professor Lim on 25 Oct 2026.

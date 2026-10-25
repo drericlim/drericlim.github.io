@@ -198,7 +198,7 @@ The About page shows one film at a time beside the quote, taking turns weekly li
 - `label` is the wording on the play button. `title` is a short description read out to visitors who use screen readers.
 - **To add a film,** copy a block, paste it at the end of the list, change the details and commit. Or simply give Claude the Vimeo link.
 - **To remove one,** delete its block. Films take turns in the order listed.
-- In Vimeo, the film's privacy settings must allow it to be embedded on other websites.
+- **In Vimeo, each film must be allowed to play on the website.** Open the film in Vimeo, go to **Settings → Privacy → "Where can this be embedded?"**, choose **Specific domains**, and add `drericlim.com`, `www.drericlim.com` and (while testing) `drericlim.github.io`. Otherwise the site shows a Vimeo message saying the video can't be played here.
 - To change how often the film changes, edit the `about-film` line in `_data/photo-rotation.yml` (`weekly` or `daily`).
 
 ---
