@@ -16,17 +16,19 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.2 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
+| Home | `/` | v1.3 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
 | For patients | `/for-patients` | v1.0 | 25 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
 | For professionals | `/for-professionals` | v1.1 | 25 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.1 | 25 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
-| About | `/about` | v1.1 | 25 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
+| About | `/about` | v1.2 | 25 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
 | Contact | `/contact-us` | v1.0 | 25 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
 
+- **Home v1.3**: the About photo has rounded corners (site style: 12px for photos).
+- **About v1.2**: rounded corners on the portrait and film (12px) and on the award and book thumbnails (8px).
 - **Home v1.2**: the frame around the About photo removed; the photo stands on its own.
 - **Home v1.1**: the About photo frame now sits evenly around the photo (option B). The first key figure counts years as a consultant since 2007, working out the number from today's date, and the About text says "Since 2007" instead of "more than two decades".
 - **Home v1.0**: approved from draft v0.8. Changes at approval: consultations now say "at the Royal Brompton Hospital" rather than "in London", and the footer's patient links match the other pages ("Screening and giving" removed).
@@ -41,7 +43,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - **This repository** is the master copy of every approved page. Always start changes from the file here.
 - **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261025-homepage.html`). Older copies are renamed with `-superseded` and kept. Drive is updated **once, at the end of each working session**, so during a session it can be a version behind this repository.
 
-**Drive copies waiting to be saved:** Home v1.2 (Drive holds v1.1).
+**Drive copies waiting to be saved:** Home v1.3 (Drive holds v1.1), About v1.2 (Drive holds v1.1).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
 
 ## Before launch

@@ -15,6 +15,7 @@ Read `README.md` first. Its **Version register** is the single record of which v
 - Each section has a pressed, engraved header texture: For patients = raked sand around one stone; For professionals = forest plot; virtual Grand Rounds = globe; About = sutures; Contact = conversation bubbles. The small mark beside each section heading is clickable and returns to the top of the page.
 - Always write "virtual Grand Rounds" with a lower-case v.
 - Key figures sit high on the page.
+- Photos have rounded corners: 12px for photos and video frames, 8px for small thumbnails. Photos of people in team and speaker lists are circles. Full-width background photos (such as the homepage hero) stay square-edged.
 - Every page must be SEO-ready: title, description, canonical, Open Graph and JSON-LD.
 - Mock-ups carry a version number (v0.x for drafts, v1.0 when approved, v1.1 and so on for later amendments).
 
