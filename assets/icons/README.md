@@ -6,6 +6,8 @@ The lung symbol used as the website's icon.
 - `favicon-32.png`: a sharper copy of the tab icon for modern browsers.
 - `apple-touch-icon.png` (180 by 180): shown when someone adds the site to an iPhone or iPad home screen.
 - `icon-192.png`, `icon-512.png`: for Android home screens.
+- `logo.svg`: the logo in its own colours, as a sharp drawing (for light backgrounds).
+- `logo-on-dark.svg`: the logo in white and light blues, for dark backgrounds. It is shown beside Professor Lim's name at the top left of every page.
 - `lung-mark.png`: the lung symbol on a transparent background (512 by 512), the source for the others.
 
 All were made from the favicon on the old Squarespace site. To change the icon, ask Claude to remake the whole set from a new square image (at least 512 by 512 pixels).

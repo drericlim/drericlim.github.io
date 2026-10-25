@@ -253,7 +253,11 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
 .c-card a:hover{border-color:var(--blue);color:var(--blue);}
 .c-links{list-style:none;display:flex;flex-direction:column;gap:6px;font-size:16px;}
 .c-cta{margin-top:34px;display:flex;flex-wrap:wrap;gap:14px 26px;align-items:center;}
-@media(max-width:860px){.contact-grid{grid-template-columns:1fr;}}</style>
+@media(max-width:860px){.contact-grid{grid-template-columns:1fr;}}
+.site-nav .brand{display:flex;align-items:center;gap:12px;}
+.site-nav .brand .brand-logo{display:block;width:45px;height:36px;flex:none;}
+.site-nav .brand .brand-text{display:block;font:inherit;letter-spacing:inherit;text-transform:none;opacity:1;margin:0;}
+@media(max-width:420px){.site-nav .brand .brand-logo{width:38px;height:30px;}}</style>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -295,7 +299,7 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
 <header id="top">
 <nav class="site-nav" aria-label="Main">
   <div class="container">
-    <a href="/" class="brand" aria-label="Professor Eric Lim, home">Eric Lim<span>Thoracic surgeon · London</span></a>
+    <a href="/" class="brand" aria-label="Professor Eric Lim, home"><img class="brand-logo" src="/assets/icons/logo-on-dark.svg" alt="" width="45" height="36"><span class="brand-text">Eric Lim<span>Thoracic surgeon · London</span></span></a>
     <ul>
       <li><a href="/for-patients">For patients</a></li>
       <li><a href="/for-professionals">For professionals</a></li>

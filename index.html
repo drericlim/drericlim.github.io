@@ -208,14 +208,18 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
 @media(max-width:520px){footer .container{grid-template-columns:1fr;}}
 .js-reveal .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease, transform .7s ease;}
 .js-reveal .reveal.in{opacity:1;transform:none;}
-@media(prefers-reduced-motion:reduce){.js-reveal .reveal{opacity:1!important;transform:none!important;}.hero-media video{display:none;}}</style>
+@media(prefers-reduced-motion:reduce){.js-reveal .reveal{opacity:1!important;transform:none!important;}.hero-media video{display:none;}}
+.site-nav .brand{display:flex;align-items:center;gap:12px;}
+.site-nav .brand .brand-logo{display:block;width:45px;height:36px;flex:none;}
+.site-nav .brand .brand-text{display:block;font:inherit;letter-spacing:inherit;text-transform:none;opacity:1;margin:0;}
+@media(max-width:420px){.site-nav .brand .brand-logo{width:38px;height:30px;}}</style>
 </head>
 <body>
 
 <header>
 <nav class="site-nav" id="nav" aria-label="Main">
   <div class="container">
-    <a href="/" class="brand" aria-label="Professor Eric Lim, home">Eric Lim<span>Thoracic surgeon · London</span></a>
+    <a href="/" class="brand" aria-label="Professor Eric Lim, home"><img class="brand-logo" src="/assets/icons/logo-on-dark.svg" alt="" width="45" height="36"><span class="brand-text">Eric Lim<span>Thoracic surgeon · London</span></span></a>
     <ul>
       <li><a href="/for-patients">For patients</a></li>
       <li><a href="/for-professionals">For professionals</a></li>
