@@ -16,7 +16,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.18 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
+| Home | `/` | v1.19 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
 | For patients | `/for-patients` | v1.5 | 25 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
 | For professionals | `/for-professionals` | v1.6 | 25 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.5 | 25 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
@@ -27,6 +27,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **Home v1.19**: "I'm a clinician" reads "Free international teaching through the virtual Grand Rounds, and Thoracic Reflections, my essays on the trials, guidelines and debates shaping our practice." (matches the For professionals page).
 - **For professionals v1.6**: Thoracic Reflections text reads "Essays on the trials, guidelines and debates shaping our practice. Read them here, or receive each new one by email."
 - **Home v1.18**: "I'm a clinician" describes Thoracic Reflections as "my take on where the field is heading, from new evidence to how we train surgeons" (not only articles on new evidence).
 - **All pages, 25 Oct (Home v1.17, For patients v1.5, For professionals v1.5, virtual Grand Rounds v1.5, About v1.10, Contact v1.3)**: less space between sections, about 25% tighter. Homepage sections 110px to 80px above and below, headings 64px to 44px above content; other pages 72px to 54px, headings 40px to 32px; closing call-to-action 100–120px to 72–88px; smaller still on phones. Set in a block marked "Tighter spacing between sections" at the end of each page's styles.
@@ -63,7 +64,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - **This repository** is the master copy of every approved page. Always start changes from the file here.
 - **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261025-homepage.html`). Older copies are renamed with `-superseded` and kept. Drive is updated **once, at the end of each working session**, so during a session it can be a version behind this repository.
 
-**Drive copies waiting to be saved:** Home v1.18 (Drive holds v1.1), For patients v1.5 (v1.0), For professionals v1.6 (v1.1), virtual Grand Rounds v1.5 (v1.1), About v1.10 (v1.1), Contact v1.3 (v1.0).
+**Drive copies waiting to be saved:** Home v1.19 (Drive holds v1.1), For patients v1.5 (v1.0), For professionals v1.6 (v1.1), virtual Grand Rounds v1.5 (v1.1), About v1.10 (v1.1), Contact v1.3 (v1.0).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
 
 ## Guide for the practice team
