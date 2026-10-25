@@ -78,6 +78,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 - Every page carries `<meta name="robots" content="noindex, nofollow">` so search engines ignore the test site. At launch this changes back to `index, follow` on every page.
 - The contact form needs a form service connected before it can send messages, and a privacy notice page at `/privacy`.
+- Logo: Professor Lim has an official dark version of his logo (to replace the traced `assets/icons/logo-on-dark.svg` in the top bar); reminder set for Wed 28 Oct 2026.
 - Images: all now in `assets/` (see `assets/README.md`). Still to supply: team photos (4), award pictures (LaingBuisson, SCTS), book covers (2), official partner logos (Medtronic, AstraZeneca, Medela), speaker headshots, and ideally higher-resolution originals of the two portraits.
 - The hero video link is still to be added.
 - Build the `/testimonials` page from `_data/testimonials.yml`.
