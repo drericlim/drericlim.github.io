@@ -3,3 +3,12 @@ exclude:
   - README.md
   - CLAUDE.md
   - docs
+  - assets/README.md
+  - assets/images/README.md
+  - assets/team/README.md
+  - assets/awards/README.md
+  - assets/books/README.md
+  - assets/partners/README.md
+  - assets/speakers/README.md
+  - assets/testimonials/README.md
+  - assets/articles/README.md

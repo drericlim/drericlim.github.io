@@ -20,6 +20,10 @@ Read `README.md` first. Its **Version register** is the single record of which v
 - Every page must be SEO-ready: title, description, canonical, Open Graph and JSON-LD.
 - Mock-ups carry a version number (v0.x for drafts, v1.0 when approved, v1.1 and so on for later amendments).
 
+## Images
+
+All images live in `assets/`, one folder per kind: `images/` (Professor Lim and the hospital), `team/`, `awards/`, `books/`, `partners/`, `speakers/`, `testimonials/`, `articles/`. Each folder has a `README.md` describing its contents and naming; keep it up to date and add new folder READMEs to `exclude` in `_config.yml`. File names are lower case with hyphens and say what the picture is (`sarah-booth.jpg`). Pages refer to images as `/assets/...`; social-preview and JSON-LD images use the full `https://www.drericlim.com/assets/...` address. Where a picture is expected but not yet supplied, the page already points at the expected file name and shows a fallback (initials or a drawn placeholder) until it is uploaded. Never hotlink images from Squarespace or other websites.
+
 ## Practice facts
 
 - Professor Lim practises only at the Royal Brompton Hospital, Sydney Street, London SW3 6NP. Telephone +44 (0) 207 352 8121. There is no fax.

@@ -27,10 +27,10 @@
 
 | What | Where | Who uses it |
 |---|---|---|
-| **The website itself** | GitHub: **github.com/drericlim/drericlim.github.io** | This is the master copy. Every change is made here and appears on the site within a few minutes. |
+| **The website itself** | GitHub: **github.com/drericlim/drericlim.github.io** (the website's *repository*: one online folder holding every page, photo and text file of the site) | This is the master copy. Every change is made here and appears on the site within a few minutes. |
 | **Reference copies of approved pages** | Google Drive, "Personal website" folder | A dated copy of each approved page (e.g. `20261025-homepage.html`). Older copies are marked "-superseded". These are saved at the end of each working session. |
 | **Testimonials** | GitHub: `_data/testimonials.yml` | Every patient testimonial on the site, newest first |
-| **Testimonial photos** | GitHub: `assets/testimonials/` | Photos patients have agreed to share |
+| **All photos and logos** | GitHub: `assets/`, one folder per kind (see section 6) | Every picture on the website |
 | **Version record** | GitHub: `README.md`, "Version register" | Which version of each page is current |
 
 GitHub keeps every earlier version of every file, so nothing is ever lost. Any change can be seen or undone from a file's **History**.
@@ -129,7 +129,43 @@ Ask Claude, or open `testimonials.yml` with the pencil icon, find the patient's 
 
 ---
 
-## 6. Still to come before launch
+## 6. Photos and logos
+
+Every picture on the website is kept in GitHub, in the **`assets`** folder, with one folder for each kind of picture:
+
+| Folder | What goes in it | Example file name |
+|---|---|---|
+| `assets/images/` | Photos of Professor Lim and the hospital, used across the site | `eric-lim-portrait.jpg` |
+| `assets/team/` | Team photos for the About page (shown in a circle) | `sarah-booth.jpg` |
+| `assets/awards/` | Award pictures for the About page | `laingbuisson-innovation-in-care-2025.jpg` |
+| `assets/books/` | Book covers for the About page | `integrated-textbook-of-medicine-and-surgery.jpg` |
+| `assets/partners/` | Partner and sponsor logos for the virtual Grand Rounds page | `medtronic.svg` |
+| `assets/speakers/` | virtual Grand Rounds speaker headshots | `jane-smith.jpg` |
+| `assets/testimonials/` | Photos patients sent with their testimonials | `jane-smith.jpg` |
+| `assets/articles/` | Pictures for patient guides, articles and Thoracic Reflections | `day-case-thoracic-surgery-ward.jpg` |
+
+Each folder contains a short note listing what is in it, what is still needed, and the recommended size. GitHub shows that note below the list of files.
+
+### Naming photos
+
+- Lower case, with hyphens instead of spaces, and no other punctuation: `sarah-booth.jpg`, not `Sarah Booth (1).JPG`.
+- The name says what the picture is: a person's name, an award and year, a book title or a company name.
+
+### Adding or replacing a photo
+
+The pages already expect some photos by name. For example, the About page looks for `assets/team/sarah-booth.jpg` and shows Sarah's initials until it is there. To add or replace one of these:
+
+1. On GitHub, open the right folder (e.g. `assets/team`).
+2. Click **Add file → Upload files**, drag the photo in, and click **Commit changes**.
+3. Make sure the file name matches **exactly** (rename it on your computer first). The photo appears on the site within a few minutes.
+
+For a new photo that the pages don't yet expect, upload it to the right folder and ask Claude to place it on the page.
+
+Keep photos under 500 KB where possible. Claude can resize a large photo if you ask.
+
+---
+
+## 7. Still to come before launch
 
 These sections of the guide will be added as each piece is built:
 
