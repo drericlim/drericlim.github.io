@@ -13,7 +13,7 @@ Read `README.md` first. Its **Version register** is the single record of which v
 
 - No sticky navigation or sticky elements. No pill or chip-style buttons.
 - Content reads top to bottom (down each column, then across).
-- Each section has a pressed, engraved header texture: For patients = raked sand around one stone; For professionals = forest plot; virtual Grand Rounds = globe; About = sutures; Contact = conversation bubbles. The small mark beside each section heading is clickable and returns to the top of the page.
+- Each section has a pressed, engraved header texture (the homepage's section marks are Professor Lim's lung logo, pressed): For patients = raked sand around one stone; For professionals = forest plot; virtual Grand Rounds = globe; About = sutures; Contact = conversation bubbles. The small mark beside each section heading is clickable and returns to the top of the page.
 - Always write "virtual Grand Rounds" with a lower-case v.
 - Key figures sit high on the page.
 - Photos have rounded corners: 12px for photos and video frames, 8px for small thumbnails. Photos of people in team and speaker lists are circles. Full-width background photos (such as the homepage hero) stay square-edged.
