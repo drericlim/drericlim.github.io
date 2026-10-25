@@ -4,7 +4,16 @@ All testimonials live in one file: **`_data/testimonials.yml`**. The Testimonial
 
 Before you start, make sure the patient has agreed **in writing** to their words being published with their full name, and to their photo too if they sent one. Keep that email or letter on file.
 
-## Adding a testimonial (about 5 minutes, all in your web browser)
+## The easy way: ask Claude
+
+1. Open Claude, in a session that has access to the `drericlim/drericlim.github.io` repository on GitHub.
+2. Paste the patient's email (or forward it, or attach it) and write: **"Please add this testimonial to drericlim.com."** Attach their photo too, if they sent one.
+3. Claude will ask you to confirm that the patient has agreed to publication. It will then show you exactly how the testimonial will read.
+4. Reply "yes" and Claude saves it. The website updates within a few minutes.
+
+Claude follows the house rules for this, which are kept in `CLAUDE.md` in the repository: the patient's own words, unedited, with personal details left out.
+
+## By hand, if you prefer (about 5 minutes, all in your web browser)
 
 1. Go to **github.com/drericlim/drericlim.github.io** and sign in.
 2. Open the folder **`_data`**, then the file **`testimonials.yml`**.

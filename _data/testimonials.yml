@@ -1,7 +1,8 @@
 # Patient testimonials for drericlim.com
 #
 # This file holds every testimonial on the site, newest first.
-# To add one, copy the TEMPLATE block below, paste it under the line marked
+# Easiest: paste the patient's email into Claude and ask it to add the testimonial.
+# By hand: copy the TEMPLATE block below, paste it under the line marked
 # "NEWEST FIRST", fill it in, then click "Commit changes".
 # Full instructions: docs/adding-a-testimonial.md
 #

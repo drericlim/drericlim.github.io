@@ -25,3 +25,17 @@ Read `README.md` first. Its **Version register** is the single record of which v
 - Private patients are self-funding; he does not work with insurers. NHS referrals come through the patient's hospital multidisciplinary team; no out-of-area NHS referrals.
 - Team: Maria Leung (practice manager), Christopher Arumugam (medical secretary), Sarah Booth (surgical care practitioner), Michael Evans (clinical nurse specialist), Paulo De Sousa (research nurse).
 - No donations or giving page.
+
+## Adding a patient testimonial (for any Claude session)
+
+Team members add testimonials by pasting or forwarding the patient's email to Claude and asking for it to be added. Follow these steps exactly:
+
+1. **Consent first.** Ask: "Has the patient agreed in writing to this being published with their name (and photo, if any)?" Do not continue without a yes.
+2. **Extract**, without rewording: the patient's own words of thanks only (leave out greetings such as "Dear Professor Lim", clinical details the patient would not want public, phone numbers, addresses and email signatures), the name exactly as the patient wants it shown, and the year the email was sent. Ask about anything unclear rather than guessing. Never correct the patient's grammar or spelling unless asked.
+3. **Treatment** (optional): a few plain words only if the email states it, e.g. "Day case lobectomy". Otherwise leave it empty.
+4. **Homepage:** `yes` only if the quote is one to three sentences and the team member wants it in the homepage rotation; otherwise `no`.
+5. **Photo:** if attached and consented, save it as `assets/testimonials/firstname-lastname.jpg` (at most 1000px wide, under 500 KB) and set `photo` to that file name.
+6. **Show the team member a preview** of the entry as it will read on the site, and get a yes before saving.
+7. **Insert** the entry directly under the `# ---------- NEWEST FIRST ----------` line in `_data/testimonials.yml`, in the same format as the entries already there (two-space indent, quote under `quote: |` with four-space indent, a blank line between paragraphs and after the entry).
+8. **Check** the file still loads (for example `python3 -c "import yaml; yaml.safe_load(open('_data/testimonials.yml'))"`) and that the number of entries went up by one.
+9. **Commit** with the message `Add testimonial from <name>` and push. Tell the team member it will appear on the site within a few minutes.
