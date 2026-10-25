@@ -165,6 +165,25 @@ Keep photos under 500 KB where possible. Claude can resize a large photo if you 
 
 ---
 
+### Rotating photos
+
+Three spots on the site take turns showing a set of photos, so the site looks fresh for returning visitors:
+
+| Spot | Folder |
+|---|---|
+| Homepage background photo | `assets/rotating/hero/` |
+| Homepage About photo | `assets/rotating/home-profile/` |
+| About page portrait | `assets/rotating/about-profile/` |
+
+- **To add a photo to a rotation,** upload it into that folder. To take one out, delete it. Nothing else needs changing.
+- **Photos take turns in file-name order,** so start each name with a number: `01-…`, `02-…`.
+- **The photos change every Monday.** Every visitor sees the same photo that week. To change a spot to daily, open `_data/photo-rotation.yml`, change `weekly` to `daily` on that line, and commit.
+- **Homepage background photos** must be wide, with the subject on the **right**, because the headline sits on the left. Ask Claude to check and crop them before they go in.
+- The picture shown when a page is shared on social media stays fixed on the main portrait (`assets/images/eric-lim-portrait.jpg`).
+- Anyone else recognisable in a photo, patients especially, must have agreed to it being on the website.
+
+---
+
 ## 7. Still to come before launch
 
 These sections of the guide will be added as each piece is built:

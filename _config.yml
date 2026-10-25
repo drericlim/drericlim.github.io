@@ -12,3 +12,7 @@ exclude:
   - assets/speakers/README.md
   - assets/testimonials/README.md
   - assets/articles/README.md
+  - assets/rotating/README.md
+  - assets/rotating/hero/README.md
+  - assets/rotating/home-profile/README.md
+  - assets/rotating/about-profile/README.md

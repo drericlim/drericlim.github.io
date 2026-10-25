@@ -1,3 +1,7 @@
+---
+# Built by GitHub Pages: the portrait rotates through assets/rotating/about-profile/
+---
+{%- capture about_photos -%}{%- for f in site.static_files -%}{%- if f.path contains "/assets/rotating/about-profile/" -%}{%- assign e = f.extname | downcase -%}{%- if e == ".jpg" or e == ".jpeg" or e == ".png" or e == ".webp" -%}{{ f.path }}|{%- endif -%}{%- endif -%}{%- endfor -%}{%- endcapture -%}{%- assign about_photos_first = about_photos | split: "|" | first -%}
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -175,6 +179,7 @@ main section.film-band{background:var(--ink);padding:80px 0;}
 .pic .ini{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--serif);color:#7F95AD;font-size:64px;box-shadow:inset 1px 1px 3px rgba(10,30,54,.18),inset -1px -1px 3px rgba(255,255,255,.9);}
 .story{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:56px;align-items:start;}
 .portrait{aspect-ratio:4/5;border-radius:12px;}
+.portrait img{object-position:50% 25%;}
 .story-text p{font-size:17px;line-height:1.75;color:var(--text);margin-bottom:18px;max-width:62ch;}
 .play{flex:none;width:46px;height:46px;border-radius:50%;background:var(--ink);display:flex;align-items:center;justify-content:center;}
 .play::after{content:'';border-left:13px solid #fff;border-top:8px solid transparent;border-bottom:8px solid transparent;margin-left:4px;}
@@ -347,7 +352,7 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
       <h2 id="story-title">Research and patient care, as one job.</h2>
     </div>
     <div class="story">
-      <div class="reveal"><span class="pic portrait"><img src="/assets/images/eric-lim-portrait.jpg" alt="Professor Eric Lim" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="ini" hidden>EL</span></span></div>
+      <div class="reveal"><span class="pic portrait"><img src="{{ about_photos_first | default: '/assets/images/eric-lim-portrait.jpg' }}" data-rotate="{{ site.data["photo-rotation"]["about-profile"] | default: 'weekly' }}" data-photos="{{ about_photos }}" alt="Professor Eric Lim" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="ini" hidden>EL</span></span></div>
       <div class="story-text reveal">
         <p>I trained in medicine and surgery at the University of Sheffield, then in heart and chest surgery in Cambridge and London. Along the way I held a Medical Research Council scholarship and completed an MSc in Medical Statistics and an MD in surgical research, before qualifying as a specialist cardiothoracic surgeon and focusing entirely on surgery of the chest.</p>
         <p>I have been a consultant thoracic surgeon at the Royal Brompton Hospital since 2007 and Professor of Thoracic Surgery at Imperial College London since 2018. Alongside a busy clinical practice, I lead the academic division of thoracic surgery at the Royal Brompton and a lung screening programme for the early detection of lung cancer.</p>
@@ -561,6 +566,15 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
 
 <script>
 (function(){
+  // Rotating photos: the photo is chosen from the folder by date, so every visitor sees the same one that day or week
+  document.querySelectorAll('img[data-rotate]').forEach(function(img){
+    var list = (img.getAttribute('data-photos') || '').split('|').filter(Boolean).sort();
+    if (list.length < 2) return;
+    var days = Math.floor((Date.now() - Date.UTC(2026, 0, 5)) / 86400000); // counted from Monday 5 January 2026
+    var step = img.getAttribute('data-rotate') === 'daily' ? days : Math.floor(days / 7);
+    var pick = list[((step % list.length) + list.length) % list.length];
+    if (img.getAttribute('src') !== pick) img.src = pick;
+  });
   var b = document.querySelector('.film-play');
   if (b) b.addEventListener('click', function(){
     var i = document.createElement('iframe'); i.src = b.dataset.src; i.title = 'A short film about my work';

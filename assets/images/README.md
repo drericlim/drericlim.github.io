@@ -4,8 +4,8 @@ Photos of Professor Lim and of the hospital, used across the site.
 
 ## In this folder
 
-- `eric-lim-portrait.jpg`: main portrait. It is the homepage background photo and the About page portrait, and it's the picture shown when any page is shared on social media.
-- `eric-lim-portrait-2.jpg`: second portrait, in the homepage About section.
+- `eric-lim-portrait.jpg`: main portrait. It's the picture shown when any page is shared on social media and the one Google is told about. (The homepage and About page photos now rotate; see `assets/rotating/`.)
+- `eric-lim-portrait-2.jpg`: second portrait (also in the rotating sets).
 - `ward-round.jpg`: Professor Lim on a ward round, for the Testimonials page.
 
 ## Naming

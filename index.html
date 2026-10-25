@@ -1,6 +1,7 @@
 ---
 # Built by GitHub Pages: patient quotes come from _data/testimonials.yml
 ---
+{%- capture hero_photos -%}{%- for f in site.static_files -%}{%- if f.path contains "/assets/rotating/hero/" -%}{%- assign e = f.extname | downcase -%}{%- if e == ".jpg" or e == ".jpeg" or e == ".png" or e == ".webp" -%}{{ f.path }}|{%- endif -%}{%- endif -%}{%- endfor -%}{%- endcapture -%}{%- assign hero_photos_first = hero_photos | split: "|" | first -%}{%- capture home_photos -%}{%- for f in site.static_files -%}{%- if f.path contains "/assets/rotating/home-profile/" -%}{%- assign e = f.extname | downcase -%}{%- if e == ".jpg" or e == ".jpeg" or e == ".png" or e == ".webp" -%}{{ f.path }}|{%- endif -%}{%- endif -%}{%- endfor -%}{%- endcapture -%}{%- assign home_photos_first = home_photos | split: "|" | first -%}
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -64,7 +65,6 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="image" href="/assets/images/eric-lim-portrait.jpg" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <style>:root{--ink:#0A1E36;--ink-soft:#12304F;--blue:#1B5FA8;--blue-deep:#134A86;--sky:#9CC3EA;--sky-mid:#7FAEDD;--sky-light:#BBD9F2;--mist:#DCE8F5;--porcelain:#F5F7FA;--white:#FFFFFF;--text:#1F2E3D;--text-soft:#5A6B7D;--serif:'Newsreader', Georgia, serif;--sans:'Instrument Sans', -apple-system, sans-serif;}
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -137,7 +137,7 @@ section{padding:110px 0;}
 .about .container{display:grid;grid-template-columns:0.9fr 1.1fr;gap:80px;align-items:center;}
 .about .container > *{min-width:0;}
 .about-photo{position:relative;}
-.about-photo img{border-radius:12px;}
+.about-photo img{border-radius:12px;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 25%;}
 .about h2{font-family:var(--serif);font-weight:400;font-size:clamp(28px,3vw,38px);line-height:1.2;color:var(--ink);margin-bottom:26px;}
 .about p{color:var(--text-soft);font-size:16.5px;margin-bottom:18px;line-height:1.75;}
 .about .sig{font-family:var(--serif);font-style:italic;font-size:19px;color:var(--ink);margin-top:14px;}
@@ -227,7 +227,7 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
 <main>
 <section class="hero" id="hero" aria-labelledby="hero-title" style="padding:0;">
   <div class="hero-media" aria-hidden="true">
-    <img src="/assets/images/eric-lim-portrait.jpg" onerror="this.remove()" alt="" width="1920" height="1280" fetchpriority="high">
+    <img src="{{ hero_photos_first | default: '/assets/images/eric-lim-portrait.jpg' }}" data-rotate="{{ site.data["photo-rotation"].hero | default: 'weekly' }}" data-photos="{{ hero_photos }}" onerror="this.remove()" alt="" width="1920" height="1280" fetchpriority="high">
     <!-- Hero video: paste the MP4 (and optional WebM) link into data-src below. Until then the photo shows. -->
     <video id="heroVideo" muted loop playsinline preload="none"
       poster="/assets/images/eric-lim-portrait.jpg"
@@ -307,7 +307,7 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
 <section class="about" aria-labelledby="about-title">
   <div class="container">
     <div class="about-photo reveal">
-      <img src="/assets/images/eric-lim-portrait-2.jpg" onerror="this.remove()" alt="Professor Eric Lim, consultant thoracic surgeon at the Royal Brompton Hospital, London" width="800" height="1000" loading="lazy" decoding="async">
+      <img src="{{ home_photos_first | default: '/assets/images/eric-lim-portrait-2.jpg' }}" data-rotate="{{ site.data["photo-rotation"]["home-profile"] | default: 'weekly' }}" data-photos="{{ home_photos }}" onerror="this.remove()" alt="Professor Eric Lim, consultant thoracic surgeon at the Royal Brompton Hospital, London" width="800" height="1000" loading="lazy" decoding="async">
     </div>
     <div class="reveal">
       <p class="eyebrow" style="color:var(--blue);margin-bottom:18px;">About</p>
@@ -473,6 +473,16 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
 <script>
 (function(){
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Rotating photos: the photo is chosen from the folder by date, so every visitor sees the same one that day or week
+  document.querySelectorAll('img[data-rotate]').forEach(function(img){
+    var list = (img.getAttribute('data-photos') || '').split('|').filter(Boolean).sort();
+    if (list.length < 2) return;
+    var days = Math.floor((Date.now() - Date.UTC(2026, 0, 5)) / 86400000); // counted from Monday 5 January 2026
+    var step = img.getAttribute('data-rotate') === 'daily' ? days : Math.floor(days / 7);
+    var pick = list[((step % list.length) + list.length) % list.length];
+    if (img.getAttribute('src') !== pick) img.src = pick;
+  });
 
   // Years since a given year (e.g. consultant since 2007), so the figure updates itself each year
   document.querySelectorAll('[data-years-since]').forEach(function(el){

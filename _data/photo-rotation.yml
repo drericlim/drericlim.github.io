@@ -1,0 +1,6 @@
+# How often the rotating photos change. Use: weekly  or  daily
+# The photos themselves are in assets/rotating/ (one folder per spot).
+
+hero: weekly           # big background photo at the top of the homepage
+home-profile: weekly   # photo in the homepage's About section
+about-profile: weekly  # portrait at the top of the About page
