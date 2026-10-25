@@ -16,7 +16,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.0 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
+| Home | `/` | v1.1 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
 | For patients | `/for-patients` | v1.0 | 25 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
 | For professionals | `/for-professionals` | v1.1 | 25 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.1 | 25 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
@@ -27,6 +27,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **Home v1.1**: the About photo frame now sits evenly around the photo (option B). The first key figure counts years as a consultant since 2007, working out the number from today's date, and the About text says "Since 2007" instead of "more than two decades".
 - **Home v1.0**: approved from draft v0.8. Changes at approval: consultations now say "at the Royal Brompton Hospital" rather than "in London", and the footer's patient links match the other pages ("Screening and giving" removed).
 - **For patients v1.0**: approved from draft v0.7, unchanged.
 - **For professionals v1.1**: the programme button links to the virtual Grand Rounds programme.

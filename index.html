@@ -134,7 +134,8 @@ section{padding:110px 0;}
 .about .container{display:grid;grid-template-columns:0.9fr 1.1fr;gap:80px;align-items:center;}
 .about .container > *{min-width:0;}
 .about-photo{position:relative;}
-.about-photo::before{content:'';position:absolute;top:-18px;left:-18px;right:18px;bottom:18px;border:1px solid var(--blue);border-radius:4px;z-index:0;pointer-events:none;opacity:.5;}
+.about-photo::before{content:'';position:absolute;top:-14px;left:-14px;right:-14px;bottom:-14px;border:1px solid var(--blue);border-radius:4px;z-index:0;pointer-events:none;opacity:.6;}
+.about-photo img{position:relative;z-index:1;}
 .about h2{font-family:var(--serif);font-weight:400;font-size:clamp(28px,3vw,38px);line-height:1.2;color:var(--ink);margin-bottom:26px;}
 .about p{color:var(--text-soft);font-size:16.5px;margin-bottom:18px;line-height:1.75;}
 .about .sig{font-family:var(--serif);font-style:italic;font-size:19px;color:var(--ink);margin-top:14px;}
@@ -232,7 +233,7 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
 
 <div class="cred">
   <div class="container">
-    <div class="item reveal"><div class="num">25+</div><div class="lbl">Years leading academic thoracic surgery at the Royal Brompton</div></div>
+    <div class="item reveal"><div class="num"><span data-years-since="2007">19</span></div><div class="lbl">Years as a consultant thoracic surgeon at the Royal Brompton</div></div>
     <div class="item reveal"><div class="num">£6m+</div><div class="lbl">NIHR research funding across landmark trials — VIOLET, MARS&nbsp;2, RAMON</div></div>
     <div class="item reveal"><div class="num">Day case</div><div class="lbl">Pain-managed, drain-free surgery — home in the shortest possible time</div></div>
     <div class="item reveal"><div class="num">1 incision</div><div class="lbl">Pioneer of single-incision keyhole chest surgery in the UK</div></div>
@@ -297,7 +298,7 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
     <div class="reveal">
       <p class="eyebrow" style="color:var(--blue);margin-bottom:18px;">About</p>
       <h2 id="about-title">The evidence that changes practice worldwide, applied to your care personally.</h2>
-      <p>I am an internationally recognised chest surgeon. For more than two decades I have led the academic department of thoracic surgery at the Royal Brompton Hospital, designing and delivering the randomised trials that define how lung cancer, mesothelioma and pleural disease are treated across the world.</p>
+      <p>I am an internationally recognised chest surgeon. Since 2007 I have been a consultant thoracic surgeon at the Royal Brompton Hospital, where I lead the academic department of thoracic surgery, designing and delivering the randomised trials that define how lung cancer, mesothelioma and pleural disease are treated across the world.</p>
       <p>That same discipline shapes how I care for each patient: systems-based care, continuously audited, refined for excellent survival outcomes and very low complications — so you are home, confident and healthy in the shortest time.</p>
       <p class="sig">— Professor Eric Lim, MB ChB, MD, MSc, FRCS (C-Th)</p>
       <p class="quals">Private consultations at the Royal Brompton Hospital, Chelsea. <a href="/about">More about my practice</a></p>
@@ -447,6 +448,11 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
 <script>
 (function(){
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Years since a given year (e.g. consultant since 2007), so the figure updates itself each year
+  document.querySelectorAll('[data-years-since]').forEach(function(el){
+    el.textContent = new Date().getFullYear() - parseInt(el.getAttribute('data-years-since'), 10);
+  });
 
   // Editor-safe scroll reveal: only hide content once JS is confirmed running
   if (!reduce && 'IntersectionObserver' in window) {
