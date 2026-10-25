@@ -8,20 +8,42 @@ This repository holds the new site while it is being built and tested. The live 
 
 The test site is published at https://drericlim.github.io/
 
-## Where the pages live
+## Version register
 
-Each page is an `index.html` in a folder named after its web address:
+This table is the single record of the latest approved version of every page. Update it whenever a page changes, in the same commit.
 
-| Page | Address | File |
-|---|---|---|
-| Home (temporary test page) | `/` | `index.html` |
-| For professionals | `/for-professionals` | `for-professionals/index.html` |
-| virtual Grand Rounds | `/virtual-grand-rounds` | `virtual-grand-rounds/index.html` |
-| About | `/about` | `about/index.html` |
-| Contact | `/contact-us` | `contact-us/index.html` |
-| Page not built yet | any missing address | `404.html` |
+Versions: drafts are v0.x. The approved version is v1.0. Amendments after approval are v1.1, v1.2 and so on.
+
+| Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
+|---|---|---|---|---|---|
+| Home | `/` | v1.0 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
+| For patients | `/for-patients` | v1.0 | 25 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
+| For professionals | `/for-professionals` | v1.1 | 25 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
+| virtual Grand Rounds | `/virtual-grand-rounds` | v1.1 | 25 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
+| About | `/about` | v1.1 | 25 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
+| Contact | `/contact-us` | v1.0 | 25 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
+| Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
+| Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
+
+### Amendment history
+
+- **Home v1.0**: approved from draft v0.8. Changes at approval: consultations now say "at the Royal Brompton Hospital" rather than "in London", and the footer's patient links match the other pages ("Screening and giving" removed).
+- **For patients v1.0**: approved from draft v0.7, unchanged.
+- **For professionals v1.1**: the programme button links to the virtual Grand Rounds programme.
+- **virtual Grand Rounds v1.1**: footer updated (fax removed, "Message us", social links).
+- **About v1.1**: Paulo De Sousa, research nurse, added to My team.
+- **Contact v1.0**: approved with the conversation-bubble header and the self-funding note.
+
+## Where things are kept
+
+- **This repository** is the master copy of every approved page. Always start changes from the file here.
+- **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261025-homepage.html`). Older copies are renamed with `-superseded` and kept.
+- The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
 
 ## Before launch
 
 - Every page carries `<meta name="robots" content="noindex, nofollow">` so search engines ignore the test site. At launch this changes back to `index, follow` on every page.
-- The contact form needs a form service connected before it can send messages.
+- The contact form needs a form service connected before it can send messages, and a privacy notice page at `/privacy`.
+- Photos are still loaded from the Squarespace site. Copy them into this repository before Squarespace is closed.
+- The homepage testimonial is a placeholder, and the hero video link is still to be added.
+- The virtual Grand Rounds registration link (Zoom) is a placeholder.
