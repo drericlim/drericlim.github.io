@@ -4,7 +4,8 @@ Read `README.md` first. Its **Version register** is the single record of which v
 
 - Start every change from the file in this repository, never from an older copy in a conversation or in Drive.
 - After any change, update the version register and the amendment history in `README.md` in the same commit.
-- Save each newly approved version to the Google Drive folder `1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl`, named `YYYYMMDD-page-name.html`. Rename the copy it replaces with `-superseded`. Drive copies use `index, follow`; repository copies use `noindex, nofollow` until launch.
+- Work in GitHub only during a session: make each change here and push, and the test site updates within a minute or two. Do **not** save to Google Drive after every change. Saving to Drive is slow, because the whole page has to be pasted through the conversation.
+- At the end of a session (when Professor Lim says so, or before finishing), save the final version of each page changed that session to the Google Drive folder `1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl`, named `YYYYMMDD-page-name.html`, and rename the copy it replaces with `-superseded`. Drive copies use `index, follow`; repository copies use `noindex, nofollow` until launch. Then record in the register which version Drive holds.
 - Keep the register in the claude.ai project doc `claude/site-register.md` in step with `README.md`.
 
 ## Standing design rules (agreed with Professor Lim)
