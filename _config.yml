@@ -1,0 +1,4 @@
+# GitHub Pages settings. Keep internal notes out of the published site.
+exclude:
+  - README.md
+  - CLAUDE.md
