@@ -1,3 +1,6 @@
+---
+# Built by GitHub Pages: patient quotes come from _data/testimonials.yml
+---
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -169,10 +172,22 @@ section{padding:110px 0;}
 @media(max-width:1020px){.exp-group ul{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(var(--rb,1),auto);}}
 @media(max-width:760px){.exp-group{grid-template-columns:1fr;gap:12px;padding:24px 0;}.exp-group ul{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none;gap:0;}.exp-group li a{font-size:19px;}}
 .voice{background:var(--porcelain);text-align:center;}
-.voice blockquote{font-family:var(--serif);font-weight:300;font-style:italic;font-size:clamp(24px,3vw,34px);line-height:1.4;color:var(--ink);max-width:24ch;margin:0 auto 30px;}
-.voice figcaption{font-style:normal;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-soft);font-weight:600;}
-.voice .stars{color:var(--blue);letter-spacing:6px;font-size:15px;margin-bottom:28px;}
-.voice a.more{display:inline-block;margin-top:34px;color:var(--blue);font-weight:600;font-size:14px;}
+.voice .eyebrow{color:var(--blue);margin-bottom:30px;}
+.tq-stage{display:grid;max-width:760px;margin:0 auto;}
+.tq{grid-area:1/1;margin:0;display:flex;flex-direction:column;justify-content:center;transition:opacity .7s ease,visibility .7s;}
+.tq blockquote p{font-family:var(--serif);font-weight:300;font-style:italic;font-size:clamp(22px,2.4vw,29px);line-height:1.45;color:var(--ink);}
+.tq figcaption{margin-top:22px;font-style:normal;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-soft);font-weight:600;}
+.tq + .tq{display:none;}
+.tq-js .tq + .tq{display:flex;}
+.tq-js .tq{opacity:0;visibility:hidden;}
+.tq-js .tq.on{opacity:1;visibility:visible;}
+.tq-controls{display:flex;justify-content:center;gap:12px;margin-top:30px;}
+.tq-controls[hidden]{display:none;}
+.tq-btn{width:40px;height:40px;border-radius:50%;border:1px solid #C9D6E6;background:#fff;color:var(--ink);font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:border-color .2s,color .2s;}
+.tq-btn:hover{border-color:var(--blue);color:var(--blue);}
+.tq-btn:focus-visible{outline:2px solid var(--blue);outline-offset:3px;}
+.voice a.more{display:inline-block;margin-top:30px;color:var(--blue);font-weight:600;font-size:14px;}
+@media(prefers-reduced-motion:reduce){.tq{transition:none;}}
 .close-cta{background:var(--white);text-align:center;padding:120px 0;}
 .close-cta h2{font-family:var(--serif);font-weight:400;font-size:clamp(30px,3.6vw,44px);color:var(--ink);max-width:20ch;margin:0 auto 20px;line-height:1.15;}
 .close-cta p{color:var(--text-soft);max-width:46ch;margin:0 auto 40px;font-size:17px;}
@@ -382,13 +397,24 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
   </div>
 </section>
 
-<section class="voice" aria-label="Patient testimonial">
-  <figure class="container reveal">
-    <div class="stars" aria-label="Five star review">★★★★★</div>
-    <blockquote>“A short, genuine patient quote goes here — pulled from your testimonials page, two lines at most.”</blockquote>
-    <figcaption>Patient · Keyhole lung cancer surgery</figcaption>
-    <div><a href="/for-patients#why" class="more">Read patient stories →</a></div>
-  </figure>
+<section class="voice" aria-labelledby="voice-title">
+  <div class="container reveal">
+    <p class="eyebrow" id="voice-title">In their own words</p>
+    <div class="tq-stage" id="tq-stage">
+{%- for t in site.data.testimonials -%}{%- if t.homepage and t.short -%}
+      <figure class="tq">
+        <blockquote><p>“{{ t.short | strip | escape }}”</p></blockquote>
+        <figcaption>{{ t.name | escape }}{% if t.treatment and t.treatment != "" %} · {{ t.treatment | escape }}{% endif %}</figcaption>
+      </figure>
+{%- endif -%}{%- endfor %}
+    </div>
+    <div class="tq-controls" id="tq-controls" hidden>
+      <button type="button" class="tq-btn" id="tq-prev" aria-label="Previous patient quote"><span aria-hidden="true">←</span></button>
+      <button type="button" class="tq-btn" id="tq-pause" aria-label="Pause the quotes"><span aria-hidden="true">❚❚</span></button>
+      <button type="button" class="tq-btn" id="tq-next" aria-label="Next patient quote"><span aria-hidden="true">→</span></button>
+    </div>
+    <div><a href="/testimonials" class="more">Read all patient stories →</a></div>
+  </div>
 </section>
 
 <section class="close-cta" aria-labelledby="cta-title">
@@ -452,6 +478,35 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
   document.querySelectorAll('[data-years-since]').forEach(function(el){
     el.textContent = new Date().getFullYear() - parseInt(el.getAttribute('data-years-since'), 10);
   });
+
+  // Patient quotes: shuffled on each visit, one at a time, changing every 7 seconds
+  var stage = document.getElementById('tq-stage');
+  if (stage) {
+    var items = Array.prototype.slice.call(stage.querySelectorAll('.tq'));
+    for (var i = items.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var tmp = items[i]; items[i] = items[j]; items[j] = tmp; }
+    items.forEach(function(el){ stage.appendChild(el); });
+    if (items.length > 1) {
+      stage.classList.add('tq-js');
+      var cur = 0, timer = null, paused = reduce, hovering = false;
+      var pauseBtn = document.getElementById('tq-pause');
+      function show(n) {
+        cur = (n + items.length) % items.length;
+        items.forEach(function(el, k){ var on = k === cur; el.classList.toggle('on', on); el.setAttribute('aria-hidden', on ? 'false' : 'true'); });
+      }
+      function schedule() { clearInterval(timer); if (!paused && !hovering) timer = setInterval(function(){ show(cur + 1); }, 7000); }
+      function setPaused(p) {
+        paused = p; pauseBtn.innerHTML = '<span aria-hidden="true">' + (p ? '▶' : '❚❚') + '</span>';
+        pauseBtn.setAttribute('aria-label', p ? 'Play the quotes' : 'Pause the quotes'); schedule();
+      }
+      document.getElementById('tq-prev').addEventListener('click', function(){ show(cur - 1); schedule(); });
+      document.getElementById('tq-next').addEventListener('click', function(){ show(cur + 1); schedule(); });
+      pauseBtn.addEventListener('click', function(){ setPaused(!paused); });
+      stage.addEventListener('mouseenter', function(){ hovering = true; schedule(); });
+      stage.addEventListener('mouseleave', function(){ hovering = false; schedule(); });
+      document.getElementById('tq-controls').hidden = false;
+      show(0); setPaused(paused);
+    }
+  }
 
   // Editor-safe scroll reveal: only hide content once JS is confirmed running
   if (!reduce && 'IntersectionObserver' in window) {

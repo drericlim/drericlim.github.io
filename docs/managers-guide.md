@@ -64,7 +64,7 @@ Once both are set up, most updates can be made simply by asking Claude in plain 
 
 ## 5. Adding a patient testimonial
 
-All testimonials live in one file, **`_data/testimonials.yml`**. The Testimonials page and the rotating quote on the homepage are both built from it, so a testimonial only ever needs adding once.
+All testimonials live in one file, **`_data/testimonials.yml`**. The Testimonials page and the rotating quotes on the homepage are both built from it, so a testimonial only ever needs adding once. Each testimonial has the patient's full words, plus a short extract of a sentence or two for the homepage. The homepage shows these one at a time, in a different random order on every visit, changing every seven seconds.
 
 **Before you start:** make sure the patient has agreed **in writing** to their words being published with their full name, and to their photo too if they sent one. Keep that email on file.
 
@@ -72,7 +72,7 @@ All testimonials live in one file, **`_data/testimonials.yml`**. The Testimonial
 
 1. Open Claude with access to the website.
 2. Paste the patient's email (or forward or attach it) and write: **"Please add this testimonial to drericlim.com."** Attach their photo too, if they sent one.
-3. Claude asks you to confirm the patient has agreed to publication. It then shows you exactly how the testimonial will read. It uses the patient's own words, unedited, and leaves out greetings, signatures, contact details and private clinical details.
+3. Claude asks you to confirm the patient has agreed to publication. It then shows you exactly how the testimonial will read. It uses the patient's own words, unedited, and leaves out greetings, signatures, contact details and private clinical details. It also picks a short extract (a sentence or two, still in the patient's own words) for the rotating quotes on the homepage.
 4. Reply **"yes"**. Claude saves it, and the website updates within a few minutes.
 
 Claude also has a saved skill called **add-drericlim-testimonial** for this. Ask Professor Lim to share it with your Claude account.
@@ -88,7 +88,8 @@ Claude also has a saved skill called **add-drericlim-testimonial** for this. Ask
   year: 2026
   treatment: "Day case lobectomy"
   photo: ""
-  homepage: no
+  homepage: yes
+  short: "I was home the same day and back walking the dog within a week."
   quote: |
     I was home the same day and back walking the dog within a week.
 
@@ -104,7 +105,8 @@ Claude also has a saved skill called **add-drericlim-testimonial** for this. Ask
 | `year` | The year they sent it, e.g. `2026` | Yes |
 | `treatment` | A few words about their operation, or `""` if unsure | No |
 | `photo` | The photo's file name, e.g. `"jane-smith.jpg"`, or `""` | No |
-| `homepage` | `yes` to include it in the homepage's rotating quotes (short quotes only), otherwise `no` | Yes |
+| `homepage` | `yes` to include the patient in the homepage's rotating quotes (the more patients the better), otherwise `no` | Yes |
+| `short` | For the homepage: one or two sentences copied exactly from the quote, in quotation marks. Use … where words are left out | When `homepage` is `yes` |
 | `quote` | The patient's own words, on the lines below `quote: \|` | Yes |
 
 Rules that keep the file working:
