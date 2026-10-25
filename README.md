@@ -52,9 +52,13 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 **Drive copies waiting to be saved:** Home v1.8 (Drive holds v1.1), About v1.2 (Drive holds v1.1), For patients v1.1 (Drive holds v1.0).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
 
+## Guide for the practice team
+
+`docs/managers-guide.md` is the practice team's guide to the site: where things are kept, what each person needs, and how to make changes. It is kept up to date as the site is built, and will be presented to the managers at launch.
+
 ## Content that managers edit
 
-- **Testimonials:** `_data/testimonials.yml` holds every patient testimonial (69 moved from the old site on 25 Oct 2026, word for word), newest first. Patient photos are in `assets/testimonials/`. Step-by-step guide: `docs/adding-a-testimonial.md`. The Testimonials page and the homepage's rotating quote will both be built from this file.
+- **Testimonials:** `_data/testimonials.yml` holds every patient testimonial (69 moved from the old site on 25 Oct 2026, word for word), newest first. Patient photos are in `assets/testimonials/`. Step-by-step guide: `docs/managers-guide.md`, section 5. The Testimonials page and the homepage's rotating quote will both be built from this file.
 
 ## Before launch
 

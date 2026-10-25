@@ -7,6 +7,7 @@ Read `README.md` first. Its **Version register** is the single record of which v
 - Work in GitHub only during a session: make each change here and push, and the test site updates within a minute or two. Do **not** save to Google Drive after every change. Saving to Drive is slow, because the whole page has to be pasted through the conversation.
 - At the end of a session (when Professor Lim says so, or before finishing), save the final version of each page changed that session to the Google Drive folder `1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl`, named `YYYYMMDD-page-name.html`, and rename the copy it replaces with `-superseded`. Drive copies use `index, follow`; repository copies use `noindex, nofollow` until launch. Then record in the register which version Drive holds.
 - Keep the register in the claude.ai project doc `claude/site-register.md` in step with `README.md`.
+- **Keep `docs/managers-guide.md` up to date.** Whenever something is built or decided that the practice team will need to use or know (a new editing process, where something is kept, a new account or tool), add it there in plain English for non-technical readers. It will be presented to the managers when the site is complete.
 
 ## Standing design rules (agreed with Professor Lim)
 

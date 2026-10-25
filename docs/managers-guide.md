@@ -1,0 +1,138 @@
+# drericlim.com: guide for the practice team
+
+*A living guide. It grows as the new website is built, and will be presented to the practice managers when the site is complete. Last updated 25 October 2026.*
+
+---
+
+## 1. The new website at a glance
+
+- The new drericlim.com is being built to replace the current Squarespace site. Squarespace stays live until the new site is finished and approved.
+- While it is being built, the new site can be seen at **https://drericlim.github.io/**. It is hidden from Google until launch.
+- At launch, the drericlim.com address will be moved to the new site.
+
+### The main pages
+
+| Page | Address | What it is for |
+|---|---|---|
+| Home | `/` | First impression for patients, referrers and clinicians |
+| For patients | `/for-patients` | Guides, articles and videos about conditions, operations and recovery |
+| For professionals | `/for-professionals` | Research, statistics teaching and the Thoracic Reflections articles |
+| virtual Grand Rounds | `/virtual-grand-rounds` | The teaching programme, upcoming talks and archive |
+| About | `/about` | Professor Lim's story, career, where he practises and the team |
+| Contact | `/contact-us` | The enquiry form, phone number and directions |
+
+---
+
+## 2. Where everything is kept
+
+| What | Where | Who uses it |
+|---|---|---|
+| **The website itself** | GitHub: **github.com/drericlim/drericlim.github.io** | This is the master copy. Every change is made here and appears on the site within a few minutes. |
+| **Reference copies of approved pages** | Google Drive, "Personal website" folder | A dated copy of each approved page (e.g. `20261025-homepage.html`). Older copies are marked "-superseded". These are saved at the end of each working session. |
+| **Testimonials** | GitHub: `_data/testimonials.yml` | Every patient testimonial on the site, newest first |
+| **Testimonial photos** | GitHub: `assets/testimonials/` | Photos patients have agreed to share |
+| **Version record** | GitHub: `README.md`, "Version register" | Which version of each page is current |
+
+GitHub keeps every earlier version of every file, so nothing is ever lost. Any change can be seen or undone from a file's **History**.
+
+---
+
+## 3. What each team member needs
+
+1. **A GitHub account**, added to the **drericlim** organisation on GitHub. Professor Lim (or whoever manages the organisation) sends the invitation.
+2. **A Claude account**, with GitHub connected so Claude can save changes to the website.
+
+Once both are set up, most updates can be made simply by asking Claude in plain English.
+
+---
+
+## 4. Making changes to the website
+
+**The easy way: ask Claude.** In a Claude session with access to the website, describe the change, for example: "On the About page, change Michael's description to …". Claude makes the change, checks it, and saves it. It follows the house rules and design kept in the website's notes file (`CLAUDE.md`).
+
+**House style.** Claude already knows these, but they are useful for the team too:
+
+- Professor Lim practises only at the **Royal Brompton Hospital**, Sydney Street, London SW3 6NP. The telephone number is **+44 (0) 207 352 8121**. There is no fax.
+- Private patients are **self-funding**; the practice does not work with insurers.
+- NHS patients are referred through their own hospital's **multidisciplinary team**.
+- Team members do not give out their own phone numbers; patients call the **office**.
+- Always write **"virtual Grand Rounds"** with a small v.
+- Describe results plainly, without boasting: for example, "Many patients now go home on the day of their operation."
+- Photos have rounded corners. The design has no sticky menus and no pill-shaped buttons.
+
+---
+
+## 5. Adding a patient testimonial
+
+All testimonials live in one file, **`_data/testimonials.yml`**. The Testimonials page and the rotating quote on the homepage are both built from it, so a testimonial only ever needs adding once.
+
+**Before you start:** make sure the patient has agreed **in writing** to their words being published with their full name, and to their photo too if they sent one. Keep that email on file.
+
+### The easy way: ask Claude
+
+1. Open Claude with access to the website.
+2. Paste the patient's email (or forward or attach it) and write: **"Please add this testimonial to drericlim.com."** Attach their photo too, if they sent one.
+3. Claude asks you to confirm the patient has agreed to publication. It then shows you exactly how the testimonial will read. It uses the patient's own words, unedited, and leaves out greetings, signatures, contact details and private clinical details.
+4. Reply **"yes"**. Claude saves it, and the website updates within a few minutes.
+
+Claude also has a saved skill called **add-drericlim-testimonial** for this. Ask Professor Lim to share it with your Claude account.
+
+### By hand, if you prefer (about 5 minutes, in your web browser)
+
+1. Go to **github.com/drericlim/drericlim.github.io** and sign in.
+2. Open the folder **`_data`**, then the file **`testimonials.yml`**, and click the **pencil icon** (Edit this file).
+3. Find the line `# ---------- NEWEST FIRST ----------` and paste a new entry directly under it:
+
+```yaml
+- name: "Jane Smith"
+  year: 2026
+  treatment: "Day case lobectomy"
+  photo: ""
+  homepage: no
+  quote: |
+    I was home the same day and back walking the dog within a week.
+
+    Thank you to Professor Lim, Maria and the whole team.
+
+```
+
+4. Click **Commit changes…**, write a short note such as "Add testimonial from Jane Smith", and click **Commit changes** again. The site updates within a couple of minutes.
+
+| Line | What to put | Required? |
+|---|---|---|
+| `name` | The patient's name as they want it shown, in quotation marks | Yes |
+| `year` | The year they sent it, e.g. `2026` | Yes |
+| `treatment` | A few words about their operation, or `""` if unsure | No |
+| `photo` | The photo's file name, e.g. `"jane-smith.jpg"`, or `""` | No |
+| `homepage` | `yes` to include it in the homepage's rotating quotes (short quotes only), otherwise `no` | Yes |
+| `quote` | The patient's own words, on the lines below `quote: \|` | Yes |
+
+Rules that keep the file working:
+
+- Every line of an entry starts with two spaces, and every line of the quote with **four** spaces. Copying the example keeps this right.
+- Leave a blank line between paragraphs, and one blank line after each entry.
+- Use the patient's words exactly; don't correct their grammar or spelling unless they ask.
+
+If a mistake breaks the file, the website simply keeps showing the last good version until it is fixed.
+
+### Adding a photo by hand
+
+1. Rename the photo with the patient's name in lower case and hyphens, e.g. `jane-smith.jpg`. It should be at least 800 pixels wide and under 500 KB.
+2. On GitHub, open **`assets/testimonials`**, click **Add file → Upload files**, drag the photo in, and click **Commit changes**.
+3. In `testimonials.yml`, set `photo: "jane-smith.jpg"` on that patient's entry.
+
+### Editing or removing a testimonial
+
+Ask Claude, or open `testimonials.yml` with the pencil icon, find the patient's name (Ctrl+F or Cmd+F), change or delete their whole entry, and commit.
+
+---
+
+## 6. Still to come before launch
+
+These sections of the guide will be added as each piece is built:
+
+- **The contact form:** where enquiries arrive and how to reply.
+- **Privacy notice:** what the practice tells patients about their data.
+- **virtual Grand Rounds:** updating the programme, speakers and the Zoom registration link.
+- **Articles and patient guides:** publishing a new article or video.
+- **Launch day:** moving the drericlim.com address to the new site.

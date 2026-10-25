@@ -4,7 +4,7 @@
 # Easiest: paste the patient's email into Claude and ask it to add the testimonial.
 # By hand: copy the TEMPLATE block below, paste it under the line marked
 # "NEWEST FIRST", fill it in, then click "Commit changes".
-# Full instructions: docs/adding-a-testimonial.md
+# Full instructions: docs/managers-guide.md, section 5
 #
 # Only add a testimonial when the patient has agreed in writing to it being
 # published with their name (and photo, if they sent one).
