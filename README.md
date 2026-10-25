@@ -20,13 +20,14 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | For patients | `/for-patients` | v1.2 | 25 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
 | For professionals | `/for-professionals` | v1.2 | 25 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.2 | 25 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
-| About | `/about` | v1.6 | 25 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
+| About | `/about` | v1.7 | 25 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
 | Contact | `/contact-us` | v1.0 | 25 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
 
+- **About v1.7**: each film shows its cover picture (taken from Vimeo, black bars trimmed) behind the play button, from `assets/films/`. Note: the Introduction 2 cover shows Arabic subtitles; check with Professor Lim whether that film is an Arabic-subtitled version.
 - **About v1.6**: when a film finishes, the cover and play button come back, so Vimeo's "More from Eric Lim" end screen is never shown.
 - **About v1.5**: the film band rotates weekly through three Vimeo films listed in `_data/about-films.yml`: Introduction part 1 (199325659), Introduction part 2 (199445739) and ctDNA research (231725351). The play button wording changes with the film. Vimeo's title, byline and badge are hidden in the player.
 - **Home v1.13 and About v1.4**: rotating photos. The homepage background, the homepage About photo and the About page portrait each take turns through the photos in `assets/rotating/hero/`, `home-profile/` and `about-profile/`, changing every Monday (or daily; set in `_data/photo-rotation.yml`). Pages are built by GitHub Pages (both now start with front matter). The homepage About photo is trimmed to a consistent 4:5 shape. The hero rotates once its folder has two or more photos.
@@ -56,7 +57,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - **This repository** is the master copy of every approved page. Always start changes from the file here.
 - **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261025-homepage.html`). Older copies are renamed with `-superseded` and kept. Drive is updated **once, at the end of each working session**, so during a session it can be a version behind this repository.
 
-**Drive copies waiting to be saved:** Home v1.13 (Drive holds v1.1), About v1.6 (Drive holds v1.1), For patients v1.2 (Drive holds v1.0), For professionals v1.2 (Drive holds v1.1), virtual Grand Rounds v1.2 (Drive holds v1.1).
+**Drive copies waiting to be saved:** Home v1.13 (Drive holds v1.1), About v1.7 (Drive holds v1.1), For patients v1.2 (Drive holds v1.0), For professionals v1.2 (Drive holds v1.1), virtual Grand Rounds v1.2 (Drive holds v1.1).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
 
 ## Guide for the practice team

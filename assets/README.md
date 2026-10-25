@@ -12,6 +12,7 @@ Every picture on the website is kept here, one folder per kind:
 | `speakers/` | virtual Grand Rounds speaker headshots |
 | `testimonials/` | Photos patients sent with their testimonials |
 | `articles/` | Pictures for patient guides, articles and Thoracic Reflections |
+| `films/` | Cover pictures for the About page films (shown behind the play button) |
 | `rotating/` | Sets of photos that take turns: the homepage background, the homepage About photo and the About page portrait (one folder each) |
 
 Each folder has its own note explaining what goes in it and how to name files. In short: lower case, hyphens instead of spaces, and a name that says what the picture is (`sarah-booth.jpg`, `medtronic.svg`). To replace a picture, upload a new file with exactly the same name.

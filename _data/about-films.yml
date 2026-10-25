@@ -6,16 +6,20 @@
 #   vimeo:  the number at the end of the Vimeo address (vimeo.com/199325659 -> 199325659)
 #   label:  the words on the play button
 #   title:  a short description, read out by screen readers
+#   thumbnail: the cover picture in assets/films/ (optional)
 # To remove a film: delete its block.
 
 - vimeo: 199325659
+  thumbnail: "vimeo-199325659.jpg"
   label: "Watch a short film about my work"
   title: "Introduction to Professor Eric Lim, part 1"
 
 - vimeo: 199445739
+  thumbnail: "vimeo-199445739.jpg"
   label: "Watch a short film about my work"
   title: "Introduction to Professor Eric Lim, part 2"
 
 - vimeo: 231725351
+  thumbnail: "vimeo-231725351.jpg"
   label: "Watch: my research on blood tests for cancer"
   title: "Professor Eric Lim on ctDNA research, blood tests for the early detection of cancer"

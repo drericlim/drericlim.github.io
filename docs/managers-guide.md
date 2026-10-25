@@ -190,12 +190,14 @@ The About page shows one film at a time beside the quote, taking turns weekly li
 
 ```yaml
 - vimeo: 231725351
+  thumbnail: "vimeo-231725351.jpg"
   label: "Watch: my research on blood tests for cancer"
   title: "Professor Eric Lim on ctDNA research, blood tests for the early detection of cancer"
 ```
 
 - `vimeo` is the number at the end of the film's Vimeo address (vimeo.com/**231725351**).
 - `label` is the wording on the play button. `title` is a short description read out to visitors who use screen readers.
+- `thumbnail` is the cover picture shown behind the play button, kept in `assets/films/` (named `vimeo-` plus the film's number). Ask Claude to fetch it from Vimeo when adding a film.
 - **To add a film,** copy a block, paste it at the end of the list, change the details and commit. Or simply give Claude the Vimeo link.
 - **To remove one,** delete its block. Films take turns in the order listed.
 - **In Vimeo, each film must be allowed to play on the website.** Open the film in Vimeo, go to **Settings → Privacy → "Where can this be embedded?"**, choose **Specific domains**, and add `drericlim.com`, `www.drericlim.com` and (while testing) `drericlim.github.io`. Otherwise the site shows a Vimeo message saying the video can't be played here.

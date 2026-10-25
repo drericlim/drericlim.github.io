@@ -164,6 +164,10 @@ main section.film-band{background:var(--ink);padding:80px 0;}
 .film-play:hover .play{transform:scale(1.06);}
 .film-play:focus-visible{outline:3px solid var(--sky);outline-offset:-6px;}
 .film-play .film-t{font-family:var(--serif);font-size:20px;color:#fff;}
+.film-thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.film-thumb[hidden]{display:none;}
+.film-play{background:linear-gradient(180deg,rgba(10,30,54,.15) 0%,rgba(10,30,54,.55) 100%);}
+.film-play .film-t{text-shadow:0 1px 8px rgba(0,0,0,.55);}
 @media(max-width:860px){.film-grid{grid-template-columns:1fr;gap:36px;}main section.film-band{padding:60px 0;}}
 .route-btn{margin-top:18px;}
 .hero-stats{list-style:none;display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:22px 52px;margin-top:46px;padding-top:28px;border-top:1px solid rgba(255,255,255,.14);max-width:720px;}
@@ -372,7 +376,8 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
       <h2 class="sr-only" id="film-title">A short film about my work</h2>
       <div class="film-frame" id="film">
         {%- assign films = site.data["about-films"] -%}{%- assign f0 = films | first -%}
-        <button type="button" class="film-play" data-src="https://player.vimeo.com/video/{{ f0.vimeo | default: 199445739 }}?autoplay=1&amp;dnt=1&amp;badge=0&amp;title=0&amp;byline=0&amp;portrait=0" data-film-title="{{ f0.title | escape }}" data-rotate="{{ site.data["photo-rotation"]["about-film"] | default: 'weekly' }}" data-films="{%- for f in films -%}{{ f.vimeo }}~{{ f.label | escape }}~{{ f.title | escape }}|{%- endfor -%}">
+        {%- if f0.thumbnail and f0.thumbnail != "" -%}<img class="film-thumb" src="/assets/films/{{ f0.thumbnail }}" alt="" loading="lazy" onerror="this.hidden=true">{%- endif %}
+        <button type="button" class="film-play" data-src="https://player.vimeo.com/video/{{ f0.vimeo | default: 199445739 }}?autoplay=1&amp;dnt=1&amp;badge=0&amp;title=0&amp;byline=0&amp;portrait=0" data-film-title="{{ f0.title | escape }}" data-rotate="{{ site.data["photo-rotation"]["about-film"] | default: 'weekly' }}" data-films="{%- for f in films -%}{{ f.vimeo }}~{{ f.label | escape }}~{{ f.title | escape }}~{{ f.thumbnail }}|{%- endfor -%}">
           <span class="play" aria-hidden="true"></span>
           <span class="film-t">{{ f0.label | default: "Watch a short film about my work" }}</span>
         </button>
@@ -587,6 +592,8 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
       b.setAttribute('data-src', 'https://player.vimeo.com/video/' + film[0] + '?autoplay=1&dnt=1&badge=0&title=0&byline=0&portrait=0');
       b.querySelector('.film-t').textContent = film[1];
       b.setAttribute('data-film-title', film[2]);
+      var th = document.querySelector('#film .film-thumb');
+      if (film[3]) { if (!th) { th = document.createElement('img'); th.className = 'film-thumb'; th.alt = ''; th.onerror = function(){ this.hidden = true; }; b.parentNode.insertBefore(th, b); } th.hidden = false; th.src = '/assets/films/' + film[3]; } else if (th) { th.hidden = true; }
     }
   }
   // Play the film in place; when it ends, put the cover back so Vimeo's "More from" screen never shows

@@ -16,3 +16,4 @@ exclude:
   - assets/rotating/hero/README.md
   - assets/rotating/home-profile/README.md
   - assets/rotating/about-profile/README.md
+  - assets/films/README.md
