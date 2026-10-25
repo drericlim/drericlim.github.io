@@ -371,9 +371,10 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
     <div class="fb-film reveal">
       <h2 class="sr-only" id="film-title">A short film about my work</h2>
       <div class="film-frame" id="film">
-        <button type="button" class="film-play" data-src="https://player.vimeo.com/video/199445739?autoplay=1&amp;dnt=1">
+        {%- assign films = site.data["about-films"] -%}{%- assign f0 = films | first -%}
+        <button type="button" class="film-play" data-src="https://player.vimeo.com/video/{{ f0.vimeo | default: 199445739 }}?autoplay=1&amp;dnt=1&amp;badge=0&amp;title=0&amp;byline=0&amp;portrait=0" data-film-title="{{ f0.title | escape }}" data-rotate="{{ site.data["photo-rotation"]["about-film"] | default: 'weekly' }}" data-films="{%- for f in films -%}{{ f.vimeo }}~{{ f.label | escape }}~{{ f.title | escape }}|{%- endfor -%}">
           <span class="play" aria-hidden="true"></span>
-          <span class="film-t">Watch a short film about my work</span>
+          <span class="film-t">{{ f0.label | default: "Watch a short film about my work" }}</span>
         </button>
       </div>
     </div>
@@ -576,8 +577,20 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
     if (img.getAttribute('src') !== pick) img.src = pick;
   });
   var b = document.querySelector('.film-play');
+  // Rotating films: one of the films in _data/about-films.yml, chosen by date like the rotating photos
+  if (b) {
+    var films = (b.getAttribute('data-films') || '').split('|').filter(Boolean).map(function(s){ return s.split('~'); });
+    if (films.length > 1) {
+      var fdays = Math.floor((Date.now() - Date.UTC(2026, 0, 5)) / 86400000);
+      var fstep = b.getAttribute('data-rotate') === 'daily' ? fdays : Math.floor(fdays / 7);
+      var film = films[((fstep % films.length) + films.length) % films.length];
+      b.setAttribute('data-src', 'https://player.vimeo.com/video/' + film[0] + '?autoplay=1&dnt=1&badge=0&title=0&byline=0&portrait=0');
+      b.querySelector('.film-t').textContent = film[1];
+      b.setAttribute('data-film-title', film[2]);
+    }
+  }
   if (b) b.addEventListener('click', function(){
-    var i = document.createElement('iframe'); i.src = b.dataset.src; i.title = 'A short film about my work';
+    var i = document.createElement('iframe'); i.src = b.dataset.src; i.title = b.getAttribute('data-film-title') || 'A short film about my work';
     i.allow = 'autoplay; fullscreen; picture-in-picture'; i.allowFullscreen = true;
     b.replaceWith(i); i.focus();
   });

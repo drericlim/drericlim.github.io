@@ -1,0 +1,21 @@
+# Films on the About page (the dark band beside the quote).
+# One film is shown at a time; they take turns in the order below,
+# changing weekly or daily as set by "about-film" in _data/photo-rotation.yml.
+#
+# To add a film: copy one block, paste it at the end, and change the details.
+#   vimeo:  the number at the end of the Vimeo address (vimeo.com/199325659 -> 199325659)
+#   label:  the words on the play button
+#   title:  a short description, read out by screen readers
+# To remove a film: delete its block.
+
+- vimeo: 199325659
+  label: "Watch a short film about my work"
+  title: "Introduction to Professor Eric Lim, part 1"
+
+- vimeo: 199445739
+  label: "Watch a short film about my work"
+  title: "Introduction to Professor Eric Lim, part 2"
+
+- vimeo: 231725351
+  label: "Watch: my research on blood tests for cancer"
+  title: "Professor Eric Lim on ctDNA research, blood tests for the early detection of cancer"

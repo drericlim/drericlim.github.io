@@ -4,3 +4,4 @@
 hero: weekly           # big background photo at the top of the homepage
 home-profile: weekly   # photo in the homepage's About section
 about-profile: weekly  # portrait at the top of the About page
+about-film: weekly     # film on the About page (films are listed in _data/about-films.yml)

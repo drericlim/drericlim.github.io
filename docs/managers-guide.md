@@ -184,6 +184,25 @@ Three spots on the site take turns showing a set of photos, so the site looks fr
 
 ---
 
+### Films on the About page
+
+The About page shows one film at a time beside the quote, taking turns weekly like the rotating photos. The films are listed in **`_data/about-films.yml`**:
+
+```yaml
+- vimeo: 231725351
+  label: "Watch: my research on blood tests for cancer"
+  title: "Professor Eric Lim on ctDNA research, blood tests for the early detection of cancer"
+```
+
+- `vimeo` is the number at the end of the film's Vimeo address (vimeo.com/**231725351**).
+- `label` is the wording on the play button. `title` is a short description read out to visitors who use screen readers.
+- **To add a film,** copy a block, paste it at the end of the list, change the details and commit. Or simply give Claude the Vimeo link.
+- **To remove one,** delete its block. Films take turns in the order listed.
+- In Vimeo, the film's privacy settings must allow it to be embedded on other websites.
+- To change how often the film changes, edit the `about-film` line in `_data/photo-rotation.yml` (`weekly` or `daily`).
+
+---
+
 ## 7. Still to come before launch
 
 These sections of the guide will be added as each piece is built:
