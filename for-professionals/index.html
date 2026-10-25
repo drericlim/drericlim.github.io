@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thoracic Research, Trials and Statistics Teaching | Professor Eric Lim</title>
+<meta name="description" content="The clinical trials I lead and an introduction to my statistics course for clinicians, from Professor Eric Lim's academic thoracic surgery division at the Royal Brompton Hospital.">
+<link rel="canonical" href="https://www.drericlim.com/for-professionals">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Professor Eric Lim">
+<meta property="og:title" content="For professionals | Professor Eric Lim, Thoracic Surgeon">
+<meta property="og:description" content="The clinical trials I lead and a six-module statistics course for clinicians.">
+<meta property="og:url" content="https://www.drericlim.com/for-professionals">
+<meta property="og:image" content="https://images.squarespace-cdn.com/content/v1/63ae6bbcabb0e50580da6a65/1672375274416-PXXXUD41QW9JZTA9ZDA9/190807_lim_eric_011.jpg">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.drericlim.com/for-professionals#webpage",
+      "url": "https://www.drericlim.com/for-professionals",
+      "name": "For professionals",
+      "description": "The clinical trials I lead and an introduction to my statistics course for clinicians, from Professor Eric Lim's academic thoracic surgery division at the Royal Brompton Hospital.",
+      "inLanguage": "en-GB",
+      "audience": {"@type": "MedicalAudience", "audienceType": "Clinicians and researchers"},
+      "author": {"@id": "https://www.drericlim.com/#physician"},
+      "isPartOf": {"@id": "https://www.drericlim.com/#website"},
+      "hasPart": [
+        {"@type": "WebPage", "name": "Research and education", "url": "https://www.drericlim.com/research-and-education"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Statistics for clinicians",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "itemListElement": [
+
+        {"@type": "ListItem", "position": 1, "name": "Recording data", "url": "https://www.drericlim.com/recording-data"},
+        {"@type": "ListItem", "position": 2, "name": "Summarising data", "url": "https://www.drericlim.com/summarising-data"},
+        {"@type": "ListItem", "position": 3, "name": "Comparing a single outcome and variable", "url": "https://www.drericlim.com/comparing-single-outcome-and-variable"},
+        {"@type": "ListItem", "position": 4, "name": "Comparing with multiple variables", "url": "https://www.drericlim.com/comparing-with-multiple-variables"},
+        {"@type": "ListItem", "position": 5, "name": "Advanced statistical methods", "url": "https://www.drericlim.com/advanced-statistical-methods"},
+        {"@type": "ListItem", "position": 6, "name": "Predicting survival", "url": "https://www.drericlim.com/predicting-survival"}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.drericlim.com/"},
+        {"@type": "ListItem", "position": 2, "name": "For professionals", "item": "https://www.drericlim.com/for-professionals"}
+      ]
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0A1E36; --ink-soft:#12304F;
+  --blue:#1B5FA8; --blue-deep:#134A86;
+  --sky:#9CC3EA; --sky-mid:#7FAEDD; --sky-light:#BBD9F2;
+  --mist:#DCE8F5; --porcelain:#F5F7FA; --white:#FFFFFF;
+  --text:#1F2E3D; --text-soft:#5A6B7D;
+  --serif:'Newsreader', Georgia, serif;
+  --sans:'Instrument Sans', -apple-system, sans-serif;
+  --nav-h:68px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:24px;}
+body{font-family:var(--sans);color:var(--text);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;}
+a{text-decoration:none;color:inherit;}
+.eyebrow{font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:600;}
+.container{max-width:1180px;margin:0 auto;padding:0 40px;}
+@media(max-width:720px){.container{padding:0 22px;}}
+
+/* Nav */
+.site-nav{background:var(--ink);height:var(--nav-h);display:flex;align-items:center;border-bottom:1px solid rgba(255,255,255,.08);}
+.site-nav .container{display:flex;align-items:center;justify-content:space-between;width:100%;}
+.site-nav .brand{color:#fff;font-family:var(--serif);font-size:20px;font-weight:500;}
+.site-nav .brand span{font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;opacity:.75;display:block;font-weight:500;}
+.site-nav ul{display:flex;gap:30px;list-style:none;align-items:center;}
+.site-nav ul a{color:rgba(255,255,255,.85);font-size:14px;font-weight:500;}
+.site-nav ul a:hover{color:#fff;}
+.site-nav ul a[aria-current="page"]{color:#fff;border-bottom:2px solid var(--sky-mid);padding-bottom:4px;}
+.site-nav .cta{background:var(--blue);color:#fff;padding:10px 20px;border-radius:3px;font-weight:600;font-size:14px;white-space:nowrap;}
+.site-nav .cta:hover{background:var(--blue-deep);}
+@media(max-width:900px){.site-nav ul li:not(:last-child){display:none;}}
+@media(max-width:420px){.site-nav .cta{padding:9px 14px;font-size:13px;}.site-nav .brand span{display:none;}}
+
+/* Hero with pressed sand texture */
+.page-hero{background:var(--ink);position:relative;padding:90px 0 100px;overflow:hidden;}
+.page-hero .texture{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;}
+.page-hero .container{position:relative;z-index:2;}
+.page-hero .eyebrow{color:var(--sky);margin-bottom:20px;}
+.page-hero h1{font-family:var(--serif);font-weight:300;font-size:clamp(34px,4.4vw,54px);color:#fff;line-height:1.1;max-width:18ch;letter-spacing:-0.01em;}
+.page-hero h1 em{font-style:italic;font-weight:400;color:var(--sky-light);}
+.page-hero p{color:rgba(255,255,255,.75);font-size:17px;max-width:56ch;margin-top:22px;line-height:1.7;}
+
+/* Contents */
+.contents{background:var(--porcelain);border-bottom:1px solid #E3E9F0;padding:30px 0 26px;}
+.contents .lbl{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-soft);font-weight:600;margin-bottom:12px;}
+.contents ol{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);grid-auto-flow:column;grid-template-rows:repeat(var(--ra),auto);gap:4px 32px;}
+.contents a{display:flex;gap:10px;align-items:baseline;padding:6px 0;font-family:var(--serif);font-size:18px;color:var(--ink);border-bottom:1px solid transparent;transition:color .2s;}
+.contents a:hover{color:var(--blue);}
+.contents .n{font-style:italic;font-size:14px;color:var(--text-soft);min-width:18px;}
+@media(max-width:960px){.contents ol{grid-template-columns:1fr 1fr;grid-template-rows:repeat(var(--rb),auto);}}
+@media(max-width:560px){.contents ol{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none;}}
+
+/* Sections */
+main section{padding:72px 0;}
+main section.alt{background:var(--porcelain);}
+.section-head{max-width:680px;margin-bottom:40px;}
+.section-head .eyebrow{color:var(--blue);margin-bottom:16px;display:flex;gap:12px;align-items:center;}
+.section-head .mark-link{flex:none;display:inline-flex;border-radius:50%;margin-right:4px;transition:transform .2s ease,box-shadow .2s ease;}
+.section-head .mark-link:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(10,30,54,.18);}
+.section-head .mark-link:focus-visible{outline:2px solid var(--blue);outline-offset:3px;}
+.research .section-head .mark-link:focus-visible{outline-color:var(--sky);}
+.section-head .mark{width:46px;height:46px;display:block;}
+.section-head .eyebrow .num{font-family:var(--serif);font-style:italic;font-size:15px;letter-spacing:0;text-transform:none;color:var(--text-soft);font-weight:400;}
+.section-head h2{font-family:var(--serif);font-weight:400;font-size:clamp(28px,3vw,38px);color:var(--ink);line-height:1.15;letter-spacing:-0.01em;}
+.section-head p{color:var(--text-soft);font-size:16px;margin-top:14px;}
+
+.card-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;}
+.card-grid.two{grid-template-columns:repeat(2,1fr);}
+.card-grid.three{grid-template-columns:repeat(3,1fr);}
+.card{background:var(--porcelain);border:1px solid #E3E9F0;border-radius:6px;padding:26px 24px;transition:border-color .25s,transform .25s;display:flex;flex-direction:column;}
+.alt .card{background:var(--white);}
+.card:hover{border-color:var(--blue);transform:translateY(-3px);}
+.card h3{font-family:var(--serif);font-weight:500;font-size:20px;color:var(--ink);margin-bottom:8px;}
+.card p{font-size:14px;color:var(--text-soft);margin-bottom:16px;line-height:1.6;flex:1;}
+.card .go{color:var(--blue);font-weight:600;font-size:13.5px;}
+.card .go::after{content:' →';}
+@media(max-width:960px){.card-grid,.card-grid.three{grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(2,auto);}.card-grid.two{grid-auto-flow:row;grid-template-rows:none;}}
+@media(max-width:560px){.card-grid,.card-grid.two,.card-grid.three{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none;}}
+
+.index{display:grid;grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(var(--ra,1),auto);column-gap:60px;}
+.index a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:20px 4px;border-bottom:1px solid #DEE4EC;transition:padding .2s,border-color .2s;}
+.index a:hover{border-color:var(--blue);padding-left:12px;}
+.index .name{font-family:var(--serif);font-size:20px;color:var(--ink);}
+.index .tag{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-soft);white-space:nowrap;}
+.index a:hover .tag{color:var(--blue);}
+@media(max-width:760px){.index{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none;}}
+
+.research{background:var(--ink);color:#fff;}
+.research .section-head .eyebrow{color:var(--sky);}
+.research .section-head .eyebrow .num{color:rgba(255,255,255,.4);}
+.research .section-head h2{color:#fff;}
+.research .section-head p{color:rgba(255,255,255,.7);}
+.research .card{background:var(--ink-soft);border-color:rgba(255,255,255,.15);}
+.research .card h3{color:#fff;}
+.research .card p{color:rgba(255,255,255,.68);}
+.research .card .go{color:var(--sky);}
+.research .card:hover{border-color:var(--sky-mid);}
+
+.articles{list-style:none;border-top:1px solid #DEE4EC;}
+.articles a{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1.4fr) auto;gap:8px 36px;align-items:baseline;padding:24px 4px;border-bottom:1px solid #DEE4EC;transition:padding .2s,border-color .2s;}
+.articles a:hover{border-color:var(--blue);padding-left:12px;}
+.articles .a-title{font-family:var(--serif);font-size:21px;color:var(--ink);line-height:1.3;}
+.articles .a-sum{font-size:15px;color:var(--text-soft);}
+.articles .a-meta{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-soft);white-space:nowrap;}
+.articles a:hover .a-meta{color:var(--blue);}
+@media(max-width:760px){.articles a{grid-template-columns:1fr;}}
+.close-cta{text-align:center;padding:100px 0;}
+.close-cta h2{font-family:var(--serif);font-weight:400;font-size:clamp(28px,3.4vw,40px);color:var(--ink);margin-bottom:16px;}
+.close-cta p{color:var(--text-soft);max-width:46ch;margin:0 auto 34px;font-size:16.5px;}
+.btn-primary{background:var(--blue);color:#fff;padding:15px 28px;border-radius:3px;font-weight:600;font-size:15px;display:inline-block;transition:background .2s;}
+.btn-primary:hover{background:var(--blue-deep);}
+.close-cta .sub{margin-top:22px;font-size:13.5px;}
+.close-cta .sub a{color:var(--blue);font-weight:600;}
+
+/* Footer (shared with homepage) */
+footer{background:var(--ink);color:rgba(255,255,255,.65);padding:64px 0 44px;font-size:14px;}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:50px;}
+footer .brand{font-family:var(--serif);color:#fff;font-size:20px;margin-bottom:14px;}
+footer h2{color:#fff;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:16px;font-weight:600;}
+footer ul{list-style:none;}
+footer ul li{margin-bottom:9px;}
+footer a:hover{color:#fff;}
+footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-top:24px;font-size:12.5px;color:rgba(255,255,255,.4);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+@media(max-width:860px){footer .cols{grid-template-columns:1fr 1fr;gap:34px;}}
+@media(max-width:520px){footer .cols{grid-template-columns:1fr;}}
+
+/* Editor-safe scroll reveal */
+.js-reveal .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;}
+.js-reveal .reveal.in{opacity:1;transform:none;}
+@media(prefers-reduced-motion:reduce){.js-reveal .reveal{opacity:1!important;transform:none!important;}html{scroll-behavior:auto;}}
+
+/* ---------- For professionals ---------- */
+.research-grid{display:grid;grid-template-columns:1fr;gap:24px;}
+.big-card{border:1px solid #E3E9F0;border-radius:6px;padding:34px 32px;background:var(--porcelain);transition:border-color .25s,transform .25s;display:flex;flex-direction:column;}
+.big-card:hover{border-color:var(--blue);transform:translateY(-3px);}
+.big-card .kind{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--blue);margin-bottom:12px;}
+.big-card h3{font-family:var(--serif);font-weight:400;font-size:26px;color:var(--ink);margin-bottom:12px;line-height:1.2;}
+.big-card p{font-size:15.5px;color:var(--text-soft);margin-bottom:20px;line-height:1.7;flex:1;}
+.big-card .go{color:var(--blue);font-weight:600;font-size:14px;}
+.big-card .go::after{content:' →';}
+@media(max-width:800px){.research-grid{grid-template-columns:1fr;}}
+
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+.course{display:flex;align-items:center;justify-content:space-between;gap:30px;background:var(--blue);color:#fff;border-radius:6px;padding:32px 36px;margin-bottom:44px;transition:background .2s,transform .2s;}
+.course:hover{background:var(--blue-deep);transform:translateY(-2px);}
+.course:focus-visible{outline:3px solid var(--sky);outline-offset:3px;}
+.c-text{display:flex;flex-direction:column;gap:6px;max-width:62ch;}
+.c-kind{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--sky-light);}
+.c-title{font-family:var(--serif);font-size:28px;line-height:1.2;}
+.c-sum{font-size:15.5px;color:rgba(255,255,255,.85);line-height:1.6;}
+.c-btn{flex:none;background:#fff;color:var(--ink);font-weight:600;font-size:15px;padding:14px 24px;border-radius:3px;white-space:nowrap;}
+@media(max-width:760px){.course{flex-direction:column;align-items:flex-start;padding:26px 24px;}}
+.intro-lbl{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--text-soft);margin-bottom:10px;}
+.course-after{margin-top:26px;font-size:15.5px;color:var(--text-soft);}
+.course-after a{color:var(--blue);font-weight:600;border-bottom:1px solid currentColor;}
+
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+.post{display:flex;flex-direction:column;border:1px solid #E3E9F0;border-radius:6px;overflow:hidden;background:#fff;transition:border-color .25s,transform .25s;}
+.post:hover{border-color:var(--blue);transform:translateY(-3px);}
+.p-art{display:block;aspect-ratio:400/190;background:#E9EFF6;}
+.p-art svg{display:block;width:100%;height:100%;}
+.p-body{display:flex;flex-direction:column;gap:8px;padding:20px 22px 22px;flex:1;}
+.p-meta{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-soft);font-weight:600;}
+.p-title{font-family:var(--serif);font-size:21px;line-height:1.25;color:var(--ink);}
+.p-sum{font-size:14.5px;line-height:1.6;color:var(--text-soft);flex:1;}
+.p-go{color:var(--blue);font-weight:600;font-size:13.5px;margin-top:6px;}
+@media(max-width:960px){.posts{grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(2,auto);}}
+@media(max-width:600px){.posts{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none;}}
+.more{list-style:none;display:grid;grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(var(--ra),auto);column-gap:60px;border-top:1px solid #DEE4EC;}
+.more a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:14px 4px;border-bottom:1px solid #DEE4EC;transition:padding .2s,border-color .2s;}
+.more a:hover{border-color:var(--blue);padding-left:10px;}
+.more .mt{font-family:var(--serif);font-size:18px;color:var(--ink);line-height:1.35;}
+.more .mc{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-soft);white-space:nowrap;}
+.more a:hover .mc{color:var(--blue);}
+@media(max-width:760px){.more{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none;}}
+.subscribe{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:16px 40px;align-items:center;margin-top:40px;padding:28px 30px;background:var(--porcelain);border:1px solid #E3E9F0;border-radius:6px;}
+.s-title{font-family:var(--serif);font-size:23px;color:var(--ink);}
+.s-sum{font-size:14.5px;color:var(--text-soft);margin-top:4px;}
+.s-form{display:flex;gap:10px;}
+.s-form input{flex:1;min-width:0;font:inherit;font-size:15px;padding:12px 14px;border:1px solid #C9D6E6;border-radius:3px;background:#fff;color:var(--text);}
+.s-form input:focus{outline:2px solid var(--blue);outline-offset:1px;border-color:var(--blue);}
+.s-form button{font:inherit;font-weight:600;font-size:15px;padding:12px 22px;border:0;border-radius:3px;background:var(--blue);color:#fff;cursor:pointer;}
+.s-form button:hover{background:var(--blue-deep);}
+.s-all{grid-column:2;font-size:14px;font-weight:600;color:var(--blue);}
+@media(max-width:860px){.subscribe{grid-template-columns:1fr;}.s-all{grid-column:1;}}
+.subscribe > *{min-width:0;}
+@media(max-width:480px){.subscribe{padding:22px 20px;}.s-form{flex-direction:column;}.s-form button{width:100%;}}
+.curriculum{list-style:none;border-top:1px solid #DEE4EC;}
+.hero-cta{display:inline-flex;align-items:center;gap:8px;margin-top:30px;padding:13px 24px;border:1px solid rgba(255,255,255,.45);border-radius:3px;color:#fff;font-weight:600;font-size:15px;transition:background .2s,border-color .2s;}
+.hero-cta:hover{background:rgba(255,255,255,.08);border-color:#fff;}
+.hero-cta:focus-visible{outline:2px solid var(--sky);outline-offset:3px;}
+.alt .subscribe{background:#fff;}
+.module{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:20px;align-items:baseline;padding:24px 4px;border-bottom:1px solid #DEE4EC;transition:padding .2s,border-color .2s;}
+.module:hover{border-color:var(--blue);padding-left:12px;}
+.m-num{font-family:var(--serif);font-style:italic;font-size:17px;color:var(--blue);}
+.m-body{display:flex;flex-direction:column;gap:4px;}
+.m-title{font-family:var(--serif);font-size:21px;color:var(--ink);}
+.m-sum{font-size:14.5px;color:var(--text-soft);max-width:64ch;}
+.m-tag{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-soft);white-space:nowrap;}
+.module:hover .m-tag{color:var(--blue);}
+@media(max-width:680px){.module{grid-template-columns:40px minmax(0,1fr);}.m-tag{display:none;}}
+
+.vgr{background:var(--ink);color:#fff;}
+.vgr .section-head .eyebrow{color:var(--sky);}
+.vgr .section-head .eyebrow .num{color:rgba(255,255,255,.4);}
+.vgr .section-head h2{color:#fff;}
+.vgr .section-head p{color:rgba(255,255,255,.72);}
+.vgr .section-head .mark-link:focus-visible{outline-color:var(--sky);}
+.vgr-body{display:grid;grid-template-columns:1fr 1.1fr;gap:60px;align-items:center;}
+.vgr-nums{display:grid;grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(2,auto);gap:28px 30px;}
+.vgr-nums .n{font-family:var(--serif);font-size:38px;line-height:1;color:#fff;}
+.vgr-nums .l{font-size:13.5px;color:rgba(255,255,255,.62);margin-top:8px;}
+.btn-light{background:#fff;color:var(--ink);padding:14px 26px;border-radius:3px;font-weight:600;font-size:14.5px;display:inline-block;transition:background .2s;}
+.btn-light:hover{background:var(--mist);}
+.vgr-links{display:flex;flex-wrap:wrap;gap:12px 22px;align-items:center;}
+.vgr-links .sub{color:rgba(255,255,255,.8);font-size:14.5px;font-weight:500;border-bottom:1px solid rgba(255,255,255,.3);padding-bottom:2px;}
+.vgr-links .sub:hover{color:#fff;border-color:#fff;}
+@media(max-width:860px){.vgr-body{grid-template-columns:1fr;gap:36px;}}
+.contents ol.four{grid-template-columns:repeat(4,1fr);grid-template-rows:none;grid-auto-flow:row;}
+@media(max-width:960px){.contents ol.four{grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(2,auto);}}
+@media(max-width:560px){.contents ol.four{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none;}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="forest-light" viewBox="0 0 64 64">
+    <circle cx="32" cy="32" r="31" fill="#E4ECF5"/>
+    <g fill="none" stroke-linecap="round">
+      <path id="forest-light-g" d="M38,11V53 M21,19H39 M24,29H44 M20,39H36"/>
+      <use href="#forest-light-g" transform="translate(.6,.6)" stroke="rgba(255,255,255,.95)" stroke-width="2"/>
+      <use href="#forest-light-g" transform="translate(-.5,-.5)" stroke="rgba(10,30,54,.30)" stroke-width="2"/>
+      <use href="#forest-light-g" stroke="#C7D4E4" stroke-width="2"/>
+    </g>
+    <g id="forest-light-b"><rect x="26.00" y="15.00" width="8.00" height="8.00"/><rect x="29.40" y="24.40" width="9.20" height="9.20"/><rect x="24.40" y="35.40" width="7.20" height="7.20"/><path d="M20,49 L31,45.5 L42,49 L31,52.5Z"/></g>
+    <use href="#forest-light-b" transform="translate(-.8,-.8)" fill="#FFFFFF"/>
+    <use href="#forest-light-b" transform="translate(1,1)" fill="rgba(10,30,54,.30)"/>
+    <use href="#forest-light-b" fill="#EDF2F8"/>
+  </symbol>
+  <symbol id="forest-dark" viewBox="0 0 64 64">
+    <circle cx="32" cy="32" r="31" fill="#0D2440"/>
+    <g fill="none" stroke-linecap="round">
+      <path id="forest-dark-g" d="M38,11V53 M21,19H39 M24,29H44 M20,39H36"/>
+      <use href="#forest-dark-g" transform="translate(.6,.6)" stroke="rgba(187,217,242,.10)" stroke-width="2"/>
+      <use href="#forest-dark-g" transform="translate(-.5,-.5)" stroke="rgba(0,0,0,.45)" stroke-width="2"/>
+      <use href="#forest-dark-g" stroke="#091B31" stroke-width="2"/>
+    </g>
+    <g id="forest-dark-b"><rect x="26.00" y="15.00" width="8.00" height="8.00"/><rect x="29.40" y="24.40" width="9.20" height="9.20"/><rect x="24.40" y="35.40" width="7.20" height="7.20"/><path d="M20,49 L31,45.5 L42,49 L31,52.5Z"/></g>
+    <use href="#forest-dark-b" transform="translate(-.8,-.8)" fill="rgba(187,217,242,.16)"/>
+    <use href="#forest-dark-b" transform="translate(1,1)" fill="rgba(0,0,0,.45)"/>
+    <use href="#forest-dark-b" fill="#163757"/>
+  </symbol>
+</svg>
+<header id="top">
+<nav class="site-nav" aria-label="Main">
+  <div class="container">
+    <a href="/" class="brand" aria-label="Professor Eric Lim, home">Eric Lim<span>Thoracic surgeon · London</span></a>
+    <ul>
+      <li><a href="/for-patients">For patients</a></li>
+      <li><a href="/for-professionals" aria-current="page">For professionals</a></li>
+      <li><a href="/virtual-grand-rounds">virtual Grand Rounds</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact-us" class="cta">Request a consultation</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+<main>
+<div class="page-hero">
+  <svg class="texture" viewBox="0 0 1440 480" preserveAspectRatio="xMaxYMid slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="fade-p1" x1="0" x2="1"><stop offset="0.2" stop-color="#fff" stop-opacity="0"/><stop offset="0.6" stop-color="#fff"/></linearGradient>
+      <mask id="m-p1"><rect width="1440" height="480" fill="url(#fade-p1)"/></mask>
+    </defs>
+    <g mask="url(#m-p1)"><g fill="none">
+      <path id="fp" d="M1070,28V460 M1047.9,52H1165.8 M941.9,86H1037 M871.3,120H976.9 M1093.2,154H1235.8 M915.4,188H1089.3 M934.7,222H1060.2 M994.7,256H1121.5 M1020.7,290H1148.4 M920,324H1093.6 M960.4,358H1045.3 M882.3,392H1067.9 M720,414H1400" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#fp" transform="translate(1.1,1.1)" stroke="rgba(187,217,242,0.075)" stroke-width="2.2"/>
+      <use href="#fp" transform="translate(-0.9,-0.9)" stroke="rgba(0,0,0,0.420)" stroke-width="2.2"/>
+      <use href="#fp" stroke="#091B31" stroke-width="2.2"/>
+      <g id="fb"><rect x="1093.4" y="38.6" width="26.8" height="26.8"/><rect x="979" y="75.5" width="20.9" height="20.9"/><rect x="911.2" y="107.1" width="25.8" height="25.8"/><rect x="1153.4" y="142.9" width="22.3" height="22.3"/><rect x="989.4" y="175.1" width="25.8" height="25.8"/><rect x="985.2" y="209.8" width="24.4" height="24.4"/><rect x="1051.1" y="249" width="14" height="14"/><rect x="1075.1" y="280.5" width="19" height="19"/><rect x="996" y="313.2" width="21.5" height="21.5"/><rect x="990.2" y="345.3" width="25.3" height="25.3"/><rect x="960.7" y="377.5" width="28.9" height="28.9"/><path d="M960,440 L1018,427 L1076,440 L1018,453Z"/></g>
+      <use href="#fb" transform="translate(-1.5,-1.5)" fill="rgba(187,217,242,.10)"/>
+      <use href="#fb" transform="translate(2,2)" fill="rgba(0,0,0,.45)"/>
+      <use href="#fb" fill="#0D2440"/></g></g>
+  </svg>
+  <div class="container">
+    <p class="eyebrow">For professionals</p>
+    <h1>Research and education for the <em>next generation</em> of clinicians.</h1>
+    <p>The trials, methodology and statistics teaching behind the academic division of thoracic surgery at the Royal Brompton Hospital, open to researchers and clinicians everywhere.</p>
+    <a href="https://www.statisticscourse.com/?utm_source=drericlim&amp;utm_medium=referral&amp;utm_campaign=professionals_header" class="hero-cta" target="_blank" rel="noopener">Statistics course <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+  </div>
+</div>
+
+<nav class="contents" aria-label="On this page">
+  <div class="container">
+    <p class="lbl">On this page</p>
+    <ol class="four">
+      <li><a href="#research"><span class="n">01</span>Research</a></li>
+      <li><a href="#reflections"><span class="n">02</span>Thoracic Reflections</a></li>
+      <li><a href="#statistics"><span class="n">03</span>Statistics for clinicians</a></li>
+      <li><a href="#grand-rounds"><span class="n">04</span>virtual Grand Rounds</a></li>
+    </ol>
+  </div>
+</nav>
+
+<section id="research" aria-labelledby="research-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><a href="#top" class="mark-link" aria-label="Back to top of page" title="Back to top"><svg class="mark" aria-hidden="true" focusable="false"><use href="#forest-light"/></svg></a><span class="num">01</span>Research</p>
+      <h2 id="research-title">Trials that change practice worldwide.</h2>
+    </div>
+    <div class="research-grid">
+      <a href="/research-and-education" class="big-card reveal">
+        <span class="kind">Research programme</span>
+        <h3>Research and education</h3>
+        <p>The randomised trials I lead, including VIOLET, MARS&nbsp;2 and RAMON, supported by more than £6 million in NIHR funding, and how their evidence reaches the operating theatre.</p>
+        <span class="go">Explore the research</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="reflections" class="alt" aria-labelledby="reflections-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><a href="#top" class="mark-link" aria-label="Back to top of page" title="Back to top"><svg class="mark" aria-hidden="true" focusable="false"><use href="#forest-light"/></svg></a><span class="num">02</span>Thoracic Reflections</p>
+      <h2 id="reflections-title">Commentary on the evidence, as it emerges.</h2>
+      <p>Essays on the trials, guidelines and debates shaping thoracic surgery and oncology. Read them here, or receive each new one by email.</p>
+    </div>
+    <div class="posts">
+      <a href="/thoracic-reflections/the-segmentectomy-movement" class="post reveal"><span class="p-art"><svg viewBox="0 0 400 190" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><rect width="400" height="190" fill="#E9EFF6"/><g fill="none"><path id="cv1l" d="M230,14V176 M223.3,28H274.5 M170.5,46H212.5 M136.4,64H182.7 M246.6,82H307.6 M161,100H234.6 M168.3,118H222.5 M197.7,136H252.4 M90,150H340" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#cv1l" transform="translate(1,1)" stroke="rgba(255,255,255,.95)" stroke-width="1.8"/>
+      <use href="#cv1l" transform="translate(-.8,-.8)" stroke="rgba(10,30,54,.18)" stroke-width="1.8"/>
+      <use href="#cv1l" stroke="#DCE4EE" stroke-width="1.8"/><g id="cv1b"><rect x="242.1" y="21.2" width="13.6" height="13.6"/><rect x="186" y="40.5" width="11" height="11"/><rect x="153" y="57.4" width="13.1" height="13.1"/><rect x="271.3" y="76.2" width="11.6" height="11.6"/><rect x="191.2" y="93.4" width="13.2" height="13.2"/><rect x="189.1" y="111.7" width="12.5" height="12.5"/><rect x="221.1" y="132" width="8" height="8"/><path d="M176,163 L206,156 L236,163 L206,170Z"/></g>
+      <use href="#cv1b" transform="translate(-1.2,-1.2)" fill="#FFFFFF"/>
+      <use href="#cv1b" transform="translate(1.5,1.5)" fill="rgba(10,30,54,.16)"/>
+      <use href="#cv1b" fill="#EEF2F7"/></g></svg></span><span class="p-body"><span class="p-meta">Surgical technique · 24 Oct 2026</span><span class="p-title">The segmentectomy movement</span><span class="p-sum">What JCOG0802 and CALGB 140503 changed, and what they did not.</span><span class="p-go">Read the article</span></span></a>
+      <a href="/thoracic-reflections/how-many-lymph-nodes-should-we-remove" class="post reveal"><span class="p-art"><svg viewBox="0 0 400 190" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><rect width="400" height="190" fill="#E9EFF6"/><g fill="none"><path id="cv2" d="M0,40 S5.7,40 11.4,40 S17.1,40 22.9,40 S28.6,40 34.3,40 S40,40 45.7,40 S51.4,40 57.1,40 S62.9,39.9 68.6,39.9 S74.3,39.9 80,39.8 S85.7,39.8 91.4,39.7 S97.1,39.6 102.9,39.5 S108.6,39.3 114.3,39.1 S120,38.8 125.7,38.5 S131.4,38.1 137.1,37.6 S142.9,37 148.6,36.4 S154.3,35.6 160,34.7 S165.7,33.6 171.4,32.5 S177.1,31.1 182.9,29.7 S188.6,28.1 194.3,26.5 S200,24.6 205.7,22.8 S211.4,20.8 217.1,18.9 S222.9,17 228.6,15 S234.3,13.3 240,11.5 S245.7,10.1 251.4,8.7 S257.1,7.7 262.9,6.8 S268.6,6.4 274.3,6 S280,6.2 285.7,6.5 S291.4,7.3 297.1,8.1 S302.9,9.4 308.6,10.7 S314.3,12.4 320,14.1 S325.7,16 331.4,17.9 S337.1,19.9 342.9,21.8 S348.6,23.7 354.3,25.6 S360,27.3 365.7,29 S371.4,30.4 377.1,31.9 S382.9,33 388.6,34.2 S394.3,35.1 400,36 M0,59 S5.7,59 11.4,59 S17.1,59 22.9,59 S28.6,59 34.3,59 S40,59 45.7,59 S51.4,59 57.1,59 S62.9,59 68.6,59 S74.3,59 80,59 S85.7,59 91.4,59 S97.1,58.9 102.9,58.9 S108.6,58.9 114.3,58.8 S120,58.8 125.7,58.7 S131.4,58.6 137.1,58.4 S142.9,58.2 148.6,58 S154.3,57.6 160,57.2 S165.7,56.7 171.4,56.1 S177.1,55.3 182.9,54.4 S188.6,53.3 194.3,52.2 S200,50.7 205.7,49.3 S211.4,47.5 217.1,45.7 S222.9,43.8 228.6,41.8 S234.3,39.7 240,37.6 S245.7,35.6 251.4,33.6 S257.1,32 262.9,30.3 S268.6,29.2 274.3,28 S280,27.5 285.7,27 S291.4,27.3 297.1,27.5 S302.9,28.4 308.6,29.4 S314.3,30.9 320,32.4 S325.7,34.3 331.4,36.2 S337.1,38.3 342.9,40.4 S348.6,42.4 354.3,44.4 S360,46.3 365.7,48.1 S371.4,49.7 377.1,51.3 S382.9,52.5 388.6,53.7 S394.3,54.7 400,55.6 M0,78 S5.7,78 11.4,78 S17.1,78 22.9,78 S28.6,78 34.3,78 S40,78 45.7,78 S51.4,78 57.1,78 S62.9,78 68.6,78 S74.3,78 80,78 S85.7,78 91.4,78 S97.1,78 102.9,78 S108.6,77.9 114.3,77.9 S120,77.8 125.7,77.8 S131.4,77.6 137.1,77.4 S142.9,77.1 148.6,76.8 S154.3,76.1 160,75.5 S165.7,74.4 171.4,73.4 S177.1,71.8 182.9,70.2 S188.6,68 194.3,65.8 S200,63.3 205.7,60.7 S211.4,58.1 217.1,55.4 S222.9,53.2 228.6,51 S234.3,49.7 240,48.4 S245.7,48.3 251.4,48.3 S257.1,49.4 262.9,50.6 S268.6,52.7 274.3,54.8 S280,57.5 285.7,60.1 S291.4,62.7 297.1,65.3 S302.9,67.5 308.6,69.7 S314.3,71.4 320,73.1 S325.7,74.2 331.4,75.3 S337.1,76 342.9,76.6 S348.6,77 354.3,77.4 S360,77.6 365.7,77.7 S371.4,77.8 377.1,77.9 S382.9,77.9 388.6,78 S394.3,78 400,78 M0,97 S5.7,97 11.4,97 S17.1,97 22.9,97 S28.6,97 34.3,97 S40,97 45.7,97 S51.4,97 57.1,97 S62.9,97 68.6,97 S74.3,96.9 80,96.8 S85.7,96.7 91.4,96.5 S97.1,96.1 102.9,95.6 S108.6,94.7 114.3,93.8 S120,92.1 125.7,90.4 S131.4,87.9 137.1,85.3 S142.9,82.2 148.6,79 S154.3,76.1 160,73.1 S165.7,71.3 171.4,69.5 S177.1,69.5 182.9,69.5 S188.6,71.4 194.3,73.2 S200,76.2 205.7,79.2 S211.4,82.3 217.1,85.5 S222.9,88 228.6,90.5 S234.3,92.2 240,93.8 S245.7,94.8 251.4,95.7 S257.1,96.1 262.9,96.5 S268.6,96.7 274.3,96.8 S280,96.9 285.7,97 S291.4,97 297.1,97 S302.9,97 308.6,97 S314.3,97 320,97 S325.7,97 331.4,97 S337.1,97 342.9,97 S348.6,97 354.3,97 S360,97 365.7,97 S371.4,97 377.1,97 S382.9,97 388.6,97 S394.3,97 400,97 M0,115.9 S5.7,115.9 11.4,115.8 S17.1,115.6 22.9,115.5 S28.6,115.1 34.3,114.8 S40,114.1 45.7,113.4 S51.4,112.3 57.1,111.1 S62.9,109.4 68.6,107.6 S74.3,105.3 80,103.1 S85.7,100.5 91.4,98 S97.1,95.7 102.9,93.4 S108.6,92 114.3,90.5 S120,90.4 125.7,90.2 S131.4,91.3 137.1,92.4 S142.9,94.5 148.6,96.6 S154.3,99.2 160,101.7 S165.7,104.1 171.4,106.5 S177.1,108.4 182.9,110.3 S188.6,111.6 194.3,112.9 S200,113.7 205.7,114.5 S211.4,114.9 217.1,115.3 S222.9,115.5 228.6,115.7 S234.3,115.8 240,115.9 S245.7,115.9 251.4,116 S257.1,116 262.9,116 S268.6,116 274.3,116 S280,116 285.7,116 S291.4,116 297.1,116 S302.9,116 308.6,116 S314.3,116 320,116 S325.7,116 331.4,116 S337.1,116 342.9,116 S348.6,116 354.3,116 S360,116 365.7,116 S371.4,116 377.1,116 S382.9,116 388.6,116 S394.3,116 400,116 M0,133.3 S5.7,132.8 11.4,132.2 S17.1,131.4 22.9,130.6 S28.6,129.5 34.3,128.5 S40,127.1 45.7,125.7 S51.4,124.2 57.1,122.6 S62.9,120.9 68.6,119.2 S74.3,117.6 80,116 S85.7,114.7 91.4,113.3 S97.1,112.5 102.9,111.6 S108.6,111.3 114.3,111 S120,111.4 125.7,111.7 S131.4,112.6 137.1,113.6 S142.9,114.9 148.6,116.3 S154.3,117.9 160,119.6 S165.7,121.2 171.4,122.9 S177.1,124.5 182.9,126 S188.6,127.4 194.3,128.7 S200,129.8 205.7,130.8 S211.4,131.6 217.1,132.4 S222.9,132.9 228.6,133.4 S234.3,133.8 240,134.1 S245.7,134.3 251.4,134.5 S257.1,134.6 262.9,134.8 S268.6,134.8 274.3,134.9 S280,134.9 285.7,134.9 S291.4,135 297.1,135 S302.9,135 308.6,135 S314.3,135 320,135 S325.7,135 331.4,135 S337.1,135 342.9,135 S348.6,135 354.3,135 S360,135 365.7,135 S371.4,135 377.1,135 S382.9,135 388.6,135 S394.3,135 400,135 M0,153.4 S5.7,153.2 11.4,153 S17.1,152.7 22.9,152.4 S28.6,151.9 34.3,151.5 S40,150.9 45.7,150.3 S51.4,149.6 57.1,148.8 S62.9,147.9 68.6,146.9 S74.3,145.8 80,144.7 S85.7,143.5 91.4,142.3 S97.1,141 102.9,139.7 S108.6,138.5 114.3,137.3 S120,136.2 125.7,135.1 S131.4,134.2 137.1,133.3 S142.9,132.8 148.6,132.3 S154.3,132.1 160,132 S165.7,132.3 171.4,132.5 S177.1,133.2 182.9,133.8 S188.6,134.8 194.3,135.7 S200,136.9 205.7,138 S211.4,139.3 217.1,140.6 S222.9,141.8 228.6,143.1 S234.3,144.3 240,145.5 S245.7,146.5 251.4,147.6 S257.1,148.5 262.9,149.3 S268.6,150 274.3,150.7 S280,151.3 285.7,151.8 S291.4,152.2 297.1,152.6 S302.9,152.8 308.6,153.1 S314.3,153.3 320,153.5 S325.7,153.6 331.4,153.7 S337.1,153.8 342.9,153.8 S348.6,153.9 354.3,153.9 S360,153.9 365.7,154 S371.4,154 377.1,154 S382.9,154 388.6,154 S394.3,154 400,154 M0,173 S5.7,173 11.4,173 S17.1,173 22.9,173 S28.6,173 34.3,172.9 S40,172.9 45.7,172.9 S51.4,172.8 57.1,172.8 S62.9,172.7 68.6,172.6 S74.3,172.5 80,172.4 S85.7,172.2 91.4,171.9 S97.1,171.6 102.9,171.3 S108.6,170.9 114.3,170.4 S120,169.8 125.7,169.2 S131.4,168.4 137.1,167.6 S142.9,166.6 148.6,165.6 S154.3,164.5 160,163.4 S165.7,162.1 171.4,160.9 S177.1,159.7 182.9,158.5 S188.6,157.4 194.3,156.3 S200,155.4 205.7,154.5 S211.4,153.9 217.1,153.4 S222.9,153.2 228.6,153 S234.3,153.2 240,153.4 S245.7,154 251.4,154.7 S257.1,155.6 262.9,156.5 S268.6,157.6 274.3,158.7 S280,159.9 285.7,161.2 S291.4,162.4 297.1,163.6 S302.9,164.7 308.6,165.8 S314.3,166.8 320,167.7 S325.7,168.5 331.4,169.3 S337.1,169.9 342.9,170.5 S348.6,170.9 354.3,171.4 S360,171.7 365.7,172 S371.4,172.2 377.1,172.4 S382.9,172.5 388.6,172.7 S394.3,172.7 400,172.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#cv2" transform="translate(1,1)" stroke="rgba(255,255,255,.95)" stroke-width="1.8"/>
+      <use href="#cv2" transform="translate(-.8,-.8)" stroke="rgba(10,30,54,.18)" stroke-width="1.8"/>
+      <use href="#cv2" stroke="#DCE4EE" stroke-width="1.8"/></g></svg></span><span class="p-body"><span class="p-meta">Surgical technique · 17 Oct 2026</span><span class="p-title">How many lymph nodes should we remove?</span><span class="p-sum">The case for systematic nodal dissection, and where the evidence thins out.</span><span class="p-go">Read the article</span></span></a>
+      <a href="/thoracic-reflections/surgery-for-mesothelioma-reflections-from-wclc-2026" class="post reveal"><span class="p-art"><svg viewBox="0 0 400 190" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><rect width="400" height="190" fill="#E9EFF6"/><g fill="none"><path id="cv3a" d="M30,20V170H385" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#cv3a" transform="translate(1,1)" stroke="rgba(255,255,255,.95)" stroke-width="1.6"/>
+      <use href="#cv3a" transform="translate(-.8,-.8)" stroke="rgba(10,30,54,.18)" stroke-width="1.6"/>
+      <use href="#cv3a" stroke="#DCE4EE" stroke-width="1.6"/><path id="cv3" d="M40,30H72.9V38.7H106.4V44.1H132.5V49.7H162.6V54.6H194V61.5H226V67.8H248.7V73.1H282.3V78.4H315.7V85.9H333.3V88.8H361.4V94.4H388.7V96.9 M40,30H64V43.8H88V60.8H109V68.1H133.4V79.2H166.2V91.6H185.5V99.6H209.4V106.9H232.9V111.2H260.7V118.5H278.6V121.8H299.8V124.4H318.2V128.5H349.9V132.5H378.7V134.6H411V138.3 M40,30H70.4V54.2H91.9V69.6H125.4V90.6H149.4V107.6H181.4V119H201.6V126.9H217.7V130.7H249.3V139.5H267.9V141.5H297.7V146H316.4V148H331.9V149.7H356.4V151.9H372.2V153H393.6V154.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#cv3" transform="translate(1,1)" stroke="rgba(255,255,255,.95)" stroke-width="2"/>
+      <use href="#cv3" transform="translate(-.8,-.8)" stroke="rgba(10,30,54,.18)" stroke-width="2"/>
+      <use href="#cv3" stroke="#DCE4EE" stroke-width="2"/></g></svg></span><span class="p-body"><span class="p-meta">Conference · 10 Oct 2026</span><span class="p-title">Surgery for mesothelioma: reflections from WCLC 2026</span><span class="p-sum">What the meeting added to the debate after MARS 2.</span><span class="p-go">Read the article</span></span></a>
+    </div>
+    <p class="intro-lbl reveal" style="margin-top:40px;">More from the series</p>
+    <ul class="more reveal" style="--ra:7">
+        <li><a href="/thoracic-reflections/reading-the-accp-lung-cancer-guidelines"><span class="mt">Reading the ACCP lung cancer guidelines</span><span class="mc">Guidelines</span></a></li>
+        <li><a href="/thoracic-reflections/screening-radiologists-thresholds-and-patient-choice"><span class="mt">Screening: radiologists, thresholds and patient choice</span><span class="mc">Screening</span></a></li>
+        <li><a href="/thoracic-reflections/should-we-operate-after-neoadjuvant-immunotherapy"><span class="mt">Should we operate after neoadjuvant immunotherapy?</span><span class="mc">Immunotherapy</span></a></li>
+        <li><a href="/thoracic-reflections/induction-immunotherapy-what-surgeons-need-to-know"><span class="mt">Induction immunotherapy: what surgeons need to know</span><span class="mc">Immunotherapy</span></a></li>
+        <li><a href="/thoracic-reflections/re-staging-after-neoadjuvant-immunotherapy"><span class="mt">Re-staging after neoadjuvant immunotherapy</span><span class="mc">Immunotherapy</span></a></li>
+        <li><a href="/thoracic-reflections/lung-cancer-in-people-who-have-never-smoked"><span class="mt">Lung cancer in people who have never smoked</span><span class="mc">Lung cancer</span></a></li>
+        <li><a href="/thoracic-reflections/managing-ground-glass-opacities"><span class="mt">Managing ground-glass opacities</span><span class="mc">Lung cancer</span></a></li>
+        <li><a href="/thoracic-reflections/robotic-surgery-where-the-evidence-stands"><span class="mt">Robotic surgery: where the evidence stands</span><span class="mc">Surgical technique</span></a></li>
+        <li><a href="/thoracic-reflections/how-much-to-resect-for-thymoma"><span class="mt">How much to resect for thymoma</span><span class="mc">Surgical technique</span></a></li>
+        <li><a href="/thoracic-reflections/drain-free-surgery"><span class="mt">Drain-free surgery</span><span class="mc">Recovery</span></a></li>
+        <li><a href="/thoracic-reflections/day-case-surgery"><span class="mt">Day case surgery</span><span class="mc">Recovery</span></a></li>
+        <li><a href="/thoracic-reflections/what-consensus-statements-can-and-cannot-do-for-surgery"><span class="mt">What consensus statements can and cannot do for surgery</span><span class="mc">Guidelines</span></a></li>
+        <li><a href="/thoracic-reflections/why-dont-cancer-blood-tests-have-any-sensitivity"><span class="mt">Why don't cancer blood tests have any sensitivity?</span><span class="mc">Diagnostics</span></a></li>
+        <li><a href="/thoracic-reflections/publishing-ip-and-the-lancet-strike-a-20-year-reflection"><span class="mt">Publishing, IP and the Lancet strike: a 20-year reflection</span><span class="mc">Reflection</span></a></li>
+    </ul>
+    <div class="subscribe reveal">
+      <div>
+        <p class="s-title">Get Thoracic Reflections by email</p>
+        <p class="s-sum">Free. A short email when each new piece is published, delivered through Substack. Unsubscribe at any time.</p>
+      </div>
+      <form class="s-form" action="https://YOURNAME.substack.com/subscribe" method="get" target="_blank" onsubmit="return false;">
+        <label class="sr-only" for="sub-email">Email address</label>
+        <input id="sub-email" type="email" name="email" placeholder="Your email address" autocomplete="email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <a class="s-all" href="/thoracic-reflections">All Thoracic Reflections →</a>
+    </div>
+  </div>
+</section>
+
+<section id="statistics" aria-labelledby="stats-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><a href="#top" class="mark-link" aria-label="Back to top of page" title="Back to top"><svg class="mark" aria-hidden="true" focusable="false"><use href="#forest-light"/></svg></a><span class="num">03</span>Statistics for clinicians</p>
+      <h2 id="stats-title">Statistics, in plain English.</h2>
+      <p>My statistics course for doctors and researchers covers the foundations of clinical research, taught without the mathematics getting in the way.</p>
+    </div>
+    <a href="https://www.statisticscourse.com/?utm_source=drericlim&amp;utm_medium=referral&amp;utm_campaign=professionals_hub" class="course reveal" target="_blank" rel="noopener">
+      <span class="c-text">
+        <span class="c-kind">The full course</span>
+        <span class="c-title">Statistics for clinicians, online</span>
+        <span class="c-sum">Every module in full, with worked examples from real trials. Learn at your own pace on the course website.</span>
+      </span>
+      <span class="c-btn">Go to the course <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></span>
+    </a>
+    <p class="intro-lbl reveal">Free introductions to each module</p>
+    <ol class="curriculum reveal">
+      <li><a href="/recording-data" class="module"><span class="m-num">01</span><span class="m-body"><span class="m-title">Recording data</span><span class="m-sum">Data types, measurement and building datasets that hold up at analysis.</span></span><span class="m-tag">Foundations</span></a></li>
+      <li><a href="/summarising-data" class="module"><span class="m-num">02</span><span class="m-body"><span class="m-title">Summarising data</span><span class="m-sum">Means, medians, spread and presenting what you found honestly.</span></span><span class="m-tag">Foundations</span></a></li>
+      <li><a href="/comparing-single-outcome-and-variable" class="module"><span class="m-num">03</span><span class="m-body"><span class="m-title">Comparing a single outcome and variable</span><span class="m-sum">T-tests, chi-square and Wilcoxon: choosing the right test and reading its result.</span></span><span class="m-tag">Core methods</span></a></li>
+      <li><a href="/comparing-with-multiple-variables" class="module"><span class="m-num">04</span><span class="m-body"><span class="m-title">Comparing with multiple variables</span><span class="m-sum">Regression, confounding and adjustment, for when one variable is not the whole story.</span></span><span class="m-tag">Core methods</span></a></li>
+      <li><a href="/advanced-statistical-methods" class="module"><span class="m-num">05</span><span class="m-body"><span class="m-title">Advanced statistical methods</span><span class="m-sum">Model building, diagnostics and the techniques behind modern clinical research.</span></span><span class="m-tag">Advanced</span></a></li>
+      <li><a href="/predicting-survival" class="module"><span class="m-num">06</span><span class="m-body"><span class="m-title">Predicting survival</span><span class="m-sum">Time-to-event analysis, Kaplan–Meier curves and Cox regression.</span></span><span class="m-tag">Advanced</span></a></li>
+    </ol>
+    <p class="course-after reveal">Ready to go further? <a href="https://www.statisticscourse.com/?utm_source=drericlim&amp;utm_medium=referral&amp;utm_campaign=professionals_hub" target="_blank" rel="noopener">Continue with the full course at statisticscourse.com</a></p>
+  </div>
+</section>
+
+<section id="grand-rounds" class="vgr" aria-labelledby="vgr-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><a href="#top" class="mark-link" aria-label="Back to top of page" title="Back to top"><svg class="mark" aria-hidden="true" focusable="false"><use href="#forest-dark"/></svg></a><span class="num">04</span>virtual Grand Rounds</p>
+      <h2 id="vgr-title">Teaching across the thoracic specialties, open to everyone.</h2>
+    </div>
+    <div class="vgr-body">
+      <div class="reveal">
+        <p style="color:rgba(255,255,255,.75);font-size:16px;line-height:1.7;margin-bottom:26px;max-width:52ch;">Free international teaching sessions spanning thoracic surgery, oncology, respiratory medicine and related specialties. Running since 2021, with leading faculty, live discussion and a complete archive of past programmes.</p>
+        <div class="vgr-links">
+          <a href="/virtual-grand-rounds#programme" class="btn-light">View the 2026 programme</a>
+          <a href="/grand-rounds-archive" class="sub">Browse the archive</a>
+        </div>
+      </div>
+      <div class="vgr-nums reveal">
+        <div><div class="n">9,799</div><div class="l">Live attendees in 2025</div></div>
+        <div><div class="n">36,746</div><div class="l">Views in 2025</div></div>
+        <div><div class="n">2021</div><div class="l">Running every year since</div></div>
+        <div><div class="n">Free</div><div class="l">Always, for everyone</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="close-cta" aria-labelledby="cta-title">
+  <div class="container reveal">
+    <h2 id="cta-title">Collaborate, learn or get in touch.</h2>
+    <p>For research collaborations, teaching enquiries or media requests, my team responds quickly.</p>
+    <a href="/contact-us" class="btn-primary">Contact Professor Lim's team</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="cols">
+      <div>
+        <div class="brand">Professor Eric Lim</div>
+        <p>Professor of Thoracic Surgery<br>Royal Brompton Hospital, London</p>
+        <p style="margin-top:14px;">T <a href="tel:+442073528121">+44 (0) 207 352 8121</a><br><a href="/contact-us">Message us</a></p>
+      </div>
+      <nav aria-label="For patients">
+        <h2>For patients</h2>
+        <ul>
+          <li><a href="/for-patients#why">Why choose Professor Lim</a></li>
+          <li><a href="/for-patients#techniques">Surgical techniques</a></li>
+          <li><a href="/for-patients#screening">Screening</a></li>
+          <li><a href="/for-patients#lung-cancer">Lung cancer</a></li>
+          <li><a href="/for-patients#conditions">Other conditions</a></li>
+          <li><a href="/for-patients#articles">Patient information</a></li>
+          <li><a href="/for-patients#research">Taking part in research</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="For professionals">
+        <h2>For professionals</h2>
+        <ul>
+          <li><a href="#research">Research and education</a></li>
+          <li><a href="#statistics">Statistics for clinicians</a></li>
+          <li><a href="/virtual-grand-rounds">virtual Grand Rounds</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="About">
+        <h2>About</h2>
+        <ul>
+          <li><a href="/what-i-do">What I do</a></li>
+          <li><a href="/my-team">My team</a></li>
+          <li><a href="/in-the-press">In the press</a></li>
+          <li><a href="/contact-us">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="base">
+      <span>© 2026 Professor Eric Lim</span>
+      <span class="social"><a href="https://www.linkedin.com/in/eric-lim-2756302b/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://twitter.com/ekslim" target="_blank" rel="noopener">X</a> · <a href="https://open.spotify.com/show/1mgh6ut8QzQsF84ZyBMuEb" target="_blank" rel="noopener">Podcast</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduce && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('js-reveal');
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, {threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  }
+})();
+</script>
+</body>
+</html>
