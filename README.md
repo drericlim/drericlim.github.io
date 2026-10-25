@@ -64,7 +64,9 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - **This repository** is the master copy of every approved page. Always start changes from the file here.
 - **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261025-homepage.html`). Older copies are renamed with `-superseded` and kept. Drive is updated **once, at the end of each working session**, so during a session it can be a version behind this repository.
 
-**Drive copies waiting to be saved:** Home v1.19 (Drive holds v1.1), For patients v1.5 (v1.0), For professionals v1.6 (v1.1), virtual Grand Rounds v1.5 (v1.1), About v1.10 (v1.1), Contact v1.3 (v1.0).
+**Drive is up to date** (saved at the end of the session on 25 Oct 2026). Drive holds Home v1.19, For patients v1.5, For professionals v1.6, virtual Grand Rounds v1.5, About v1.10 and Contact v1.3, each named `20261025-<page>.html`. The copies they replaced are kept as `20261025-<page>-v<old version>-superseded.html`.
+- Drive file IDs: homepage `1615yAufISKoC4KdgPSHXsY3aXlNKxdji`, hub-for-patients `1dtECmQtuAHUR8FEY32D8gw9izD0vb_lZ`, hub-for-professionals `1OlnH1picwu1RPwinbHAGY-ovtPthkxbi`, hub-virtual-grand-rounds `1xcrndPsLC6za-CI5pxnRAsm56H2b7rBG`, hub-about `1MbCY6ceg1ogWsrRoCrxKeaHh4_bKfooe`, contact `1OTCxvrMDuv9OdMdGtoaIj-PviR1wzv5d`.
+- Home and About copies keep their GitHub Pages front matter and Liquid tags (they are the source files; rotating photos, films and quotes are filled in by GitHub Pages).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
 
 ## Guide for the practice team
