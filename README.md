@@ -16,7 +16,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.8 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
+| Home | `/` | v1.9 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
 | For patients | `/for-patients` | v1.1 | 25 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
 | For professionals | `/for-professionals` | v1.1 | 25 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.1 | 25 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
@@ -27,6 +27,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **Home v1.9**: opening section ends "With single-incision keyhole surgery and a drain-free recovery, many patients now go home the same day."
 - **Home v1.8**: Start here, "I'm a patient" reads "Guides, articles and videos on your condition, your options and what to expect, from first consultation to full recovery." (Videos are planned; add them before launch.)
 - **For patients v1.1**: Day case card reads "Drain-free, pain-managed surgery. Many patients now go home the same day." (was "selected patients").
 - **Home v1.7**: opening section ends "Many patients home the same day." (was "Home, in some cases, the same day."), consistent with Your journey.
@@ -49,7 +50,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - **This repository** is the master copy of every approved page. Always start changes from the file here.
 - **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261025-homepage.html`). Older copies are renamed with `-superseded` and kept. Drive is updated **once, at the end of each working session**, so during a session it can be a version behind this repository.
 
-**Drive copies waiting to be saved:** Home v1.8 (Drive holds v1.1), About v1.2 (Drive holds v1.1), For patients v1.1 (Drive holds v1.0).
+**Drive copies waiting to be saved:** Home v1.9 (Drive holds v1.1), About v1.2 (Drive holds v1.1), For patients v1.1 (Drive holds v1.0).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
 
 ## Guide for the practice team
