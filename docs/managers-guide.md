@@ -199,6 +199,7 @@ The About page shows one film at a time beside the quote, taking turns weekly li
 - **To add a film,** copy a block, paste it at the end of the list, change the details and commit. Or simply give Claude the Vimeo link.
 - **To remove one,** delete its block. Films take turns in the order listed.
 - **In Vimeo, each film must be allowed to play on the website.** Open the film in Vimeo, go to **Settings → Privacy → "Where can this be embedded?"**, choose **Specific domains**, and add `drericlim.com`, `www.drericlim.com` and (while testing) `drericlim.github.io`. Otherwise the site shows a Vimeo message saying the video can't be played here.
+- When a film finishes, the website puts the cover back automatically. In Vimeo, it's still worth setting each film's **End screen** to **Empty** (Share → Embed → End screen), so Vimeo never suggests other videos.
 - To change how often the film changes, edit the `about-film` line in `_data/photo-rotation.yml` (`weekly` or `daily`).
 
 ---

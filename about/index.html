@@ -589,11 +589,23 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
       b.setAttribute('data-film-title', film[2]);
     }
   }
-  if (b) b.addEventListener('click', function(){
+  // Play the film in place; when it ends, put the cover back so Vimeo's "More from" screen never shows
+  function playFilm(){
     var i = document.createElement('iframe'); i.src = b.dataset.src; i.title = b.getAttribute('data-film-title') || 'A short film about my work';
     i.allow = 'autoplay; fullscreen; picture-in-picture'; i.allowFullscreen = true;
+    i.addEventListener('load', function(){
+      try { i.contentWindow.postMessage(JSON.stringify({ method: 'addEventListener', value: 'ended' }), 'https://player.vimeo.com'); } catch (e) {}
+    });
+    function onMessage(ev){
+      if (ev.origin !== 'https://player.vimeo.com' || ev.source !== i.contentWindow) return;
+      var d = ev.data; if (typeof d === 'string') { try { d = JSON.parse(d); } catch (e) { return; } }
+      if (d && d.event === 'ready') { i.contentWindow.postMessage(JSON.stringify({ method: 'addEventListener', value: 'ended' }), 'https://player.vimeo.com'); }
+      if (d && d.event === 'ended') { window.removeEventListener('message', onMessage); i.replaceWith(b); b.focus(); }
+    }
+    window.addEventListener('message', onMessage);
     b.replaceWith(i); i.focus();
-  });
+  }
+  if (b) b.addEventListener('click', playFilm);
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (!reduce && 'IntersectionObserver' in window) {
     document.documentElement.classList.add('js-reveal');
