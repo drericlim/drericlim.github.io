@@ -27,7 +27,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
-- **Home v1.5**: Your journey, Your recovery reads "Many patients now go home on the day of their operation, and my team is only a phone call away."
+- **Home v1.5**: Your journey, Your recovery reads "Many patients now go home on the day of their operation. If you have any questions once you're home, you can call my office."
 - **Home v1.4**: About section reads "Private consultations at the Royal Brompton Hospital, Chelsea, London, United Kingdom." with "More about my practice" on its own line.
 - **Home v1.3**: the About photo has rounded corners (site style: 12px for photos).
 - **About v1.2**: rounded corners on the portrait and film (12px) and on the award and book thumbnails (8px).
