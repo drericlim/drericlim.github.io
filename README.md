@@ -27,7 +27,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
-- **Home v1.10**: Start here, "I'm a clinician" also mentions Thoracic Reflections, with a second link to it.
+- **Home v1.10**: Start here, "I'm a clinician" also mentions Thoracic Reflections; its single link, "Explore teaching for clinicians", goes to the For professionals hub, which holds both.
 - **Home v1.9**: opening section ends "With single-incision keyhole surgery and a drain-free recovery, many patients now go home the same day."
 - **Home v1.8**: Start here, "I'm a patient" reads "Guides, articles and videos on your condition, your options and what to expect, from first consultation to full recovery." (Videos are planned; add them before launch.)
 - **For patients v1.1**: Day case card reads "Drain-free, pain-managed surgery. Many patients now go home the same day." (was "selected patients").
