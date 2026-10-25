@@ -12,6 +12,7 @@ Every picture on the website is kept here, one folder per kind:
 | `speakers/` | virtual Grand Rounds speaker headshots |
 | `testimonials/` | Photos patients sent with their testimonials |
 | `articles/` | Pictures for patient guides, articles and Thoracic Reflections |
+| `icons/` | The lung symbol used as the site icon in browser tabs and on phone home screens |
 | `films/` | Cover pictures for the About page films (shown behind the play button) |
 | `rotating/` | Sets of photos that take turns: the homepage background, the homepage About photo and the About page portrait (one folder each) |
 
