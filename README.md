@@ -52,10 +52,16 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 **Drive copies waiting to be saved:** Home v1.8 (Drive holds v1.1), About v1.2 (Drive holds v1.1), For patients v1.1 (Drive holds v1.0).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
 
+## Content that managers edit
+
+- **Testimonials:** `_data/testimonials.yml` holds every patient testimonial (69 moved from the old site on 25 Oct 2026, word for word), newest first. Patient photos are in `assets/testimonials/`. Step-by-step guide: `docs/adding-a-testimonial.md`. The Testimonials page and the homepage's rotating quote will both be built from this file.
+
 ## Before launch
 
 - Every page carries `<meta name="robots" content="noindex, nofollow">` so search engines ignore the test site. At launch this changes back to `index, follow` on every page.
 - The contact form needs a form service connected before it can send messages, and a privacy notice page at `/privacy`.
 - Photos are still loaded from the Squarespace site. Copy them into this repository before Squarespace is closed.
-- The homepage testimonial is a placeholder, and the hero video link is still to be added.
+- The homepage testimonial is a placeholder: connect it to `_data/testimonials.yml` (entries marked `homepage: yes`). The hero video link is still to be added.
+- Build the `/testimonials` page from `_data/testimonials.yml`.
+- Check the photo beside Tony Marsh's testimonial (it shows a woman and a baby).
 - The virtual Grand Rounds registration link (Zoom) is a placeholder.

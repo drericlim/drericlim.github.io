@@ -1,0 +1,887 @@
+# Patient testimonials for drericlim.com
+#
+# This file holds every testimonial on the site, newest first.
+# To add one, copy the TEMPLATE block below, paste it under the line marked
+# "NEWEST FIRST", fill it in, then click "Commit changes".
+# Full instructions: docs/adding-a-testimonial.md
+#
+# Only add a testimonial when the patient has agreed in writing to it being
+# published with their name (and photo, if they sent one).
+#
+# TEMPLATE (copy from "- name" down to the end of the quote):
+#
+# - name: "First Last"
+#   year: 2026
+#   treatment: ""            # optional, a few words, e.g. "Day case lobectomy"
+#   photo: ""                # optional, file name in assets/testimonials, e.g. "jane-smith.jpg"
+#   homepage: no             # yes = also shown in the rotating quote on the homepage (keep these short)
+#   quote: |
+#     First paragraph of the patient's words.
+#
+#     Second paragraph, if there is one. Keep the two-space indent on every line.
+
+# ---------- NEWEST FIRST ----------
+
+- name: "Hanife Elmaz"
+  year: 2026
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Being diagnosed with a thymoma during pregnancy was terrifying. There were so many unknowns, and at times I felt overwhelmed by the decisions that had to be made. Professor Lim always took the time to explain everything clearly, answer every question, and advocate for both me and my baby. I never once felt like just another patient. I felt listened to, respected and genuinely cared for.
+
+    Professor Lim’s professionalism, expertise and compassion gave me confidence during one of the most difficult experiences of my life. Doctors like him make an immeasurable difference, not only through their clinical skill but through the reassurance and hope they give their patients. I will always be incredibly grateful that I was placed in his care.
+
+    With my heartfelt gratitude,
+
+- name: "Kate Day"
+  year: 2026
+  treatment: ""
+  photo: ""
+  homepage: yes
+  quote: |
+    I don’t like to even contemplate my life, if I had not encountered the Prof. I/we frequently give praise to him.
+
+- name: "Olga Smirnova"
+  year: 2025
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I was referred to Professor Eric Lim after a recommendation from the Royal Free Hospital. At the time, I was very sceptical and had lost trust in surgeons due to a serious complication during a previous procedure. After months of conflicting medical opinions — including advice to remove two lobes of my lung — I was hesitant to proceed with surgery. Professor Lim reviewed my case and confidently reassured me that a less radical approach was possible. His clear communication and empathy gave me the confidence to cancel my scheduled surgery and go with his plan. I'm glad I did. Thanks to Professor Lim and his team, only one lobe was removed, with clear margins. I was discharged after just two nights and recovered well. At follow-up, he again took the time to reassure me that the cancer was gone and I could move on with my life. I’m extremely grateful to Professor Lim and his team. I wanted to recognise Maria Leung as well for her efficient and supportive communication throughout.
+
+- name: "Ronald Aszkenasy"
+  year: 2023
+  treatment: ""
+  photo: ""
+  homepage: yes
+  quote: |
+    I would like to express my sincere thanks for the excellent treatment I received from yourself and your team. I am recovering well and feel almost no pain. Everybody at the hospital was very kind and helpful.
+
+- name: "Mei Ng"
+  year: 2023
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I am writing to thank you for the excellent care you provided me during my recent illness. Your treatment coupled with the caring attitude of the Royal Brompton staff relieved my struggles.
+
+    You have always been kind and offered moral support when I needed it most, I’ll never forget how you made resolute advice for my surgery plan. You offered hope when you came in to discuss treatment options with me and that gave my family and I such comfort.
+
+    Again, thank you for much,
+
+- name: "Marisa Pocock"
+  year: 2023
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Prof. Lim operated on me to remove a small lung section and nodule on 30/8/23. His initial consultation with me answered all my questions and gave me the confidence to go ahead. The RBH team caring for me throughout the operation and after were excellent, empathic and patient. I was allowed home just the day after the operation in contrast to the expected several days suggested by the NHS. Prof Lim made the whole process as painless and easier to face for this very nervous patient. I have fully recovered now and am sure this swift recovery is due largely to the less invasive surgery and superb care received. I would like to thank Prof Lim and his entire team for their professionalism, care and support from my very first phone call to my post operation queries.
+
+- name: "Lorraine Coyle"
+  year: 2023
+  treatment: "Lobectomy for early lung cancer"
+  photo: ""
+  homepage: yes
+  quote: |
+    Professor Lim did a lower left lobectomy for stage 1 Lung Cancer in 2021 it was all pain free I was out within 2 days. He was very easy to talk to and explained everthng beforehand. I would definitely recommend him as a surgeon.
+
+- name: "Gaye Bentham"
+  year: 2023
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    In December 2022, I was diagnosed with lung cancer after a routine chest X ray showed a suspicious nodule in my upper left lobe. I saw a number of doctors in the Middle East, where I live, and the general consensus was that I would need to undergo a lobectomy, i e, removal of the entire upper lobe. Surgery was scheduled for January 19 but I was searching for any alternative to this drastic measure. After a lot of Googling, I came across Professor Lim and decided then and there that this would be the best option, if he would take me on. I sent an enquiry to the Royal Brompton and the same day received a response from Maria Leung, Professor Lim’s personal assistant, who arranged a video consultation with Professor Lim. He explained the procedure in detail, highlighted the potential risks and confirmed that he could perform the surgery within the next couple of weeks. After that, things moved at the speed of light - I flew to London and underwent a VATS segmentectomy on January 31. In the recovery room, Professor Lim came to tell me that he only needed to take one quarter of the top lobe, and that all the cancer was gone and the lymph nodes clear. And all achieved through just one small incision! A few days later I was discharged, with very little pain - which was managed with paracetamol. On Day 4 I went for a 3km walk. I have no words to express my deep gratitude to Professor Lim, and all his team, for this magnificent outcome.
+
+    Not only is Professor Lim a brilliant and extremely skilled surgeon (he pioneered the single incision keyhole surgery), but he is a humble and kind man who genuinely cares about the comfort of his patients, and aims to deliver the best treatment with the least amount of pain. He heads up a tight and talented team, who all work together to ensure the very best care for the patient. A special mention to his dedicated and hardworking assistant, Maria Leung, who was incredibly efficient and helpful, even answering queries late at night and the weekends. Hats off to all of you! The Royal Brompton hospital was also great and their nursing team took good care of me - and the food was first class.
+
+    I feel extremely privileged and grateful that I had this opportunity to be operated on by one of the best in the world. Thank you a thousand times over - I will never forget you.
+
+- name: "Simon Lyon-Smith"
+  year: 2022
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Patients
+
+    Patients
+
+    Personalised care
+
+    Testimonials
+
+    Your consultation
+
+    Your operation
+
+    Participating in research
+
+    Single keyhole surgery
+
+    Day case thoracic surgery
+
+    Early lung cancer
+
+    How much lung to remove
+
+    Locally advanced lung cancer
+
+    Advanced lung cancer(stage IV)
+
+    Small cell lung cancer
+
+    Non-smoking lung cancer
+
+    Re constructions surgery
+
+    Mediastinal surgery
+
+    Pneumothorax
+
+    Pleural effusion surgery
+
+    Keyhole surgery for pericardial effusion
+
+    Emphysema
+
+    Lung cancer screening
+
+    Lung screening FAQs
+
+    Single Incision Chest Surgery
+
+    AI for medical advice
+
+    In July 2022 I had been scheduled for lung surgery, the timescale being 4 to 5 weeks. However after five weeks I was told it wasn't going to be for at least another month. At this stage I decided to explore the possibility of private surgery. Extensive research led me to Professor Lim, who I decided was absolutely the right person for the job.
+
+    I made a phone call to his practice manager Maria Leung, who was extremely helpful and efficient and resulted in a consultation appointment for two days later. Following the consultation with Professor Lim, surgery was scheduled for six days later . This was just the outcome I was hoping for. Everything was very straightforward and Maria organised all the preop tests and assessments and admission into the Royal Brompton Hospital. All of this was seamless, stress free and efficient. Beyond my expectations!
+
+    My surgery was via keyhole which was incredible and meant that my recovery after surgery was so quick that I was discharged the next day . I certainly wasn't expecting to be travelling back to Devon 24 hours after surgery.This was entirely due to Professor Lim’s exceptional skills, expertise and experience. Family and friends were just astounded. A week later I travelled back up to London for a follow-up consultation.
+
+    The whole experience of surgery ,care and attention by Professor Lim, Maria and the Royal Brompton Hospital was truly outstanding and I am so very grateful to them all.
+
+- name: "Anna Ireland"
+  year: 2022
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Thank you so much for everything, you [Maria] and Professor Lim have been absolutely brilliant.
+
+    We are so grateful for all your help.
+
+- name: "Amanda Wray"
+  year: 2022
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Being stuck on an NHS waiting list for lung surgery in the midst of a COVID-19 pandemic in December 2021 was far from ideal, particularly as I was getting repeated severe chest infections and needing to posturally drain my lung on a daily basis. The underlying diagnosis was uncertain, but CT scans had revealed extensive, fluid-filled cavities in my right lower lobe, suggestive of cystic bronchiectasis with severe chronic infection.
+
+    I took matters into my own hands and researched my options in terms of thoracic surgery. Professor Lim stood out on many levels, but particularly as a pioneer in the development of Video Assisted Thoracoscopic Surgery (VATS) via a single incision. I knew he was the man for the job but had no idea how I could make it happen.
+
+    A tentative initial phone enquiry from me was answered by Maria Leung, Prof Lim’s Practice Manager. She was simply outstanding in every way and, if not for her initiative, tenacity and genuine willingness to help, I believe my outcome would have been very different.
+
+    Following my call, she took the initiative to request my scans and test results and show them to Prof Lim and, within 48 hours, a zoom consultation had been held, a self-funder fee negotiated and a date for surgery set for the following week.
+
+    To make surgery happen at a time when wards were being shut every day at The Royal Brompton due to COVID was exceptionally challenging but Team Lim would not be defeated.
+
+    Surgery proved that their urgency in getting the operation booked in before Christmas was not misplaced and, despite being faced with a hugely distended lung lobe, filled with pus and on the point of rupture, Prof Lim managed to drain and then remove it via a single incision. A truly remarkable feat!
+
+    The level of medical care at The Royal Brompton Hospital was exceptional, with Prof Lim even coming in on Christmas Day to oversee my recovery from a post-operative complication.
+
+    Pain management was outstanding and, five months later, I am back working full time and swimming several times a week.
+
+    Prof Lim, Maria and the rest of the team… you are simply the best!
+
+- name: "Sultana Javeri"
+  year: 2022
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I just wanted to thank you and your team for taking such good care of me before, during and after my operation. In particular I would like to thank Drs Proli and Palmares who saw me at the follow up consultations, and so patiently answered my questions. I am so delighted that you were able to remove the cancer in its entirety and grateful for all the advice you gave me before the operation.
+
+- name: "Dr John Connolly"
+  year: 2022
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I am writing to express my really deep gratitude for your care last month. I can only say that you and your team provide truly world class standard of care. Your clarity of thinking and evidence based approach was greatly reassuring. I am very grateful for your technical and academic expertise. On behalf of myself and my family I would really like to thank you and your team.
+
+- name: "Michael W Linwood"
+  year: 2021
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Professor Eric Lim transformed my previous treatment plan from “wait and see” to instant action. Presenting with a respiratory emergency, I was seen within 48 hours.
+
+    I was diagnosed and received surgery which he had pioneered. His own innovative procedure enabled my rapid and pain free recovery. I am very grateful to him and his excellent admin/medical team, and unreservedly recommend his services.
+
+- name: "Duilio Barbosa"
+  year: 2021
+  treatment: "Keyhole (VATS) lobectomy"
+  photo: "duilio-barbosa.jpg"
+  homepage: no
+  quote: |
+    That’s me commemorating the 1st anniversary of my VAT lobectomy. Thank very much for making this possible.
+
+- name: "Vivian Smith"
+  year: 2021
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Looking at the clock just now, sitting remembering you coming in to see me in HDU following VATS It was 6.45pm and although I was still sleepy in recovery you came to tell me that the surgery all went well and I had the small scar as I had so wanted. I needed to recover quickly to take care of my husband and you said you would do your very best to perform the VATS with a small scar. Still here in gratitude 6 years on to the day. Thank you again Dr Lim. My eternal gratitude.
+
+- name: "Dr King Yau"
+  year: 2021
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I was so impressed by the care that I received from The Royal Brompton that I have been singing its praise to everyone. People seemed to take pride in their work, yet it was matched by the kindness and care with which it was carried out.
+
+- name: "David Matthewson"
+  year: 2021
+  treatment: "Surgery for a carcinoid tumour"
+  photo: ""
+  homepage: yes
+  quote: |
+    Five years ago more or less to the day. I had a confirmed diagnosis of a carcinoid in my upper right lobe. Six weeks later, you removed it. Five years on I am pleased to report, that now retired, I’ve never been better. Yesterday I did a 10K in London. Thanks once again for your care.
+
+- name: "Tracy Gooding"
+  year: 2021
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    A ground glass lesion in my right lung had been discovered by CT scan. The British guidelines were that I was put on a surveillance program which meant repeat CT scans at 3 months.
+
+    I was a Nurse for 28 years and in that time I had nursed many patients who had poor health and worse health outcomes because their particular health problem had been categorised as one that could be monitored at specific intervals.
+
+    I also knew my own self and that I would find a surveillance program too stressful. I had private health care which meant I could see a specialist of my choosing.
+
+    Professor Lim was recommended to me by my local chest physician. I researched him and was pleased to discover that he focuses on patients being able to make their own clinical decisions.
+
+    All too often a patient is categorised by their condition and are not able to participate in decision making, but are told what is going to happen to them , how and when.
+
+    I met Professor Lim him over a zoom call during which the findings were discussed and my options explained. I wanted to have the lesion removed as I felt I would cope better psychologically if it was dealt with soon. Refreshingly he agreed this would be what he would have wanted and was fully supportive of my decision.
+
+    I cannot express how happy I am that the surgery went ahead just 3 weeks later. My lesion turned out to be adenocarcinoma in situ (lung cancer). The good news is that it has all been removed and I don’t need any further treatment.
+
+    The operation caused very little pain. I only needed regular paracetamol after the operation. My wound has healed well and the mild swelling is subsiding. I was looked after by Professor Lim's team with the upmost care and attention.
+
+    But, here's the thing, if I had been put on a surveillance program, my cancer may have progressed. I could potentially have become symptomatic and my life could have been shortened. I truly believe that being able to be involved in the clinical decision making has given me a longer life.
+
+    It is my hope that one day all patients are involved in every aspect of decision making around their care. We are individuals. We are not just a condition.
+
+- name: "Towfeeq Monsef"
+  year: 2021
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I am writing to thank you and express my utmost gratitude for my operation and treatment. Patients like me and this nation are extremely fortunate to have a leading Thoracic surgeon like yourself among us and provide us with such an extraordinary service which no words could truly express the deserved gratitude for it.
+
+- name: "Ruth Pagkatipunan"
+  year: 2021
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    This is to express my deepest gratitude to Professor Eric Lim and to the entire team who did possible for the successful operation on my thymoma. You are the best!
+
+    Professor Eric Lim, I Thank you for your tremendous skill in performing my operation. Your talent and caring manner are a credit to the medical profession. You are truly a lifesaver. Your team during the preparation, during and after the operation also perform great job. I remember my Anesthesiologist who really made me felt relax through the kind words and assurances that surely I will wake up. I cannot mention the names of all the team members, I believe they really all contributed one way or another to the best of their expertise and dedication to ensure I will be fine. You are all the best!
+
+    I would also like to express my appreciation to the ICU/Recovery room nurses who look after me during the recovery times. I certainly felt their utmost care. They are very kind and attentive to patient like me. They are always smiling and seems they are not getting tired of what they are doing.
+
+    The Brompton hospital, overall is extremely exceptional, the cleanliness, friendly, attentive and caring staff, state of the art facilities and equipment that ensures every patient like me with procedure operation will always be successful. Of course, i would like also to mention the delicious food served while I was there.
+
+    I salute you! More power to all of you.
+
+    For your information, I am now very well and working already.
+
+- name: "Vivian Smith"
+  year: 2020
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Five years to the day you operated VATS and am now awaiting CT scan to clear me saying no longer in remission. A very small scar and little after effects. Thank you so much Mr Lim, forever grateful.
+
+- name: "Natalie Robinson"
+  year: 2020
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    My Mother has been under the care of Professor Eric Lim for the surgical management of a right upper lobe mass discovered in February 2020. Following a rather negative first experience with a local NHS consultant, we made the decision to seek treatment privately. I chose for my Mother to be treated at the Royal Brompton due to the international reputation it upholds as a specialist hospital for the treatment of lung disease. Upon further reading into Professor Lim’s professional background, I felt confident that she would be receiving the leading standard of care within capable hands. I must stress that both my Mother and I have been exceptionally pleased with the care provided by Professor Lim and his team. On numerous occasions Eric has gone above and beyond to assist us, which has made such a difference during this incredibly distressing period of our lives.
+
+    Our first contact was with Maria, Professor Lim’s PA, who deserves the utmost recognition. I am extremely grateful for the level of service and assistance she provides. We have consistently received very prompt correspondence, she always ensures you are kept in the loop and I have even received email replies from her during unsocial hours, which I would never expect but, to me, reflects the dedication she demonstrates to her role. Her organisation and communication skills really reflect the standard of care provided, and I would like her to know that it does not go unnoticed.
+
+    Unfortunately during preoperative investigations it was discovered that my Mother’s cancer was more advanced than we originally suspected. As a result of this discovery, surgery originally scheduled to take place was cancelled and a lung biopsy was organised for the same date. On our morning commute to this appointment we were caught in traffic and running approximately half an hour late. Anxious that the ward may be expecting us, I emailed Maria and also called ahead out of courtesy to apologise and make the staff aware. Upon speaking to the ward staff, Maria had already swiftly passed the message along. This greatly put us at ease and is an example of the outstanding service we have experienced in Professor Lim’s care, given this was around 08:00am and I doubt Maria had even began her working day.
+
+    Whilst waiting for her biopsy to take place, Professor Lim arrived on the ward and sat with us in the waiting room to have a chat and reflect upon our discussions from the day before. Considering that my Mother’s surgery was cancelled due to the advancement of her cancer, this was a very humanising approach and was much appreciated. He took the time to ensure we understood all of the information and was aware of the plan moving forward. I can say with confidence that this made such a difference for my Mother, as she was extremely distressed at the prospect of having a biopsy whilst awake and had been upset on the journey to the hospital. I will be forever grateful for that.
+
+    My Mother is now receiving on-going oncology input at St Barts Hospital, which Professor Lim personally and very kindly assisted us in organising so that she could have access to clinical trials. Hopefully if this progresses well, we will reconvene with Eric in the near future to discuss the possibility of surgery once again. It is an appointment that my Mother and I are looking forward to and provides us with a goal to aim for. So for anyone looking for an experienced and professional surgeon with a genuine desire to make a difference for each and every individual, please do not hesitate to look any further than Professor Lim.
+
+- name: "Huan Ke"
+  year: 2019
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    On behalf of my mother, myself, and the rest of my family, I just wanted to say a huge thank you and the rest of the team at the Royal Brompton who took care of her before, during and after her surgery.
+
+    My mother seems to be recovering well from her operation and I have no doubt it was due to the skill and diligence of yourself and your team during surgery and the excellent care she received post surgery. Given English is not her first language the prospect of communicating with staff at the hospital was a daunting prospect for her, however, the friendliness & professionalism of everyone at the Royal Brompton really helped put her at ease.
+
+- name: "Elaine Smith"
+  year: 2019
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    …I just wanted to say thank you for doing such a great job. Myself and my family are deeply grateful to you and your team that took care of me [to allow me] to recover very quickly. Thank you so much for the difference you made in my life and the lives of your patients. You made a big difference because you are so skilled at what you do. Everyday of my life will be better [and] because of you I can live to tell another tale. You are a truly remarkable doctor and professional that we respect and trust.
+
+- name: "Paul Rice"
+  year: 2019
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    After an incidental finding of a lung nodule during a heart scan, I was referred to Professor Lim at the Royal Brompton.
+
+    Having researched Professor Lim’s work we knew he was as close to a miracle worker as can be and moving forward, I was in very safe hands.
+
+    Professor Lim carried out a lower lobectomy on my right lung. I had the operation on the Tuesday, by the Wednesday I was drain free and by Thursday I was pain free and permitted to go home.
+
+    The night before my operation he suggested we go out for dinner and the day after my operation he suggested we go for lunch! This was a great way of making me feel relaxed and returning to normal routine.
+
+    My wife and I would like to thank Professor Lim and his team for everything they carried out. From the nurses to the hospital staff, the care was excellent and I am in awe of the work they carry out for patients on a daily basis. Professor Lim is an extraordinary surgeon with a positive attitude. His crusade of early diagnosis of lung cancer is commendable and I am living proof of this.
+
+- name: "Prineetha Perera"
+  year: 2018
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I would like to extend a massive thank you for the procedure which was successful. I'm so pleased that this was uneventful. Everyone in the hospital has been excellent and I cannot thank you enough for the satisfaction and the reassurance I have had throughout.
+
+- name: "Karuna Ritoo"
+  year: 2018
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I am a 50 year old recently diagnosed with advanced lung cancer stage 3, with a large mass.
+
+    As soon as they suspected cancer, I researched the survival and complication rates comparison for different hospitals and I came across Professor Lim name at the Royal Brompton Hospital Trust.
+
+    Professor Lim professional profile was online which helped a lot and also there is a detailed website which guides you about his work and patient testimonial I was swayed by his philosophy of patient centred focus, innovative and challenging , and when I read a patient of his went for lunch a day after surgery, I was amazed. I was fearful of surgery and learned that Professor Lim does keyhole lung surgery, but while other surgeons does THREE incisions (cuts through chest wall to access inside lung cavity), Professor Lim does ONE incision and does everything to make pain less after the operation
+
+    That did it for me, I made no other enquiries and Sophie my first point of contact and Maria have been both brilliant in setting an appointment for me to see Professor Lim privately.
+
+    We saw Professor Lim early November and we have no regrets. Although I was not a candidate for key hole surgery, Professor Lim took time to explain other options and the consultation took longer than the allocated time, I was emotional. We felt that we had directions and a lot more knowledge of our unfortunate situation and hope.
+
+    Professor Lim has given us a lot of guidance, above our expectations and even though we live far away, he still supported us by suggesting options that in my own hospital was not offered as first choice I followed Professor Lim advice to the letter as he knows his stuff and personally it helped me somehow, only patients in my situation will know.
+
+    My family(who has not met him as yet) and I think Professor Lim is an amazing person, a very dedicated doctor to us patients,and in a higher league.
+
+    I am privileged to have met Professor Lim, his input and expert advice has made it possible for me to discuss different therapies with my oncologists, it is hard when one has cancer but the help we got from Professor Lim made it less difficult, we are thankful and grateful.
+
+    Also thank you to both Sophie and Maria, who are both brilliant as part of the team.
+
+    A little note to say thank you… also I forgot to say you are very dedicated to us patients with email at 4 am, we hope you can squeeze in some rest too.
+
+- name: "Nada Awada"
+  year: 2018
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    It has been now exactly 2 years since you operated on my brother for advanced lung cancer and I need to tell you that my brother is doing great with no disease recurrence. My family and I cannot thank you enough for the miraculous result of the surgery you did, while many other surgeons decided at that time that my brother was nonsurgical due to the complicated location of the tumor and large size.
+
+    I wanted you to know how grateful my family and myself are and that your skill and kindness are remembered each time we look at the lively eyes of your patient, my brother.
+
+    I realized 2 years ago how compassionate and honest you are, when you emerged from the operating rooms after a very long surgery on my brother, tired but smiling and you told me "It was grueling, but your brother had cancer and now he has no more cancer". Your words turned out to be very honest and true, as my brother is disease free 2 years after surgery.
+
+    Few doctors have the magical skills you have that turn despair into hope and pain into happiness and we feel blessed that we have found you.
+
+- name: "Susan Ostreicher"
+  year: 2018
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I am writing to you to express my deepest gratitude to you, Professor Lim and all your team involved with my surgery in September.
+
+    I was both apprehensive and very nervous before my surgery but once we met in your office, before the operation, I felt so much calmer.
+
+    You, Professor Lim, have given me my life back - and I have since been told that I will not need any further treatment - neither with chemotherapy nor radiotherapy. This, Professor Lim is entirely due to your skill fullness in removing the cancerous growth on my lung.
+
+    Professor Lim, I will never forget you - my gratitude is immeasurable. You will always be in my prayers, and I thank you from the bottom of my heart.
+
+- name: "Joanne Wu"
+  year: 2018
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    My son had suffered recurring primary spontaneous pneumothoraces. While studying in London he was fortunate to be referred to Professor Lim, a leading expert in treating thoracic surgical diseases and a top thoracic surgeon in the country, in fact, one of the best in the world, no exaggeration.
+
+    Professor Lim explained clearly the pros and cons of various treatment methods, which enabled my son to make an informed decision and feel comfortable with his decision. The keyhole surgery was a great success - my son had a speedy recovery and felt no pain within a short period of time. Life is back to normal, what a blessing! I had been worried after reading various materials found on the internet relating to the side effects of a surgery. It is such a relief to see that none of the worries are materialised!
+
+    We are truly grateful to Professor Lim and his team (Maria, Sophia, Sarah ...) for the excellent care and treatment that my son has received!
+
+- name: "Bridget Heggs"
+  year: 2018
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Just to thank you all so very much for all your expertise help and efficiency over the past weeks. From start to finish we felt utterly confident in your team. We were thrilled with yesterdays good news - a big relief and look forward to regular check ups.
+
+- name: "Rachel Loye"
+  year: 2018
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    You conducted lung sparing surgery on me in September 2017 to remove a mucoepidermoid carcinoma in my upper left lung. I wanted to get in contact with you to thank you for saving my life. Myself and my family will be forever grateful to you! My scar is healing well and my life is getting back to normal!
+
+    Thank you from the bottom of my heart.
+
+- name: "Tony Marsh"
+  year: 2017
+  treatment: "Keyhole removal of a thymus tumour"
+  photo: "tony-marsh.jpg"   # CHECK: this photo shows a woman and a baby; it sat beside this testimonial on the old site
+  homepage: no
+  quote: |
+    I was referred to Mr Eric Lim because he was a specialist thoracic surgeon and prided himself on his keyhole surgery methods for my problem which was to remove a cancerous tumour from my thymus gland.
+
+    He was amazing from start to finish. So knowledgeable and honest. He advised us that cancer was one of the possibilities when asked by my wife. The operation went brilliant and he kept to his word when he said he would do it via keyhole rather than the easier option of opening up the chest area which would have been a longer recovery let alone a big scar.
+
+    He came to see me 07.15am the morning after the operation and advised me that he removed the tumour and all around it which was amazing. The skill of Mr Lim and the honesty and modesty of such a young, intelligent surgeon are levels that all surgeons should aim for.
+
+    His support staff were equally as amazing in their own fields - Maria was unbelievable and answered all questions promptly before , during and after the operation which helped put my wife's mind at rest. And then you have Liza Reyes who was in control of my pain - or non pain I should say as the pain management meant I have been in no pain since and have now stopped with all pain relief just 12 days after this operation.
+
+    Every member of staff plus the brilliant Mr Lim were amazing which means i would highly recommend without any question of doubt if you were in need of THE top thoracic surgeon.
+
+- name: "Mervyn and Gillian Jones"
+  year: 2017
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    My wife and I met Mr Lim, by appointment, to discuss the treatment required by my wife for cancer in the lower lobe of one of her lungs.
+
+    From the outset Mr Lim conveyed a very reassuring optimism with regard to the way forward, discussed fully the options available to my wife, and was happy to proceed with whichever was our choice. He dealt skilfully with the procedures and my wife was able to leave the Clinic 3 days after this intrusive surgery, her recovery exceeded our expectations.
+
+    Not only is Eric Lim a gifted Thoracic Surgeon, I doubt that there is a better one in the entire universe, and any young prospective surgeons thinking of specialising in his field, might be well advised to seek his counsel.
+
+    In thanking Eric Lim for the way he dealt with my wife I would also like to express our grateful thanks to his loyal, caring, attentive and pleasant PA Maria Leung, and Clinical Lead Nurse Liza Reyes. They make a wonderful reassuring team.
+
+- name: "Kay Lewis"
+  year: 2017
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I met Mr. Lim for a second opinion, following thoracic surgery. Mr Lim was empathetic, highly knowledgeable and patient throughout. His explanations were clear and reassuring. Furthermore, not only did Mr. Lim reply to my initial enquiry personally, but went out of his way to help identify a suitable consultant for onward referral. Fantastic service!
+
+    His PA, Maria was similarly charming and efficient throughout.
+
+- name: "Judith Schott"
+  year: 2017
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Being diagnosed with lung cancer was a complete shock as I hadn’t smoked for fifty years and then only a few a day.
+
+    I met Mr Lim on my 72nd birthday and was amazed to hear that he would aim to remove the affected lobe via a keyhole incision, that the chest drain would probably be removed the next day, that I would not be in severe pain and that I would probably go home after 2 nights in hospital. This was such a far cry from the care available to lung cancer patients when I was a nurse in the 60s that I found it hard to believe. But true to his word, this is what happened.
+
+    Mr Lim is that rare combination of a skilled and innovative surgeon, a researcher, statistician and an excellent communicator. I was very lucky to be referred to him and regard being cared for by him as the best birthday present I have ever had!
+
+- name: "Aylish Tregarthen"
+  year: 2017
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    You allowed us all to be motivated by the small chance she might be able to beat it, and did all you could to give her the best chance. So again, thank you. It has shaped the kind of doctor I want to be, and I will always be motivated by that personal experience.
+
+- name: "Gillian Kirsch"
+  year: 2017
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I would like to thank Mr Lim for his clear and honest explanation regarding the options to remove a malignant tumour from my left lower lobe at the initial consultation. Another sincere thank you for undertaking the successful keyhole operation to remove the tumour and section of my lung.
+
+    My recovery exceeded my expectations for a relatively pain free experience as Mr Lim predicted. After the first twenty four hours I managed the mild discomfort taking paracetamol for the first few days after surgery and then no longer needed any pain relief.
+
+    With the benefit his expertise I can now look forward to a positive prognosis for the future and will be forever extremely grateful for the expert and pioneering approach to lung surgery provided by Mr Lim.
+
+- name: "Richard Warren"
+  year: 2017
+  treatment: ""
+  photo: "richard-warren.jpg"
+  homepage: no
+  quote: |
+    As addressed to Maria Leung my Personal Assistant:
+
+    You probably know Mathilde had her operation today at the Harley Street Clinic in which Dr Lim successfully removed the tumour from her left lung. Just to say I'm so relieved and will tonight for the first time in a long while sleep easily for once. The Surgeons at the told us it was impossible to remove as it was situated in a really difficult position. I'll never forget the sneer on that Doctors face when he told us we'd never get a Surgeon to do the job. Dr Lim has managed the impossible and saved her with his God given ability. Totally amazing Surgeon, the best.
+
+    Home 2 days after surgery, pictured here with me 5 days after discharge.
+
+    What a stroke of good fortune connection with you has been. I had phoned several private institutions and none of their Personal Secretaries I spoke to had any answers to my questions. You were the only one with real knowledge. You gave me hope, confidence, really eased my troubled mind and ended my long search for a way out of this problem.
+
+    Thank you so much for everything.
+
+- name: "Erika Dwek"
+  year: 2017
+  treatment: "Removal of a large lung tumour"
+  photo: "erika-dwek.jpg"
+  homepage: no
+  quote: |
+    Since you saved my life on the 13 May 2014 I have sent you an email on each of the anniversaries of that important day. I hope that you and your family are in as good health as I am (see attached photo of me and my daughter Miriam which was taken last Saturday in Germany where we spent the best part of one week), and that you have saved many other lives since we last saw one another on 18 May 2014 when you signed me out of the Royal Brompton Hospital.
+
+    I cannot thank you enough for the life-saving surgery you undertook to remove the massive tumour which had grown in my left lung cavity. I send you my love and very best wishes. All my family sends their thanks and regards too.
+
+- name: "Parmi Kanda"
+  year: 2017
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I have recently had keyhole surgery for removal of my left lung lower lobe with Mr Lim and cannot express the deep gratitude that I was fortunate to come under Mr Lim’s care; a highly qualified, multi talented and gifted surgeon.
+
+    Mr Lim has a passion for his work and his unique expertise in this procedure, combined with his calmness, rapport and positive attitude all made for a smooth procedure and process that gave me the confidence to get back to normal life as soon as possible.
+
+    The day after surgery he suggested going out for lunch if I felt up to it, so I did! Not far and with good pain control I walked, had lunch with the family and returned to the ward, tired but with a boosted confidence and sense of achievement, all inspired by Mr Lim.
+
+    I continue my recovery with only a very small, neat wound as evidence; Mr Lim’s procedure is truly revolutionary. Very thankful to Mr Lim and his team for their kindness and helpfulness, nothing was too much trouble - I always felt I had Mr Lim’s undivided attention. A very gifted surgeon and exceptional person...so very thankful that Dr Beckles referred me to him!
+
+- name: "Euan Harkness"
+  year: 2017
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    As much as one can, I found it an interesting journey from diagnosis to now being in the hands of such charming and confidence inspiring professional. I am taking the person who recommended your skills out for lunch. Thank you for getting me over this hurdle with such little pain and loss of fitness.
+
+- name: "Dr Nada Awada"
+  year: 2016
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I cannot thank you enough for the excellent care you have provided for my brother. You are a gifted surgeon and a sincere person and my family and I are grateful that we found you. I appreciate your kindness and support through this difficult period for the patient and for our family and I thank you for your compassion and for the brilliant surgeon you are.
+
+- name: "David Matthewson"
+  year: 2016
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    May I thank you personally and through you, your team of clinicians and support staff. The consideration, professionalism and support are exceptional from you and your team.
+
+- name: "Ian Morton-Smith"
+  year: 2016
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I cannot speak highly enough in praise of the total professionalism of the treatment you and your colleagues provided during my short stay in the hospital and the subsequent follow up consultation.
+
+- name: "Daisy Elliott"
+  year: 2016
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    You establish an excellent rapport with patients early on in the appointment. You check the patients's understanding before beginning the discussion and provide them opportunities to ask questions or express any concerns they may have. Patients appear to respond well to this and their trust in you is often clearly communicated. You emphasise the importance of shared-decision making and your role in helping the patient to reach the best decision for them.
+
+- name: "Caroline Van Oss"
+  year: 2016
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I was very lucky that Professor Justin Stebbing organised for me to see Mr Lim. He took time to explain everything about the operation very clearly to me and as well as obviously being an expert at what he does, he is also cheerful and calm!
+
+    I was so happy to be the first lung surgery day patient - I could skipped all the way home! If Mr Lim can get that result from a 55 year old, with the number of operations that I have had and all the bits that are missing from my insides - who knows what he can achieve next?! Soon there could be clinics popping up in all the major cities where people can pop in and have lunchtime lung surgery and then go back to work!
+
+- name: "Michael Falter"
+  year: 2016
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I am a 66 year-old non-smoking male and had a nodule located within the ‘clockwork’ of my right lung. I’d had all the tests, scans and a bronchoscopy to try to establish exactly what it was, without success. Due to its location, a reliable biopsy had been impossible to obtain. The best I could hope for from a biopsy would have been either ’it is definitely cancer’, or ‘it probably isn’t’. Either answer would require its removal (together with the middle lobe of my right lung!) because ‘probably’ wasn’t a risk I was willing to take.
+
+    I had been offered traditional ‘3-port’ keyhole surgery to be performed by a highly experienced and well-respected surgeon. It would require a 5-6 day stay in hospital. Somehow I felt that perhaps there might be a more modern procedure; one which would get me back to work faster. A friend’s oncologist suggested I speak to Dr Lim who specializes in single-port surgery – in other words, everything he does is done through just one tiny hole. It is all done by remote control, so much so that Mr Lim recommends that his prospective students become expert video game players so that orientation in three dimensions becomes second nature.
+
+    Having 10% of my lung removed was, for me, a bit of a major decision. I needed to understand how the lung works. Googling didn’t really help so I came back to Mr Lim for a second consultation and left with a better understanding of what was involved.
+
+    My post-operative expectation was considerable pain for a week or two and perhaps a frozen shoulder.
+
+    Less than 24 hours after the operation I was walking around and climbing stairs. The drugs ensured I was pain free. The nodule was a carcinoid so the decision to remove it was good.
+
+    Less than 48 hours after the operation I was standing on the pavement outside the Harley Street Clinic hailing a taxi to take me home!
+
+    I don’t like taking drugs so although I had been prescribed reasonably stiff doses of Paracetamol and Ibuprofen to keep the pain at bay (to be gradually reduced over two weeks), I decided only to take the medication if I was in pain. This is what happened: on the day I left hospital I took four paracetamol in the afternoon and one Ibuprofen. The day after I took two paracetamol. That’s it! Although I could not sleep on the side I’d been operated on for a couple of weeks, I was effectively pain free two days after coming home. The only pain (to the touch) that I did suffer was from the anaesthetist’s cannula in my arm. A clot had formed, it was painful and I needed antibiotics to clear it. The only ‘war wound’ I had was a tiny 5cm scar.
+
+    Four days after coming home I was walking a mile twice daily. Three weeks after leaving hospital, I’m back on my bike and doing reasonably heavy country walks. When I asked Mr Lim what the limits are he replied “until you’re breathless”!
+
+    Do I notice that I’ve lost 10% of my lung capacity? Not when I’m exercising. Perhaps just the slightest sensation when I’m not but it is gradually going away.
+
+    Would I recommend Mr Lim? You will have to make your own mind up by I think that Mr Lim has developed his technique into a fine art. He’s been described as ‘meticulous’ and if my experience is anything to go by, I’d agree.
+
+- name: "Anthony Harris"
+  year: 2016
+  treatment: ""
+  photo: ""
+  homepage: yes
+  quote: |
+    I must complement Mr Lim as I have had remarkably little discomfort and pain after the operation and I am virtually back to normal.
+
+- name: "Pati Ortegat"
+  year: 2016
+  treatment: ""
+  photo: ""
+  homepage: yes
+  quote: |
+    You did a brilliant job and I appreciated your honesty in your advice and your kindness. I would recommend you any time.
+
+- name: "Nazia Hussain"
+  year: 2015
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Thank you again for everything you have done. The NHS wrote (my mum) off as a palliative care patient. You saved her life. You are a lion amongst doctors.
+
+- name: "Caroline Emberton"
+  year: 2015
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I feel I can’t let the moment pass without acknowledging the fact that not that long ago my chances of me sharing this wonderful day with my daughter and family were negligible to non-existent. I know I am extremely fortunate to have such a professional, dedicated, committed team with such a wealth of expertise and knowledge treating me. So I’d like to take this opportunity to thank you Justin, Jane and the team at the LOC and PGH and Eric and his team at the Brompton for looking after me so well, treating me with kindness, encouragement and a willingness to push the boundaries and give me a chance. It is so much appreciated that “thank you” sounds quite inadequate!
+
+- name: "Marilyn Faulkner"
+  year: 2015
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I am a 70 year old woman who was recently diagnosed with Lung Cancer. The shock caused my hair to turn grey. I lost weight and interest in everything extremely quickly. My family were besides themselves with worry for me. I was given a choice of two hospitals to have my operation and I chose the Royal Brompton. I was put under the care of Dr Lim (Consultant Thoracic Surgeon). Our first point of contact was with Mr Lim's PA Maria Leung who quickly and efficiently arranged a consultation with Mr Lim. I, and five of my family attended an appointment at Mr Lim's clinic and was introduced to Mr Lim and his team wherein Mr Lim explained fully the procedure he would carry out and the prognosis. My family and I came away from the appointment filled with so much confidence and complete trust in Mr Lim's professionalism, which then in turn carried me through the intricate and delicate complicated keyhole surgery in which I had a third of my lung removed.
+
+    In a matter of only hours after the operation I was able to walk around the ward to start my recovery process. I can honestly say that I have not had any pain from the surgery and my recovery has been remarkable.
+
+    First and foremost I wish to thank Mr Lim and his team for changing my life for which I will be eternally grateful, also the dedicated Nursing Staff on the Alexander Ward including Michael Evans (Lung Clinic Nurse). The standard of care from all the staff is unbelievably amazing.
+
+    Once again Mr Lim a great big "thank you" from myself and my children.
+
+- name: "Debbie Fievez"
+  year: 2015
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Mr Lim, his team and the nurses at the Royal Brompton not only took care of my partner through out his stay but made sure that I was ok and kept us both informed if any medication had to be changed and the reasons why My partner when asked how he felt after the operation simply OK was not enough, they wanted to know if he felt pain, describe the pain and explained the reasons why they needed to know if the pain felt like one thing or another, Nothing was to much trouble. My partner has had 1 or 2 operations in the past-due to heart disease, and i have left the hospitals in the evenings still worried, I can honestly say that I left the Brompton every night including the evening he had just came out of surgery for lung cancer knowing he was in the best capable hands and I had every confidence in them. Mr Lim The Team and the Nurses I cannot Thank You enough for all your hard work and your dedication to saving lives.
+
+- name: "Rosie Wise"
+  year: 2015
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I'm 3 weeks into my recovery after my lung operation and I'm amazed at my recuperation. I'm convinced it is due to the following: a) choosing the right surgeon, b) choosing a surgeon who does key hole surgery with only one incision (only 2.5 inches long!) allowing quicker recovery, c) a surgeon who utilizes modern equipment, innovative ideas and new technology and d) a surgeon who is passionate about giving his patients the best possible operation with the least recovery time. I have always been squeemish about operations and hospitals so it was very comforting to have a surgeon who was personable, encouraging and positive. I was lucky to have a surgeon who is so focused and interested in the lung, this is imperative as I've discovered this is a massive topic on its own.
+
+- name: "Barbara Love"
+  year: 2015
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Over a year ago, in November 2003, Mr Lim asked me to write a testimonial. I still didn't know what approach to take but as so much time as passed and, more importantly, as I never said 'thank you' properly, I have written something about my experience for you to use/ edit or not as you will.
+
+    I think that he wanted something about the method. Right VATs upper lobectomy I think you call it. I would say Keyhole surgery. A tiny, tiny incision. I can't understand why there would be a debate. Is there a resistance? The tiny incision has to be the way. It's about speed, quality and cost of recovery.
+
+    In November 2013 Mr Lim removed the top lobe of my right lung. This was the second lobectomy that I had experienced. The first , 12 years earlier, had been performed following a diagnosis of lung cancer, the top lobe of my left lung had been removed. I have a scar across my back to be proud of, from under my left armpit to the centre of my back. It had taken 3 months to recover from surgery and return to work part time. I never lost the 'wheeze' whenever I climbed stairs or walked up a slope - people thought I had asthma.
+
+    In 2013 the cancer returned. This time it was in my right lung. I was surprised rather than scared. I had no doubt that the operation would be successful so that when I first met you I thought that I was in familiar territory. He explained, amongst other things, the process of the surgery. The incision would be tiny.
+
+    I have no idea how common it is for someone to have this operation twice in their lives. My feelings this second time were oddly (?) calm although I understood that it was likely to have an affect on the quality of my life. My lung capacity would be down by 2/5th and aged 65 as I was then that was likely to have an impact.
+
+    I went to hospital on the Tuesday, had my operation on Wednesday and I was allowed to go home on Friday. I had a few stitches and a small dressing covering the tiny wound just below my right armpit.
+
+    The following day I was up, dressed, and out for a walk. I had to stop 3 times on the hill in the wood near my house but I made it round the block. Following that first walk there were others and then, a week later and after the stitches were removed, I went swimming.
+
+    That was a remarkable difference. That tiny incision meant that I was focused, not on healing a wound, but on learning how to breath, be active and recover. That tiny incision meant that I had no fear of injury by going out and living my life. I learned how to listen to my body. I went to Pulmonary Rehab at the hospital and then joined the gym. Aged 65 I recovered faster that I had at 53.
+
+    Today, a year later, I am possibly fitter than I was before surgery. Certainly I am doing more exercise.
+
+    Thank you. You are doing a remarkable job.
+
+- name: "Chizuko Kimura"
+  year: 2014
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    Thank you very much for removing a middle lobe from my right lung... The days passed so quickly. I stayed there two nights and three days. You treated me like a queen because I have not had a lot of pain. I had a good time in the Elizabeth recovery and the Alex wards as well.
+
+- name: "Miriam Dwek"
+  year: 2014
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I am sitting here with my mother Erika Dwek, 5 weeks to the day since you undertook the resection. I wanted, on behalf of the whole family, to thank you for undertaking what we recognise was a very difficult procedure. Thanks also to your team for all the care that you have shown my mother. Without this she would never have regained the quality of health that she is now starting to enjoy over the last few weeks.
+
+    She has asked me to say “a big thank you” now that the fact she is better and the results have begun to sink in. Without you she would not have had the courage to contemplate managing without the oxygen. We are pleased that the pain control is now good. My mum’s sleep patterns are almost back to normal and she is waking up in the mornings refreshed.
+
+    With very best wishes (and many thanks),
+
+- name: "Yolande Letshou"
+  year: 2014
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I first met with Dr Lim in March 2014 after a year long search of trying to find the right surgeon to remove my lung tumor. From our initial first appointment I was immediately impressed with Dr Lim's level of expertise and felt confident to book my surgery with him there and then. Being young I was delighted that Dr Lim was able to complete my procedure via keyhole surgery despite the challenges that were presented with my extremely rare condition. This meant limited scarring and a more speedy recovery.
+
+    The service I received by Dr Lim and his team was truly second to none. And as for my recovery till this day my friends and family cannot believe how quickly I have been able to get back on my feet. We are now June 2014 and I am back at work already and feel amazing.
+
+    Thank you again Dr Lim I am truly grateful!
+
+    All the best,
+
+- name: "Loretta Burns"
+  year: 2014
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    After the misfortune of receiving my diagnosis of lung cancer in September 2013, it has been my good fortune to have been lucky enough to receive the best of care. My oncologist, Professor Justin Stebbing, recommended me to Eric Lim to undergo a lobectomy on my right lung. After my initial consultation with Mr. Lim, I was very happy to go ahead and entered the Royal Brompton Hospital in Chelsea on the evening of March 17th 2014, underwent the lobectomy via keyhole surgery the following day and was able to go home on the 20th of March. I returned to see Mr. Lim the following week for my follow-up appointment and he was delighted with the result, as was I.
+
+    My recovery from the surgery was fast and, apart from some slight discomfort around the (very small) scar area whilst healing, it has been without any problems. I cannot thank Mr. Lim enough. Thanks to him I now have no cancer in my lung - he was able to remove what was the primary cancer by reducing my right lung by one third, using this remarkable keyhole method. He is also an utterly charming man who explained everything to me in a clear, direct way. I only wish that every patient in my condition could be lucky enough to be treated by him.
+
+- name: "David Elliott"
+  year: 2014
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I would like just to write not only to thank all of you for what you did, but also to clarify what was for me a quite extraordinary experience. The degree of care and concern at every level, which I received, was at times overwhelming…
+
+    I almost feel as if my time spent with you was a privilege. My wife was also supported and encouraged in a similar manner. I suspect this experience will stay with me for many years as an example of how amazing human beings can be.
+
+- name: "Joseph Kane"
+  year: 2014
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I would like to thank the Royal Brompton Hospital, especially the staff of Elizabeth and Alexandra wards, Dr Lim and his team for their care and expertise and giving me the confidence to get through this ordeal.
+
+    From the explanation of the surgery, to post operative care, all my fears and worries were removed by Dr Lim.
+
+    Thank you,
+
+- name: "Angela Roche"
+  year: 2014
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    From my first consultation all the way through to my surgery, Dr Lim reassured me and his positivity really helped me to face any fears I had. My family and I thank him from the bottom of our hearts as he made facing my lung cancer and surgery less fearful and his reassurance helped my family to come to terms and understand what needed to be done before and after surgery, Dr Lim and his team are truly amazing.
+
+- name: "Lillian Tang"
+  year: 2013
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    It is exactly a week today since my keyhole lung surgery. I was discharged home on 7 November 2013. I just had one stitch removed by my GP's practice nurse and all is well.
+
+    The whole experience has well exceeded my expectation. Upon reflection, a few factors may have contributed to my happy story.
+
+    Firstly - information leading to understanding & accepting of my illness - Mr Lim at the ourpatient clinic, together with the hospital doctors and nurses explained everything clearly, complemented by relevant booklets. They also conducted themselves in such an unhurried way that i was comfortable to ask questions. I was also asked lots of questions in order to check my understanding!!
+
+    Secondly - I feel both Mr Lim & TC the consultant anaesthetist listened well to involve me in making decision for my treatment and care. My greatest fear was pain. Keyhole surgery and PCA were 2 positive outcomes from such discussion.
+
+    Thirdly - Good team work among staff at the Royal Brompton enabled me to receive high standard of service and care. They did not seem to be 'rushed off their feet!!'. I was informed constantly with relevant information, eg what to expect immediately post-op, storage of my belongings, visitors etc...
+
+    Fourthly - I had the impression the staff wanted to help me get well as soon as possible. On the first day post-op, the Physiotherapists talked me confidently into getting out of bed and walking unaided the full length of the unit, with deep breathing exercises. This was a huge surprise to me!! The catering staff were kind to offer extra juice drinks & make sure my food was hot!
+
+    When I told one staff nurse my legs were itchy due to the tight stockings, she came round with a tube of Aquous Cream and proceeded to massage it on my legs. I told her it was heavenly!!
+
+    Mr Lim came to see me twice to encourage me on my progress. I was so pleased he brought Dr Beckles who referred me from Royal Free the second time.
+
+    My only discomfort was the dry mouth which stopped me from talking to my family on the first day. While I did not feel nauseated, my appetite did not return until the third day.
+
+    My final comment is that the whole experience has been life-changing!! My greatest fear was allayed as I have been totally pain-free throughout. My final word for now is naturally 'Thank You all for Everything'.
+
+- name: "Eileen Stuart-Clarke"
+  year: 2013
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I was fortunate to be referred to Mr Lim by another doctor as an emergency patient. I was immediately impressed by Mr Lim's professionalism and the clarity and thoroughness with which he explained how he would treat me. The level of care was simply exemplary and Mr Lim and his team worked together seamlessly with sensitivity and expertise.
+
+    When I required elective surgery later in the year, I returned without hesitation to Mr Lim and his treatment was, once again, superb. I can not recommend him highly enough.
+
+- name: "Ana Mikulec"
+  year: 2013
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I met Dr Eric Lim 6 years ago this December, following a recommendation from the Royal Free. In 1999 my mother had a thymoma removed. In 2007, it recurred along with an aspergilloma. Addenbrooks, Papworth and numerous other doctors had told us that it was inoperable.
+
+    We received a phone call from The Royal Free that informed us that Dr Lim would see us at the Royal Brompton Hospital. On our first visit, he told us that he could perform the operation, which he did in January 2008. He saved my mother’s life and I thank God for him every day.
+
+    There aren't enough words to fully express my gratitude. He took care of her as if she was part of his own family and if we ever had any concerns he was always there for us. I've never met a more professional, compassionate man. To this day he continues to take amazing care of my mother.
+
+- name: "Gary Bishop"
+  year: 2013
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    At initial interview, Mr Lim extracted from me the pertinent historical information he required allowing him to explain, without recommendation, my options. Mr Lim was concise, professional, very informative, and filled me with confidence about my future surgery, using a paper diagram and computer scan. I was not pushed into making an immediate decision which relaxed me, and I was very relieved to hear he had already pencilled-in a date for my operation.
+
+    Prior to surgery Mr Lim visited my bedside, explained exactly what was going to happen, and ended by stating when I should be discharged which once again filled me with confidence at a time when I was getting a little anxious.
+
+    Mr Lim visited me two days after surgery where he collected information from nursing staff and myself, informed me about the ensuing few days concerning my medication and other general aspects of recovery, then said I could return home.
+
+    My follow up appointment was conducted by three of Mr Lim’s staff and I was impressed by the thoroughness of the examination and pleased that Mr Lim was consulted with his feedback, and ensuing discharge, disseminated to me.
+
+- name: "Ray Hall"
+  year: 2013
+  treatment: ""
+  photo: ""
+  homepage: no
+  quote: |
+    I emailed the Royal Brompton Hospital immediately after being told that I had not responded to all the chemotherapy and radiotherapy treatments that I had been given since January 2011 and nothing more could be done for me.
+
+    The email was my request to be included in any trials being planned that may be compatible.
+
+    The following morning I received a personal email from Mr Eric Lim saying that my condition was maybe too advanced for consideration, but he would be very pleased to give me a second opinion as to my condition of lung cancer.
+
+    My wife and I met with Mr Lim at the Royal Brompton Hospital on Tuesday 12 September 2013 and had a 45 minute meeting. Mr Lim explained very clearly what could be done and offered a referral to a colleague, Mr Popat, at the Royal Marsden Hospital.
+
+    The latest update is that I received the first chemotherapy infusion on Tuesday 12 November on a clinical trial programme that could go on until February/March 2014.
+
+    My inclusion on this programme is solely down to Mr Lim initially inviting me to see him for which I am extremely grateful.
