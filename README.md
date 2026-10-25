@@ -16,17 +16,18 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.16 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
-| For patients | `/for-patients` | v1.4 | 25 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
-| For professionals | `/for-professionals` | v1.4 | 25 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
-| virtual Grand Rounds | `/virtual-grand-rounds` | v1.4 | 25 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
-| About | `/about` | v1.9 | 25 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
-| Contact | `/contact-us` | v1.2 | 25 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
+| Home | `/` | v1.17 | 25 Oct 2026 | `index.html` | `20261025-homepage.html` |
+| For patients | `/for-patients` | v1.5 | 25 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
+| For professionals | `/for-professionals` | v1.5 | 25 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
+| virtual Grand Rounds | `/virtual-grand-rounds` | v1.5 | 25 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
+| About | `/about` | v1.10 | 25 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
+| Contact | `/contact-us` | v1.3 | 25 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
 
+- **All pages, 25 Oct (Home v1.17, For patients v1.5, For professionals v1.5, virtual Grand Rounds v1.5, About v1.10, Contact v1.3)**: less space between sections, about 25% tighter. Homepage sections 110px to 80px above and below, headings 64px to 44px above content; other pages 72px to 54px, headings 40px to 32px; closing call-to-action 100–120px to 72–88px; smaller still on phones. Set in a block marked "Tighter spacing between sections" at the end of each page's styles.
 - **Home v1.16**: section marks added beside each homepage section heading (Start here, About, Your journey, Expertise, In their own words): Professor Lim's lung logo, pressed into the surface in the same engraved style as the other pages' marks (option B). Clicking a mark returns to the top. The homepage's section labels are now the same size (16px) as on every other page (they had been 17px, and "In their own words" 12px).
 - **All pages, 25 Oct (Home v1.15, For patients v1.4, For professionals v1.4, virtual Grand Rounds v1.4, About v1.9, Contact v1.2)**: Professor Lim's lung logo beside his name at the top left of every page (light version for the dark top bar, `assets/icons/logo-on-dark.svg`; full-colour version `assets/icons/logo.svg`), traced from the favicon so it stays sharp.
 - **All pages, 25 Oct (Home v1.14, For patients v1.3, For professionals v1.3, virtual Grand Rounds v1.3, About v1.8, Contact v1.1, 404)**: site icon (the lung symbol from the old site) added: `favicon.ico` at the top of the repository and phone home-screen icons in `assets/icons/`.
@@ -60,7 +61,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - **This repository** is the master copy of every approved page. Always start changes from the file here.
 - **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261025-homepage.html`). Older copies are renamed with `-superseded` and kept. Drive is updated **once, at the end of each working session**, so during a session it can be a version behind this repository.
 
-**Drive copies waiting to be saved:** Home v1.16 (Drive holds v1.1), For patients v1.4 (v1.0), For professionals v1.4 (v1.1), virtual Grand Rounds v1.4 (v1.1), About v1.9 (v1.1), Contact v1.2 (v1.0).
+**Drive copies waiting to be saved:** Home v1.17 (Drive holds v1.1), For patients v1.5 (v1.0), For professionals v1.5 (v1.1), virtual Grand Rounds v1.5 (v1.1), About v1.10 (v1.1), Contact v1.3 (v1.0).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
 
 ## Guide for the practice team

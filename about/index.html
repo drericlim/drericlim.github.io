@@ -257,7 +257,14 @@ a.pr .pr-title::after{content:' ↗';font-size:.8em;color:rgba(255,255,255,.5);}
 .site-nav .brand{display:flex;align-items:center;gap:12px;}
 .site-nav .brand .brand-logo{display:block;width:45px;height:36px;flex:none;}
 .site-nav .brand .brand-text{display:block;font:inherit;letter-spacing:inherit;text-transform:none;opacity:1;margin:0;}
-@media(max-width:420px){.site-nav .brand .brand-logo{width:38px;height:30px;}}</style>
+@media(max-width:420px){.site-nav .brand .brand-logo{width:38px;height:30px;}}
+/* Tighter spacing between sections (25 Oct 2026) */
+main section{padding:54px 0;}
+.section-head{margin-bottom:32px;}
+.close-cta{padding:72px 0;}
+main section.film-band{padding:60px 0;}
+@media(max-width:860px){main section.film-band{padding:46px 0;}}
+@media(max-width:720px){main section{padding:44px 0;}.close-cta{padding:56px 0;}}</style>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
