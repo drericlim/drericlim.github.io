@@ -226,7 +226,9 @@ html{scroll-padding-top:24px;}
 section{padding:80px 0;}
 .section-head{margin-bottom:44px;}
 .close-cta{padding:88px 0;}
-@media(max-width:720px){section{padding:58px 0;}.section-head{margin-bottom:34px;}.close-cta{padding:64px 0;}}</style>
+@media(max-width:720px){section{padding:58px 0;}.section-head{margin-bottom:34px;}.close-cta{padding:64px 0;}}
+/* Patient quotes: lines of even length, no last line of one or two words (27 Oct 2026) */
+.tq blockquote p{text-wrap:balance;margin:0 auto;}</style>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -551,6 +553,25 @@ section{padding:80px 0;}
       stage.addEventListener('mouseleave', function(){ hovering = false; schedule(); });
       document.getElementById('tq-controls').hidden = false;
       show(0); setPaused(paused);
+    }
+
+    // Even line lengths in older browsers without built-in balancing (text-wrap: balance)
+    if (!(window.CSS && CSS.supports && CSS.supports('text-wrap', 'balance'))) {
+      var balanceQuotes = function(){
+        items.forEach(function(fig){
+          var p = fig.querySelector('blockquote p'); if (!p) return;
+          p.style.maxWidth = '';
+          var lh = parseFloat(getComputedStyle(p).lineHeight);
+          var lines = function(){ return Math.round(p.getBoundingClientRect().height / lh); };
+          var n = lines(); if (!lh || n < 2) return;
+          var hi = p.getBoundingClientRect().width, lo = hi / 2;
+          while (hi - lo > 2) { var mid = (lo + hi) / 2; p.style.maxWidth = mid + 'px'; if (lines() > n) lo = mid; else hi = mid; }
+          p.style.maxWidth = Math.ceil(hi) + 'px';
+        });
+      };
+      var resizeTimer;
+      (document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(balanceQuotes);
+      window.addEventListener('resize', function(){ clearTimeout(resizeTimer); resizeTimer = setTimeout(balanceQuotes, 150); });
     }
   }
 

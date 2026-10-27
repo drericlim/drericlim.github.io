@@ -16,7 +16,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.20 | 27 Oct 2026 | `index.html` | `20261027-homepage.html` |
+| Home | `/` | v1.21 | 27 Oct 2026 | `index.html` | `20261027-homepage-v1.21.html` |
 | For patients | `/for-patients` | v1.5 | 25 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
 | For professionals | `/for-professionals` | v1.6 | 25 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.5 | 25 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
@@ -28,6 +28,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **Home v1.21**: the rotating patient quotes break into lines of even length, so a quote never ends with a last line of one or two words. Uses the browser's built-in balancing (`text-wrap: balance`); a short script does the same in older browsers without it. Tested on all 54 homepage quotes at desktop, tablet and phone widths: short last lines went from 12 to 0 (desktop) and 16 to 0 (phone).
 - **Home v1.20**: the pressed section marks beside each homepage heading are redrawn from Professor Lim's official logo (the same shape as `assets/icons/logo-on-dark.svg`: lobes, line and ring, all pressed in one colour). The drawing is kept once (`lung-k`) and shared by the light and dark marks.
 - **All pages, 27 Oct (no page versions changed; files only)**: Professor Lim's official logo replaces the traced one. Dark version `assets/icons/logo-on-dark.svg` (beside his name at the top left of every page) and light version `assets/icons/logo-on-light.svg` (replaces `logo.svg`), both traced as sharp drawings from the originals he supplied (kept as `logo-dark-original.png` and `logo-light-original.png`), with 1200px transparent PNG copies for documents. The site icon (`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`) is remade from the dark version on a navy square (`logo-dark-tile.svg`). `lung-mark.png` removed. Details: `assets/icons/README.md`.
 - **Home v1.19**: "I'm a clinician" reads "Free international teaching through the virtual Grand Rounds, and Thoracic Reflections, my essays on the trials, guidelines and debates shaping our practice." (matches the For professionals page).
@@ -67,7 +68,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - **This repository** is the master copy of every approved page. Always start changes from the file here.
 - **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261025-homepage.html`). Older copies are renamed with `-superseded` and kept. Drive is updated **once, at the end of each working session**, so during a session it can be a version behind this repository.
 
-**Drive is up to date** (saved at the end of the session on 27 Oct 2026). Drive holds Home v1.20 (`20261027-homepage.html`; v1.19 renamed `20261025-homepage-v1.19-superseded.html`), the official logos (`20261027-logo-dark.svg`, `20261027-logo-light.svg`), and For patients v1.5, For professionals v1.6, virtual Grand Rounds v1.5, About v1.10 and Contact v1.3 as `20261025-<page>.html`. Older copies are kept as `20261025-<page>-v<old version>-superseded.html`.
+**Drive is up to date** (saved at the end of the session on 27 Oct 2026). Drive holds Home v1.21 (`20261027-homepage-v1.21.html`; v1.20 renamed `20261027-homepage-v1.20-superseded.html`, v1.19 `20261025-homepage-v1.19-superseded.html`), the official logos (`20261027-logo-dark.svg`, `20261027-logo-light.svg`), and For patients v1.5, For professionals v1.6, virtual Grand Rounds v1.5, About v1.10 and Contact v1.3 as `20261025-<page>.html`. Older copies are kept as `20261025-<page>-v<old version>-superseded.html`.
 - Drive file IDs: homepage `1615yAufISKoC4KdgPSHXsY3aXlNKxdji`, hub-for-patients `1dtECmQtuAHUR8FEY32D8gw9izD0vb_lZ`, hub-for-professionals `1OlnH1picwu1RPwinbHAGY-ovtPthkxbi`, hub-virtual-grand-rounds `1xcrndPsLC6za-CI5pxnRAsm56H2b7rBG`, hub-about `1MbCY6ceg1ogWsrRoCrxKeaHh4_bKfooe`, contact `1OTCxvrMDuv9OdMdGtoaIj-PviR1wzv5d`.
 - Home and About copies keep their GitHub Pages front matter and Liquid tags (they are the source files; rotating photos, films and quotes are filled in by GitHub Pages).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
