@@ -23,6 +23,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | About | `/about` | v1.10 | 25 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
 | Contact | `/contact-us` | v1.3 | 25 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
+| Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
