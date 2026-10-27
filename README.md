@@ -87,6 +87,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - The contact form needs a form service connected before it can send messages, and a privacy notice page at `/privacy`.
 - Images: all now in `assets/` (see `assets/README.md`). Still to supply: team photos (4), award pictures (LaingBuisson, SCTS), book covers (2), official partner logos (Medtronic, AstraZeneca, Medela), speaker headshots, and ideally higher-resolution originals of the two portraits.
 - The hero video link is still to be added.
+- To confirm: whether the homepage's pressed section marks (the `lung-light` and `lung-dark` drawings inside `index.html`) should be redrawn from the official logo shape.
 - Build the `/testimonials` page from `_data/testimonials.yml`.
 - Check the photo beside Tony Marsh's testimonial (it shows a woman and a baby).
 - The virtual Grand Rounds registration link (Zoom) is a placeholder.
