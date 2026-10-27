@@ -27,6 +27,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **All pages, 27 Oct (no page versions changed; files only)**: Professor Lim's official logo replaces the traced one. Dark version `assets/icons/logo-on-dark.svg` (beside his name at the top left of every page) and light version `assets/icons/logo-on-light.svg` (replaces `logo.svg`), both traced as sharp drawings from the originals he supplied (kept as `logo-dark-original.png` and `logo-light-original.png`), with 1200px transparent PNG copies for documents. The site icon (`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`) is remade from the dark version on a navy square (`logo-dark-tile.svg`). `lung-mark.png` removed. Details: `assets/icons/README.md`.
 - **Home v1.19**: "I'm a clinician" reads "Free international teaching through the virtual Grand Rounds, and Thoracic Reflections, my essays on the trials, guidelines and debates shaping our practice." (matches the For professionals page).
 - **For professionals v1.6**: Thoracic Reflections text reads "Essays on the trials, guidelines and debates shaping our practice. Read them here, or receive each new one by email."
 - **Home v1.18**: "I'm a clinician" describes Thoracic Reflections as "my take on where the field is heading, from new evidence to how we train surgeons" (not only articles on new evidence).
@@ -84,7 +85,6 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 - Every page carries `<meta name="robots" content="noindex, nofollow">` so search engines ignore the test site. At launch this changes back to `index, follow` on every page.
 - The contact form needs a form service connected before it can send messages, and a privacy notice page at `/privacy`.
-- Logo: Professor Lim has an official dark version of his logo (to replace the traced `assets/icons/logo-on-dark.svg` in the top bar); reminder set for Wed 28 Oct 2026.
 - Images: all now in `assets/` (see `assets/README.md`). Still to supply: team photos (4), award pictures (LaingBuisson, SCTS), book covers (2), official partner logos (Medtronic, AstraZeneca, Medela), speaker headshots, and ideally higher-resolution originals of the two portraits.
 - The hero video link is still to be added.
 - Build the `/testimonials` page from `_data/testimonials.yml`.

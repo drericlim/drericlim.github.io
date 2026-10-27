@@ -146,6 +146,15 @@ Every picture on the website is kept in GitHub, in the **`assets`** folder, with
 
 Each folder contains a short note listing what is in it, what is still needed, and the recommended size. GitHub shows that note below the list of files.
 
+### Professor Lim's logo
+
+The official logo is kept in `assets/icons/`, in two versions:
+
+- **Dark version** (`logo-on-dark.svg`, or `logo-on-dark-1200.png` for Word, slides and emails): white and blue lungs, for dark or photo backgrounds.
+- **Light version** (`logo-on-light.svg`, or `logo-on-light-1200.png`): navy and blue lungs, for white or pale backgrounds.
+
+Always use these files rather than a screenshot or a copy from an email, so the logo looks the same everywhere. The small icon in browser tabs and on phone home screens is made from the dark version; ask Claude to remake it if the logo ever changes.
+
 ### Naming photos
 
 - Lower case, with hyphens instead of spaces, and no other punctuation: `sarah-booth.jpg`, not `Sarah Booth (1).JPG`.
