@@ -127,6 +127,10 @@ If a mistake breaks the file, the website simply keeps showing the last good ver
 
 Ask Claude, or open `testimonials.yml` with the pencil icon, find the patient's name (Ctrl+F or Cmd+F), change or delete their whole entry, and commit.
 
+### Feedback on the virtual Grand Rounds
+
+The virtual Grand Rounds page has its own "In their own words" section, with comments from attendees and speakers. They are kept in `_data/vgr-feedback.yml`, one entry each: the quote word for word, the person's name, whether they were an attendee or a speaker, and the year. To add one, ask Claude ("Please add this vGR feedback to drericlim.com") or copy an existing entry, change it, and commit. Newest go at the top; the page shuffles them on each visit.
+
 ---
 
 ## 6. Photos and logos

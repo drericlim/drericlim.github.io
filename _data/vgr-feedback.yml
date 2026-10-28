@@ -1,0 +1,73 @@
+# What attendees and speakers say about the virtual Grand Rounds.
+# Shown on /virtual-grand-rounds in "In their own words", one at a time, shuffled on each visit.
+# Quote people word for word (… marks words left out). Newest first.
+#   quote: the words shown
+#   name:  the person's name as they gave it
+#   role:  Attendee or Speaker
+#   year:  when they said it
+# Source of the 2021 entries: "vGR report Jun 21" (Google Drive), appendices A and B.
+
+- quote: "I am tremendously impressed with this fantastic initiative where you are doing a Brompton grand round every week with international speakers from all over the world."
+  name: Joel Dunning
+  role: Attendee
+  year: 2021
+
+- quote: "I got up early and watched. I'm learning from these Webinars. Something good has come out of COVID 2020 thank you"
+  name: Mavis Nye
+  role: Attendee
+  year: 2021
+
+- quote: "Thank you, Professor Eric Lim for enabling International Surgeons as me to keep updated with skills and knowledge…"
+  name: Julius Atogebania
+  role: Attendee
+  year: 2021
+
+- quote: "I am very excited to attend the Grand Rounds of Thoracic Surgery. Everybody here is happy with the content and choice of topics."
+  name: Elsayed Abdelrahman
+  role: Attendee
+  year: 2020
+
+- quote: "It was a great conference and I wanted to have another look at some of the presentations, particularly Harry de Koning's one about lung cancer screening."
+  name: Stephanie Fraser
+  role: Attendee
+  year: 2021
+
+- quote: "I find the discussions on surgery versus radiotherapy options always fascinating."
+  name: Lucasz Rzeczkowski
+  role: Attendee
+  year: 2021
+
+- quote: "An excellent series of talks! Highly recommended!"
+  name: Martin Hurtgen
+  role: Attendee
+  year: 2021
+
+- quote: "Thank you for organizing series of such excellent talks."
+  name: Mohan Devbhandari
+  role: Attendee
+  year: 2021
+
+- quote: "It is a fantastic initiative."
+  name: Margaret Kornaszewska
+  role: Attendee
+  year: 2021
+
+- quote: "Really insightful session, thank you!"
+  name: Sue Thomas
+  role: Attendee
+  year: 2021
+
+- quote: "I have been following news of the Grand Rounds with great interest through our mutual friends. It looks like these are a great success so far, and I heartily congratulate you! I am relishing the chance to contribute too."
+  name: Alan Sihoe
+  role: Speaker
+  year: 2021
+
+- quote: "Thank you … for this great opportunity to participate in the Prestigious Royal Brompton Grand Rounds – it was a pleasure to present and discuss Mesothelioma surgery with you!"
+  name: Isabel Opitz
+  role: Speaker
+  year: 2021
+
+- quote: "Thank you for the invitation. It's an honour to speak at your grand round"
+  name: Walter Weder
+  role: Speaker
+  year: 2020
