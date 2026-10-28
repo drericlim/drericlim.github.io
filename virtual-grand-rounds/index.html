@@ -280,6 +280,18 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
 .p-who{font-size:13.5px;color:var(--text-soft);}
 .p-row.past .p-talk{color:#6A7A8C;}
 .p-row.past .p-date,.p-row.past .p-who{color:#8592A1;}
+/* Collapsed 2026 programme */
+.prog-toggle{border-top:1px solid #DEE4EC;border-bottom:1px solid #DEE4EC;}
+.prog-toggle>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 2px;font-size:15px;font-weight:600;color:var(--blue);}
+.prog-toggle>summary::-webkit-details-marker{display:none;}
+.prog-toggle>summary:hover .t{text-decoration:underline;text-underline-offset:4px;}
+.prog-toggle>summary:focus-visible{outline:2px solid var(--blue);outline-offset:3px;}
+.prog-toggle .chev{flex:none;width:10px;height:10px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:-5px 6px 0 0;transition:transform .25s;}
+.prog-toggle[open] .chev{transform:rotate(-135deg);margin-top:5px;}
+.prog-toggle .t-open,.prog-toggle[open] .t-closed{display:none;}
+.prog-toggle[open] .t-open{display:inline;}
+.prog-toggle[open]>summary{margin-bottom:12px;}
+.prog-toggle .programme{padding-bottom:32px;}
 .prog-note{font-size:14.5px;color:var(--text-soft);margin-top:30px;}
 .prog-note a{color:var(--blue);font-weight:600;border-bottom:1px solid currentColor;}
 @media(max-width:860px){.programme{grid-template-columns:1fr;}.p-col + .p-col > .p-month:first-child{margin-top:28px;}}
@@ -489,7 +501,9 @@ main section.film-band{padding:60px 0;}
       <h2 id="programme-title">35 lectures, from Toronto to Tokyo.</h2>
       <p>From tumour biology and screening to robotics, transplantation and recovery. Talks already held are shown in grey.</p>
     </div>
-    <div class="programme reveal">
+    <details class="prog-toggle reveal">
+      <summary><span class="t"><span class="t-closed">See all 35 lectures, January to December</span><span class="t-open">Hide the full programme</span></span><span class="chev" aria-hidden="true"></span></summary>
+    <div class="programme">
       <div class="p-col">
         <h3 class="p-month">January</h3>
         <ol class="p-list">
@@ -566,6 +580,7 @@ main section.film-band{padding:60px 0;}
         </ol>
       </div>
     </div>
+    </details>
     <p class="prog-note reveal">Talks already held are added to the <a href="#archive">archive</a> once the recording is ready.</p>
   </div>
 </section>
