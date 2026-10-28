@@ -9,7 +9,7 @@ Professor Lim's official lung logo, supplied by him on 27 October 2026, in a dar
 | `logo-on-dark.svg` | **Dark version**: white upper lobes, light and mid blue lower lobes, white line and ring. Transparent background. | Anything with a dark navy or photo background. It is shown beside Professor Lim's name at the top left of every page. |
 | `logo-on-light.svg` | **Light version**: navy upper lobes, mid blue and light blue lower lobes, fine navy line and ring. Transparent background. | Anything with a white or pale background. |
 | `logo-on-dark-1200.png`, `logo-on-light-1200.png` | The same two logos as pictures, 1200 pixels wide, transparent background. | Word documents, slides, emails and anything that cannot use `.svg` files. |
-| `logo-light-circle.svg` | The light version in a subtle pale circle (fill `#F1F5FA`, faint rim `#DCE5F0`), transparent outside. | The source of the browser-tab icon and the Android icons. |
+| `logo-light-circle.svg` | The light version in a subtle pale circle (white fill, pale blue rim `#D3DEEC`), transparent outside. | The source of the browser-tab icon and the Android icons. |
 | `logo-light-tile.svg` | The light version centred on a white square. | The source of the iPhone and iPad home-screen icon. |
 | `logo-dark-original.png`, `logo-light-original.png` | The two images exactly as Professor Lim supplied them. | Reference only. |
 
