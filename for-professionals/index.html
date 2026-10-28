@@ -251,6 +251,17 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
 .subscribe > *{min-width:0;}
 @media(max-width:480px){.subscribe{padding:22px 20px;}.s-form{flex-direction:column;}.s-form button{width:100%;}}
 .curriculum{list-style:none;border-top:1px solid #DEE4EC;}
+/* Collapsed free module introductions (same style as the vGR programme) */
+.mod-toggle{border-top:1px solid #DEE4EC;border-bottom:1px solid #DEE4EC;margin-top:8px;}
+.mod-toggle[open]{border-bottom:none;}
+.mod-toggle>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 2px;font-size:15px;font-weight:600;color:var(--blue);}
+.mod-toggle>summary::-webkit-details-marker{display:none;}
+.mod-toggle>summary:hover .t{text-decoration:underline;text-underline-offset:4px;}
+.mod-toggle>summary:focus-visible{outline:2px solid var(--blue);outline-offset:3px;}
+.mod-toggle .chev{flex:none;width:10px;height:10px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:-5px 6px 0 0;transition:transform .25s;}
+.mod-toggle[open] .chev{transform:rotate(-135deg);margin-top:5px;}
+.mod-toggle .t-open,.mod-toggle[open] .t-closed{display:none;}
+.mod-toggle[open] .t-open{display:inline;}
 .hero-cta{display:inline-flex;align-items:center;gap:8px;margin-top:30px;padding:13px 24px;border:1px solid rgba(255,255,255,.45);border-radius:3px;color:#fff;font-weight:600;font-size:15px;transition:background .2s,border-color .2s;}
 .hero-cta:hover{background:rgba(255,255,255,.08);border-color:#fff;}
 .hero-cta:focus-visible{outline:2px solid var(--sky);outline-offset:3px;}
@@ -469,8 +480,9 @@ main section.film-band{padding:60px 0;}
       </span>
       <span class="c-btn">Go to the course <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></span>
     </a>
-    <p class="intro-lbl reveal">Free introductions to each module</p>
-    <ol class="curriculum reveal">
+    <details class="mod-toggle reveal">
+      <summary><span class="t"><span class="t-closed">Free introductions to each of the six modules</span><span class="t-open">Hide the module introductions</span></span><span class="chev" aria-hidden="true"></span></summary>
+    <ol class="curriculum">
       <li><a href="/recording-data" class="module"><span class="m-num">01</span><span class="m-body"><span class="m-title">Recording data</span><span class="m-sum">Data types, measurement and building datasets that hold up at analysis.</span></span><span class="m-tag">Foundations</span></a></li>
       <li><a href="/summarising-data" class="module"><span class="m-num">02</span><span class="m-body"><span class="m-title">Summarising data</span><span class="m-sum">Means, medians, spread and presenting what you found honestly.</span></span><span class="m-tag">Foundations</span></a></li>
       <li><a href="/comparing-single-outcome-and-variable" class="module"><span class="m-num">03</span><span class="m-body"><span class="m-title">Comparing a single outcome and variable</span><span class="m-sum">T-tests, chi-square and Wilcoxon: choosing the right test and reading its result.</span></span><span class="m-tag">Core methods</span></a></li>
@@ -478,6 +490,7 @@ main section.film-band{padding:60px 0;}
       <li><a href="/advanced-statistical-methods" class="module"><span class="m-num">05</span><span class="m-body"><span class="m-title">Advanced statistical methods</span><span class="m-sum">Model building, diagnostics and the techniques behind modern clinical research.</span></span><span class="m-tag">Advanced</span></a></li>
       <li><a href="/predicting-survival" class="module"><span class="m-num">06</span><span class="m-body"><span class="m-title">Predicting survival</span><span class="m-sum">Time-to-event analysis, Kaplan–Meier curves and Cox regression.</span></span><span class="m-tag">Advanced</span></a></li>
     </ol>
+    </details>
     <p class="course-after reveal">Ready to go further? <a href="https://www.statisticscourse.com/?utm_source=drericlim&amp;utm_medium=referral&amp;utm_campaign=professionals_hub" target="_blank" rel="noopener">Continue with the full course at statisticscourse.com</a></p>
   </div>
 </section>
