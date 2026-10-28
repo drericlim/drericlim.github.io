@@ -16,18 +16,19 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.21 | 27 Oct 2026 | `index.html` | `20261027-homepage.html` |
-| For patients | `/for-patients` | v1.5 | 25 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
-| For professionals | `/for-professionals` | v1.6 | 25 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
-| virtual Grand Rounds | `/virtual-grand-rounds` | v1.5 | 25 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
-| About | `/about` | v1.10 | 25 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
-| Contact | `/contact-us` | v1.3 | 25 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
+| Home | `/` | v1.22 | 28 Oct 2026 | `index.html` | `20261027-homepage.html` |
+| For patients | `/for-patients` | v1.6 | 28 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
+| For professionals | `/for-professionals` | v1.7 | 28 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
+| virtual Grand Rounds | `/virtual-grand-rounds` | v1.6 | 28 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
+| About | `/about` | v1.11 | 28 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
+| Contact | `/contact-us` | v1.4 | 28 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
 
+- **All pages, 28 Oct (Home v1.22, For patients v1.6, For professionals v1.7, virtual Grand Rounds v1.6, About v1.11, Contact v1.4)**: For patients section 05 is labelled "Articles" (was "Patient information", which was confusing as the whole page is patient information). Changed in the For patients contents list and section label, and in the footer link on every page. The section heading "Articles for patients and families." and the `#articles` address are unchanged.
 - **All pages, 28 Oct (files only; no page versions changed)**: the browser-tab icon (`favicon.ico`, `favicon-32.png`) and Android icons (`icon-192.png`, `icon-512.png`) show the light logo in a subtle circle (white, with a pale blue rim; Professor Lim chose this of three styles) instead of a white square, from `assets/icons/logo-light-circle.svg`. The iPhone home-screen icon (`apple-touch-icon.png`) stays square, as iPhones round it themselves.
 - **All pages, 27 Oct (files only; no page versions changed)**: the site icon (browser tab and phone home screen) now uses Professor Lim's light logo on white instead of the dark logo on navy: `favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, made from `assets/icons/logo-light-tile.svg` (`logo-dark-tile.svg` removed).
 - **Home v1.21**: the rotating patient quotes break into lines of even length, so a quote never ends with a last line of one or two words. Uses the browser's built-in balancing (`text-wrap: balance`); a short script does the same in older browsers without it. Tested on all 54 homepage quotes at desktop, tablet and phone widths: short last lines went from 12 to 0 (desktop) and 16 to 0 (phone).
@@ -70,7 +71,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - **This repository** is the master copy of every approved page. Always start changes from the file here.
 - **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261025-homepage.html`). Older copies are renamed with `-superseded` and kept. Drive is updated **once, at the end of each working session**, so during a session it can be a version behind this repository.
 
-**Drive is up to date** (saved at the end of the session on 27 Oct 2026). Drive holds Home v1.21 (`20261027-homepage.html`; v1.20 renamed `20261027-homepage-v1.20-superseded.html`, v1.19 `20261025-homepage-v1.19-superseded.html`), the official logos (`20261027-logo-dark.svg`, `20261027-logo-light.svg`), and For patients v1.5, For professionals v1.6, virtual Grand Rounds v1.5, About v1.10 and Contact v1.3 as `20261025-<page>.html`. Older copies are kept as `20261025-<page>-v<old version>-superseded.html`.
+**Drive is one change behind** (last saved 27 Oct 2026): the 28 Oct "Articles" label (Home v1.22, For patients v1.6, For professionals v1.7, virtual Grand Rounds v1.6, About v1.11, Contact v1.4) is in this repository but not yet in Drive. Drive holds Home v1.21 (`20261027-homepage.html`; v1.20 renamed `20261027-homepage-v1.20-superseded.html`, v1.19 `20261025-homepage-v1.19-superseded.html`), the official logos (`20261027-logo-dark.svg`, `20261027-logo-light.svg`), and For patients v1.5, For professionals v1.6, virtual Grand Rounds v1.5, About v1.10 and Contact v1.3 as `20261025-<page>.html`. Older copies are kept as `20261025-<page>-v<old version>-superseded.html`.
 - Drive file IDs: homepage `1615yAufISKoC4KdgPSHXsY3aXlNKxdji`, hub-for-patients `1dtECmQtuAHUR8FEY32D8gw9izD0vb_lZ`, hub-for-professionals `1OlnH1picwu1RPwinbHAGY-ovtPthkxbi`, hub-virtual-grand-rounds `1xcrndPsLC6za-CI5pxnRAsm56H2b7rBG`, hub-about `1MbCY6ceg1ogWsrRoCrxKeaHh4_bKfooe`, contact `1OTCxvrMDuv9OdMdGtoaIj-PviR1wzv5d`.
 - Home and About copies keep their GitHub Pages front matter and Liquid tags (they are the source files; rotating photos, films and quotes are filled in by GitHub Pages).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
