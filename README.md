@@ -28,6 +28,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **All pages, 28 Oct (files only; no page versions changed)**: the browser-tab icon (`favicon.ico`, `favicon-32.png`) and Android icons (`icon-192.png`, `icon-512.png`) show the light logo in a subtle pale circle instead of a white square, from `assets/icons/logo-light-circle.svg`. The iPhone home-screen icon (`apple-touch-icon.png`) stays square, as iPhones round it themselves.
 - **All pages, 27 Oct (files only; no page versions changed)**: the site icon (browser tab and phone home screen) now uses Professor Lim's light logo on white instead of the dark logo on navy: `favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, made from `assets/icons/logo-light-tile.svg` (`logo-dark-tile.svg` removed).
 - **Home v1.21**: the rotating patient quotes break into lines of even length, so a quote never ends with a last line of one or two words. Uses the browser's built-in balancing (`text-wrap: balance`); a short script does the same in older browsers without it. Tested on all 54 homepage quotes at desktop, tablet and phone widths: short last lines went from 12 to 0 (desktop) and 16 to 0 (phone).
 - **Home v1.20**: the pressed section marks beside each homepage heading are redrawn from Professor Lim's official logo (the same shape as `assets/icons/logo-on-dark.svg`: lobes, line and ring, all pressed in one colour). The drawing is kept once (`lung-k`) and shared by the light and dark marks.
