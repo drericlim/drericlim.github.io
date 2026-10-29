@@ -30,7 +30,7 @@
 | **The website itself** | GitHub: **github.com/drericlim/drericlim.github.io** (the website's *repository*: one online folder holding every page, photo and text file of the site) | This is the master copy. Every change is made here and appears on the site within a few minutes. |
 | **Reference copies of approved pages** | Google Drive, "Personal website" folder | A dated copy of each approved page (e.g. `20261025-homepage.html`). Older copies are marked "-superseded". These are saved at the end of each working session. |
 | **Testimonials** | GitHub: `_data/testimonials.yml` | Every patient testimonial on the site, newest first |
-| **All photos and logos** | GitHub: `assets/`, one folder per kind (see section 6) | Every picture on the website |
+| **All photos and logos** | GitHub: `assets/`, one folder per kind (see section 6, and the full list in Appendix A) | Every picture on the website |
 | **Version record** | GitHub: `README.md`, "Version register" | Which version of each page is current |
 
 GitHub keeps every earlier version of every file, so nothing is ever lost. Any change can be seen or undone from a file's **History**.
@@ -150,6 +150,8 @@ Every picture on the website is kept in GitHub, in the **`assets`** folder, with
 
 Each folder contains a short note listing what is in it, what is still needed, and the recommended size. GitHub shows that note below the list of files.
 
+Appendix A at the end of this guide lists every folder and every file in it, and which page uses each one.
+
 ### Professor Lim's logo
 
 The official logo is kept in `assets/icons/`, in two versions:
@@ -229,3 +231,54 @@ These sections of the guide will be added as each piece is built:
 - **virtual Grand Rounds:** updating the programme, speakers and the Zoom registration link.
 - **Articles and patient guides:** publishing a new article or video.
 - **Launch day:** moving the drericlim.com address to the new site.
+
+---
+
+## Appendix A. Where every picture and file is kept
+
+The master copy of everything on the website is in GitHub (**github.com/drericlim/drericlim.github.io**). Google Drive holds reference copies and the original photo library. **Whenever a picture or file is added, renamed or removed, update this appendix** (Claude does this automatically when it makes the change).
+
+Last updated 29 October 2026.
+
+### In GitHub: pictures (`assets/`)
+
+| Folder | Used on | What is in it now | Still needed |
+|---|---|---|---|
+| `assets/images/` | Across the site, and the preview picture when a page is shared | `eric-lim-portrait.jpg`, `eric-lim-portrait-2.jpg`, `ward-round.jpg` | Higher-resolution portraits |
+| `assets/rotating/hero/` | Homepage, large photo at the top (changes weekly) | `01-eric-lim-portrait.jpg` | More hero photos: landscape, at least 2000px wide, subject on the right |
+| `assets/rotating/home-profile/` | Homepage, About section photo (changes weekly) | `01-eric-lim-portrait.jpg`, `02-eric-lim-portrait-2.jpg` | More photos |
+| `assets/rotating/about-profile/` | About page, portrait at the top (changes weekly) | `01-eric-lim-portrait-2.jpg`, `02-eric-lim-portrait.jpg` | More photos |
+| `assets/awards/` | About page, Awards list (small 80px squares) | `laingbuisson-innovation-in-care-2025.jpg` (award evening photo), `iaslc-ginsberg-award.jpg` (IASLC logo), `scts-research-prizes.jpg` (SCTS crest) | None |
+| `assets/team/` | About page, team list (circles) | `maria-leung.jpg` | 4 more team photos |
+| `assets/books/` | About page, books | none yet | 2 book covers |
+| `assets/films/` | About page, cover pictures for the three films | `vimeo-199325659.jpg`, `vimeo-199445739.jpg`, `vimeo-231725351.jpg` | None |
+| `assets/partners/` | virtual Grand Rounds page, partner logos | `astrazeneca.svg`, `medtronic.svg` | Official Medtronic, AstraZeneca and Medela logos |
+| `assets/speakers/` | virtual Grand Rounds page, speaker headshots | none yet | Speaker headshots |
+| `assets/testimonials/` | Homepage quotes and the future testimonials page | `duilio-barbosa.jpg`, `erika-dwek.jpg`, `richard-warren.jpg`, `tony-marsh.jpg` | Check whether the Tony Marsh photo belongs to Rachel Loye |
+| `assets/articles/` | Patient guides, articles and Thoracic Reflections | none yet | Added with each article |
+| `assets/icons/` | Every page: the logo beside Professor Lim's name, the browser-tab icon and phone icons | Logo files (`logo-on-dark.svg`, `logo-on-light.svg` and PNG copies), icon files (`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`) and their sources | None |
+
+### In GitHub: text the team edits (`_data/`)
+
+| File | Used on | What it holds |
+|---|---|---|
+| `_data/testimonials.yml` | Homepage "In their own words" | Patient testimonials, newest first |
+| `_data/vgr-feedback.yml` | virtual Grand Rounds "In their own words" | Attendee and speaker quotes, newest first |
+| `_data/photo-rotation.yml` | Homepage and About | How often the rotating photos change |
+| `_data/about-films.yml` | About page | The three Vimeo films and their cover pictures |
+
+### In GitHub: records
+
+| File | What it holds |
+|---|---|
+| `README.md` | Version register and full history of changes |
+| `docs/managers-guide.md` | This guide |
+| `CLAUDE.md` | Instructions Claude follows when the team asks it to make changes |
+
+### In Google Drive
+
+| Folder | What is in it |
+|---|---|
+| **Personal website** folder (drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl) | Reference copies of approved pages and logos, named by date, e.g. `20261027-homepage.html`. Older copies end in `-superseded`. |
+| **Images** folder (drive.google.com/drive/folders/1MIgcWqehVYCUfLlW7_2Eu7OitVH7p38p) | Professor Lim's original photo library (theatre, clinic, portraits, awards and conferences, 2008 to 2026). Photos are chosen from here, resized, and the website copy is put in the right `assets/` folder above. The originals stay in Drive. |
+
