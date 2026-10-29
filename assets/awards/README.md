@@ -15,3 +15,5 @@ Logos sit on a white square with space around them, so the small square on the p
 Name of the award and the year, e.g. `laingbuisson-innovation-in-care-2025.jpg`. Square pictures work best, at least 400 by 400 pixels.
 
 Always use lower case, with hyphens instead of spaces, and no other punctuation. To replace a picture, upload a new file **with exactly the same name**: the site picks it up automatically. Keep each file under 500 KB if you can.
+
+If a replaced picture still shows the old version, the browser is showing its saved copy. Ask Claude to add a version date to the picture's address on the page (for example `?v=20261029`).

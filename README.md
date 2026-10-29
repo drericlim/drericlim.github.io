@@ -20,7 +20,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | For patients | `/for-patients` | v1.7 | 28 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
 | For professionals | `/for-professionals` | v1.8 | 28 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.8 | 28 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
-| About | `/about` | v1.11 | 28 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
+| About | `/about` | v1.12 | 29 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
 | Contact | `/contact-us` | v1.4 | 28 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
@@ -28,6 +28,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **About v1.12**: the IASLC award picture's address now ends `?v=20261029`, so browsers that had saved the old photo fetch the new logo. A replaced picture keeps its file name, so browsers can keep showing the old copy; when that happens, add or change a `?v=` date like this.
 - **About, 29 Oct (no page version change)**: the two book covers are in `assets/books/` with the names the page already expected: `integrated-textbook-of-medicine-and-surgery.jpg` and `churchills-pocketbook-of-differential-diagnosis.jpg`. Each cover is trimmed of its white margin and shown whole on white at 600 by 795, the shape of the book thumbnail. Managers' guide Appendix A updated.
 - **About, 29 Oct (no page version change)**: the three award pictures are in `assets/awards/`, with the names the page already expected. `laingbuisson-innovation-in-care-2025.jpg` is Professor Lim holding the award, chosen from two photos he supplied and cropped square. `iaslc-ginsberg-award.jpg` (replacing the old photo) and `scts-research-prizes.jpg` are the society logos on white. All are 400 by 400 and under 25 KB. The managers' guide has a new Appendix A listing every folder and file and where each is used.
 - **For patients v1.7**: the header text opens "Guides, articles and videos on your condition…" (was "Plain-English guides to your condition…"), matching the homepage's "Guides, articles and videos". The rest of the sentence is unchanged. The search-engine description, social-preview text and structured data (JSON-LD) now say "Guides, articles and videos on lung cancer…" too; the search description is shortened to 158 characters ("…from Professor Eric Lim, Royal Brompton.") so Google shows it in full.
