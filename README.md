@@ -28,6 +28,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **About, 29 Oct (no page version change)**: the two book covers are in `assets/books/` with the names the page already expected: `integrated-textbook-of-medicine-and-surgery.jpg` and `churchills-pocketbook-of-differential-diagnosis.jpg`. Each cover is trimmed of its white margin and shown whole on white at 600 by 795, the shape of the book thumbnail. Managers' guide Appendix A updated.
 - **About, 29 Oct (no page version change)**: the three award pictures are in `assets/awards/`, with the names the page already expected. `laingbuisson-innovation-in-care-2025.jpg` is Professor Lim holding the award, chosen from two photos he supplied and cropped square. `iaslc-ginsberg-award.jpg` (replacing the old photo) and `scts-research-prizes.jpg` are the society logos on white. All are 400 by 400 and under 25 KB. The managers' guide has a new Appendix A listing every folder and file and where each is used.
 - **For patients v1.7**: the header text opens "Guides, articles and videos on your condition…" (was "Plain-English guides to your condition…"), matching the homepage's "Guides, articles and videos". The rest of the sentence is unchanged. The search-engine description, social-preview text and structured data (JSON-LD) now say "Guides, articles and videos on lung cancer…" too; the search description is shortened to 158 characters ("…from Professor Eric Lim, Royal Brompton.") so Google shows it in full.
 - **virtual Grand Rounds v1.8**: new section 05 "In their own words" before the closing call to action, set up like the homepage: one quote at a time, shuffled on each visit, changing every 7 seconds, with previous, pause and next buttons. 13 quotes from attendees and speakers, word for word, from the "vGR report Jun 21" (Google Drive, appendices A and B), kept in `_data/vgr-feedback.yml`. The page now starts with front matter so GitHub Pages fills in the quotes (as on Home and About). Added to the page contents list; managers' guide section 5 explains how to add more.
@@ -96,7 +97,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 - Every page carries `<meta name="robots" content="noindex, nofollow">` so search engines ignore the test site. At launch this changes back to `index, follow` on every page.
 - The contact form needs a form service connected before it can send messages, and a privacy notice page at `/privacy`.
-- Images: all now in `assets/` (see `assets/README.md`). Still to supply: team photos (4), book covers (2), official partner logos (Medtronic, AstraZeneca, Medela), speaker headshots, and ideally higher-resolution originals of the two portraits.
+- Images: all now in `assets/` (see `assets/README.md`). Still to supply: team photos (4), official partner logos (Medtronic, AstraZeneca, Medela), speaker headshots, and ideally higher-resolution originals of the two portraits.
 - The hero video link is still to be added.
 - Build the `/testimonials` page from `_data/testimonials.yml`.
 - Check the photo beside Tony Marsh's testimonial (it shows a woman and a baby).

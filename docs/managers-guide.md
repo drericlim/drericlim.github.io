@@ -250,7 +250,7 @@ Last updated 29 October 2026.
 | `assets/rotating/about-profile/` | About page, portrait at the top (changes weekly) | `01-eric-lim-portrait-2.jpg`, `02-eric-lim-portrait.jpg` | More photos |
 | `assets/awards/` | About page, Awards list (small 80px squares) | `laingbuisson-innovation-in-care-2025.jpg` (award evening photo), `iaslc-ginsberg-award.jpg` (IASLC logo), `scts-research-prizes.jpg` (SCTS crest) | None |
 | `assets/team/` | About page, team list (circles) | `maria-leung.jpg` | 4 more team photos |
-| `assets/books/` | About page, books | none yet | 2 book covers |
+| `assets/books/` | About page, books | `integrated-textbook-of-medicine-and-surgery.jpg`, `churchills-pocketbook-of-differential-diagnosis.jpg` | None |
 | `assets/films/` | About page, cover pictures for the three films | `vimeo-199325659.jpg`, `vimeo-199445739.jpg`, `vimeo-231725351.jpg` | None |
 | `assets/partners/` | virtual Grand Rounds page, partner logos | `astrazeneca.svg`, `medtronic.svg` | Official Medtronic, AstraZeneca and Medela logos |
 | `assets/speakers/` | virtual Grand Rounds page, speaker headshots | none yet | Speaker headshots |
