@@ -1,0 +1,41 @@
+# The categories on /publications, in the order they appear.
+# Each paper in _data/publications.yml names one of these slugs in its "category" field.
+#
+#   slug:   short name used in publications.yml (lower case, hyphens)
+#   name:   the heading shown on the page
+#   blurb:  one line under the heading
+#
+# To add a category: copy a block, give it a new slug, then use that slug in publications.yml.
+# A category with no papers is not shown.
+
+- slug: lung-cancer-surgery
+  name: Lung cancer surgery and outcomes
+  blurb: Keyhole and open lobectomy, staging, and what predicts recovery and survival.
+
+- slug: mesothelioma
+  name: Mesothelioma
+  blurb: The MARS trials and the evidence on radical surgery for pleural mesothelioma.
+
+- slug: day-case
+  name: Day case surgery and enhanced recovery
+  blurb: Going home the same day after lung surgery, and how the programme was built.
+
+- slug: screening
+  name: Screening, early detection and biomarkers
+  blurb: Finding lung cancer earlier, including in people who have never smoked.
+
+- slug: guidelines
+  name: Guidelines and position statements
+  blurb: National and international guidance I have chaired or contributed to.
+
+- slug: reviews
+  name: Systematic reviews and meta-analyses
+  blurb: Pooled evidence, including individual patient data meta-analyses.
+
+- slug: methodology
+  name: Trial methodology, statistics and commentary
+  blurb: How trials should be designed and read, and editorials on the published evidence.
+
+- slug: other-thoracic
+  name: Other thoracic conditions
+  blurb: Emphysema, airway and mediastinal surgery, and benign disease.

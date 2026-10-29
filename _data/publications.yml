@@ -1,0 +1,130 @@
+# Publications shown on /publications (For professionals > Research > Publications).
+#
+# DRAFT v0.1, 29 October 2026: a SAMPLE of about a dozen papers, written from memory
+# to show the layout. Titles, journals, years, authors and DOIs still need checking
+# against ORCID (orcid.org/0000-0002-9078-3226). The full list of 200+ papers will
+# replace this sample once it has been exported from ORCID or PubMed.
+#
+# One block per paper. Fields:
+#   title:     the paper's title, as published
+#   authors:   first three authors then "et al." (Lim E is shown in bold automatically)
+#   journal:   the journal's full name
+#   year:      year of publication (number)
+#   type:      one of: Randomised trial, Protocol, Guideline, Original research,
+#              Meta-analysis, Review, Editorial, Letter, Report
+#   category:  the slug of a category in _data/publication_categories.yml
+#   doi:       the DOI only, e.g. 10.1136/thx.2010.145938 (the page makes the link)
+#   featured:  true to show it in "Selected publications" at the top (keep to 6 to 8)
+#   note:      one plain-English line on why it matters (featured papers only)
+#
+# Newest first within each category is done by the page, so order here does not matter.
+# To add a paper: ask Claude ("Please add this paper to my publications list" with the
+# DOI or PubMed link), or copy a block and fill it in.
+
+- title: "Video-assisted thoracoscopic or open lobectomy in early-stage lung cancer"
+  authors: "Lim E, Batchelor TJP, Dunning J, et al."
+  journal: "NEJM Evidence"
+  year: 2022
+  type: Randomised trial
+  category: lung-cancer-surgery
+  doi: 10.1056/EVIDoa2100016
+  featured: true
+  note: "VIOLET: the largest randomised trial of keyhole versus open lobectomy, 503 patients across nine UK centres."
+
+- title: "Impact of video-assisted thoracoscopic lobectomy versus open lobectomy for lung cancer on recovery assessed using self-reported physical function: the VIOLET RCT"
+  authors: "Lim E, Harris RA, McKeon HE, et al."
+  journal: "Health Technology Assessment"
+  year: 2022
+  type: Report
+  category: lung-cancer-surgery
+  doi: 10.3310/THBQ1793
+
+- title: "Study protocol for VIdeo assisted thoracoscopic lobectomy versus conventional Open LobEcTomy for lung cancer: the VIOLET randomised controlled trial"
+  authors: "Lim E, Batchelor T, Shackcloth M, et al."
+  journal: "BMJ Open"
+  year: 2019
+  type: Protocol
+  category: lung-cancer-surgery
+  doi: 10.1136/bmjopen-2019-029507
+
+- title: "Intraoperative pleural lavage cytology is an independent prognostic indicator for staging non-small cell lung cancer"
+  authors: "Lim E, Ali A, Theodorou P, et al."
+  journal: "Journal of Thoracic and Cardiovascular Surgery"
+  year: 2004
+  type: Original research
+  category: lung-cancer-surgery
+
+- title: "Extended pleurectomy decortication and chemotherapy versus chemotherapy alone for pleural mesothelioma (MARS 2): a phase 3 randomised controlled trial"
+  authors: "Lim E, Waller D, Lau K, et al."
+  journal: "Lancet Respiratory Medicine"
+  year: 2024
+  type: Randomised trial
+  category: mesothelioma
+  doi: 10.1016/S2213-2600(24)00119-X
+  featured: true
+  note: "MARS 2: the first randomised trial of radical surgery for mesothelioma, which changed practice worldwide."
+
+- title: "Mesothelioma and Radical Surgery 2 (MARS 2): protocol for a multicentre randomised trial comparing (extended) pleurectomy decortication versus no (extended) pleurectomy decortication for patients with malignant pleural mesothelioma"
+  authors: "Lim E, Darlison L, Edwards J, et al."
+  journal: "BMJ Open"
+  year: 2020
+  type: Protocol
+  category: mesothelioma
+  doi: 10.1136/bmjopen-2020-038892
+
+- title: "Guidelines on the radical management of patients with lung cancer"
+  authors: "Lim E, Baldwin D, Beckles M, et al., on behalf of the British Thoracic Society and the Society for Cardiothoracic Surgery"
+  journal: "Thorax"
+  year: 2010
+  type: Guideline
+  category: guidelines
+  doi: 10.1136/thx.2010.145938
+  featured: true
+  note: "The UK's joint BTS and SCTS guideline on surgery and radical treatment for lung cancer, which I chaired."
+
+- title: "Preoperative versus postoperative chemotherapy in patients with resectable non-small cell lung cancer: systematic review and indirect comparison meta-analysis of randomized trials"
+  authors: "Lim E, Harris G, Patel A, et al."
+  journal: "Journal of Thoracic Oncology"
+  year: 2009
+  type: Meta-analysis
+  category: reviews
+  doi: 10.1097/JTO.0b013e3181a7d1c0
+  featured: true
+  note: "Showed that chemotherapy before and after surgery give similar survival, so timing can follow the patient's needs."
+
+- title: "Impact of positive pleural lavage cytology on survival in patients having lung resection for non-small-cell lung cancer: an international individual patient data meta-analysis"
+  authors: "Lim E, Clough R, Goldstraw P, et al., for the International Pleural Lavage Cytology Collaborators"
+  journal: "Journal of Thoracic and Cardiovascular Surgery"
+  year: 2010
+  type: Meta-analysis
+  category: reviews
+
+- title: "Adjuvant or neoadjuvant chemotherapy for NSCLC"
+  authors: "McElnay P, Lim E"
+  journal: "Journal of Thoracic Disease"
+  year: 2014
+  type: Review
+  category: reviews
+
+- title: "Significant by chance"
+  authors: "Lim E"
+  journal: "Journal of Thoracic Oncology"
+  year: 2025
+  type: Editorial
+  category: methodology
+  featured: true
+  note: "Why the segmentectomy trials do not show what they are widely said to show."
+
+- title: "Reply to Decaluwé and Wright"
+  authors: "Lim E"
+  journal: "Journal of Thoracic Oncology"
+  year: 2025
+  type: Letter
+  category: methodology
+
+- title: "Effect and duration of lung volume reduction surgery: mid-term results of the Brompton trial"
+  authors: "Lim E, Ali A, Cartwright N, et al."
+  journal: "Thoracic and Cardiovascular Surgeon"
+  year: 2006
+  type: Randomised trial
+  category: other-thoracic
