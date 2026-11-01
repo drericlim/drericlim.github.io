@@ -194,6 +194,8 @@ Three spots on the site take turns showing a set of photos, so the site looks fr
 - **Photos take turns in file-name order,** so start each name with a number: `01-…`, `02-…`.
 - **The photos change every Monday.** Every visitor sees the same photo that week. To change a spot to daily, open `_data/photo-rotation.yml`, change `weekly` to `daily` on that line, and commit.
 - **Homepage background photos** must be wide, with the subject on the **right**, because the headline sits on the left. Ask Claude to check and crop them before they go in.
+- **The homepage About photo and the About page portrait share one set of photos,** so the two pages never show the same picture in the same week. Both folders hold the same photos, but the homepage is numbered one step ahead (the About page's `02` is the homepage's `01`, and the About page's `01` is the homepage's last). Add or remove a photo in **both** folders and keep this numbering, or simply ask Claude to do it.
+- **About photos** (both of those spots) are upright 4:5, ideally 1200 by 1500 pixels, real photos only, with no colour effects.
 - The picture shown when a page is shared on social media stays fixed on the main portrait (`assets/images/eric-lim-portrait.jpg`).
 - Anyone else recognisable in a photo, patients especially, must have agreed to it being on the website.
 
@@ -246,8 +248,8 @@ Last updated 29 October 2026.
 |---|---|---|---|
 | `assets/images/` | Across the site, and the preview picture when a page is shared | `eric-lim-portrait.jpg`, `eric-lim-portrait-2.jpg`, `ward-round.jpg` | Higher-resolution portraits |
 | `assets/rotating/hero/` | Homepage, large photo at the top (changes weekly) | `01-eric-lim-portrait.jpg` | More hero photos: landscape, at least 2000px wide, subject on the right |
-| `assets/rotating/home-profile/` | Homepage, About section photo (changes weekly) | `01-eric-lim-portrait.jpg`, `02-eric-lim-portrait-2.jpg` | More photos |
-| `assets/rotating/about-profile/` | About page, portrait at the top (changes weekly) | `01-eric-lim-portrait-2.jpg`, `02-eric-lim-portrait.jpg`, `03-eric-lim-theatre.jpg` (in theatre), `04-eric-lim-lab.jpg` (at the lab bench); both 1200 by 1500 | More photos: upright 4:5, ideally 1200 by 1500 |
+| `assets/rotating/home-profile/` | Homepage, About section photo (changes weekly) | The same 9 photos as `about-profile/`, numbered one step ahead (see Rotating photos) | Nothing; add new About photos to both folders |
+| `assets/rotating/about-profile/` | About page, portrait at the top (changes weekly) | 9 photos, all 1200 by 1500: `01-eric-lim-speaking-blue.jpg`, `02-eric-lim-theatre-profile.jpg`, `03-eric-lim-speaking-green.jpg`, `04-eric-lim-lab.jpg`, `05-eric-lim-theatre-red-screen.jpg`, `06-eric-lim-speaking-slide.jpg`, `07-eric-lim-theatre.jpg`, `08-eric-lim-speaking-podium.jpg`, `09-eric-lim-theatre-masked.jpg` (this one 500 by 749) | Full-resolution originals of the theatre photos (02, 05, 07, 09 are enlarged from small copies) |
 | `assets/awards/` | About page, Awards list (small 80px squares) | `laingbuisson-innovation-in-care-2025.jpg` (award evening photo), `iaslc-ginsberg-award.jpg` (IASLC logo), `scts-research-prizes.jpg` (SCTS crest) | None |
 | `assets/team/` | About page, team list (circles) | `maria-leung.jpg` | 4 more team photos |
 | `assets/books/` | About page, books | `integrated-textbook-of-medicine-and-surgery.jpg`, `churchills-pocketbook-of-differential-diagnosis.jpg` | None |

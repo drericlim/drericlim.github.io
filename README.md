@@ -28,6 +28,8 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **Home and About, 1 Nov (no page version change)**: Professor Lim chose nine About photos from a comparison page (01, 03, 04, 06, 08, 10, 11, 13, 14 of 14 candidates). `assets/rotating/about-profile/` and `home-profile/` now hold the same nine, ordered for variety (speaking, theatre and lab take turns). The homepage folder is numbered one step ahead, so the two pages never show the same photo in a week (checked over 60 weeks). Dropped from About: the seated-in-theatre photo (still the homepage hero) and the masked close-up, monitor and team theatre photos. All new photos are cropped to 4:5 at 1200 by 1500 with no colour changes; the four theatre photos from small copies are enlarged and would be sharper from the originals. Folder READMEs, managers' guide (Rotating photos and Appendix A) and `CLAUDE.md` explain the pairing.
+
 - **About, 1 Nov (no page version change)**: `04-eric-lim-lab.jpg` added to the About page portrait rotation: Professor Lim pipetting at the lab bench, cropped from his photo to 4:5 at 1200 by 1500, with no other edits. The rotation now has four photos, changing each Monday. Managers' guide Appendix A updated.
 
 - **About, 1 Nov (no page version change)**: `03-eric-lim-theatre.jpg` added to the About page portrait rotation (`assets/rotating/about-profile/`). Professor Lim operating, cropped from his photo to the 4:5 frame at 1200 by 1500, with no colour changes (he preferred the photo ungraded). The ideal size for About photos is 1200 by 1500 (at least 800 by 1000), under 500 KB. Managers' guide Appendix A updated.
