@@ -1,6 +1,6 @@
 # drericlim.com: guide for the practice team
 
-*A living guide. It grows as the new website is built, and will be presented to the practice managers when the site is complete. Last updated 25 October 2026.*
+*A living guide. It grows as the new website is built, and will be presented to the practice managers when the site is complete. Last updated 1 November 2026.*
 
 ---
 
@@ -66,7 +66,118 @@ Once both are set up, most updates can be made simply by asking Claude in plain 
 
 All testimonials live in one file, **`_data/testimonials.yml`**. The Testimonials page and the rotating quotes on the homepage are both built from it, so a testimonial only ever needs adding once. Each testimonial has the patient's full words, plus a short extract of a sentence or two for the homepage. The homepage shows these one at a time, in a different random order on every visit, changing every seven seconds.
 
-**Before you start:** make sure the patient has agreed **in writing** to their words being published with their full name, and to their photo too if they sent one. Keep that email on file.
+**Before you start:** make sure the patient has agreed **in writing** to their words being published with their name, and to their photo too if they sent one. The simplest record is the patient's reply to our standard request email (below): keep that thread on file.
+
+### Asking a patient for a testimonial
+
+When a patient thanks the practice, or asks how they can help, Maria sends the request below. It tells the patient everything they need to know, so their reply is their consent and no separate consent step is needed. Everything in square brackets is filled in.
+
+```
+Subject: Would you be happy to share your experience?
+
+Dear [Mr Smith],
+
+Thank you for your kind words about your care with Professor Lim and the team.
+They mean a great deal to all of us.
+
+Other patients often tell us that reading about someone else's experience helped
+them when they were anxious before their own treatment. If you would be happy to,
+we would be very grateful if you could send us a few words that we could share on
+Professor Lim's website, drericlim.com. A sentence or two is plenty, or as much as
+you would like to write. We publish testimonials exactly as written, in the
+patient's own words.
+
+So that you know what to expect:
+
+- Your words would appear on the website with your name. We would show your full
+  name unless you tell us you would prefer your first name only, or your initials.
+- A short extract may also appear among the patient quotes on the homepage.
+- If you would like to include a photograph of yourself, you are welcome to, but
+  there is no need.
+- You can ask us to change or remove it at any time, by emailing or calling the
+  office.
+
+Simply reply to this email with what you would like to say. If you would rather
+not, please don't give it another thought; we are glad to have been able to help.
+
+With warm wishes,
+
+Maria Leung
+Practice Manager, Professor Eric Lim
+Royal Brompton Hospital
++44 (0) 207 352 8121
+```
+
+If the patient has already sent their testimonial without being asked, use the same email with the second paragraph replaced by: "Would you be happy for us to share the words you sent on [date] on Professor Lim's website, drericlim.com? We would publish them exactly as you wrote them." Their "yes" completes the record.
+
+### Planned: forward the email, and the rest happens by itself (agreed 1 November 2026, not yet live)
+
+This will become the normal way to add a testimonial. Until it is built and tested, use "The easy way: ask Claude" below.
+
+1. When the patient's reply arrives, open it and click **Forward**.
+2. Type two lines at the very top of the message:
+   `Name: John Smith` (the name exactly as it should appear on the website)
+   `Treatment: Day case lobectomy` (optional, a few words)
+3. Send it to **ekslim+testimonials@gmail.com**. If the patient sent a photo, keep it attached.
+
+That is all. Every day at 5pm, Claude reads anything sent to that address and, for each new email:
+
+- keeps the patient's words **in full and exactly as written**, leaving out greetings, sign-offs, contact details and any private clinical detail;
+- chooses the short extract for the homepage, **copied word for word** from the quote (never rewritten);
+- resizes and files any photo;
+- publishes the testimonial, and emails Maria a confirmation showing exactly what is now on the site, with a link. Reply to that email with any correction, or "please remove", and it is done the next day.
+
+Nothing is published if anything is unclear. Instead Maria gets a one-line email asking, for example, how the name should appear. In particular:
+
+- **Name:** the `Name:` line always wins. Without it, Claude uses the name the patient signed off with, then the sender's name on the email. If the email came from a relative or a shared address and the name is still unclear, Claude asks rather than guesses.
+- **Consent:** the forwarded thread should contain our request email and the patient's reply. If it doesn't (for example an unprompted thank-you), Claude asks Maria to confirm consent before publishing.
+- **Year:** taken from the date the patient wrote; nothing to add.
+
+An example of what Maria sends:
+
+```
+To:      ekslim+testimonials@gmail.com
+Subject: Fwd: Would you be happy to share your experience?
+
+Name: John Smith
+Treatment: Day case lobectomy
+
+---------- Forwarded message ----------
+From: John Smith <john.smith@example.com>
+Date: Tue, 4 Nov 2026 at 09:12
+Subject: Re: Would you be happy to share your experience?
+
+Dear Maria,
+
+Of course, I'd be delighted. Please use my full name.
+
+From the first appointment Professor Lim explained everything clearly and never
+once made me feel rushed. I went home the same day as my operation, which I would
+not have believed possible, and Michael and Sarah checked on me by phone the
+following morning. I cannot thank the whole team enough.
+
+Best wishes,
+John
+
+> On 3 Nov 2026, Maria Leung wrote:
+> Dear Mr Smith, ...
+```
+
+Anyone on the team can use the address, not only Maria. The address is an alias of Professor Lim's own email, filed automatically into a folder, so the confirmation emails come from his address.
+
+**Testimonials sent as a card or letter.** Photograph or scan it (both sides of a card, if written on both) and email the pictures to the same address with a `Name:` line. Because a card is usually unprompted, add how the patient agreed: either forward their email saying yes along with the pictures, or add a line such as `Consent: by telephone, 5 November 2026, full name`. Claude types out the handwriting exactly as written and emails the typed version to Maria **the same evening to check against the card**; reply "yes" (or with corrections) and it is published the following evening. One email per patient, even when photographing several cards at once, so each email is a complete record for that person. The card itself is not shown on the website, only the words.
+
+```
+To:      ekslim+testimonials@gmail.com
+Subject: Testimonial card from Margaret Jones
+
+Name: Margaret Jones
+Consent: by telephone, 5 November 2026. Happy for full name to be used.
+
+[card-front.jpg, card-inside.jpg attached]
+```
+
+Still to decide before this goes live: whether email testimonials are published first and checked afterwards (as described above), or checked by Maria first like cards; and whether Professor Lim is copied on every confirmation or only on questions.
 
 ### The easy way: ask Claude
 
@@ -231,7 +342,8 @@ These sections of the guide will be added as each piece is built:
 
 - **The contact form:** where enquiries arrive and how to reply.
 - **Privacy notice:** what the practice tells patients about their data.
-- **virtual Grand Rounds:** updating the programme, speakers and the Zoom registration link.
+- **virtual Grand Rounds:** updating the programme, speakers and the Zoom registration link. **Agreed on 1 November 2026, not yet built:** Annie will keep next year's programme in a shared Google Sheet. One tab, *Website*, will hold only what the website shows (date, title, speaker, institution, country, a Status column, and a link to the speaker's photo); planning notes, fees and Zoom links stay on other tabs. Every day at 5pm the website will read that tab and update itself; only rows marked Confirmed appear. Talks are always at 8am UK time, so only the date is needed. Speaker photos: save the headshot the speaker sent into the shared Drive folder "vGR speaker photos", copy its link and paste it into the sheet; the website crops and resizes it and shows the speaker's initials until a photo arrives. Please don't paste links to university web pages (they are usually not a photo, and the photo is not ours to copy) or put pictures inside the sheet (they cannot be read back out).
+- **Testimonials by email:** the forwarding address described in section 5, once built and tested.
 - **Articles and patient guides:** publishing a new article or video.
 - **Launch day:** moving the drericlim.com address to the new site.
 

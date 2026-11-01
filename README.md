@@ -28,6 +28,8 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **Managers' guide, 1 Nov (no page version change)**: section 5 now has the standard request email to patients, and the planned (not yet built) testimonials-by-email route: forward the patient's reply with a `Name:` line to `ekslim+testimonials@gmail.com`; a daily 5pm task keeps the words verbatim, picks the homepage extract word for word, publishes and emails Maria a confirmation; cards and letters are photographed, transcribed and checked by Maria before publishing. Section 7 records the agreed plan for Annie to run the virtual Grand Rounds programme from a shared Google Sheet (daily 5pm update, talks always 8am UK, speaker photos via a shared Drive folder). Nothing is built yet, at Professor Lim's request.
+
 - **Drive saved, 1 Nov**: all six pages saved to Google Drive at the versions in GitHub (Home v1.22, For patients v1.7, For professionals v1.8, virtual Grand Rounds v1.8, About v1.13, Contact v1.4), named `20261101-…`, with `index, follow`. Each copy was checked to be the same size as the repository file. The copies they replace are renamed `-v<version>-superseded`.
 
 - **About v1.13**: in the Books list, both books (the Integrated Textbook and the Pocketbook) now list Professor Lim as Author (was Editor), at his request.
