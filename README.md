@@ -28,6 +28,8 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **About, 1 Nov (no page version change)**: `04-eric-lim-lab.jpg` added to the About page portrait rotation: Professor Lim pipetting at the lab bench, cropped from his photo to 4:5 at 1200 by 1500, with no other edits. The rotation now has four photos, changing each Monday. Managers' guide Appendix A updated.
+
 - **About, 1 Nov (no page version change)**: `03-eric-lim-theatre.jpg` added to the About page portrait rotation (`assets/rotating/about-profile/`). Professor Lim operating, cropped from his photo to the 4:5 frame at 1200 by 1500, with no colour changes (he preferred the photo ungraded). The ideal size for About photos is 1200 by 1500 (at least 800 by 1000), under 500 KB. Managers' guide Appendix A updated.
 
 - **Publications v0.1 (draft, 29 Oct)**: new page `publications/index.html`, not yet linked from any page, to show how a full publications list could work under For professionals > Research. Papers come from `_data/publications.yml` (a sample of 13, written from memory and still to be checked) and topics from `_data/publication_categories.yml`. Layout: key figures and ORCID/PubMed links in the header; "Selected publications" as cards; then every topic as a collapsed list, newest first, with a type label. Styles copied from For professionals.

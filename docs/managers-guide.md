@@ -247,7 +247,7 @@ Last updated 29 October 2026.
 | `assets/images/` | Across the site, and the preview picture when a page is shared | `eric-lim-portrait.jpg`, `eric-lim-portrait-2.jpg`, `ward-round.jpg` | Higher-resolution portraits |
 | `assets/rotating/hero/` | Homepage, large photo at the top (changes weekly) | `01-eric-lim-portrait.jpg` | More hero photos: landscape, at least 2000px wide, subject on the right |
 | `assets/rotating/home-profile/` | Homepage, About section photo (changes weekly) | `01-eric-lim-portrait.jpg`, `02-eric-lim-portrait-2.jpg` | More photos |
-| `assets/rotating/about-profile/` | About page, portrait at the top (changes weekly) | `01-eric-lim-portrait-2.jpg`, `02-eric-lim-portrait.jpg`, `03-eric-lim-theatre.jpg` (in theatre, 1200 by 1500) | More photos: upright 4:5, ideally 1200 by 1500 |
+| `assets/rotating/about-profile/` | About page, portrait at the top (changes weekly) | `01-eric-lim-portrait-2.jpg`, `02-eric-lim-portrait.jpg`, `03-eric-lim-theatre.jpg` (in theatre), `04-eric-lim-lab.jpg` (at the lab bench); both 1200 by 1500 | More photos: upright 4:5, ideally 1200 by 1500 |
 | `assets/awards/` | About page, Awards list (small 80px squares) | `laingbuisson-innovation-in-care-2025.jpg` (award evening photo), `iaslc-ginsberg-award.jpg` (IASLC logo), `scts-research-prizes.jpg` (SCTS crest) | None |
 | `assets/team/` | About page, team list (circles) | `maria-leung.jpg` | 4 more team photos |
 | `assets/books/` | About page, books | `integrated-textbook-of-medicine-and-surgery.jpg`, `churchills-pocketbook-of-differential-diagnosis.jpg` | None |
