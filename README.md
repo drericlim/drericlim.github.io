@@ -28,6 +28,8 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 ### Amendment history
 
+- **Home and About, 1 Nov (no page version change)**: Professor Lim confirmed there are no higher-resolution copies of the theatre photos; the enlarged versions in use are final. Managers' guide Appendix A updated.
+
 - **Home, 1 Nov (no page version change)**: Professor Lim confirmed that the two colleagues recognisable in the hero theatre-team photo (`06-eric-lim-theatre-team.jpg`) have agreed to appear. Managers' guide Appendix A updated.
 
 - **Home, 1 Nov (no page version change)**: six hero photos chosen and approved by Professor Lim from two review pages, in `assets/rotating/hero/` (replacing the single seated photo): green stage, operating, seated in theatre, speaking with slide, blue low-angle, theatre team. Each is 2400 by 1600 with his face about 72% across (77% for the blue photo), clear of the headline; where a photo was moved right, its left edge fades into the site navy under the overlay. The operating, seated and team photos are enlarged from smaller copies (1.5 to 2.3 times). The hero order was chosen so the hero, the homepage About photo and the About page never show the same photo in the same week; new `tools/check-photo-rotation.py` verifies this over the full cycle (18 weeks) and that `home-profile/` is `about-profile/` one step ahead. Hero README, managers' guide (Rotating photos, Appendix A), `CLAUDE.md` and `_config.yml` (excludes `tools/`) updated.
