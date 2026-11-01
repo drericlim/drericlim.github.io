@@ -16,17 +16,19 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.22 | 28 Oct 2026 | `index.html` | `20261027-homepage.html` |
-| For patients | `/for-patients` | v1.7 | 28 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
-| For professionals | `/for-professionals` | v1.8 | 28 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
-| virtual Grand Rounds | `/virtual-grand-rounds` | v1.8 | 28 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
-| About | `/about` | v1.13 | 1 Nov 2026 | `about/index.html` | `20261025-hub-about.html` |
-| Contact | `/contact-us` | v1.4 | 28 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
+| Home | `/` | v1.22 | 28 Oct 2026 | `index.html` | `20261101-homepage.html` (v1.22) |
+| For patients | `/for-patients` | v1.7 | 28 Oct 2026 | `for-patients/index.html` | `20261101-hub-for-patients.html` (v1.7) |
+| For professionals | `/for-professionals` | v1.8 | 28 Oct 2026 | `for-professionals/index.html` | `20261101-hub-for-professionals.html` (v1.8) |
+| virtual Grand Rounds | `/virtual-grand-rounds` | v1.8 | 28 Oct 2026 | `virtual-grand-rounds/index.html` | `20261101-hub-virtual-grand-rounds.html` (v1.8) |
+| About | `/about` | v1.13 | 1 Nov 2026 | `about/index.html` | `20261101-hub-about.html` (v1.13) |
+| Contact | `/contact-us` | v1.4 | 28 Oct 2026 | `contact-us/index.html` | `20261101-contact.html` (v1.4) |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
+
+- **Drive saved, 1 Nov**: all six pages saved to Google Drive at the versions in GitHub (Home v1.22, For patients v1.7, For professionals v1.8, virtual Grand Rounds v1.8, About v1.13, Contact v1.4), named `20261101-…`, with `index, follow`. Each copy was checked to be the same size as the repository file. The copies they replace are renamed `-v<version>-superseded`.
 
 - **About v1.13**: in the Books list, both books (the Integrated Textbook and the Pocketbook) now list Professor Lim as Author (was Editor), at his request.
 
