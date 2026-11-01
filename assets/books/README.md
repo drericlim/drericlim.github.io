@@ -4,7 +4,7 @@ Front covers for the Books list on the About page.
 
 ## In this folder
 
-- `integrated-textbook-of-medicine-and-surgery.jpg`: Medicine and Surgery: An Integrated Textbook (edited by Eric Lim, Yoon Kong Loke and Alastair Thompson).
+- `integrated-textbook-of-medicine-and-surgery.jpg`: Medicine and Surgery: An Integrated Textbook (by Eric Lim, Yoon Kong Loke and Alastair Thompson).
 - `churchills-pocketbook-of-differential-diagnosis.jpg`: Churchill's Pocketbook of Differential Diagnosis, third edition (Raftery, Lim and Östör).
 
 Both are 600 by 795, the same shape as the space on the page. Each cover is shown whole on white, so nothing is cut off.

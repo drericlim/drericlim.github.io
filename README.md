@@ -20,13 +20,15 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | For patients | `/for-patients` | v1.7 | 28 Oct 2026 | `for-patients/index.html` | `20261025-hub-for-patients.html` |
 | For professionals | `/for-professionals` | v1.8 | 28 Oct 2026 | `for-professionals/index.html` | `20261025-hub-for-professionals.html` |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.8 | 28 Oct 2026 | `virtual-grand-rounds/index.html` | `20261025-hub-virtual-grand-rounds.html` |
-| About | `/about` | v1.12 | 29 Oct 2026 | `about/index.html` | `20261025-hub-about.html` |
+| About | `/about` | v1.13 | 1 Nov 2026 | `about/index.html` | `20261025-hub-about.html` |
 | Contact | `/contact-us` | v1.4 | 28 Oct 2026 | `contact-us/index.html` | `20261025-contact.html` |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
+
+- **About v1.13**: in the Books list, both books (the Integrated Textbook and the Pocketbook) now list Professor Lim as Author (was Editor), at his request.
 
 - **Home and About, 1 Nov (no page version change)**: Professor Lim confirmed there are no higher-resolution copies of the theatre photos; the enlarged versions in use are final. Managers' guide Appendix A updated.
 
