@@ -178,12 +178,19 @@ function readRegister_(markdown) {
   return result;
 }
 
+/**
+ * The latest commit on the branch. Read the way git itself does (info/refs),
+ * not through api.github.com: the API allows only 60 anonymous requests an hour
+ * per address, and Apps Script shares Google's addresses with everyone, so it
+ * often answers 403.
+ */
 function latestCommit_() {
-  var r = UrlFetchApp.fetch('https://api.github.com/repos/' + CONFIG.repo + '/commits/' + CONFIG.branch, {
-    headers: { Accept: 'application/vnd.github+json' }, muteHttpExceptions: true
-  });
+  var url = 'https://github.com/' + CONFIG.repo + '.git/info/refs?service=git-upload-pack';
+  var r = UrlFetchApp.fetch(url, { muteHttpExceptions: true });
   if (r.getResponseCode() !== 200) throw new Error('could not reach GitHub (' + r.getResponseCode() + ').');
-  return JSON.parse(r.getContentText()).sha;
+  var m = new RegExp('([0-9a-f]{40}) refs/heads/' + CONFIG.branch + '\\b').exec(r.getContentText());
+  if (!m) throw new Error('could not find the ' + CONFIG.branch + ' branch on GitHub.');
+  return m[1];
 }
 
 function fetchFile_(sha, path) {
