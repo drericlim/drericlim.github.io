@@ -1,0 +1,8 @@
+[
+  { "name": "Home",                 "file": "index.html",                      "drive": "homepage" },
+  { "name": "For patients",         "file": "for-patients/index.html",         "drive": "hub-for-patients" },
+  { "name": "For professionals",    "file": "for-professionals/index.html",    "drive": "hub-for-professionals" },
+  { "name": "virtual Grand Rounds", "file": "virtual-grand-rounds/index.html", "drive": "hub-virtual-grand-rounds" },
+  { "name": "About",                "file": "about/index.html",                "drive": "hub-about" },
+  { "name": "Contact",              "file": "contact-us/index.html",           "drive": "contact" }
+]

@@ -16,17 +16,19 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.22 | 28 Oct 2026 | `index.html` | `20261101-homepage.html` (v1.22) |
-| For patients | `/for-patients` | v1.7 | 28 Oct 2026 | `for-patients/index.html` | `20261101-hub-for-patients.html` (v1.7) |
-| For professionals | `/for-professionals` | v1.8 | 28 Oct 2026 | `for-professionals/index.html` | `20261101-hub-for-professionals.html` (v1.8) |
-| virtual Grand Rounds | `/virtual-grand-rounds` | v1.8 | 28 Oct 2026 | `virtual-grand-rounds/index.html` | `20261101-hub-virtual-grand-rounds.html` (v1.8) |
-| About | `/about` | v1.13 | 1 Nov 2026 | `about/index.html` | `20261101-hub-about.html` (v1.13) |
-| Contact | `/contact-us` | v1.4 | 28 Oct 2026 | `contact-us/index.html` | `20261101-contact.html` (v1.4) |
+| Home | `/` | v1.22 | 28 Oct 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
+| For patients | `/for-patients` | v1.7 | 28 Oct 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
+| For professionals | `/for-professionals` | v1.8 | 28 Oct 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
+| virtual Grand Rounds | `/virtual-grand-rounds` | v1.8 | 28 Oct 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
+| About | `/about` | v1.13 | 1 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
+| Contact | `/contact-us` | v1.4 | 28 Oct 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
+
+- **Drive copies automated, 6 Nov (no page version change)**: new script `tools/drive-backup/` (Google Apps Script in Professor Lim's account, with setup steps in its README). Every night it saves each approved page that changed to Drive, checks the size and supersedes the old copy, so pages are no longer pasted into Drive at the end of each session. The six 1 Nov Drive copies had their versions written into their Drive descriptions, and each was checked to be the repository size minus 4 bytes. The register's Drive column now shows the nightly file name. `CLAUDE.md`, the managers' guide (sections 2 and Appendix A) and the project site register are updated.
 
 - **Managers' guide, 1 Nov (no page version change)**: section 5 now has the standard request email to patients, and the planned (not yet built) testimonials-by-email route: forward the patient's reply with a `Name:` line to `ekslim+testimonials@gmail.com`; a daily 5pm task keeps the words verbatim, picks the homepage extract word for word, publishes and emails Maria a confirmation; cards and letters are photographed, transcribed and checked by Maria before publishing. Section 7 records the agreed plan for Annie to run the virtual Grand Rounds programme from a shared Google Sheet (daily 5pm update, talks always 8am UK, speaker photos via a shared Drive folder). Nothing is built yet, at Professor Lim's request.
 
@@ -95,10 +97,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 ## Where things are kept
 
 - **This repository** is the master copy of every approved page. Always start changes from the file here.
-- **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261025-homepage.html`). Older copies are renamed with `-superseded` and kept. Drive is updated **once, at the end of each working session**, so during a session it can be a version behind this repository.
-
-**Drive is one change behind** (last saved 27 Oct 2026): the 28 Oct "Articles" label (Home v1.22, For patients v1.6, For professionals v1.7, virtual Grand Rounds v1.6, About v1.11, Contact v1.4) the collapsed programme (virtual Grand Rounds v1.7) the collapsed module introductions (For professionals v1.8) the vGR feedback section (virtual Grand Rounds v1.8) and the For patients header wording (For patients v1.7) are in this repository but not yet in Drive. Drive holds Home v1.21 (`20261027-homepage.html`; v1.20 renamed `20261027-homepage-v1.20-superseded.html`, v1.19 `20261025-homepage-v1.19-superseded.html`), the official logos (`20261027-logo-dark.svg`, `20261027-logo-light.svg`), and For patients v1.5, For professionals v1.6, virtual Grand Rounds v1.5, About v1.10 and Contact v1.3 as `20261025-<page>.html`. Older copies are kept as `20261025-<page>-v<old version>-superseded.html`.
-- Drive file IDs: homepage `1615yAufISKoC4KdgPSHXsY3aXlNKxdji`, hub-for-patients `1dtECmQtuAHUR8FEY32D8gw9izD0vb_lZ`, hub-for-professionals `1OlnH1picwu1RPwinbHAGY-ovtPthkxbi`, hub-virtual-grand-rounds `1xcrndPsLC6za-CI5pxnRAsm56H2b7rBG`, hub-about `1MbCY6ceg1ogWsrRoCrxKeaHh4_bKfooe`, contact `1OTCxvrMDuv9OdMdGtoaIj-PviR1wzv5d`.
+- **Google Drive** ([Personal website folder](https://drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl)) holds a reference copy of each approved version, named by date (for example `20261106-homepage.html`). Older copies are renamed `-v<version>-superseded` and kept. **Since 6 Nov 2026 Drive is updated automatically**, every night between 11pm and midnight UK time, by a script in Professor Lim's Google account (`tools/drive-backup/`). It saves only pages listed in `tools/drive-backup/pages.json` whose register version is v1.0 or later, checks each copy's size, writes the version into the copy's Drive description, and emails Professor Lim when something was saved or went wrong. So Drive is at most a day behind this repository. Nobody saves to Drive by hand.
 - Home and About copies keep their GitHub Pages front matter and Liquid tags (they are the source files; rotating photos, films and quotes are filled in by GitHub Pages).
 - The only difference between the two copies is the search-engine setting. The repository copy says `noindex, nofollow` during testing. The Drive copy says `index, follow`, as it will at launch.
 

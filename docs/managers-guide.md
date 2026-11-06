@@ -28,7 +28,7 @@
 | What | Where | Who uses it |
 |---|---|---|
 | **The website itself** | GitHub: **github.com/drericlim/drericlim.github.io** (the website's *repository*: one online folder holding every page, photo and text file of the site) | This is the master copy. Every change is made here and appears on the site within a few minutes. |
-| **Reference copies of approved pages** | Google Drive, "Personal website" folder | A dated copy of each approved page (e.g. `20261025-homepage.html`). Older copies are marked "-superseded". These are saved at the end of each working session. |
+| **Reference copies of approved pages** | Google Drive, "Personal website" folder | A dated copy of each approved page (e.g. `20261025-homepage.html`). Older copies are marked "-superseded". They are saved **automatically every night** by a small script in Professor Lim's Google account, so nobody needs to do this by hand. Professor Lim gets an email when pages are saved or if anything goes wrong. |
 | **Testimonials** | GitHub: `_data/testimonials.yml` | Every patient testimonial on the site, newest first |
 | **All photos and logos** | GitHub: `assets/`, one folder per kind (see section 6, and the full list in Appendix A) | Every picture on the website |
 | **Version record** | GitHub: `README.md`, "Version register" | Which version of each page is current |
@@ -353,7 +353,7 @@ These sections of the guide will be added as each piece is built:
 
 The master copy of everything on the website is in GitHub (**github.com/drericlim/drericlim.github.io**). Google Drive holds reference copies and the original photo library. **Whenever a picture or file is added, renamed or removed, update this appendix** (Claude does this automatically when it makes the change).
 
-Last updated 29 October 2026.
+Last updated 6 November 2026.
 
 ### In GitHub: pictures (`assets/`)
 
@@ -389,11 +389,12 @@ Last updated 29 October 2026.
 | `README.md` | Version register and full history of changes |
 | `docs/managers-guide.md` | This guide |
 | `CLAUDE.md` | Instructions Claude follows when the team asks it to make changes |
+| `tools/drive-backup/` | The nightly script that saves Drive copies of the approved pages (with setup steps) |
 
 ### In Google Drive
 
 | Folder | What is in it |
 |---|---|
-| **Personal website** folder (drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl) | Reference copies of approved pages and logos, named by date, e.g. `20261027-homepage.html`. Older copies end in `-superseded`. |
+| **Personal website** folder (drive.google.com/drive/folders/1d-suhHutQ2Nndfd-cHDlm_kAuBiztmFl) | Reference copies of approved pages and logos, named by date, e.g. `20261027-homepage.html`. Older copies end in `-superseded`. Saved automatically every night (between 11pm and midnight) by the script in `tools/drive-backup/` in GitHub, which runs in Professor Lim's Google account. Please don't add or rename page copies here by hand. |
 | **Images** folder (drive.google.com/drive/folders/1MIgcWqehVYCUfLlW7_2Eu7OitVH7p38p) | Professor Lim's original photo library (theatre, clinic, portraits, awards and conferences, 2008 to 2026). Photos are chosen from here, resized, and the website copy is put in the right `assets/` folder above. The originals stay in Drive. |
 
