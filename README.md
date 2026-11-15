@@ -34,7 +34,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.9 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.8 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your consultation | `/your-consultation` | v0.9 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
 
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Your consultation, draft v0.9, 15 Nov**: the numbered steps are removed and the six sections now have plain headings, like Personalised care. Professor Lim had chosen numbered steps on the mock-up, but on the built page he found the numbers do not work. Your operation and Your recovery still have them until he reviews those pages.
 - **Personalised care v1.2, 15 Nov**: in "Your team", "My practice manager" becomes "My administrative team" (Professor Lim's wording).
 - **For patients v1.11, 15 Nov**: in "Why choose Professor Lim" the Testimonials card moves to the right-hand end, at Professor Lim's request. The order is now Personalised care, Your consultation, Your operation, Your recovery, Testimonials.
 - **Personalised care v1.1 and For patients v1.10, 15 Nov**: four changes Professor Lim asked for after reviewing what the page lacked.
