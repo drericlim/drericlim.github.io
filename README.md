@@ -34,7 +34,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.9 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.15 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your consultation | `/your-consultation` | v0.16 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
 
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Your consultation, draft v0.16, 15 Nov**: under "Before we meet", the 30-minute appointment length is removed from the page altogether, and the request to bring the self-assessment leaflet is softened ("It helps if you can bring…"; "…is a great help"). "Royal Brompton Hospital" now links to the Visit section of the Contact page, which has the address and the map link, so patients stay on the site.
 - **Your consultation, draft v0.15, 15 Nov**: "and examine you" removed from "During the consultation", at Professor Lim's request.
 - **Your consultation, draft v0.14, 15 Nov**: the "In brief" point about the 30-minute appointment and the self-assessment leaflet is replaced by "Clinics are held at the Royal Brompton Hospital." Professor Lim's reasons: some patients may take offence that 30 minutes is too short, or hold him to the time, and "please bring" reads as bossy.
 - **Your consultation, draft v0.13, 15 Nov**: in "Your referral", the sentence about reserving an operation date now begins "By the time we meet, I will already have reserved a provisional operation date…" and explains why it helps the patient (no second wait for a date, so treatment starts sooner; the date is released if they decide against surgery). Professor Lim asked for the opening and the explanation.
