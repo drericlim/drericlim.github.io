@@ -35,13 +35,14 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.11 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
 | Your consultation | `/your-consultation` | v0.31 | 15 Nov 2026 | `your-consultation/index.html` |
-| Your operation | `/your-operation` | v0.14 | 15 Nov 2026 | `your-operation/index.html` |
+| Your operation | `/your-operation` | v0.15 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.10 | 15 Nov 2026 | `your-recovery/index.html` |
 
 These four, and the approved Personalised care page, use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
 
 ### Amendment history
 
+- **Your operation, draft v0.15, 15 Nov**: Professor Lim pointed out that "medicines that help to prevent clots" describes blood thinners as much as antiplatelets. The two groups are now told apart by name, examples and what they are usually taken for: "antiplatelet medicines, such as aspirin and clopidogrel, often taken after a heart attack, a stroke or a stent" and "anticoagulants (blood thinners), such as warfarin, apixaban and rivaroxaban, often taken for an irregular heartbeat or a previous blood clot".
 - **Your operation, draft v0.14, 15 Nov**: the medicines paragraph is made more general, at Professor Lim's request. It no longer states how many days before surgery to stop anything; it lists three groups of medicine in plain words, each with familiar examples (clot-preventing medicines such as aspirin and clopidogrel; blood thinners such as warfarin, apixaban and rivaroxaban; medicines such as dapagliflozin and empagliflozin), and asks patients who take any of them to check with the team. The entry for v0.12 above records the timings he gave; they are deliberately not on the page.
 - **Your operation, draft v0.13, 15 Nov**: "give you a general anaesthetic" was accurate but not patient friendly, in Professor Lim's view. It now reads "an anaesthetist will meet you and look after you throughout, so that you are asleep and comfortable for the whole operation. Before you know it, you will be awake in the recovery area."
 - **Your operation, draft v0.12, 15 Nov**: a new first section, "Preparing for your operation", because patients often ask Professor Lim how to prepare. It covers keeping active, eating well, and medicines. The medicine timings are his: aspirin one week before, anticoagulants three days before, and medicines such as dapagliflozin one week before. They are given "as a guide", followed by "Please do not stop anything on your own: we will tell you which of your medicines to stop, and when." The exercise and nutrition wording is Claude's, kept general, for him to check. A matching "In brief" point is added and the line under the title now begins "How to prepare…".
