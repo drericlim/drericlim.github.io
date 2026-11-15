@@ -34,7 +34,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.9 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.20 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your consultation | `/your-consultation` | v0.21 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
 
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Your consultation, draft v0.21, 15 Nov**: the clinic letter paragraph is rewritten so it reads as a service worth having, not a procedure. Professor Lim found "you are given a clinic letter" too mechanical and wanted the benefits spelt out: the patient leaves with the letter in hand, does not rely on the post, can talk it through with family and show it to their own doctors while it is fresh. The "In brief" point now reads "You take your clinic letter home with you…". Wording by Claude for him to check.
 - **Your consultation, draft v0.20, 15 Nov**: "I will tell you your planned operation date" becomes "I will offer you a date for your operation"; Professor Lim found "tell you" too bossy.
 - **Your consultation, draft v0.19, 15 Nov**: "I will ask about your health" now gives the reason: "so that I can better understand you and tailor my recommendations to you and to your physical health." (Professor Lim's explanation.)
 - **Your consultation, draft v0.18, 15 Nov**: the consent paragraph now explains why the form is signed later: "Consent is taken in two stages, so that you have time to digest the information from clinic." (Professor Lim's explanation.)
