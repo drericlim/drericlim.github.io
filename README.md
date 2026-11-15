@@ -219,7 +219,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 - **About page films:** `_data/about-films.yml` (Vimeo numbers, button wording), rotating weekly.
 - **Rotating photos:** `assets/rotating/` (hero, home-profile, about-profile). Upload to add, delete to remove; frequency in `_data/photo-rotation.yml`.
 - **Images:** `assets/`, one folder per kind, each with a note on what goes in it and how to name files. Guide: `docs/managers-guide.md`, section 6.
-- **Testimonials:** `_data/testimonials.yml` holds every patient testimonial (69 moved from the old site on 25 Oct 2026, word for word), newest first. Each has a `short` extract (one or two sentences, verbatim) for the homepage's rotating quotes; 54 patients are in the rotation. Patient photos are in `assets/testimonials/`. Step-by-step guide: `docs/managers-guide.md`, section 5. The Testimonials page and the homepage's rotating quote will both be built from this file.
+- **Testimonials:** `_data/testimonials.yml` holds every patient testimonial (69 moved from the old site on 25 Oct 2026, word for word), newest first. Each has a `short` extract (one or two sentences, verbatim) for the homepage's rotating quotes; 55 patients are in the rotation. Patient photos are in `assets/testimonials/`. Step-by-step guide: `docs/managers-guide.md`, section 5. The Testimonials page and the homepage's rotating quote will both be built from this file.
 
 ## Patient guides
 
