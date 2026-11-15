@@ -34,7 +34,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.9 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.18 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your consultation | `/your-consultation` | v0.19 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
 
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Your consultation, draft v0.19, 15 Nov**: "I will ask about your health" now gives the reason: "so that I can better understand you and tailor my recommendations to you and to your physical health." (Professor Lim's explanation.)
 - **Your consultation, draft v0.18, 15 Nov**: the consent paragraph now explains why the form is signed later: "Consent is taken in two stages, so that you have time to digest the information from clinic." (Professor Lim's explanation.)
 - **Your consultation, draft v0.17, 15 Nov**: the sentence about visiting doctors and medical students now explains why they attend: the Royal Brompton is a teaching hospital, doctors come from around the world to learn the techniques developed there, and teaching is a duty. Professor Lim asked for this; the wording is Claude's, kept plain in line with the site's tone.
 - **Your consultation, draft v0.16, 15 Nov**: under "Before we meet", the 30-minute appointment length is removed from the page altogether, and the request to bring the self-assessment leaflet is softened ("It helps if you can bring…"; "…is a great help"). "Royal Brompton Hospital" now links to the Visit section of the Contact page, which has the address and the map link, so patients stay on the site.
