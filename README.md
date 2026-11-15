@@ -34,7 +34,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.11 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.30 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your consultation | `/your-consultation` | v0.31 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.10 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.10 | 15 Nov 2026 | `your-recovery/index.html` |
 
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Your consultation, draft v0.31, 15 Nov**: Professor Lim's corrections to v0.30. Scans: "There is no need to bring your scans, unless we ask you to." ("shared digitally" removed: he felt it sounded like a breach of privacy). The paragraph "Private consultations are different…" is removed. Video consultations are taken out of "In brief", because he prefers patients to come face to face; in the text the sentence is toned down to "A video consultation can be arranged if coming in person is difficult."
 - **Your consultation, draft v0.30, 15 Nov**: the three open questions answered by Professor Lim and added to the page. (1) Patients no longer bring scans, as they are shared digitally: "There is no need to bring your scans: they are now shared digitally." (2) He offers video consultations: said under "Before we meet" and in the "In brief" point about where clinics are held. (3) Private consultations are more private and the same people do not attend: a closing paragraph under "Who will be in the clinic" says so. Nothing is now outstanding on this page except its stand-in picture.
 - **About v1.17, 15 Nov**: "Maria, my practice manager, will…" is restored in the private patients paragraph, at Professor Lim's request, because it is about private patients, whom Maria looks after. **Rule as it now stands**: wherever a page speaks to private patients about booking (the homepage, About, Contact), Maria is named; the patient guides give roles, not names.
 - **Home v1.26, 15 Nov**: "Maria, my practice manager, will find a time that suits you." is restored in the homepage's consultation call. v1.25 had changed it to "My administrative team" a few minutes earlier; Professor Lim asked for Maria's name to stay on the homepage as well as on the Contact page. The About page's private patients paragraph keeps "My administrative team" (v1.16).
