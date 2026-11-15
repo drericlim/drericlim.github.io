@@ -22,7 +22,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.9 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
 | About | `/about` | v1.14 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.5 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
-| Personalised care | `/personalised-care` | v1.2 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
+| Personalised care | `/personalised-care` | v1.3 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
@@ -34,7 +34,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.9 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.21 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your consultation | `/your-consultation` | v0.22 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
 
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Your consultation draft v0.22 and Personalised care v1.3, 15 Nov**: "Who will be in the clinic" on Your consultation now ends with a link, "meet the team", to the team section of the About page (`/about#team`), as Professor Lim asked. For consistency the "meet my team" link on Personalised care now goes to the same place; it had pointed to `/my-team`, which is not built.
 - **Your consultation, draft v0.21, 15 Nov**: the clinic letter paragraph is rewritten so it reads as a service worth having, not a procedure. Professor Lim found "you are given a clinic letter" too mechanical and wanted the benefits spelt out: the patient leaves with the letter in hand, does not rely on the post, can talk it through with family and show it to their own doctors while it is fresh. The "In brief" point now reads "You take your clinic letter home with you…". Wording by Claude for him to check.
 - **Your consultation, draft v0.20, 15 Nov**: "I will tell you your planned operation date" becomes "I will offer you a date for your operation"; Professor Lim found "tell you" too bossy.
 - **Your consultation, draft v0.19, 15 Nov**: "I will ask about your health" now gives the reason: "so that I can better understand you and tailor my recommendations to you and to your physical health." (Professor Lim's explanation.)
