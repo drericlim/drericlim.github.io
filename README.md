@@ -17,12 +17,12 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
 | Home | `/` | v1.23 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
-| For patients | `/for-patients` | v1.9 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
+| For patients | `/for-patients` | v1.10 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.12 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.9 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
 | About | `/about` | v1.14 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.5 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
-| Personalised care | `/personalised-care` | v1.0 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
+| Personalised care | `/personalised-care` | v1.1 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
@@ -42,6 +42,12 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Personalised care v1.1 and For patients v1.10, 15 Nov**: four changes Professor Lim asked for after reviewing what the page lacked.
+  - **For patients**: the Personalised care card now reads "How we make decisions about your care together, with you in charge." The old card promised a systems-based approach and outcomes that the page does not cover.
+  - **Taking your time**: a new paragraph under "When it is hard to decide" (no need to decide on the day; talk it over; bring someone; a second opinion is welcome).
+  - **Your team**: a new last section describing the roles (clinical nurse specialist, practice manager, research nurse), with the office number and links to Contact and My team. Roles are given, not names, so the page does not date when staff change.
+  - The pull quote now says "in the driving seat" (was "at").
+  - The layout now styles links inside a guide's text (blue, underlined).
 - **Personalised care v1.0, approved by Professor Lim on 15 Nov 2026.** It is the first approved patient guide, and its type sizes and reference style are the specification for the others. Still open on it, for a later v1.1: the header picture is a stand-in he dislikes (he will supply a square picture, or it can be removed to show the plain stone), and he is considering whether to add his outcome figures. **It is not yet in the nightly Drive save**: see "Patient guides".
 - **Personalised care, draft v0.17, 15 Nov**: the third heading now reads "You tend to make the right decision" (was "Patients tend to…"), so all three headings address the reader directly.
 - **Personalised care, draft v0.16, 15 Nov**: two of Professor Lim's papers on patient decision making added as references, at the places he chose: Lim E, Thorac Surg Clin 2012;22:539-43 after "…than on medical fact.", and Wong MSH, et al, J Thorac Dis 2024;16:3844-3853 after "…is personal,". References are numbered in the order they appear, so the page now runs 1 Lim 2012, 2 the British guideline, 3 Wong 2024, 4 the survey abstract. Where he is not the first author, the authors are listed in full so that his name shows.
