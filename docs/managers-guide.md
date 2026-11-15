@@ -344,6 +344,8 @@ These sections of the guide will be added as each piece is built:
 - **Privacy notice:** what the practice tells patients about their data.
 - **virtual Grand Rounds:** updating the programme, speakers and the Zoom registration link. **Agreed on 1 November 2026, not yet built:** Annie will keep next year's programme in a shared Google Sheet. One tab, *Website*, will hold only what the website shows (date, title, speaker, institution, country, a Status column, and a link to the speaker's photo); planning notes, fees and Zoom links stay on other tabs. Every day at 5pm the website will read that tab and update itself; only rows marked Confirmed appear. Talks are always at 8am UK time, so only the date is needed. Speaker photos: save the headshot the speaker sent into the shared Drive folder "vGR speaker photos", copy its link and paste it into the sheet; the website crops and resizes it and shows the speaker's initials until a photo arrives. Please don't paste links to university web pages (they are usually not a photo, and the photo is not ours to copy) or put pictures inside the sheet (they cannot be read back out).
 - **Testimonials by email:** the forwarding address described in section 5, once built and tested.
+- **Publications (For professionals page):** the list of Professor Lim's papers comes from A3, his academic record, not from anything the team types. It is kept in `_data/publications.json` and written into the page by a small script (`tools/publications/build.py`). To add or correct a paper, change it in A3, then ask Claude: "Please update the publications on drericlim.com from A3." As of 15 November 2026 the list on the test site is a provisional copy; how A3 passes its list to the website is still being settled.
+- **Thoracic Reflections:** shown as "Coming soon" until the first essays are ready. The full design for the section is saved in `docs/thoracic-reflections-section-v1.8.html`.
 - **Articles and patient guides:** publishing a new article or video.
 - **Launch day:** moving the drericlim.com address to the new site.
 
@@ -381,6 +383,7 @@ Last updated 6 November 2026.
 | `_data/vgr-feedback.yml` | virtual Grand Rounds "In their own words" | Attendee and speaker quotes, newest first |
 | `_data/photo-rotation.yml` | Homepage and About | How often the rotating photos change |
 | `_data/about-films.yml` | About page | The three Vimeo films and their cover pictures |
+| `_data/publications.json` | For professionals, Publications | Professor Lim's papers, from A3. Not edited by hand |
 
 ### In GitHub: records
 
@@ -389,6 +392,8 @@ Last updated 6 November 2026.
 | `README.md` | Version register and full history of changes |
 | `docs/managers-guide.md` | This guide |
 | `CLAUDE.md` | Instructions Claude follows when the team asks it to make changes |
+| `tools/publications/build.py` | The script that writes the publications list into the For professionals page |
+| `docs/thoracic-reflections-section-v1.8.html` | The full Thoracic Reflections section, kept for when the series launches |
 | `tools/drive-backup/` | The nightly script that saves Drive copies of the approved pages (with setup steps) |
 
 ### In Google Drive
