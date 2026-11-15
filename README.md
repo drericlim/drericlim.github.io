@@ -16,17 +16,20 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.22 | 28 Oct 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
-| For patients | `/for-patients` | v1.7 | 28 Oct 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
-| For professionals | `/for-professionals` | v1.9 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
-| virtual Grand Rounds | `/virtual-grand-rounds` | v1.8 | 28 Oct 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
-| About | `/about` | v1.13 | 1 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
-| Contact | `/contact-us` | v1.4 | 28 Oct 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
+| Home | `/` | v1.23 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
+| For patients | `/for-patients` | v1.8 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
+| For professionals | `/for-professionals` | v1.10 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
+| virtual Grand Rounds | `/virtual-grand-rounds` | v1.9 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
+| About | `/about` | v1.14 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
+| Contact | `/contact-us` | v1.5 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
+
+- **All pages, 15 Nov (Home v1.23, For patients v1.8, For professionals v1.10, virtual Grand Rounds v1.9, About v1.14, Contact v1.5)**: every reference to "Research and education" as a page is removed, at Professor Lim's request; that page will not be built. In the footer of every page the link is replaced by two, "Research" and "Publications", going to those sections of the For professionals page. On the homepage, "I'm a researcher" now reads "The clinical trials I have led, my publications and a statistics course written for clinicians" with the link "Explore research and publications". The For professionals headline ("Research and education for the next generation of clinicians.") is a sentence, not a link, and is unchanged.
+- **For professionals v1.10, 15 Nov**: the VIOLET and MARS 2 cards now use figures checked against the PubMed abstracts (PMID 38319202 and 38740044). VIOLET: 503 randomised; physical function at five weeks, median 73 against 67; serious adverse events after discharge 30.7% against 37.8%; no difference in progression-free or overall survival at one year ("less pain" removed, as it is not in the abstract). MARS 2: 335 randomised across 26 UK hospitals; median survival 19.3 against 24.8 months; more serious adverse events; funded by NIHR HTA and Cancer Research UK ("poorer quality of life" removed, as it is not in the abstract).
 
 - **For professionals v1.9, 15 Nov**: rebuilt to the layout Professor Lim chose on mock-up v0.8 (claude.ai artifact "For professionals page: mock-up v0.8"). The page now runs 01 Research, 02 Publications, 03 Thoracic Reflections, 04 Statistics for clinicians, 05 virtual Grand Rounds.
   - **Research**: the single "Research and education" card is replaced by the three trials Professor Lim has led (VIOLET, MARS 2, RAMON) as one compact row, about the same height as the other sections. One blue line, "What each trial asked, and what it found", opens a card for each. RAMON is shown as "Closed" (it was unable to recruit; Professor Lim wants it kept, as he has reflections to share). The link to `/research-and-education` is dropped from this section and from the page's structured data; that page was never built or defined.
@@ -34,7 +37,6 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
   - **Thoracic Reflections**: now a short "Coming soon" holding section with no links, as the series is not yet running. The full design from v1.8 (three featured cards, "More from the series", email sign-up) is saved in `docs/thoracic-reflections-section-v1.8.html`, and its styles are still in the page: Professor Lim liked it and wants it restored when the section is expanded.
   - Statistics is now section 04 on the pale background and virtual Grand Rounds is 05. Title and descriptions updated to mention publications.
   - Superseded: the draft `/publications` page (v0.1) and `_data/publications.yml` / `_data/publication_categories.yml`. Still in the repository, not linked; remove once v1.9 is settled.
-  - To confirm with Professor Lim: the VIOLET and MARS 2 participant numbers (503, 335) and finding sentences were written from memory of the papers.
 
 - **Drive copies automated, 6 Nov (no page version change)**: new script `tools/drive-backup/` (Google Apps Script in Professor Lim's account, with setup steps in its README). Every night it saves each approved page that changed to Drive, checks the size and supersedes the old copy, so pages are no longer pasted into Drive at the end of each session. The six 1 Nov Drive copies had their versions written into their Drive descriptions, and each was checked to be the repository size minus 4 bytes. The register's Drive column now shows the nightly file name. `CLAUDE.md`, the managers' guide (sections 2 and Appendix A) and the project site register are updated. Same day: the script reads the latest commit through `github.com/…/info/refs` instead of `api.github.com`, because the API refused Apps Script with 403 (anonymous requests from Google's shared addresses are rate-limited).
 
@@ -127,7 +129,6 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - Images: all now in `assets/` (see `assets/README.md`). Still to supply: team photos (4), official partner logos (Medtronic, AstraZeneca, Medela), speaker headshots, and ideally higher-resolution originals of the two portraits.
 - The hero video link is still to be added.
 - **Publications**: replace `_data/publications.json` with an export of A3's live master list (it currently holds a provisional copy of the 6 November import), run `python3 tools/publications/build.py`, and agree how it is kept up to date.
-- **Research and education**: the footer of every page still links to `/research-and-education`, which does not exist. Decide whether to remove the link or point it at `/for-professionals#research`.
 - **Trial pages**: a page each for VIOLET, MARS 2 and RAMON is proposed (question, at a glance, why it was needed, what we found, what it means, Professor Lim's reflections, papers from the trial, team and funding). Not yet built.
 - **Thoracic Reflections**: restore the full section from `docs/thoracic-reflections-section-v1.8.html` when the first essays are ready.
 - Build the `/testimonials` page from `_data/testimonials.yml`.
