@@ -22,7 +22,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.10 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
 | About | `/about` | v1.17 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.6 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
-| Personalised care | `/personalised-care` | v1.7 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
+| Personalised care | `/personalised-care` | v1.8 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
@@ -33,15 +33,16 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
-| Single keyhole surgery | `/single-keyhole-surgery` | v0.12 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.32 | 15 Nov 2026 | `your-consultation/index.html` |
-| Your operation | `/your-operation` | v0.18 | 15 Nov 2026 | `your-operation/index.html` |
-| Your recovery (new page) | `/your-recovery` | v0.11 | 15 Nov 2026 | `your-recovery/index.html` |
+| Single keyhole surgery | `/single-keyhole-surgery` | v0.13 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
+| Your consultation | `/your-consultation` | v0.33 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your operation | `/your-operation` | v0.19 | 15 Nov 2026 | `your-operation/index.html` |
+| Your recovery (new page) | `/your-recovery` | v0.12 | 15 Nov 2026 | `your-recovery/index.html` |
 
 These four, and the approved Personalised care page, use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
 
 ### Amendment history
 
+- **Guide layout, 15 Nov (Personalised care v1.8, Your consultation v0.33, Single keyhole surgery v0.13, Your operation v0.19, Your recovery v0.12)**: "In brief" points that run to two lines flow naturally again, filling the first line. The even split introduced an hour earlier made the first and last points on Your operation look cut short, and Professor Lim preferred how they flowed before. The layout still avoids leaving a single word alone on the last line (`text-wrap: pretty`, not `balance`).
 - **Your operation, draft v0.18, 15 Nov**: the fasting advice now comes before the admission time, in "In brief" and in "Coming into hospital", so the page follows the order of events (midnight, then 7am). Professor Lim's request.
 - **Your operation, draft v0.17, and the guide layout, 15 Nov**: Professor Lim found it jarring that one word of an "In brief" point dropped on to a second line. Two fixes. (1) The point is shortened and softened to "No food from midnight. You may drink a glass of water every hour until surgery.", and the text below says "You may drink…" too. (2) In the layout, "In brief" points that run to two lines are now split evenly, and paragraphs avoid ending on a single stranded word (`text-wrap: balance` and `text-wrap: pretty`). This applies to every guide, so the others are re-versioned (Personalised care v1.7, Your consultation v0.32, Single keyhole surgery v0.12, Your recovery v0.11).
 - **Your operation, draft v0.16, 15 Nov**: rewritten for visual and tonal balance, at Professor Lim's request. He found the page uneven: bullet points in one place, bold lead-ins in another, one-sentence paragraphs elsewhere. Every section is now two paragraphs of plain prose, with no bold and no bullet list; the content is unchanged apart from the medicines. The medicines no longer give what each is taken for, and dapagliflozin's group is named: "antiplatelet medicines, such as aspirin and clopidogrel; anticoagulants (blood thinners), such as warfarin, apixaban and rivaroxaban; and SGLT2 inhibitors, such as dapagliflozin and empagliflozin". The sentence asking patients who have lost weight or appetite to tell the team was dropped in the tightening.
