@@ -478,7 +478,7 @@
 - name: "Rachel Loye"
   year: 2018
   treatment: ""
-  photo: ""
+  photo: "rachel-loye.jpg"
   homepage: yes
   short: "I wanted to get in contact with you to thank you for saving my life."
   quote: |
@@ -489,7 +489,7 @@
 - name: "Tony Marsh"
   year: 2017
   treatment: "Keyhole removal of a thymus tumour"
-  photo: "tony-marsh.jpg"   # CHECK: this photo shows a woman and a baby; it sat beside this testimonial on the old site
+  photo: ""
   homepage: yes
   short: "The skill of Mr Lim and the honesty and modesty of such a young, intelligent surgeon are levels that all surgeons should aim for."
   quote: |

@@ -4,7 +4,7 @@ Photos patients have sent with their testimonials. Only add a photo when the pat
 
 ## In this folder
 
-- `duilio-barbosa.jpg`, `richard-warren.jpg`, `erika-dwek.jpg`, `tony-marsh.jpg` (to check: it shows a woman and a baby).
+- `duilio-barbosa.jpg`, `richard-warren.jpg`, `erika-dwek.jpg`, `rachel-loye.jpg` (confirmed by Professor Lim on 15 Nov 2026; it was filed as `tony-marsh.jpg` on the old site by mistake).
 
 ## Naming
 
