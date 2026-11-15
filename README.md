@@ -33,7 +33,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.8 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Personalised care | `/personalised-care` | v0.8 | 15 Nov 2026 | `personalised-care/index.html` |
+| Personalised care | `/personalised-care` | v0.9 | 15 Nov 2026 | `personalised-care/index.html` |
 | Your consultation | `/your-consultation` | v0.8 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
@@ -42,6 +42,7 @@ All five use one shared design, `_layouts/patient-guide.html` (see "Patient guid
 
 ### Amendment history
 
+- **Personalised care, draft v0.9, 15 Nov**: the second "In brief" point now reads "I will explain the benefits and risks, but only you can decide what is important to you." (Professor Lim's wording).
 - **Patient guides, draft v0.8, 15 Nov (all five pages, through the shared layout)**: type made consistent, after Professor Lim found the sizes on Personalised care uneven. The reading column now uses three sizes only: headings, text at 17px and the pull quote. The opening paragraph is the same size and typeface as the rest of the text (it was 21px serif), the "In brief" points are 17px (were 16px), and the pull quote is 22px (was 24px). Every size in the layout is now set in rem, relative to the browser's own text size, so a patient who has chosen larger text in their browser gets it; at the usual setting nothing else changes. If he approves it, this is the type specification for all pages.
 - **Patient guides, first five pages, draft v0.7, 15 Nov**: built from mock-up v0.6 (claude.ai artifact "Patient pages mock-up v0.6") and Professor Lim's replies to its numbered points.
   - **One design for every patient information page** (his decision: Personalised care, Your consultation and Your operation do not need designs of their own). It lives in `_layouts/patient-guide.html`: the raked-sand header with one round picture set in the stone, unique to the page; an "In brief" box on every guide; an "On this page" list built from the headings; optional numbered steps; references in small print without links; one closing link; related guides; and the consultation call. Lists use dots, not dashes. Each page file holds only its own details and text, so a wording change touches one small file.
