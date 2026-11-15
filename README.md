@@ -17,7 +17,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
 | Home | `/` | v1.23 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
-| For patients | `/for-patients` | v1.8 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
+| For patients | `/for-patients` | v1.9 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.12 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.9 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
 | About | `/about` | v1.14 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
@@ -26,7 +26,30 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
+### Drafts on the test site (not yet approved)
+
+These pages are built and can be seen on the test site, but Professor Lim has not yet approved them. They are not saved to Drive. When one is approved, move it to the register above as v1.0 and add it to `tools/drive-backup/pages.json`.
+
+| Page | Address | Draft version | Built on | File |
+|---|---|---|---|---|
+| Single keyhole surgery | `/single-keyhole-surgery` | v0.7 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
+| Personalised care | `/personalised-care` | v0.7 | 15 Nov 2026 | `personalised-care/index.html` |
+| Your consultation | `/your-consultation` | v0.7 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your operation | `/your-operation` | v0.7 | 15 Nov 2026 | `your-operation/index.html` |
+| Your recovery (new page) | `/your-recovery` | v0.7 | 15 Nov 2026 | `your-recovery/index.html` |
+
+All five use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
+
 ### Amendment history
+
+- **Patient guides, first five pages, draft v0.7, 15 Nov**: built from mock-up v0.6 (claude.ai artifact "Patient pages mock-up v0.6") and Professor Lim's replies to its numbered points.
+  - **One design for every patient information page** (his decision: Personalised care, Your consultation and Your operation do not need designs of their own). It lives in `_layouts/patient-guide.html`: the raked-sand header with one round picture set in the stone, unique to the page; an "In brief" box on every guide; an "On this page" list built from the headings; optional numbered steps; references in small print without links; one closing link; related guides; and the consultation call. Lists use dots, not dashes. Each page file holds only its own details and text, so a wording change touches one small file.
+  - **Text**: taken from the live Squarespace pages on 15 Nov and edited with Professor Lim. Agreed changes: self-funding only (no insurers, no embassy patients); "Now, many are home on the same day"; incision "about 3 to 5 cm"; NHS referral through the multidisciplinary team; Maria is "my practice manager"; a 30-minute appointment and what to bring; admission at 7am on the day; "no food from midnight, a glass of water every hour until surgery"; the neck, wrist and bladder lines removed (no longer used); going home "on the same day, or later if you have any issue that needs our attention"; results after approximately 2 weeks; his own exercise wording kept.
+  - **Single keyhole surgery** has a section on VIOLET that says he conceived and led it, with three references (NEJM Evidence 2022, Health Technology Assessment 2022, JTCVS Open 2024). The single-incision finding is worded to match the JTCVS Open paper: pain in hospital similar, less pain in the first three months after going home, better physical function up to a year. The film is Vimeo 240846473, taken from the live page.
+  - **Your recovery is a new page**, made from the "When you get home" advice on the live Your operation page. Your operation and Single keyhole surgery end with a link to it. **Two sections are placeholders** ("Driving, flying and returning to work" and "When to call us") until Professor Lim supplies the text.
+  - **Still to confirm with Professor Lim**: the chest drain sentence on Your operation (he asked for the drain to be mentioned but gave no wording; drafted as "You may wake with a small chest drain. We remove it as soon as it is safe to do so."), and whether to add outcome figures to Personalised care.
+  - **Pictures are stand-ins** cropped from photos already on the site, in `assets/articles/` (`…-stone.jpg`, 800 by 800). Professor Lim may make a set of AI pictures (objects, anatomy or scenes, never of him or of people who could be taken for patients). Your recovery has no picture yet and shows the plain stone.
+- **For patients v1.9, 15 Nov**: "Why choose Professor Lim" now has five cards in one row, with **Your recovery** added after Your operation. The Your consultation card now reads "How you are referred, what to bring and who you will meet."
 
 - **For professionals v1.12, 15 Nov**: once more than five papers are showing, a "Show fewer" link appears beside "Show 20 more". It returns the list to five papers and, if the top of the list has scrolled out of view, brings it back.
 
@@ -126,7 +149,21 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 - **Images:** `assets/`, one folder per kind, each with a note on what goes in it and how to name files. Guide: `docs/managers-guide.md`, section 6.
 - **Testimonials:** `_data/testimonials.yml` holds every patient testimonial (69 moved from the old site on 25 Oct 2026, word for word), newest first. Each has a `short` extract (one or two sentences, verbatim) for the homepage's rotating quotes; 54 patients are in the rotation. Patient photos are in `assets/testimonials/`. Step-by-step guide: `docs/managers-guide.md`, section 5. The Testimonials page and the homepage's rotating quote will both be built from this file.
 
+## Patient guides
+
+Every patient information page uses the layout `_layouts/patient-guide.html`. To add one, copy an existing page folder (for example `your-operation/`), rename it to the page's address, and change the details at the top of `index.html` (between the two `---` lines) and the text below them.
+
+- `title`, `standfirst`, `group` and `group_anchor` (the section of For patients it belongs to: `why`, `techniques`, `screening`, `lung-cancer`, `conditions`) fill the header. `seo_title`, `description` and `address` are for search engines.
+- `picture` is a square file in `assets/articles/` (at least 800 by 800, subject in the middle); leave it out and the plain stone shows.
+- `brief` is the "In brief" list. `references`, `more_url` with `more_text`, and `related` are optional.
+- The text is plain HTML: `<h2 id="…">` for each heading (the "On this page" list is made from these) and `<p>` for paragraphs. For numbered steps, copy the `<ol class="steps">` pattern from `your-operation/index.html`.
+- Change `version` and the drafts table or register above with every change.
+
+GitHub Pages builds these pages, so **after every push check that the build succeeded**; a mistake between the `---` lines stops the whole site from updating.
+
 ## Before launch
+
+- **Patient guides**: Your recovery needs its two placeholder sections written; the four stand-in pictures need replacing; the other patient pages linked from For patients are still to be built on the same layout.
 
 - Every page carries `<meta name="robots" content="noindex, nofollow">` so search engines ignore the test site. At launch this changes back to `index, follow` on every page.
 - The contact form needs a form service connected before it can send messages, and a privacy notice page at `/privacy`.

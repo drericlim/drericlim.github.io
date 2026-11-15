@@ -19,6 +19,7 @@ Read `README.md` first. Its **Version register** is the single record of which v
 - Section spacing (agreed 25 Oct 2026): 54px above and below each section on the hub pages (44px on phones), 80px on the homepage (58px on phones); section headings 32px (homepage 44px) above their content.
 - Photos have rounded corners: 12px for photos and video frames, 8px for small thumbnails. Photos of people in team and speaker lists are circles. Full-width background photos (such as the homepage hero) stay square-edged.
 - Every page must be SEO-ready: title, description, canonical, Open Graph and JSON-LD.
+- **Patient information pages share one design** (agreed 15 Nov 2026): `_layouts/patient-guide.html`. Each page file holds only its details and text; see "Patient guides" in `README.md`. Every guide has an "In brief" box; Your consultation, Your operation and Your recovery use numbered steps. The header has one round picture set in the stone, unique to the page and not a portrait of Professor Lim. Lists use dots, not dashes. References are shown in small print without links. Professor Lim prefers to review and amend one page at a time.
 - Mock-ups carry a version number (v0.x for drafts, v1.0 when approved, v1.1 and so on for later amendments).
 
 ## Images

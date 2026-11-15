@@ -60,6 +60,24 @@ Once both are set up, most updates can be made simply by asking Claude in plain 
 - Describe results plainly, without boasting: for example, "Many patients now go home on the day of their operation."
 - Photos have rounded corners. The design has no sticky menus and no pill-shaped buttons.
 
+### Patient guides (added 15 November 2026)
+
+The patient information pages (Single keyhole surgery, Personalised care, Your consultation, Your operation, Your recovery, and the others as they are built) all share one design, so they look and work the same way. Each has:
+
+- a round picture at the top, different for every page;
+- an **In brief** box with the main points;
+- an **On this page** list, made automatically from the headings;
+- the text, with numbered steps on Your consultation, Your operation and Your recovery;
+- related guides and the "Request a consultation" button at the end.
+
+**To change the wording**, ask Claude, naming the page: "On Your operation, change the fasting advice to …". Professor Lim reviews these pages one at a time.
+
+**By hand:** each guide is one small file, for example `your-operation/index.html`. The lines at the top, between the two `---` lines, hold the title, the short description and the "In brief" points. The text of the page is below them. Change only the words, leave the punctuation of those top lines as it is, and click **Commit changes**. If the page does not update within a few minutes, tell Professor Lim or ask Claude to check: a slip in the top lines can stop the site updating.
+
+**To change a guide's picture**, upload a square picture (at least 800 by 800, with the subject in the middle) to `assets/articles/` with exactly the same name as the one it replaces.
+
+These five pages are drafts until Professor Lim approves them. Two parts of Your recovery ("Driving, flying and returning to work" and "When to call us") are marked "To be written".
+
 ---
 
 ## 5. Adding a patient testimonial
@@ -346,7 +364,7 @@ These sections of the guide will be added as each piece is built:
 - **Testimonials by email:** the forwarding address described in section 5, once built and tested.
 - **Publications (For professionals page):** the list of Professor Lim's papers comes from A3, his academic record, not from anything the team types. It is kept in `_data/publications.json` and written into the page by a small script (`tools/publications/build.py`). To add or correct a paper, change it in A3, then ask Claude: "Please update the publications on drericlim.com from A3." As of 15 November 2026 the list on the test site is a provisional copy; how A3 passes its list to the website is still being settled.
 - **Thoracic Reflections:** shown as "Coming soon" until the first essays are ready. The full design for the section is saved in `docs/thoracic-reflections-section-v1.8.html`.
-- **Articles and patient guides:** publishing a new article or video.
+- **Articles:** publishing a new article or video. (Patient guides are now covered in section 4.)
 - **Launch day:** moving the drericlim.com address to the new site.
 
 ---
@@ -372,7 +390,7 @@ Last updated 6 November 2026.
 | `assets/partners/` | virtual Grand Rounds page, partner logos | `astrazeneca.svg`, `medtronic.svg` | Official Medtronic, AstraZeneca and Medela logos |
 | `assets/speakers/` | virtual Grand Rounds page, speaker headshots | none yet | Speaker headshots |
 | `assets/testimonials/` | Homepage quotes and the future testimonials page | `duilio-barbosa.jpg`, `erika-dwek.jpg`, `richard-warren.jpg`, `tony-marsh.jpg` | Check whether the Tony Marsh photo belongs to Rachel Loye |
-| `assets/articles/` | Patient guides, articles and Thoracic Reflections | none yet | Added with each article |
+| `assets/articles/` | Patient guides (the round picture at the top of each guide), articles and Thoracic Reflections | `single-keyhole-surgery-stone.jpg`, `personalised-care-stone.jpg`, `your-consultation-stone.jpg`, `your-operation-stone.jpg` (800 by 800; stand-ins cropped from photos already on the site) | A picture of its own for each guide, square, at least 800 by 800, subject in the middle. Your recovery has none yet |
 | `assets/icons/` | Every page: the logo beside Professor Lim's name, the browser-tab icon and phone icons | Logo files (`logo-on-dark.svg`, `logo-on-light.svg` and PNG copies), icon files (`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`) and their sources | None |
 
 ### In GitHub: text the team edits (`_data/`)

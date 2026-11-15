@@ -4,7 +4,11 @@ Pictures used in patient guides, articles and Thoracic Reflections.
 
 ## In this folder
 
-- Empty so far.
+- `single-keyhole-surgery-stone.jpg`, `personalised-care-stone.jpg`, `your-consultation-stone.jpg`, `your-operation-stone.jpg`: the round picture in the header of each patient guide. **These four are stand-ins**, cropped from photos already on the site, until Professor Lim supplies a picture for each page.
+
+## Header pictures for patient guides
+
+Each patient guide shows one round picture set in the stone at the top of the page. Name it with the page's address followed by `-stone`, e.g. `your-recovery-stone.jpg`. It must be square, at least 800 by 800, with the subject in the middle (the corners are cut off by the circle). It should be particular to the page and not a portrait of Professor Lim. A guide with no picture shows a plain stone.
 
 ## Naming
 

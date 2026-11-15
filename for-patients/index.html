@@ -112,6 +112,12 @@ main section.alt{background:var(--porcelain);}
 .card .go::after{content:' →';}
 @media(max-width:960px){.card-grid,.card-grid.three{grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(2,auto);}.card-grid.two{grid-auto-flow:row;grid-template-rows:none;}}
 @media(max-width:560px){.card-grid,.card-grid.two,.card-grid.three{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none;}}
+/* Five cards in one row (Why choose Professor Lim, v1.9) */
+.card-grid.five{grid-template-columns:repeat(5,1fr);gap:18px;}
+.card-grid.five .card{padding:24px 20px;}
+@media(max-width:1120px){.card-grid.five{grid-template-columns:repeat(3,1fr);grid-auto-flow:column;grid-template-rows:repeat(2,auto);gap:22px;}}
+@media(max-width:960px){.card-grid.five{grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(3,auto);}}
+@media(max-width:560px){.card-grid.five{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none;}}
 .index{display:grid;grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(var(--ra,1),auto);column-gap:60px;}
 .index a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:20px 4px;border-bottom:1px solid #DEE4EC;transition:padding .2s,border-color .2s;}
 .index a:hover{border-color:var(--blue);padding-left:12px;}
@@ -259,8 +265,8 @@ main section.film-band{padding:60px 0;}
       <p class="eyebrow"><a href="#top" class="mark-link" aria-label="Back to top of page" title="Back to top"><svg class="mark" aria-hidden="true" focusable="false"><use href="#sand-light"/></svg></a>Why choose Professor Lim</p>
       <h2 id="why-title">Care built around you, backed by evidence.</h2>
     </div>
-    <div class="card-grid">
-      <a href="/personalised-care" class="card reveal"><h3>Personalised care</h3><p>How my systems-based approach delivers excellent outcomes with very low complications.</p><span class="go">Read more</span></a><a href="/testimonials" class="card reveal"><h3>Testimonials</h3><p>What patients say about their experience, in their own words.</p><span class="go">Patient stories</span></a><a href="/your-consultation" class="card reveal"><h3>Your consultation</h3><p>What to bring, what we'll discuss and how quickly you'll be seen.</p><span class="go">Prepare your visit</span></a><a href="/your-operation" class="card reveal"><h3>Your operation</h3><p>What happens on the day, from admission to going home.</p><span class="go">What to expect</span></a>
+    <div class="card-grid five">
+      <a href="/personalised-care" class="card reveal"><h3>Personalised care</h3><p>How my systems-based approach delivers excellent outcomes with very low complications.</p><span class="go">Read more</span></a><a href="/testimonials" class="card reveal"><h3>Testimonials</h3><p>What patients say about their experience, in their own words.</p><span class="go">Patient stories</span></a><a href="/your-consultation" class="card reveal"><h3>Your consultation</h3><p>How you are referred, what to bring and who you will meet.</p><span class="go">Prepare your visit</span></a><a href="/your-operation" class="card reveal"><h3>Your operation</h3><p>What happens on the day, from admission to going home.</p><span class="go">What to expect</span></a><a href="/your-recovery" class="card reveal"><h3>Your recovery</h3><p>What to expect once you are home, and when to contact us.</p><span class="go">After your operation</span></a>
     </div>
   </div>
 </section>
