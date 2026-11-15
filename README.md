@@ -33,7 +33,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.9 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Personalised care | `/personalised-care` | v0.14 | 15 Nov 2026 | `personalised-care/index.html` |
+| Personalised care | `/personalised-care` | v0.15 | 15 Nov 2026 | `personalised-care/index.html` |
 | Your consultation | `/your-consultation` | v0.8 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
@@ -42,6 +42,7 @@ All five use one shared design, `_layouts/patient-guide.html` (see "Patient guid
 
 ### Amendment history
 
+- **Personalised care, draft v0.15, 15 Nov**: second "In brief" point shortened to "I will explain benefits and risks, but only you can decide what is important to you." ("the" removed so that one word no longer spills on to a second line at the usual desktop width).
 - **Personalised care, draft v0.14, 15 Nov**: the patient survey sentence now carries reference 2, the conference abstract Professor Lim confirmed as its source (Pattenden H, Karunanantham J, Leung M, Beckles MA, Cooper S, Lim E. Functional outcome in patients with non-small cell lung cancer who failed BTS recommended post-operative predicted criteria for lung resection. Lung Cancer 2010;67:S37; doi 10.1016/s0169-5002(10)70113-6), found in A3's conference abstracts. Like the other references, it is shown without a link.
 - **Personalised care v0.13 and Single keyhole surgery v0.9, 15 Nov**: in the references, Professor Lim's name ("Lim E") is now bold and underlined, at his request. In a page's `references`, wrap his name as `<strong class="me">Lim E</strong>`; this is the rule for references on every patient guide.
 - **Personalised care, draft v0.12, 15 Nov**: the British guideline sentence now carries a numbered reference, shown in small print at the foot of the page without a link (Lim E, et al. Guidelines on the radical management of patients with lung cancer. Thorax 2010;65 Suppl 3:iii1-27), taken from the A3 publications list in `_data/publications.json`. Professor Lim asked for it to give the sentence more authority.
