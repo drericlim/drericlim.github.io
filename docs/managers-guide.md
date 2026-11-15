@@ -55,7 +55,7 @@ Once both are set up, most updates can be made simply by asking Claude in plain 
 - Professor Lim practises only at the **Royal Brompton Hospital**, Sydney Street, London SW3 6NP. The telephone number is **+44 (0) 207 352 8121**. There is no fax.
 - Private patients are **self-funding**; the practice does not work with insurers.
 - NHS patients are referred through their own hospital's **multidisciplinary team**.
-- Team members do not give out their own phone numbers; patients call the **office**.
+- Team members do not give out their own phone numbers. Professor Lim prefers patients to get in touch through the **message form** on the Contact page, so the office telephone number is shown on the Contact page only; every other page links to the form.
 - Always write **"virtual Grand Rounds"** with a small v.
 - Describe results plainly, without boasting: for example, "Many patients now go home on the day of their operation."
 - Photos have rounded corners. The design has no sticky menus and no pill-shaped buttons.

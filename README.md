@@ -16,13 +16,13 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.23 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
-| For patients | `/for-patients` | v1.11 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
-| For professionals | `/for-professionals` | v1.12 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
-| virtual Grand Rounds | `/virtual-grand-rounds` | v1.9 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
-| About | `/about` | v1.14 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
-| Contact | `/contact-us` | v1.5 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
-| Personalised care | `/personalised-care` | v1.5 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
+| Home | `/` | v1.24 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
+| For patients | `/for-patients` | v1.12 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
+| For professionals | `/for-professionals` | v1.13 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
+| virtual Grand Rounds | `/virtual-grand-rounds` | v1.10 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
+| About | `/about` | v1.15 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
+| Contact | `/contact-us` | v1.6 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
+| Personalised care | `/personalised-care` | v1.6 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
@@ -33,16 +33,17 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
-| Single keyhole surgery | `/single-keyhole-surgery` | v0.10 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.27 | 15 Nov 2026 | `your-consultation/index.html` |
-| Your operation | `/your-operation` | v0.9 | 15 Nov 2026 | `your-operation/index.html` |
-| Your recovery (new page) | `/your-recovery` | v0.9 | 15 Nov 2026 | `your-recovery/index.html` |
+| Single keyhole surgery | `/single-keyhole-surgery` | v0.11 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
+| Your consultation | `/your-consultation` | v0.28 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your operation | `/your-operation` | v0.10 | 15 Nov 2026 | `your-operation/index.html` |
+| Your recovery (new page) | `/your-recovery` | v0.10 | 15 Nov 2026 | `your-recovery/index.html` |
 
 These four, and the approved Personalised care page, use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
 
 ### Amendment history
 
-- **Patient guides, 15 Nov (Personalised care v1.5, Your consultation v0.27, Single keyhole surgery v0.10, Your operation v0.9, Your recovery v0.9)**: Professor Lim's rule, "in general and throughout": **do not give the phone number in the text; link to the contact form instead**, as he prefers patients to make contact through the web form. In the guides' text, "call … or send a message" becomes "please send us a message", linking to the form (`/contact-us#message`). The "Or call +44…" line under the "Request a consultation" button is removed from the layout, so it is gone from all five guides. **Not yet changed, pending his answer**: the phone number in the footer of every page, the "Or call" lines on the homepage and For patients, and the Contact page itself.
+- **All pages, 15 Nov (Home v1.24, For patients v1.12, For professionals v1.13, virtual Grand Rounds v1.10, About v1.15, Contact v1.6, Personalised care v1.6, and the draft guides)**: the telephone number now appears on the Contact page only, as Professor Lim prefers contact through the web form. Removed: the number from the footer of every page ("Message us" stays), the "Or call…" line under the consultation button on the homepage and For patients, and the "Telephone" card in the About page's Contact section, which is now a "Message" card linking to the form. Kept: the number in the Contact page's own section and in its "message sent" confirmation, and in the hidden information for search engines (JSON-LD) on Home, About and Contact, so that Google can still show it.
+- **Patient guides, 15 Nov (Personalised care v1.5, Your consultation v0.27, Single keyhole surgery v0.10, Your operation v0.9, Your recovery v0.9)**: Professor Lim's rule, "in general and throughout": **do not give the phone number in the text; link to the contact form instead**, as he prefers patients to make contact through the web form. In the guides' text, "call … or send a message" becomes "please send us a message", linking to the form (`/contact-us#message`). The "Or call +44…" line under the "Request a consultation" button is removed from the layout, so it is gone from all five guides. The footers and hub pages followed in the next entry above.
 - **Your consultation draft v0.26 and Personalised care v1.4, 15 Nov**: the team link no longer says "meet", which Professor Lim pointed out could be read as meeting them in person. Your consultation: "You can see who is in my team on this website before you come." Personalised care: "You can also see who is in my team."
 - **Your consultation, draft v0.25, 15 Nov**: the visiting doctors paragraph is strengthened at Professor Lim's request. Visitors apply to learn from him personally, and he wants patients to see that their presence matters before declining it. It now says surgeons from around the world apply to spend time with him, to learn the techniques he has developed and take them home to their own patients, and that a patient who lets them sit in helps patients far beyond the clinic. The next paragraph is unchanged: patients can still ask for visitors not to be present, and it will not affect their care.
 - **Your consultation, draft v0.24, 15 Nov**: two rewrites for Professor Lim. (1) The clinic letter sentence that read as contradictory ("Clinic letters usually arrive by post…; yours goes home with you") now contrasts other clinics with his: "In many clinics the letter follows by post, days or weeks later. Here it is ready before you leave, so you do not have to wait for it." (2) "During the consultation" had too many sentences starting with "I"; it now reads "We start with your health: the better I understand you and your physical health, the more closely my recommendations can be tailored to you. We then go through your condition and discuss the options together. Your questions are always welcome."

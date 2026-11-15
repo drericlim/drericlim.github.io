@@ -20,7 +20,7 @@ Read `README.md` first. Its **Version register** is the single record of which v
 - Photos have rounded corners: 12px for photos and video frames, 8px for small thumbnails. Photos of people in team and speaker lists are circles. Full-width background photos (such as the homepage hero) stay square-edged.
 - Every page must be SEO-ready: title, description, canonical, Open Graph and JSON-LD.
 - **Patient information pages share one design** (agreed 15 Nov 2026): `_layouts/patient-guide.html`. Each page file holds only its details and text; see "Patient guides" in `README.md`. Every guide has an "In brief" box. Your consultation uses plain headings (Professor Lim removed its numbered steps on 15 Nov 2026: "the numbers don't work"); Your operation and Your recovery still have numbered steps until he reviews them. The header has one round picture set in the stone, unique to the page and not a portrait of Professor Lim. Lists use dots, not dashes. References are shown in small print without links. Professor Lim prefers to review and amend one page at a time.
-- **Contact:** Professor Lim prefers patients to make contact through the web form (15 Nov 2026). In page text, do not give the phone number; link to the form on the Contact page (`/contact-us#message`).
+- **Contact:** Professor Lim prefers patients to make contact through the web form (15 Nov 2026). The telephone number is shown on the Contact page only (and in the JSON-LD for search engines). Everywhere else, including footers, link to the form on the Contact page (`/contact-us#message`) and do not print the number.
 - Mock-ups carry a version number (v0.x for drafts, v1.0 when approved, v1.1 and so on for later amendments).
 
 ## Images
