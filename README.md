@@ -34,7 +34,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.9 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.13 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your consultation | `/your-consultation` | v0.14 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
 
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Your consultation, draft v0.14, 15 Nov**: the "In brief" point about the 30-minute appointment and the self-assessment leaflet is replaced by "Clinics are held at the Royal Brompton Hospital." Professor Lim's reasons: some patients may take offence that 30 minutes is too short, or hold him to the time, and "please bring" reads as bossy.
 - **Your consultation, draft v0.13, 15 Nov**: in "Your referral", the sentence about reserving an operation date now begins "By the time we meet, I will already have reserved a provisional operation date…" and explains why it helps the patient (no second wait for a date, so treatment starts sooner; the date is released if they decide against surgery). Professor Lim asked for the opening and the explanation.
 - **Your consultation, draft v0.12, 15 Nov**: the last section is corrected to how the practice works, as Professor Lim explained: the clinic letter, with the details of the operation and its risks, is given at the appointment; the consent form is separate and is usually signed on admission. The section is renamed "Your clinic letter and consent" (was "After the consultation"), and a fourth "In brief" point about the clinic letter is added. The earlier text, from the live page, said consent forms were issued in clinic and the letter sent afterwards; the mention of research consent forms being issued in clinic is removed until he confirms how that works. He approved the rewritten Private patients section.
 - **Your consultation, draft v0.11, 15 Nov**: "Private patients" reorganised at Professor Lim's request: who can book, then insurers, then the quote, with the phone number and message link at the end. The insurer sentence is now mildly apologetic ("I regret that I no longer work with insurance companies") and gives the benefit to the patient (a smaller practice with his full attention, and decisions made without outside authorisation), drawn from the reason on his live page. Wording drafted by Claude for him to check.
