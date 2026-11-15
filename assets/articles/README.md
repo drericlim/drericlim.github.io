@@ -4,7 +4,7 @@ Pictures used in patient guides, articles and Thoracic Reflections.
 
 ## In this folder
 
-- `single-keyhole-surgery-stone.jpg`, `personalised-care-stone.jpg`, `your-consultation-stone.jpg`, `your-operation-stone.jpg`: the round picture in the header of each patient guide. **These four are stand-ins**, cropped from photos already on the site, until Professor Lim supplies a picture for each page.
+- `single-keyhole-surgery-stone.jpg`, `personalised-care-stone.jpg`, `your-consultation-stone.jpg`, `your-operation-stone.jpg`: the round picture in the header of each patient guide. `testimonials-stone.jpg` is the same for the Testimonials page. **All of these are stand-ins**, cropped from photos already on the site, until Professor Lim supplies a picture for each page.
 
 ## Header pictures for patient guides
 

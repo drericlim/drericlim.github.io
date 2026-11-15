@@ -37,11 +37,17 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Your consultation | `/your-consultation` | v0.33 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.20 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.12 | 15 Nov 2026 | `your-recovery/index.html` |
+| Testimonials | `/testimonials` | v0.1 | 15 Nov 2026 | `testimonials/index.html` |
 
 These four, and the approved Personalised care page, use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
 
 ### Amendment history
 
+- **Testimonials page built, draft v0.1, 15 Nov**: Professor Lim chose layout C from the mock-up (claude.ai artifact "Testimonials page mock-up v0.1", which offered A every message in full, B extracts in two columns, C three in full then everyone). His instruction: **the three shown in full are always the three most recent**, so the page stays fresh by itself.
+  - The page reads everything from `_data/testimonials.yml`, newest first: the first three in full, then every other message as a row (name, year, one line) that opens to the full message. Fifteen rows show at first, then "Show 20 more" and "Show fewer"; without JavaScript every row is listed. Nothing is typed into the page, so adding a testimonial to the data file updates it.
+  - The one line in each row is the `short` extract where there is one; otherwise the opening 28 words of the message, word for word.
+  - It uses the patient-guide layout with two new options in a page's details: leave out `brief` for no "In brief" box, and `wide: true` for a full-width body with no "On this page" list.
+  - Photos are shown only beside the three featured messages for now. The header picture, `assets/articles/testimonials-stone.jpg`, is a stand-in cropped from the ward-round photo.
 - **Your operation, draft v0.20, 15 Nov**: the fasting point in "In brief" now reads "No food from midnight before your operation, but you may drink a glass of water every hour until surgery." (Professor Lim's wording), which runs naturally on to a second line.
 - **Guide layout, 15 Nov (Personalised care v1.8, Your consultation v0.33, Single keyhole surgery v0.13, Your operation v0.19, Your recovery v0.12)**: "In brief" points that run to two lines flow naturally again, filling the first line. The even split introduced an hour earlier made the first and last points on Your operation look cut short, and Professor Lim preferred how they flowed before. The layout still avoids leaving a single word alone on the last line (`text-wrap: pretty`, not `balance`).
 - **Your operation, draft v0.18, 15 Nov**: the fasting advice now comes before the admission time, in "In brief" and in "Coming into hospital", so the page follows the order of events (midnight, then 7am). Professor Lim's request.
@@ -236,7 +242,7 @@ GitHub Pages builds these pages, so **after every push check that the build succ
 - **Publications**: replace `_data/publications.json` with an export of A3's live master list (it currently holds a provisional copy of the 6 November import), run `python3 tools/publications/build.py`, and agree how it is kept up to date.
 - **Trial pages**: a page each for VIOLET, MARS 2 and RAMON is proposed (question, at a glance, why it was needed, what we found, what it means, Professor Lim's reflections, papers from the trial, team and funding). Not yet built.
 - **Thoracic Reflections**: restore the full section from `docs/thoracic-reflections-section-v1.8.html` when the first essays are ready.
-- Build the `/testimonials` page from `_data/testimonials.yml`.
+- The `/testimonials` page is built (draft); it needs Professor Lim's approval and a header picture.
 - Check the photo beside Tony Marsh's testimonial (it shows a woman and a baby).
 - The virtual Grand Rounds registration link (Zoom) is a placeholder.
 - Vimeo: each About page film must list `drericlim.com`, `www.drericlim.com` and `drericlim.github.io` under Privacy → "Where can this be embedded?" (Specific domains). Requested from Professor Lim on 25 Oct 2026.

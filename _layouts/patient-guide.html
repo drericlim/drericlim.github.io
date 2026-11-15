@@ -137,6 +137,39 @@ h1,h2,h3{text-wrap:balance;}
 .prose .more a{font-family:var(--serif);font-size:1.3125rem;color:var(--blue);}
 .prose .more a:hover{color:var(--blue-deep);}
 
+/* Testimonials page (wide body, no "In brief" box, no "On this page" list) */
+.guide .cols.wide{grid-template-columns:minmax(0,1fr);}
+.guide .cols.wide .onpage{display:none;}
+.t-lead,.t-feat,.t-intro{max-width:690px;}
+.t-feat article{padding:30px 0;border-bottom:1px solid var(--rule);}
+.t-feat article:first-child{padding-top:8px;}
+.t-feat article p:last-of-type{margin-bottom:0;}
+.prose p.t-who{margin:14px 0 0;line-height:1.5;display:flex;gap:14px;align-items:center;}
+.t-who b{font-weight:600;color:var(--ink);}
+.t-who span span{color:var(--text-soft);}
+.t-who img{width:56px;height:56px;border-radius:50%;object-fit:cover;flex:none;}
+.prose p.t-intro{color:var(--text-soft);}
+.t-rows{border-top:1px solid var(--rule);}
+.t-rows details{border-bottom:1px solid var(--rule);}
+.t-rows summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr) auto;gap:8px 32px;align-items:baseline;padding:20px 4px;}
+.t-rows summary::-webkit-details-marker{display:none;}
+.t-rows summary::after{content:'';align-self:center;width:7px;height:7px;border-right:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(45deg) translateY(-2px);transition:transform .2s;}
+.t-rows details[open] summary::after{transform:rotate(-135deg) translateY(-2px);}
+.t-rows summary:focus-visible{outline:2px solid var(--blue);outline-offset:3px;}
+.t-rows .nm{font-family:var(--serif);font-size:1.25rem;color:var(--ink);line-height:1.3;}
+.t-rows summary:hover .nm{color:var(--blue);}
+.t-rows .nm small{display:block;font-family:var(--sans);font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-soft);margin-top:4px;}
+.t-rows .ex{font-size:1.0625rem;color:var(--text-soft);line-height:1.6;}
+.t-rows details[open] .ex{visibility:hidden;height:0;overflow:hidden;}
+.t-rows .t-full{padding:0 4px 26px;max-width:690px;}
+.t-rows .t-full p:last-child{margin-bottom:0;}
+.t-more{display:flex;gap:26px;flex-wrap:wrap;margin-top:26px;}
+.t-more button{font:inherit;font-size:0.9375rem;font-weight:600;color:var(--blue);background:none;border:0;cursor:pointer;padding:6px 0;display:inline-flex;gap:8px;align-items:center;}
+.t-more button:hover{color:var(--blue-deep);}
+.t-more button:focus-visible{outline:2px solid var(--blue);outline-offset:3px;}
+.t-more .down::after{content:'';width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);}
+@media(max-width:760px){.t-rows summary{grid-template-columns:1fr auto;}.t-rows .ex{grid-column:1/-1;}}
+@media(prefers-reduced-motion:reduce){.t-rows summary::after{transition:none;}}
 /* Page endings */
 .related{background:var(--porcelain);padding:54px 0;}
 .related h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.5rem,2.6vw,1.875rem);color:var(--ink);margin-bottom:18px;}
@@ -202,13 +235,13 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
 <main>
 <section class="guide">
   <div class="container">
-    <div class="cols">
+    <div class="cols{% if page.wide %} wide{% endif %}">
       <nav class="onpage" aria-label="On this page" hidden><p class="lbl">On this page</p><ol></ol></nav>
       <article class="prose">
-        <div class="brief"><h2>In brief</h2><ul>
+{% if page.brief %}        <div class="brief"><h2>In brief</h2><ul>
 {% for b in page.brief %}          <li>{{ b }}</li>
 {% endfor %}        </ul></div>
-{{ content }}
+{% endif %}{{ content }}
 {% if page.references %}        <div class="refs"><h2>References</h2><ol>
 {% for r in page.references %}          <li>{{ r }}</li>
 {% endfor %}        </ol></div>

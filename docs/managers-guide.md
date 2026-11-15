@@ -82,6 +82,8 @@ Personalised care was approved on 15 November 2026; the other four are drafts un
 
 ## 5. Adding a patient testimonial
 
+**Where testimonials appear (15 November 2026).** Every testimonial is kept in one file, `_data/testimonials.yml`. From there it appears by itself in two places: the rotating quotes on the homepage (the short extract), and the **Testimonials page**, which shows the three most recent messages in full and lists every other patient by name; choosing a name opens their message. Nobody edits the Testimonials page itself: add the testimonial to the file, as described below, and within a few minutes the newest message moves to the top and the oldest of the three joins the list.
+
 All testimonials live in one file, **`_data/testimonials.yml`**. The Testimonials page and the rotating quotes on the homepage are both built from it, so a testimonial only ever needs adding once. Each testimonial has the patient's full words, plus a short extract of a sentence or two for the homepage. The homepage shows these one at a time, in a different random order on every visit, changing every seven seconds.
 
 **Before you start:** make sure the patient has agreed **in writing** to their words being published with their name, and to their photo too if they sent one. The simplest record is the patient's reply to our standard request email (below): keep that thread on file.

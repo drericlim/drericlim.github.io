@@ -1,0 +1,88 @@
+---
+layout: patient-guide
+version: v0.1
+title: Testimonials
+seo_title: 'Patient Testimonials | Professor Eric Lim, Thoracic Surgeon'
+description: 'Messages from patients of Professor Eric Lim, thoracic surgeon at the Royal Brompton Hospital, in their own words and published with their permission.'
+address: /testimonials
+group: Why choose Professor Lim
+group_anchor: why
+standfirst: What patients say about their experience, in their own words.
+picture: testimonials-stone.jpg
+picture_alt: Professor Lim on a ward round
+wide: true
+related:
+- name: Personalised care
+  tag: My approach
+  url: /personalised-care
+- name: Your consultation
+  tag: Preparing
+  url: /your-consultation
+- name: Your operation
+  tag: What to expect
+  url: /your-operation
+- name: Your recovery
+  tag: Once you are home
+  url: /your-recovery
+---
+{%- comment -%}
+  Every message comes from _data/testimonials.yml, newest first. Nothing is typed here.
+  The three newest are shown in full; the rest are listed by name below.
+  To add a testimonial, follow CLAUDE.md ("Adding a patient testimonial"). This page then updates by itself.
+{%- endcomment -%}
+{%- assign all = site.data.testimonials -%}
+{%- assign oldest = all | last -%}
+{%- assign rest_count = all.size | minus: 3 -%}
+{%- capture nl %}
+{% endcapture -%}
+{%- assign para = nl | append: nl %}
+        <p class="t-lead">Patients have sent {{ all.size }} messages about their care since {{ oldest.year }}. Each one is published in the patient’s own words, with their permission.</p>
+
+        <div class="t-feat">
+{%- for t in all limit:3 %}
+          <article>
+{%- assign ps = t.quote | strip | split: para -%}
+{%- for p in ps %}
+            <p>{{ p | strip | escape }}</p>
+{%- endfor %}
+            <p class="t-who">{% if t.photo and t.photo != "" %}<img src="/assets/testimonials/{{ t.photo }}" alt="{{ t.name | escape }}" width="56" height="56" loading="lazy">{% endif %}<span><b>{{ t.name | escape }}</b><span>{% if t.treatment and t.treatment != "" %} · {{ t.treatment | escape }}{% endif %} · {{ t.year }}</span></span></p>
+          </article>
+{%- endfor %}
+        </div>
+
+        <h2 id="more-messages">More messages from patients</h2>
+        <p class="t-intro">{{ rest_count }} more messages, newest first. Choose a name to read the message in full.</p>
+        <div class="t-rows" id="t-rows">
+{%- for t in all offset:3 %}
+          <details>
+            <summary><span class="nm">{{ t.name | escape }}<small>{{ t.year }}{% if t.treatment and t.treatment != "" %} · {{ t.treatment | escape }}{% endif %}</small></span><span class="ex">{% if t.short and t.short != "" %}{{ t.short | strip | escape }}{% else %}{{ t.quote | strip | replace: nl, " " | truncatewords: 28, "…" | escape }}{% endif %}</span></summary>
+            <div class="t-full">
+{%- assign ps = t.quote | strip | split: para -%}
+{%- for p in ps %}
+              <p>{{ p | strip | escape }}</p>
+{%- endfor %}
+            </div>
+          </details>
+{%- endfor %}
+        </div>
+        <div class="t-more" id="t-more" hidden>
+          <button type="button" class="down" id="t-show-more">Show 20 more</button>
+          <button type="button" id="t-show-fewer" hidden>Show fewer</button>
+        </div>
+<script>
+/* Shows 15 names at first, then 20 more at a time. Without JavaScript every message is simply listed. */
+(function(){
+  var rows=[].slice.call(document.querySelectorAll('#t-rows details')), FIRST=15, STEP=20, shown=FIRST;
+  if(rows.length<=FIRST) return;
+  var bar=document.getElementById('t-more'), more=document.getElementById('t-show-more'), fewer=document.getElementById('t-show-fewer');
+  function draw(){
+    rows.forEach(function(r,i){ r.hidden=i>=shown; });
+    var left=rows.length-shown;
+    more.hidden=left<=0; more.textContent='Show '+Math.min(STEP,left)+' more';
+    fewer.hidden=shown<=FIRST;
+  }
+  more.addEventListener('click',function(){ shown=Math.min(rows.length,shown+STEP); draw(); });
+  fewer.addEventListener('click',function(){ shown=FIRST; draw(); document.getElementById('more-messages').scrollIntoView({block:'start'}); });
+  bar.hidden=false; draw();
+})();
+</script>
