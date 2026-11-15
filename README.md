@@ -18,7 +18,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 |---|---|---|---|---|---|
 | Home | `/` | v1.23 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
 | For patients | `/for-patients` | v1.8 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
-| For professionals | `/for-professionals` | v1.10 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
+| For professionals | `/for-professionals` | v1.11 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.9 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
 | About | `/about` | v1.14 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.5 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
@@ -27,6 +27,8 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
+
+- **For professionals v1.11, 15 Nov**: the "Statistics course" button is removed from the page header (Professor Lim: it looked out of place; the course is still linked from the Statistics section). The publications list now opens showing 5 papers, not 25, with "Show 20 more" below, so it takes less room; changing category, topic, search or order returns to 5.
 
 - **All pages, 15 Nov (Home v1.23, For patients v1.8, For professionals v1.10, virtual Grand Rounds v1.9, About v1.14, Contact v1.5)**: every reference to "Research and education" as a page is removed, at Professor Lim's request; that page will not be built. In the footer of every page the link is replaced by two, "Research" and "Publications", going to those sections of the For professionals page. On the homepage, "I'm a researcher" now reads "The clinical trials I have led, my publications and a statistics course written for clinicians" with the link "Explore research and publications". The For professionals headline ("Research and education for the next generation of clinicians.") is a sentence, not a link, and is unchanged.
 - **For professionals v1.10, 15 Nov**: the VIOLET and MARS 2 cards now use figures checked against the PubMed abstracts (PMID 38319202 and 38740044). VIOLET: 503 randomised; physical function at five weeks, median 73 against 67; serious adverse events after discharge 30.7% against 37.8%; no difference in progression-free or overall survival at one year ("less pain" removed, as it is not in the abstract). MARS 2: 335 randomised across 26 UK hospitals; median survival 19.3 against 24.8 months; more serious adverse events; funded by NIHR HTA and Cancer Research UK ("poorer quality of life" removed, as it is not in the abstract).

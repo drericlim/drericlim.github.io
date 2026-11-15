@@ -264,9 +264,6 @@ footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:50px;padding-
 .mod-toggle[open] .chev{transform:rotate(-135deg);margin-top:5px;}
 .mod-toggle .t-open,.mod-toggle[open] .t-closed{display:none;}
 .mod-toggle[open] .t-open{display:inline;}
-.hero-cta{display:inline-flex;align-items:center;gap:8px;margin-top:30px;padding:13px 24px;border:1px solid rgba(255,255,255,.45);border-radius:3px;color:#fff;font-weight:600;font-size:15px;transition:background .2s,border-color .2s;}
-.hero-cta:hover{background:rgba(255,255,255,.08);border-color:#fff;}
-.hero-cta:focus-visible{outline:2px solid var(--sky);outline-offset:3px;}
 .alt .subscribe{background:#fff;}
 .module{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:20px;align-items:baseline;padding:24px 4px;border-bottom:1px solid #DEE4EC;transition:padding .2s,border-color .2s;}
 .module:hover{border-color:var(--blue);padding-left:12px;}
@@ -439,7 +436,6 @@ main section.film-band{padding:60px 0;}
     <p class="eyebrow">For professionals</p>
     <h1>Research and education for the <em>next generation</em> of clinicians.</h1>
     <p>The trials, methodology and statistics teaching behind the academic division of thoracic surgery at the Royal Brompton Hospital, open to researchers and clinicians everywhere.</p>
-    <a href="https://www.statisticscourse.com/?utm_source=drericlim&amp;utm_medium=referral&amp;utm_campaign=professionals_header" class="hero-cta" target="_blank" rel="noopener">Statistics course <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
   </div>
 </div>
 
@@ -1041,7 +1037,7 @@ main section.film-band{padding:60px 0;}
   var items=[].slice.call(rowsBox.querySelectorAll('li.cite')).map(function(li,i){
     return {li:li,i:i,cat:li.getAttribute('data-cat'),topics:(li.getAttribute('data-topics')||'').split(' '),year:li.getAttribute('data-year'),cites:+li.getAttribute('data-cites')||0,text:li.textContent.toLowerCase()};
   });
-  var cat='',shown=25,PAGE=25,total=items.length;
+  var FIRST=5,PAGE=20,cat='',shown=FIRST,total=items.length;  /* five papers at first, then 20 more at a time */
   document.querySelector('.pub-ctl').hidden=false; $('pub-types').hidden=false;
   function render(){
     var q=$('pub-q').value.trim().toLowerCase(),tp=$('pub-topic').value,sort=$('pub-sort').value;
@@ -1066,8 +1062,8 @@ main section.film-band{padding:60px 0;}
     $('pub-count').textContent=rows.length===total?'Showing '+vis.length+' of '+total+' publications':'Showing '+vis.length+' of '+rows.length+' matching publications';
     var left=rows.length-vis.length; $('pub-more').hidden=left<=0; $('pub-more').textContent=left>PAGE?'Show '+PAGE+' more':'Show the remaining '+left;
   }
-  ['pub-q','pub-topic','pub-sort'].forEach(function(id){$(id).addEventListener('input',function(){shown=PAGE;render();});});
-  $('pub-types').addEventListener('click',function(e){var b=e.target.closest('button[data-cat]');if(!b)return;cat=b.getAttribute('data-cat');shown=PAGE;render();});
+  ['pub-q','pub-topic','pub-sort'].forEach(function(id){$(id).addEventListener('input',function(){shown=FIRST;render();});});
+  $('pub-types').addEventListener('click',function(e){var b=e.target.closest('button[data-cat]');if(!b)return;cat=b.getAttribute('data-cat');shown=FIRST;render();});
   $('pub-more').addEventListener('click',function(){shown+=PAGE;render();});
   render();
 })();
