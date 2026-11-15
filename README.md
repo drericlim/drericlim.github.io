@@ -20,7 +20,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | For patients | `/for-patients` | v1.12 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.13 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.10 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
-| About | `/about` | v1.16 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
+| About | `/about` | v1.17 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.6 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
 | Personalised care | `/personalised-care` | v1.6 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **About v1.17, 15 Nov**: "Maria, my practice manager, will…" is restored in the private patients paragraph, at Professor Lim's request, because it is about private patients, whom Maria looks after. **Rule as it now stands**: wherever a page speaks to private patients about booking (the homepage, About, Contact), Maria is named; the patient guides give roles, not names.
 - **Home v1.26, 15 Nov**: "Maria, my practice manager, will find a time that suits you." is restored in the homepage's consultation call. v1.25 had changed it to "My administrative team" a few minutes earlier; Professor Lim asked for Maria's name to stay on the homepage as well as on the Contact page. The About page's private patients paragraph keeps "My administrative team" (v1.16).
 - **Home v1.25 and About v1.16, 15 Nov**: roles in place of a name, as agreed for the patient guides. "Maria, my practice manager, will…" becomes "My administrative team will…" in the homepage's consultation call and in the About page's private patients paragraph. Maria is still named in the About page's team section, where each member is introduced, and on the Contact page. (The homepage change was reversed in v1.26, above.)
 - **Your consultation, draft v0.29, 15 Nov**: gaps found on review and agreed with Professor Lim.
