@@ -35,13 +35,14 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.12 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
 | Your consultation | `/your-consultation` | v0.32 | 15 Nov 2026 | `your-consultation/index.html` |
-| Your operation | `/your-operation` | v0.17 | 15 Nov 2026 | `your-operation/index.html` |
+| Your operation | `/your-operation` | v0.18 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.11 | 15 Nov 2026 | `your-recovery/index.html` |
 
 These four, and the approved Personalised care page, use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
 
 ### Amendment history
 
+- **Your operation, draft v0.18, 15 Nov**: the fasting advice now comes before the admission time, in "In brief" and in "Coming into hospital", so the page follows the order of events (midnight, then 7am). Professor Lim's request.
 - **Your operation, draft v0.17, and the guide layout, 15 Nov**: Professor Lim found it jarring that one word of an "In brief" point dropped on to a second line. Two fixes. (1) The point is shortened and softened to "No food from midnight. You may drink a glass of water every hour until surgery.", and the text below says "You may drink…" too. (2) In the layout, "In brief" points that run to two lines are now split evenly, and paragraphs avoid ending on a single stranded word (`text-wrap: balance` and `text-wrap: pretty`). This applies to every guide, so the others are re-versioned (Personalised care v1.7, Your consultation v0.32, Single keyhole surgery v0.12, Your recovery v0.11).
 - **Your operation, draft v0.16, 15 Nov**: rewritten for visual and tonal balance, at Professor Lim's request. He found the page uneven: bullet points in one place, bold lead-ins in another, one-sentence paragraphs elsewhere. Every section is now two paragraphs of plain prose, with no bold and no bullet list; the content is unchanged apart from the medicines. The medicines no longer give what each is taken for, and dapagliflozin's group is named: "antiplatelet medicines, such as aspirin and clopidogrel; anticoagulants (blood thinners), such as warfarin, apixaban and rivaroxaban; and SGLT2 inhibitors, such as dapagliflozin and empagliflozin". The sentence asking patients who have lost weight or appetite to tell the team was dropped in the tightening.
 - **Your operation, draft v0.15, 15 Nov**: Professor Lim pointed out that "medicines that help to prevent clots" describes blood thinners as much as antiplatelets. The two groups are now told apart by name, examples and what they are usually taken for: "antiplatelet medicines, such as aspirin and clopidogrel, often taken after a heart attack, a stroke or a stent" and "anticoagulants (blood thinners), such as warfarin, apixaban and rivaroxaban, often taken for an irregular heartbeat or a previous blood clot".
