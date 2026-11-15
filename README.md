@@ -34,7 +34,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.11 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.29 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your consultation | `/your-consultation` | v0.30 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.10 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.10 | 15 Nov 2026 | `your-recovery/index.html` |
 
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Your consultation, draft v0.30, 15 Nov**: the three open questions answered by Professor Lim and added to the page. (1) Patients no longer bring scans, as they are shared digitally: "There is no need to bring your scans: they are now shared digitally." (2) He offers video consultations: said under "Before we meet" and in the "In brief" point about where clinics are held. (3) Private consultations are more private and the same people do not attend: a closing paragraph under "Who will be in the clinic" says so. Nothing is now outstanding on this page except its stand-in picture.
 - **About v1.17, 15 Nov**: "Maria, my practice manager, will…" is restored in the private patients paragraph, at Professor Lim's request, because it is about private patients, whom Maria looks after. **Rule as it now stands**: wherever a page speaks to private patients about booking (the homepage, About, Contact), Maria is named; the patient guides give roles, not names.
 - **Home v1.26, 15 Nov**: "Maria, my practice manager, will find a time that suits you." is restored in the homepage's consultation call. v1.25 had changed it to "My administrative team" a few minutes earlier; Professor Lim asked for Maria's name to stay on the homepage as well as on the Contact page. The About page's private patients paragraph keeps "My administrative team" (v1.16).
 - **Home v1.25 and About v1.16, 15 Nov**: roles in place of a name, as agreed for the patient guides. "Maria, my practice manager, will…" becomes "My administrative team will…" in the homepage's consultation call and in the About page's private patients paragraph. Maria is still named in the About page's team section, where each member is introduced, and on the Contact page. (The homepage change was reversed in v1.26, above.)
@@ -53,7 +54,6 @@ These four, and the approved Personalised care page, use one shared design, `_la
   - "If time permits, we send you…" becomes "Before your appointment we send you…".
   - "NHS clinics can be busy" becomes "In my NHS clinic, several of my team are usually present".
   - The research nurse sentence links to Taking part in research.
-  - **Still to add, waiting for Professor Lim**: whether patients need to bring their scans; whether video or telephone consultations are offered; and whether the same people attend private consultations.
 - **All pages, 15 Nov (Home v1.24, For patients v1.12, For professionals v1.13, virtual Grand Rounds v1.10, About v1.15, Contact v1.6, Personalised care v1.6, and the draft guides)**: the telephone number now appears on the Contact page only, as Professor Lim prefers contact through the web form. Removed: the number from the footer of every page ("Message us" stays), the "Or call…" line under the consultation button on the homepage and For patients, and the "Telephone" card in the About page's Contact section, which is now a "Message" card linking to the form. Kept: the number in the Contact page's own section and in its "message sent" confirmation, and in the hidden information for search engines (JSON-LD) on Home, About and Contact, so that Google can still show it.
 - **Patient guides, 15 Nov (Personalised care v1.5, Your consultation v0.27, Single keyhole surgery v0.10, Your operation v0.9, Your recovery v0.9)**: Professor Lim's rule, "in general and throughout": **do not give the phone number in the text; link to the contact form instead**, as he prefers patients to make contact through the web form. In the guides' text, "call … or send a message" becomes "please send us a message", linking to the form (`/contact-us#message`). The "Or call +44…" line under the "Request a consultation" button is removed from the layout, so it is gone from all five guides. The footers and hub pages followed in the next entry above.
 - **Your consultation draft v0.26 and Personalised care v1.4, 15 Nov**: the team link no longer says "meet", which Professor Lim pointed out could be read as meeting them in person. Your consultation: "You can see who is in my team on this website before you come." Personalised care: "You can also see who is in my team."
