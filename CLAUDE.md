@@ -39,6 +39,8 @@ Rotating photos: the homepage hero, the homepage About photo and the About page 
 
 ## Adding a patient testimonial (for any Claude session)
 
+Since 15 Nov 2026 a daily scheduled task ("Website testimonials by email", about 4:30pm UK time) also adds testimonials forwarded to Professor Lim's Gmail `+testimonials` address and pushes commits named `Add testimonial from <name>`. Always `git pull` before pushing. See `docs/managers-guide.md`, section 5.
+
 Team members add testimonials by pasting or forwarding the patient's email to Claude and asking for it to be added. Follow these steps exactly:
 
 1. **Consent first.** Ask: "Has the patient agreed in writing to this being published with their name (and photo, if any)?" Do not continue without a yes.

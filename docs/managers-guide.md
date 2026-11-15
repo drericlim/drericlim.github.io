@@ -130,7 +130,21 @@ Royal Brompton Hospital
 
 If the patient has already sent their testimonial without being asked, use the same email with the second paragraph replaced by: "Would you be happy for us to share the words you sent on [date] on Professor Lim's website, drericlim.com? We would publish them exactly as you wrote them." Their "yes" completes the record.
 
-### Planned: forward the email, and the rest happens by itself (agreed 1 November 2026, not yet live)
+### Live from 15 November 2026: forward the email (first version, on trial)
+
+Professor Lim switched this on on 15 November 2026 and chose: **publish first, then confirm by email; he is only asked when there is a question.**
+
+- **For now it works only for emails forwarded from Professor Lim's own Gmail address** to his testimonials address (his Gmail address with `+testimonials` before the @). This is a safeguard, so that nobody outside the practice can put words on the website. Emails from any other address are not published; he is told about them. Maria's address will be added once the first forwards have gone through cleanly.
+- **Consent.** The forward is published only if the email thread shows the patient agreeing, or the forwarder types `Consent: yes` as the first line. Otherwise nothing is published and a question is sent back.
+- **Optional first lines** the forwarder can type: `Name: ...` (how the name should appear) and `Photo: yes` (an attached photo may be used).
+- **When.** A scheduled task in Professor Lim's Claude account ("Website testimonials by email") checks once a day at about 4:30pm UK time. It can also be run at once from his Claude account.
+- **What comes back.** An email headed "Testimonial published: name" showing exactly what went on the site, or "Testimonial question: ..." saying what is needed. In Gmail the forward is filed under the label "Website testimonials/Published" or "Website testimonials/Query".
+- **Cards and letters** are never published straight away: the typed-up words come back to be checked against the card first.
+- The patient's operation is never shown beside their name.
+
+The fuller plan below (agreed 1 November) describes how it will work for Maria.
+
+### Planned: forward the email, and the rest happens by itself (agreed 1 November 2026, being introduced in stages)
 
 This will become the normal way to add a testimonial. Until it is built and tested, use "The easy way: ask Claude" below.
 
@@ -363,7 +377,7 @@ These sections of the guide will be added as each piece is built:
 - **The contact form:** where enquiries arrive and how to reply.
 - **Privacy notice:** what the practice tells patients about their data.
 - **virtual Grand Rounds:** updating the programme, speakers and the Zoom registration link. **Agreed on 1 November 2026, not yet built:** Annie will keep next year's programme in a shared Google Sheet. One tab, *Website*, will hold only what the website shows (date, title, speaker, institution, country, a Status column, and a link to the speaker's photo); planning notes, fees and Zoom links stay on other tabs. Every day at 5pm the website will read that tab and update itself; only rows marked Confirmed appear. Talks are always at 8am UK time, so only the date is needed. Speaker photos: save the headshot the speaker sent into the shared Drive folder "vGR speaker photos", copy its link and paste it into the sheet; the website crops and resizes it and shows the speaker's initials until a photo arrives. Please don't paste links to university web pages (they are usually not a photo, and the photo is not ours to copy) or put pictures inside the sheet (they cannot be read back out).
-- **Testimonials by email:** the forwarding address described in section 5, once built and tested.
+- **Testimonials by email:** live on trial from 15 November 2026 for Professor Lim's own forwards (section 5); Maria's address to be added after the first tests.
 - **Publications (For professionals page):** the list of Professor Lim's papers comes from A3, his academic record, not from anything the team types. It is kept in `_data/publications.json` and written into the page by a small script (`tools/publications/build.py`). To add or correct a paper, change it in A3, then ask Claude: "Please update the publications on drericlim.com from A3." As of 15 November 2026 the list on the test site is a provisional copy; how A3 passes its list to the website is still being settled.
 - **Thoracic Reflections:** shown as "Coming soon" until the first essays are ready. The full design for the section is saved in `docs/thoracic-reflections-section-v1.8.html`.
 - **Articles:** publishing a new article or video. (Patient guides are now covered in section 4.)
