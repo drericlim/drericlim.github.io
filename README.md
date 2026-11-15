@@ -16,7 +16,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.25 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
+| Home | `/` | v1.26 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
 | For patients | `/for-patients` | v1.12 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.13 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.10 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
@@ -42,7 +42,8 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
-- **Home v1.25 and About v1.16, 15 Nov**: roles in place of a name, as agreed for the patient guides. "Maria, my practice manager, will…" becomes "My administrative team will…" in the homepage's consultation call and in the About page's private patients paragraph. Maria is still named in the About page's team section, where each member is introduced, and on the Contact page, which Professor Lim chose to leave as it is: there a name tells patients that a real person reads their message.
+- **Home v1.26, 15 Nov**: "Maria, my practice manager, will find a time that suits you." is restored in the homepage's consultation call. v1.25 had changed it to "My administrative team" a few minutes earlier; Professor Lim asked for Maria's name to stay on the homepage as well as on the Contact page. The About page's private patients paragraph keeps "My administrative team" (v1.16).
+- **Home v1.25 and About v1.16, 15 Nov**: roles in place of a name, as agreed for the patient guides. "Maria, my practice manager, will…" becomes "My administrative team will…" in the homepage's consultation call and in the About page's private patients paragraph. Maria is still named in the About page's team section, where each member is introduced, and on the Contact page. (The homepage change was reversed in v1.26, above.)
 - **Your consultation, draft v0.29, 15 Nov**: gaps found on review and agreed with Professor Lim.
   - The form is called the **health questionnaire** throughout (it was also called the "self-assessment leaflet").
   - The page no longer assumes every consultation ends in an operation: the clinic letter "records what we have discussed, including the details of any operation and its risks", and the "In brief" point says "any operation".
