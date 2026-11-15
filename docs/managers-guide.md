@@ -130,15 +130,15 @@ Royal Brompton Hospital
 
 If the patient has already sent their testimonial without being asked, use the same email with the second paragraph replaced by: "Would you be happy for us to share the words you sent on [date] on Professor Lim's website, drericlim.com? We would publish them exactly as you wrote them." Their "yes" completes the record.
 
-### Live from 15 November 2026: forward the email (first version, on trial)
+### Live from 15 November 2026: forward the email, then tell Claude
 
-Professor Lim switched this on on 15 November 2026 and chose: **publish first, then confirm by email; he is only asked when there is a question.**
+Professor Lim switched this on on 15 November 2026 and chose: **publish first, then confirm; he is only asked when there is a question.**
 
 - **Who can use it:** emails forwarded from Professor Lim's own Gmail address or from Maria's NHS address to his testimonials address (his Gmail address with `+testimonials` before the @). This is a safeguard, so that nobody outside the practice can put words on the website. Emails from any other address are not published; he is told about them. To add another team member, ask Claude to add their address to the scheduled task.
 - **Consent.** The forward is published only if the email thread shows the patient agreeing, or the forwarder types `Consent: yes` as the first line. Otherwise nothing is published and a question is sent back.
 - **Optional first lines** the forwarder can type: `Name: ...` (how the name should appear) and `Photo: yes` (an attached photo may be used).
-- **When.** A scheduled task in Professor Lim's Claude account ("Website testimonials by email") checks once a day at about 4:30pm UK time. It can also be run at once from his Claude account.
-- **What comes back.** An email headed "Testimonial published: name" showing exactly what went on the site, or "Testimonial question: ..." saying what is needed. In Gmail the forward is filed under the label "Website testimonials/Published" or "Website testimonials/Query".
+- **When.** There is no daily run (Professor Lim's decision, 15 November 2026: testimonials do not come in often). After forwarding, tell Claude in the "Personal website" project: "I have forwarded a testimonial, please update." Claude then publishes it within a few minutes.
+- **What comes back.** Claude tells you in the conversation exactly what went on the site, or what is needed. In Gmail the forward is filed under the label "Website testimonials/Published" or "Website testimonials/Query".
 - **Cards and letters** are never published straight away: the typed-up words come back to be checked against the card first.
 - The patient's operation is never shown beside their name.
 
