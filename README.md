@@ -17,7 +17,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
 | Home | `/` | v1.23 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
-| For patients | `/for-patients` | v1.10 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
+| For patients | `/for-patients` | v1.11 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.12 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.9 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
 | About | `/about` | v1.14 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **For patients v1.11, 15 Nov**: in "Why choose Professor Lim" the Testimonials card moves to the right-hand end, at Professor Lim's request. The order is now Personalised care, Your consultation, Your operation, Your recovery, Testimonials.
 - **Personalised care v1.1 and For patients v1.10, 15 Nov**: four changes Professor Lim asked for after reviewing what the page lacked.
   - **For patients**: the Personalised care card now reads "How we make decisions about your care together, with you in charge." The old card promised a systems-based approach and outcomes that the page does not cover.
   - **Taking your time**: a new paragraph under "When it is hard to decide" (no need to decide on the day; talk it over; bring someone; a second opinion is welcome).
