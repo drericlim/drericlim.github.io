@@ -76,7 +76,7 @@ The patient information pages (Single keyhole surgery, Personalised care, Your c
 
 **To change a guide's picture**, upload a square picture (at least 800 by 800, with the subject in the middle) to `assets/articles/` with exactly the same name as the one it replaces.
 
-These five pages are drafts until Professor Lim approves them. Two parts of Your recovery ("Driving, flying and returning to work" and "When to call us") are marked "To be written".
+Personalised care was approved on 15 November 2026; the other four are drafts until Professor Lim approves them. Approved guides are not yet copied to Google Drive each night (the nightly script needs a small update first); GitHub keeps every version in the meantime. Two parts of Your recovery ("Driving, flying and returning to work" and "When to call us") are marked "To be written".
 
 ---
 

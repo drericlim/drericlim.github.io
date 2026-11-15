@@ -22,6 +22,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.9 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
 | About | `/about` | v1.14 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.5 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
+| Personalised care | `/personalised-care` | v1.0 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
@@ -33,15 +34,15 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.9 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Personalised care | `/personalised-care` | v0.17 | 15 Nov 2026 | `personalised-care/index.html` |
 | Your consultation | `/your-consultation` | v0.8 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
 
-All five use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
+These four, and the approved Personalised care page, use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
 
 ### Amendment history
 
+- **Personalised care v1.0, approved by Professor Lim on 15 Nov 2026.** It is the first approved patient guide, and its type sizes and reference style are the specification for the others. Still open on it, for a later v1.1: the header picture is a stand-in he dislikes (he will supply a square picture, or it can be removed to show the plain stone), and he is considering whether to add his outcome figures. **It is not yet in the nightly Drive save**: see "Patient guides".
 - **Personalised care, draft v0.17, 15 Nov**: the third heading now reads "You tend to make the right decision" (was "Patients tend to…"), so all three headings address the reader directly.
 - **Personalised care, draft v0.16, 15 Nov**: two of Professor Lim's papers on patient decision making added as references, at the places he chose: Lim E, Thorac Surg Clin 2012;22:539-43 after "…than on medical fact.", and Wong MSH, et al, J Thorac Dis 2024;16:3844-3853 after "…is personal,". References are numbered in the order they appear, so the page now runs 1 Lim 2012, 2 the British guideline, 3 Wong 2024, 4 the survey abstract. Where he is not the first author, the authors are listed in full so that his name shows.
 - **Personalised care, draft v0.15, 15 Nov**: second "In brief" point shortened to "I will explain benefits and risks, but only you can decide what is important to you." ("the" removed so that one word no longer spills on to a second line at the usual desktop width).
@@ -170,6 +171,8 @@ Every patient information page uses the layout `_layouts/patient-guide.html`. To
 - Change `version` and the drafts table or register above with every change.
 
 GitHub Pages builds these pages, so **after every push check that the build succeeded**; a mistake between the `---` lines stops the whole site from updating.
+
+**Drive copies of approved guides: not working yet.** The nightly script (`tools/drive-backup/Code.gs`) expects each page file to contain the robots tag and to be a complete page. A guide's file holds only its details and text; the robots tag and the design are in the layout. So approved guides are **not** added to `tools/drive-backup/pages.json` for now (adding one would make the nightly run report an error). To include them, the script needs a small update (accept a page whose robots tag is in its layout, and save the layout file as well), which Professor Lim then has to paste into his Apps Script project. Until then GitHub's own history is the record of every version of a guide.
 
 ## Before launch
 
