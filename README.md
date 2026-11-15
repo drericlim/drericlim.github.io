@@ -33,7 +33,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.8 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Personalised care | `/personalised-care` | v0.10 | 15 Nov 2026 | `personalised-care/index.html` |
+| Personalised care | `/personalised-care` | v0.11 | 15 Nov 2026 | `personalised-care/index.html` |
 | Your consultation | `/your-consultation` | v0.8 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
@@ -42,6 +42,7 @@ All five use one shared design, `_layouts/patient-guide.html` (see "Patient guid
 
 ### Amendment history
 
+- **Personalised care, draft v0.11, 15 Nov**: "How much weight to give each of them is personal, that’s why only you can decide what is important to you." (Professor Lim's wording; was "…is personal, so only you…").
 - **Personalised care, draft v0.10, 15 Nov**: the guideline sentence now reads "The British guideline on the radical management of lung cancer, written by a committee that I chaired and led, says the same." Professor Lim chaired and led that committee (it previously said he sat on it).
 - **Personalised care, draft v0.9, 15 Nov**: the second "In brief" point now reads "I will explain the benefits and risks, but only you can decide what is important to you." (Professor Lim's wording).
 - **Patient guides, draft v0.8, 15 Nov (all five pages, through the shared layout)**: type made consistent, after Professor Lim found the sizes on Personalised care uneven. The reading column now uses three sizes only: headings, text at 17px and the pull quote. The opening paragraph is the same size and typeface as the rest of the text (it was 21px serif), the "In brief" points are 17px (were 16px), and the pull quote is 22px (was 24px). Every size in the layout is now set in rem, relative to the browser's own text size, so a patient who has chosen larger text in their browser gets it; at the usual setting nothing else changes. If he approves it, this is the type specification for all pages.
