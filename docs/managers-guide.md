@@ -217,7 +217,7 @@ Claude also has a saved skill called **add-drericlim-testimonial** for this. Ask
 ```yaml
 - name: "Jane Smith"
   year: 2026
-  treatment: "Day case lobectomy"
+  treatment: ""
   photo: ""
   homepage: yes
   short: "I was home the same day and back walking the dog within a week."
@@ -234,7 +234,7 @@ Claude also has a saved skill called **add-drericlim-testimonial** for this. Ask
 |---|---|---|
 | `name` | The patient's name as they want it shown, in quotation marks | Yes |
 | `year` | The year they sent it, e.g. `2026` | Yes |
-| `treatment` | A few words about their operation, or `""` if unsure | No |
+| `treatment` | Leave as `""`. The site no longer shows a patient's operation beside their name, for privacy (15 November 2026) | No |
 | `photo` | The photo's file name, e.g. `"jane-smith.jpg"`, or `""` | No |
 | `homepage` | `yes` to include the patient in the homepage's rotating quotes (the more patients the better), otherwise `no` | Yes |
 | `short` | For the homepage: one or two sentences copied exactly from the quote, in quotation marks. Use … where words are left out | When `homepage` is `yes` |

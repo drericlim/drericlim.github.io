@@ -442,7 +442,7 @@ section{padding:80px 0;}
 {%- for t in site.data.testimonials -%}{%- if t.homepage and t.short -%}
       <figure class="tq">
         <blockquote><p>“{{ t.short | strip | escape }}”</p></blockquote>
-        <figcaption>{{ t.name | escape }}{% if t.treatment and t.treatment != "" %} · {{ t.treatment | escape }}{% endif %}</figcaption>
+        <figcaption>{{ t.name | escape }}</figcaption>
       </figure>
 {%- endif -%}{%- endfor %}
     </div>

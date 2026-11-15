@@ -43,7 +43,7 @@ Team members add testimonials by pasting or forwarding the patient's email to Cl
 
 1. **Consent first.** Ask: "Has the patient agreed in writing to this being published with their name (and photo, if any)?" Do not continue without a yes.
 2. **Extract**, without rewording: the patient's own words of thanks only (leave out greetings such as "Dear Professor Lim", clinical details the patient would not want public, phone numbers, addresses and email signatures), the name exactly as the patient wants it shown, and the year the email was sent. Ask about anything unclear rather than guessing. Never correct the patient's grammar or spelling unless asked.
-3. **Treatment** (optional): a few plain words only if the email states it, e.g. "Day case lobectomy". Otherwise leave it empty.
+3. **Treatment**: leave it empty. Professor Lim does not want a patient's operation shown beside their name, as it reads as a breach of privacy (15 Nov 2026); no page displays this line any more.
 4. **Homepage extract:** choose one or two sentences copied exactly from the quote (at most about 200 characters, using … where words are left out) that best say what the patient valued, and put them in `short`. Set `homepage: yes` so the patient joins the rotating quotes on the homepage; the aim is many different patients there. Use `homepage: no` only if no part of the quote suits the homepage (for example it criticises another hospital or doctor).
 5. **Photo:** if attached and consented, save it as `assets/testimonials/firstname-lastname.jpg` (at most 1000px wide, under 500 KB) and set `photo` to that file name.
 6. **Show the team member a preview** of the entry as it will read on the site, and get a yes before saving.

@@ -1,6 +1,6 @@
 ---
 layout: patient-guide
-version: v0.1
+version: v0.2
 title: Testimonials
 seo_title: 'Patient Testimonials | Professor Eric Lim, Thoracic Surgeon'
 description: 'Messages from patients of Professor Eric Lim, thoracic surgeon at the Royal Brompton Hospital, in their own words and published with their permission.'
@@ -35,7 +35,8 @@ related:
 {%- assign rest_count = all.size | minus: 3 -%}
 {%- capture nl %}
 {% endcapture -%}
-{%- assign para = nl | append: nl %}
+{%- assign para = nl | append: nl -%}
+{%- comment -%} Privacy: the operation (t.treatment) is deliberately not shown on this page. tony-marsh.jpg is held back until Professor Lim confirms whose photo it is. {%- endcomment %}
         <p class="t-lead">Patients have sent {{ all.size }} messages about their care since {{ oldest.year }}. Each one is published in the patient’s own words, with their permission.</p>
 
         <div class="t-feat">
@@ -45,7 +46,7 @@ related:
 {%- for p in ps %}
             <p>{{ p | strip | escape }}</p>
 {%- endfor %}
-            <p class="t-who">{% if t.photo and t.photo != "" %}<img src="/assets/testimonials/{{ t.photo }}" alt="{{ t.name | escape }}" width="56" height="56" loading="lazy">{% endif %}<span><b>{{ t.name | escape }}</b><span>{% if t.treatment and t.treatment != "" %} · {{ t.treatment | escape }}{% endif %} · {{ t.year }}</span></span></p>
+            <p class="t-who">{% if t.photo and t.photo != "" and t.photo != "tony-marsh.jpg" %}<img src="/assets/testimonials/{{ t.photo }}" alt="{{ t.name | escape }}" width="56" height="56" loading="lazy">{% endif %}<span><b>{{ t.name | escape }}</b><span> · {{ t.year }}</span></span></p>
           </article>
 {%- endfor %}
         </div>
@@ -55,7 +56,7 @@ related:
         <div class="t-rows" id="t-rows">
 {%- for t in all offset:3 %}
           <details>
-            <summary><span class="nm">{{ t.name | escape }}<small>{{ t.year }}{% if t.treatment and t.treatment != "" %} · {{ t.treatment | escape }}{% endif %}</small></span><span class="ex">{% if t.short and t.short != "" %}{{ t.short | strip | escape }}{% else %}{{ t.quote | strip | replace: nl, " " | truncatewords: 28, "…" | escape }}{% endif %}</span></summary>
+            <summary><span class="nm">{% if t.photo and t.photo != "" and t.photo != "tony-marsh.jpg" %}<img src="/assets/testimonials/{{ t.photo }}" alt="" width="44" height="44" loading="lazy">{% endif %}<span>{{ t.name | escape }}<small>{{ t.year }}</small></span></span><span class="ex">{% if t.short and t.short != "" %}{{ t.short | strip | escape }}{% else %}{{ t.quote | strip | replace: nl, " " | truncatewords: 28, "…" | escape }}{% endif %}</span></summary>
             <div class="t-full">
 {%- assign ps = t.quote | strip | split: para -%}
 {%- for p in ps %}

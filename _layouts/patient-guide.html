@@ -156,7 +156,8 @@ h1,h2,h3{text-wrap:balance;}
 .t-rows summary::after{content:'';align-self:center;width:7px;height:7px;border-right:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(45deg) translateY(-2px);transition:transform .2s;}
 .t-rows details[open] summary::after{transform:rotate(-135deg) translateY(-2px);}
 .t-rows summary:focus-visible{outline:2px solid var(--blue);outline-offset:3px;}
-.t-rows .nm{font-family:var(--serif);font-size:1.25rem;color:var(--ink);line-height:1.3;}
+.t-rows .nm{font-family:var(--serif);font-size:1.25rem;color:var(--ink);line-height:1.3;display:flex;gap:12px;align-items:center;}
+.t-rows .nm img{width:44px;height:44px;border-radius:50%;object-fit:cover;flex:none;}
 .t-rows summary:hover .nm{color:var(--blue);}
 .t-rows .nm small{display:block;font-family:var(--sans);font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-soft);margin-top:4px;}
 .t-rows .ex{font-size:1.0625rem;color:var(--text-soft);line-height:1.6;}

@@ -16,7 +16,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 
 | Page | Address | Approved version | Approved on | File in this repository | Copy in Google Drive |
 |---|---|---|---|---|---|
-| Home | `/` | v1.26 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
+| Home | `/` | v1.27 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
 | For patients | `/for-patients` | v1.12 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.13 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.10 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
@@ -37,12 +37,13 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Your consultation | `/your-consultation` | v0.33 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.20 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.12 | 15 Nov 2026 | `your-recovery/index.html` |
-| Testimonials | `/testimonials` | v0.1 | 15 Nov 2026 | `testimonials/index.html` |
+| Testimonials | `/testimonials` | v0.2 | 15 Nov 2026 | `testimonials/index.html` |
 
 These four, and the approved Personalised care page, use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
 
 ### Amendment history
 
+- **Testimonials draft v0.2 and Home v1.27, 15 Nov**: two instructions from Professor Lim. (1) **The operation is no longer shown under a patient's name**: he feels it reads as a breach of privacy. It is removed from the Testimonials page and, for the same reason, from the rotating quotes on the homepage, which now show the name alone. The `treatment` line stays in `_data/testimonials.yml` but no page displays it; leave it empty for new testimonials. (2) **Patients' photos are shown**: a small round photo beside the name, both for the featured three and in the list. Three of the four photos on file appear (Duilio Barbosa, Richard Warren, Erika Dwek). `tony-marsh.jpg` is held back by a line in the page until he confirms whose photo it is, as it appears to show a woman and a baby.
 - **Testimonials page built, draft v0.1, 15 Nov**: Professor Lim chose layout C from the mock-up (claude.ai artifact "Testimonials page mock-up v0.1", which offered A every message in full, B extracts in two columns, C three in full then everyone). His instruction: **the three shown in full are always the three most recent**, so the page stays fresh by itself.
   - The page reads everything from `_data/testimonials.yml`, newest first: the first three in full, then every other message as a row (name, year, one line) that opens to the full message. Fifteen rows show at first, then "Show 20 more" and "Show fewer"; without JavaScript every row is listed. Nothing is typed into the page, so adding a testimonial to the data file updates it.
   - The one line in each row is the `short` extract where there is one; otherwise the opening 28 words of the message, word for word.
