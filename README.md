@@ -22,7 +22,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.9 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
 | About | `/about` | v1.14 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.5 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
-| Personalised care | `/personalised-care` | v1.1 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
+| Personalised care | `/personalised-care` | v1.2 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
 | Logo (dark and light) | none | official | 27 Oct 2026 | `assets/icons/logo-on-dark.svg`, `assets/icons/logo-on-light.svg` | `20261027-logo-dark.svg`, `20261027-logo-light.svg` |
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Personalised care v1.2, 15 Nov**: in "Your team", "My practice manager" becomes "My administrative team" (Professor Lim's wording).
 - **For patients v1.11, 15 Nov**: in "Why choose Professor Lim" the Testimonials card moves to the right-hand end, at Professor Lim's request. The order is now Personalised care, Your consultation, Your operation, Your recovery, Testimonials.
 - **Personalised care v1.1 and For patients v1.10, 15 Nov**: four changes Professor Lim asked for after reviewing what the page lacked.
   - **For patients**: the Personalised care card now reads "How we make decisions about your care together, with you in charge." The old card promised a systems-based approach and outcomes that the page does not cover.
