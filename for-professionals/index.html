@@ -365,10 +365,11 @@ main section.film-band{padding:60px 0;}
 .cite .jn{font-style:italic;}
 .cite .meta{display:block;font-size:13.5px;color:var(--text-soft);margin-top:4px;}
 .cite .ty{letter-spacing:.1em;text-transform:uppercase;font-size:11.5px;font-weight:600;color:#3D4F63;}
-.pub-more{display:inline-block;margin:18px 0 0 48px;font-weight:600;font-size:14.5px;color:var(--blue);background:none;border:0;border-bottom:1px solid var(--blue);padding:12px 0 4px;font-family:inherit;cursor:pointer;}
+.pub-nav{display:flex;gap:6px 32px;flex-wrap:wrap;margin:18px 0 0 48px;}
+.pub-more{display:inline-block;font-weight:600;font-size:14.5px;color:var(--blue);background:none;border:0;border-bottom:1px solid var(--blue);padding:12px 0 4px;font-family:inherit;cursor:pointer;}
 .pub-foot{font-size:13.5px;color:var(--text-soft);margin-top:22px;}
 [hidden]{display:none!important;}
-@media(max-width:560px){.pub-ctl>div,.pub-ctl input,.pub-ctl select{width:100%;min-width:0;}.cite{grid-template-columns:26px minmax(0,1fr);}.pub-more{margin-left:40px;}}
+@media(max-width:560px){.pub-ctl>div,.pub-ctl input,.pub-ctl select{width:100%;min-width:0;}.cite{grid-template-columns:26px minmax(0,1fr);}.pub-nav{margin-left:40px;}}
 </style>
 </head>
 <body>
@@ -890,7 +891,7 @@ main section.film-band{padding:60px 0;}
             <li class="cite" data-cat="Book" data-topics="diagnosis-staging" data-year="2000" data-cites="3"><span class="no">283.</span><span>Raftery AT, <b>Lim EKS</b>. <span class="ti">Churchill&#x27;s Pocketbook of Differential Diagnosis</span>. <span class="jn">.</span> 2000.<span class="meta"><span class="ty">Book</span><span class="cc" hidden> · Cited 3</span></span></span></li>
           </ol>
         </div>
-        <button type="button" class="pub-more" id="pub-more" hidden></button>
+        <p class="pub-nav"><button type="button" class="pub-more" id="pub-more" hidden></button><button type="button" class="pub-more" id="pub-less" hidden>Show fewer</button></p>
         <p class="pub-foot">Citations follow the Vancouver style used by PubMed. Each title opens the paper on the publisher’s site.</p>
       </div>
     </details>
@@ -1061,10 +1062,12 @@ main section.film-band{padding:60px 0;}
     if(vis.length) rowsBox.appendChild(frag); else {var e=document.createElement('p');e.className='pub-foot';e.textContent='No publications match.';rowsBox.appendChild(e);}
     $('pub-count').textContent=rows.length===total?'Showing '+vis.length+' of '+total+' publications':'Showing '+vis.length+' of '+rows.length+' matching publications';
     var left=rows.length-vis.length; $('pub-more').hidden=left<=0; $('pub-more').textContent=left>PAGE?'Show '+PAGE+' more':'Show the remaining '+left;
+    $('pub-less').hidden=vis.length<=FIRST;
   }
   ['pub-q','pub-topic','pub-sort'].forEach(function(id){$(id).addEventListener('input',function(){shown=FIRST;render();});});
   $('pub-types').addEventListener('click',function(e){var b=e.target.closest('button[data-cat]');if(!b)return;cat=b.getAttribute('data-cat');shown=FIRST;render();});
   $('pub-more').addEventListener('click',function(){shown+=PAGE;render();});
+  $('pub-less').addEventListener('click',function(){shown=FIRST;render();var t=document.querySelector('.pub-toggle');if(t&&t.getBoundingClientRect().top<0)t.scrollIntoView();});
   render();
 })();
 </script>

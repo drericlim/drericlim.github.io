@@ -110,7 +110,7 @@ def main():
             yr = p.get("year"); out.append('      <h3 class="pub-year">%s</h3>' % e(str(yr or "Undated"))); out.append('      <ol class="cites">')
         n += 1; out.append('        ' + cite(p, n))
     out.append('      </ol>'); out.append('    </div>')
-    out.append('    <button type="button" class="pub-more" id="pub-more" hidden></button>')
+    out.append('    <p class="pub-nav"><button type="button" class="pub-more" id="pub-more" hidden></button><button type="button" class="pub-more" id="pub-less" hidden>Show fewer</button></p>')
     out.append('    <p class="pub-foot">Citations follow the Vancouver style used by PubMed. Each title opens the paper on the publisher’s site.</p>')
     out.append('  </div>'); out.append('</details>')
     s = PAGE.read_text(encoding="utf-8")

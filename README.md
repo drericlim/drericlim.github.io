@@ -18,7 +18,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 |---|---|---|---|---|---|
 | Home | `/` | v1.23 | 15 Nov 2026 | `index.html` | `YYYYMMDD-homepage.html`, saved nightly |
 | For patients | `/for-patients` | v1.8 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
-| For professionals | `/for-professionals` | v1.11 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
+| For professionals | `/for-professionals` | v1.12 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.9 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
 | About | `/about` | v1.14 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.5 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
@@ -27,6 +27,8 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | Page not built yet | any missing address | test page | 25 Oct 2026 | `404.html` | none |
 
 ### Amendment history
+
+- **For professionals v1.12, 15 Nov**: once more than five papers are showing, a "Show fewer" link appears beside "Show 20 more". It returns the list to five papers and, if the top of the list has scrolled out of view, brings it back.
 
 - **For professionals v1.11, 15 Nov**: the "Statistics course" button is removed from the page header (Professor Lim: it looked out of place; the course is still linked from the Statistics section). The publications list now opens showing 5 papers, not 25, with "Show 20 more" below, so it takes less room; changing category, topic, search or order returns to 5.
 
