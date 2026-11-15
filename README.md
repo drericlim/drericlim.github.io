@@ -35,13 +35,14 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.11 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
 | Your consultation | `/your-consultation` | v0.31 | 15 Nov 2026 | `your-consultation/index.html` |
-| Your operation | `/your-operation` | v0.12 | 15 Nov 2026 | `your-operation/index.html` |
+| Your operation | `/your-operation` | v0.13 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.10 | 15 Nov 2026 | `your-recovery/index.html` |
 
 These four, and the approved Personalised care page, use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
 
 ### Amendment history
 
+- **Your operation, draft v0.13, 15 Nov**: "give you a general anaesthetic" was accurate but not patient friendly, in Professor Lim's view. It now reads "an anaesthetist will meet you and look after you throughout, so that you are asleep and comfortable for the whole operation. Before you know it, you will be awake in the recovery area."
 - **Your operation, draft v0.12, 15 Nov**: a new first section, "Preparing for your operation", because patients often ask Professor Lim how to prepare. It covers keeping active, eating well, and medicines. The medicine timings are his: aspirin one week before, anticoagulants three days before, and medicines such as dapagliflozin one week before. They are given "as a guide", followed by "Please do not stop anything on your own: we will tell you which of your medicines to stop, and when." The exercise and nutrition wording is Claude's, kept general, for him to check. A matching "In brief" point is added and the line under the title now begins "How to prepare…".
 - **Your operation, draft v0.11, 15 Nov**: Professor Lim's first amendments. The numbered steps are removed (plain headings, as on Your consultation). "send you off to sleep" ("sounds creepy") becomes "give you a general anaesthetic". "You may wake with a small chest drain" becomes "If you wake with a small chest drain…". After the recovery area, the page now says you go to the ward. Going home: "We plan for you to go home on the same day. Please do not worry: you will not be discharged if there is any clinical concern, or if you do not feel confident to go.", with the "In brief" point reworded to match.
 - **Your consultation, draft v0.31, 15 Nov**: Professor Lim's corrections to v0.30. Scans: "There is no need to bring your scans, unless we ask you to." ("shared digitally" removed: he felt it sounded like a breach of privacy). The paragraph "Private consultations are different…" is removed. Video consultations are taken out of "In brief", because he prefers patients to come face to face; in the text the sentence is toned down to "A video consultation can be arranged if coming in person is difficult."
