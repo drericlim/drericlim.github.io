@@ -35,13 +35,14 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.13 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
 | Your consultation | `/your-consultation` | v0.33 | 15 Nov 2026 | `your-consultation/index.html` |
-| Your operation | `/your-operation` | v0.19 | 15 Nov 2026 | `your-operation/index.html` |
+| Your operation | `/your-operation` | v0.20 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.12 | 15 Nov 2026 | `your-recovery/index.html` |
 
 These four, and the approved Personalised care page, use one shared design, `_layouts/patient-guide.html` (see "Patient guides" below).
 
 ### Amendment history
 
+- **Your operation, draft v0.20, 15 Nov**: the fasting point in "In brief" now reads "No food from midnight before your operation, but you may drink a glass of water every hour until surgery." (Professor Lim's wording), which runs naturally on to a second line.
 - **Guide layout, 15 Nov (Personalised care v1.8, Your consultation v0.33, Single keyhole surgery v0.13, Your operation v0.19, Your recovery v0.12)**: "In brief" points that run to two lines flow naturally again, filling the first line. The even split introduced an hour earlier made the first and last points on Your operation look cut short, and Professor Lim preferred how they flowed before. The layout still avoids leaving a single word alone on the last line (`text-wrap: pretty`, not `balance`).
 - **Your operation, draft v0.18, 15 Nov**: the fasting advice now comes before the admission time, in "In brief" and in "Coming into hospital", so the page follows the order of events (midnight, then 7am). Professor Lim's request.
 - **Your operation, draft v0.17, and the guide layout, 15 Nov**: Professor Lim found it jarring that one word of an "In brief" point dropped on to a second line. Two fixes. (1) The point is shortened and softened to "No food from midnight. You may drink a glass of water every hour until surgery.", and the text below says "You may drink…" too. (2) In the layout, "In brief" points that run to two lines are now split evenly, and paragraphs avoid ending on a single stranded word (`text-wrap: balance` and `text-wrap: pretty`). This applies to every guide, so the others are re-versioned (Personalised care v1.7, Your consultation v0.32, Single keyhole surgery v0.12, Your recovery v0.11).
