@@ -1,6 +1,6 @@
 ---
 layout: patient-guide
-version: v0.3
+version: v0.4
 title: Testimonials
 seo_title: 'Patient Testimonials | Professor Eric Lim, Thoracic Surgeon'
 description: 'Messages from patients of Professor Eric Lim, thoracic surgeon at the Royal Brompton Hospital, in their own words and published with their permission.'
@@ -39,6 +39,7 @@ related:
 {%- comment -%} Privacy: the operation (t.treatment) is deliberately not shown on this page. {%- endcomment %}
         <p class="t-lead">Patients have sent {{ all.size }} messages about their care since {{ oldest.year }}. Each one is published in the patient’s own words, with their permission.</p>
 
+        <h2 id="latest-messages">The three most recent</h2>
         <div class="t-feat">
 {%- for t in all limit:3 %}
           <article>
