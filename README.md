@@ -34,7 +34,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 | Page | Address | Draft version | Built on | File |
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.9 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
-| Your consultation | `/your-consultation` | v0.23 | 15 Nov 2026 | `your-consultation/index.html` |
+| Your consultation | `/your-consultation` | v0.24 | 15 Nov 2026 | `your-consultation/index.html` |
 | Your operation | `/your-operation` | v0.8 | 15 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.8 | 15 Nov 2026 | `your-recovery/index.html` |
 
@@ -42,6 +42,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Your consultation, draft v0.24, 15 Nov**: two rewrites for Professor Lim. (1) The clinic letter sentence that read as contradictory ("Clinic letters usually arrive by post…; yours goes home with you") now contrasts other clinics with his: "In many clinics the letter follows by post, days or weeks later. Here it is ready before you leave, so you do not have to wait for it." (2) "During the consultation" had too many sentences starting with "I"; it now reads "We start with your health: the better I understand you and your physical health, the more closely my recommendations can be tailored to you. We then go through your condition and discuss the options together. Your questions are always welcome."
 - **Your consultation, draft v0.23, 15 Nov**: the consent paragraph no longer calls the consent form "separate from the letter". Professor Lim's correction: both documents are part of the process of consent. It now reads as one process in two stages, the clinic letter first and the consent form, usually signed on admission, second.
 - **Your consultation draft v0.22 and Personalised care v1.3, 15 Nov**: "Who will be in the clinic" on Your consultation now ends with a link, "meet the team", to the team section of the About page (`/about#team`), as Professor Lim asked. For consistency the "meet my team" link on Personalised care now goes to the same place; it had pointed to `/my-team`, which is not built.
 - **Your consultation, draft v0.21, 15 Nov**: the clinic letter paragraph is rewritten so it reads as a service worth having, not a procedure. Professor Lim found "you are given a clinic letter" too mechanical and wanted the benefits spelt out: the patient leaves with the letter in hand, does not rely on the post, can talk it through with family and show it to their own doctors while it is fresh. The "In brief" point now reads "You take your clinic letter home with you…". Wording by Claude for him to check.
