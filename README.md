@@ -20,7 +20,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | For patients | `/for-patients` | v1.12 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.13 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.10 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
-| About | `/about` | v1.19 | 16 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
+| About | `/about` | v1.20 | 16 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.6 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
 | Personalised care | `/personalised-care` | v1.8 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
@@ -43,6 +43,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **About v1.20, 16 Nov**: Maria Leung's photo replaced with a new crop from the original photo Professor Lim supplied (800 by 800, no other change). It is framed like Christopher's (whole head and a little of the shoulders), so the team circles match as a set.
 - **About v1.19, 16 Nov**: Maria Leung's photo re-cropped. The file had been saved already cut into a circle on a white square, with the circle slightly off-centre, so the page's own circle showed an uneven white ring (Professor Lim noticed). It is now cropped tightly to her photo circle (378 by 378), centred, with no other change. **Team photos should be supplied as ordinary square photos, not pre-cut circles**: the page makes the circle.
 - **About v1.18, 16 Nov**: Christopher Arumugam's photo added to My team (`assets/team/christopher-arumugam.jpg`, supplied by Professor Lim, cropped square to 800 by 800 for the circle, no other change). The page already pointed at this file, so only the picture is new. Still needed: Sarah Booth, Michael Evans and Paulo De Sousa.
 - **Testimonials by email: on request, not daily (15 Nov)**: later the same day Professor Lim decided a daily run is not needed, as testimonials are infrequent. He forwards the email and tells Claude to update. The stored task is kept with its schedule switched off; the rules are in `CLAUDE.md`. This supersedes the daily timing in the entry below.
