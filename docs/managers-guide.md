@@ -406,7 +406,7 @@ Last updated 6 November 2026.
 | `assets/partners/` | virtual Grand Rounds page, partner logos | `astrazeneca.svg`, `medtronic.svg` | Official Medtronic, AstraZeneca and Medela logos |
 | `assets/speakers/` | virtual Grand Rounds page, speaker headshots | none yet | Speaker headshots |
 | `assets/testimonials/` | Homepage quotes and the future testimonials page | `duilio-barbosa.jpg`, `erika-dwek.jpg`, `richard-warren.jpg`, `rachel-loye.jpg` | None |
-| `assets/articles/` | Patient guides (the round picture at the top of each guide), articles and Thoracic Reflections | `single-keyhole-surgery-stone.jpg`, `personalised-care-stone.jpg`, `your-consultation-stone.jpg`, `your-operation-stone.jpg` (800 by 800; stand-ins cropped from photos already on the site) | A picture of its own for each guide, square, at least 800 by 800, subject in the middle. Your recovery has none yet |
+| `assets/articles/` | Patient guides (the round picture at the top of each guide), articles and Thoracic Reflections | `single-keyhole-surgery-stone.jpg`, `personalised-care-stone.jpg`, `your-consultation-stone.jpg`, `your-operation-stone.jpg` (800 by 800; Your operation shows Professor Lim operating, his own choice; the others are stand-ins cropped from photos already on the site) | A picture of its own for each guide, square, at least 800 by 800, subject in the middle. Your recovery has none yet |
 | `assets/icons/` | Every page: the logo beside Professor Lim's name, the browser-tab icon and phone icons | Logo files (`logo-on-dark.svg`, `logo-on-light.svg` and PNG copies), icon files (`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`) and their sources | None |
 
 ### In GitHub: text the team edits (`_data/`)

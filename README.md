@@ -35,7 +35,7 @@ These pages are built and can be seen on the test site, but Professor Lim has no
 |---|---|---|---|---|
 | Single keyhole surgery | `/single-keyhole-surgery` | v0.13 | 15 Nov 2026 | `single-keyhole-surgery/index.html` |
 | Your consultation | `/your-consultation` | v0.33 | 15 Nov 2026 | `your-consultation/index.html` |
-| Your operation | `/your-operation` | v0.20 | 15 Nov 2026 | `your-operation/index.html` |
+| Your operation | `/your-operation` | v0.21 | 16 Nov 2026 | `your-operation/index.html` |
 | Your recovery (new page) | `/your-recovery` | v0.12 | 15 Nov 2026 | `your-recovery/index.html` |
 | Testimonials | `/testimonials` | v0.4 | 15 Nov 2026 | `testimonials/index.html` |
 
@@ -43,6 +43,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **Your operation, draft v0.21, 16 Nov**: the round header picture is now the photo Professor Lim supplied of himself operating in the thoracic theatre (headlight and loupes), cropped square around his head at his request (800 by 800, no other change; same file name, `assets/articles/your-operation-stone.jpg`). It replaces the stand-in chest-scan picture. This is his own choice of a real theatre photo, so it is an exception to the guideline that guide pictures are not of him; AI pictures must still never show him.
 - **About v1.20, 16 Nov**: Maria Leung's photo replaced with a new crop from the original photo Professor Lim supplied (800 by 800, no other change). It is framed like Christopher's (whole head and a little of the shoulders), so the team circles match as a set.
 - **About v1.19, 16 Nov**: Maria Leung's photo re-cropped. The file had been saved already cut into a circle on a white square, with the circle slightly off-centre, so the page's own circle showed an uneven white ring (Professor Lim noticed). It is now cropped tightly to her photo circle (378 by 378), centred, with no other change. **Team photos should be supplied as ordinary square photos, not pre-cut circles**: the page makes the circle.
 - **About v1.18, 16 Nov**: Christopher Arumugam's photo added to My team (`assets/team/christopher-arumugam.jpg`, supplied by Professor Lim, cropped square to 800 by 800 for the circle, no other change). The page already pointed at this file, so only the picture is new. Still needed: Sarah Booth, Michael Evans and Paulo De Sousa.
