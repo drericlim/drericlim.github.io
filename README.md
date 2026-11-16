@@ -20,7 +20,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | For patients | `/for-patients` | v1.12 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.13 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.10 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
-| About | `/about` | v1.17 | 15 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
+| About | `/about` | v1.18 | 16 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.6 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
 | Personalised care | `/personalised-care` | v1.8 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
@@ -43,6 +43,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **About v1.18, 16 Nov**: Christopher Arumugam's photo added to My team (`assets/team/christopher-arumugam.jpg`, supplied by Professor Lim, cropped square to 800 by 800 for the circle, no other change). The page already pointed at this file, so only the picture is new. Still needed: Sarah Booth, Michael Evans and Paulo De Sousa.
 - **Testimonials by email: on request, not daily (15 Nov)**: later the same day Professor Lim decided a daily run is not needed, as testimonials are infrequent. He forwards the email and tells Claude to update. The stored task is kept with its schedule switched off; the rules are in `CLAUDE.md`. This supersedes the daily timing in the entry below.
 - **Testimonials by email switched on, 15 Nov**: a scheduled task in Professor Lim's Claude account, "Website testimonials by email", runs daily at 4:33pm UK time. It reads emails forwarded to his Gmail `+testimonials` address, adds the patient's words to `_data/testimonials.yml` (verbatim, `treatment` empty), pushes, checks the build, and emails a confirmation. His choices: publish then notify; ask him only when there is a question. Only forwards from his own address or from Maria's NHS address are published (a safeguard; the addresses are in the task, not in this repository); consent must be visible in the thread or given as a first line `Consent: yes`. Gmail labels "Website testimonials/Published" and "/Query" record what was done. The task's instructions live in the task itself; details for the team are in `docs/managers-guide.md`, section 5. **Any Claude session: commits named "Add testimonial from ..." come from this task; pull before you push.**
 - **Testimonials draft v0.4, 15 Nov**: Professor Lim found that the opening sentence ran straight into the first testimonial. The opening sentence is now in the softer grey, followed by a heading "The three most recent" and a thin rule, so the start of the first testimonial is clear.
