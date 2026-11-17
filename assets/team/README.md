@@ -9,6 +9,10 @@ One photo per team member, used in My team on the About page.
 - `paulo-de-sousa.jpg`: Paulo De Sousa, research nurse (added 17 Nov 2026).
 - Still needed: `sarah-booth.jpg`, `michael-evans.jpg`.
 
+## Originals
+
+The original photos, and a copy of each crop used here, are kept in Professor Lim's Google Drive: Images > **2026 Team photos**, named `YYYYMMDD-team-firstname-lastname-original` (as supplied) and `YYYYMMDD-team-firstname-lastname.jpg` (the crop). Add new team photos there as well.
+
 ## Naming
 
 Use the person's name, e.g. `sarah-booth.jpg`. Square photos work best (they are shown in a circle). Use an ordinary square photo, not one already cut into a circle, or a white ring shows around it, at least 600 by 600 pixels. Until a photo is added, the site shows the person's initials.
