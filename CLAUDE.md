@@ -34,7 +34,7 @@ Rotating photos: the homepage hero, the homepage About photo and the About page 
 
 - Professor Lim practises only at the Royal Brompton Hospital, Sydney Street, London SW3 6NP. Telephone +44 (0) 207 352 8121. There is no fax.
 - Private patients are self-funding; he does not work with insurers. NHS referrals come through the patient's hospital multidisciplinary team; no out-of-area NHS referrals.
-- Team: Maria Leung (practice manager), Christopher Arumugam (medical secretary), Sarah Booth (surgical care practitioner), Michael Evans (clinical nurse specialist), Paulo De Sousa (research nurse).
+- Team: Maria Leung (practice manager), Christopher Arumugam (medical secretary), Sarah Booth and Abigail Palmares (surgical care practitioners), Michael Evans (clinical nurse specialist), Paulo De Sousa (research nurse).
 - No donations or giving page.
 
 ## Adding a patient testimonial (for any Claude session)
