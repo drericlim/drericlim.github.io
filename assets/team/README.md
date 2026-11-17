@@ -6,7 +6,8 @@ One photo per team member, used in My team on the About page.
 
 - `maria-leung.jpg`: Maria Leung, practice manager.
 - `christopher-arumugam.jpg`: Christopher Arumugam, medical secretary (added 16 Nov 2026).
-- Still needed: `sarah-booth.jpg`, `michael-evans.jpg`, `paulo-de-sousa.jpg`.
+- `paulo-de-sousa.jpg`: Paulo De Sousa, research nurse (added 17 Nov 2026).
+- Still needed: `sarah-booth.jpg`, `michael-evans.jpg`.
 
 ## Naming
 

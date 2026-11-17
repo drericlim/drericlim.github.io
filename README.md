@@ -20,7 +20,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | For patients | `/for-patients` | v1.12 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.13 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.10 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
-| About | `/about` | v1.20 | 16 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
+| About | `/about` | v1.21 | 17 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.6 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
 | Personalised care | `/personalised-care` | v1.8 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
@@ -43,6 +43,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **About v1.21, 17 Nov**: Paulo De Sousa's photo added to My team (`assets/team/paulo-de-sousa.jpg`, from the photo Professor Lim supplied, cropped square to 800 by 800 with the same framing as Christopher's and Maria's, no other change). Still needed: Sarah Booth and Michael Evans.
 - **Your operation, draft v0.21, 16 Nov**: the round header picture is now the photo Professor Lim supplied of himself operating in the thoracic theatre (headlight and loupes), cropped square around his head at his request (800 by 800, no other change; same file name, `assets/articles/your-operation-stone.jpg`). It replaces the stand-in chest-scan picture. This is his own choice of a real theatre photo, so it is an exception to the guideline that guide pictures are not of him; AI pictures must still never show him.
 - **About v1.20, 16 Nov**: Maria Leung's photo replaced with a new crop from the original photo Professor Lim supplied (800 by 800, no other change). It is framed like Christopher's (whole head and a little of the shoulders), so the team circles match as a set.
 - **About v1.19, 16 Nov**: Maria Leung's photo re-cropped. The file had been saved already cut into a circle on a white square, with the circle slightly off-centre, so the page's own circle showed an uneven white ring (Professor Lim noticed). It is now cropped tightly to her photo circle (378 by 378), centred, with no other change. **Team photos should be supplied as ordinary square photos, not pre-cut circles**: the page makes the circle.
