@@ -20,7 +20,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | For patients | `/for-patients` | v1.12 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.13 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.10 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
-| About | `/about` | v1.22 | 17 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
+| About | `/about` | v1.23 | 18 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.6 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
 | Personalised care | `/personalised-care` | v1.8 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
@@ -43,6 +43,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **About v1.23, 18 Nov**: Maria Leung's photo replaced with a new headshot Professor Lim supplied (outdoors, navy top), cropped to 800 by 800 with the same framing as the rest of the team, no other change. Same file name, `assets/team/maria-leung.jpg`.
 - **About v1.22, 17 Nov**: Abigail Palmares, surgical care practitioner, added to My team at Professor Lim's request, as a sixth card after Sarah Booth (the grid of two columns by three rows is now full). Photo `assets/team/abigail-palmares.jpg`, cropped from the photo he supplied to 800 by 800 with the same framing as the others. Her one-line description is Claude's draft, for him to check: "Abigail also assists me in the operating theatre, and looks after you on the ward before and after your operation." Still needed: photos of Sarah Booth and Michael Evans.
 - **About v1.21, 17 Nov**: Paulo De Sousa's photo added to My team (`assets/team/paulo-de-sousa.jpg`, from the photo Professor Lim supplied, cropped square to 800 by 800 with the same framing as Christopher's and Maria's, no other change). Still needed: Sarah Booth and Michael Evans.
 - **Your operation, draft v0.21, 16 Nov**: the round header picture is now the photo Professor Lim supplied of himself operating in the thoracic theatre (headlight and loupes), cropped square around his head at his request (800 by 800, no other change; same file name, `assets/articles/your-operation-stone.jpg`). It replaces the stand-in chest-scan picture. This is his own choice of a real theatre photo, so it is an exception to the guideline that guide pictures are not of him; AI pictures must still never show him.
