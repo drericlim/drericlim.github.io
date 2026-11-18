@@ -10,6 +10,10 @@ One photo per team member, used in My team on the About page.
 - `abigail-palmares.jpg`: Abigail Palmares, surgical care practitioner (added 17 Nov 2026).
 - Still needed: `sarah-booth.jpg`, `michael-evans.jpg`.
 
+## Backdrop (agreed 18 Nov 2026)
+
+Every team photo sits on the same **charcoal studio backdrop** (Professor Lim's choice): the person is cut out of the supplied photo and placed on a soft charcoal background, lighter behind the head (centre about RGB 92,96,102, edges about 38,40,44). Only the background changes; the person is never altered. Ask Claude to do this for any new photo.
+
 ## Originals
 
 The original photos, and a copy of each crop used here, are kept in Professor Lim's Google Drive: Images > **2026 Team photos**, named `YYYYMMDD-team-firstname-lastname-original` (as supplied) and `YYYYMMDD-team-firstname-lastname.jpg` (the crop). Add new team photos there as well.
