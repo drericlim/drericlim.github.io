@@ -8,7 +8,8 @@ One photo per team member, used in My team on the About page.
 - `christopher-arumugam.jpg`: Christopher Arumugam, medical secretary (added 16 Nov 2026).
 - `paulo-de-sousa.jpg`: Paulo De Sousa, research nurse (added 17 Nov 2026).
 - `abigail-palmares.jpg`: Abigail Palmares, surgical care practitioner (added 17 Nov 2026).
-- Still needed: `sarah-booth.jpg`, `michael-evans.jpg`.
+- `sarah-booth.jpg`: Sarah Booth, surgical care practitioner (added 20 Nov 2026).
+- Still needed: `michael-evans.jpg`.
 
 ## Backdrop (agreed 18 Nov 2026)
 
