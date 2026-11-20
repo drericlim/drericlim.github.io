@@ -20,7 +20,7 @@ Versions: drafts are v0.x. The approved version is v1.0. Amendments after approv
 | For patients | `/for-patients` | v1.12 | 15 Nov 2026 | `for-patients/index.html` | `YYYYMMDD-hub-for-patients.html`, saved nightly |
 | For professionals | `/for-professionals` | v1.13 | 15 Nov 2026 | `for-professionals/index.html` | `YYYYMMDD-hub-for-professionals.html`, saved nightly |
 | virtual Grand Rounds | `/virtual-grand-rounds` | v1.10 | 15 Nov 2026 | `virtual-grand-rounds/index.html` | `YYYYMMDD-hub-virtual-grand-rounds.html`, saved nightly |
-| About | `/about` | v1.25 | 20 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
+| About | `/about` | v1.26 | 20 Nov 2026 | `about/index.html` | `YYYYMMDD-hub-about.html`, saved nightly |
 | Contact | `/contact-us` | v1.6 | 15 Nov 2026 | `contact-us/index.html` | `YYYYMMDD-contact.html`, saved nightly |
 | Personalised care | `/personalised-care` | v1.8 | 15 Nov 2026 | `personalised-care/index.html` | not yet saved to Drive (see "Patient guides") |
 | Site map (planning document, not a web page) | none | agreed | 25 Oct 2026 | none | `20261025-sitemap.html` |
@@ -43,6 +43,7 @@ These four, and the approved Personalised care page, use one shared design, `_la
 
 ### Amendment history
 
+- **About v1.26, 20 Nov**: Sarah Booth's photo replaced at Professor Lim's request with a version whose background he had removed in Google Gemini (flat dark grey), which leaves less glow around her hair than the cut-out from her cream-wall photo. Cropped like the rest of the team and placed on the same shaded charcoal backdrop so the set matches.
 - **About v1.25, 20 Nov**: Sarah Booth's photo added to My team (`assets/team/sarah-booth.jpg`), cropped like the rest of the team and placed on the same charcoal studio backdrop. Her photo was taken against a cream wall, so the pale fringe left around her hair was removed (wall colour taken out of the edge pixels); she is otherwise unchanged. Only Michael Evans's photo is still needed.
 - **About v1.24, 18 Nov**: all four team photos (Maria, Christopher, Abigail, Paulo) now share one charcoal studio backdrop, chosen by Professor Lim on "Team photos: backdrop mock-up v0.1" (claude.ai artifact). Each person was cut out of their photo and placed on the same backdrop (soft charcoal, lighter behind the head); faces, hair, clothing and expressions are unchanged. Stray green from the trees was removed from the edges of Maria's hair. Same file names. Sarah's and Michael's photos get the same backdrop when they arrive.
 - **About v1.23, 18 Nov**: Maria Leung's photo replaced with a new headshot Professor Lim supplied (outdoors, navy top), cropped to 800 by 800 with the same framing as the rest of the team, no other change. Same file name, `assets/team/maria-leung.jpg`.
